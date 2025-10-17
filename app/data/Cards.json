@@ -1,0 +1,28 @@
+{
+    "structures":[
+        {
+            "card-title": "Altar",
+            "image-id": "altar",
+            "update": "cursed_worlds"
+        },
+        {
+            "card-title": "Animal Pen",
+            "image-id": "animal_pen",
+            "update": "original"
+        }
+    ],
+    "villagers":[
+        {
+            "card-title": "Villager",
+            "image-id": "villager",
+            "update": "original"
+        }
+    ],
+    "resources":[
+        {
+            "card-title": "10 \"dollar\"",
+            "image-id": "ten_dollar",
+            "update": "cities"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "homepage": "https://deltazulusigma.github.io/complete-stacklands-cardopedia",
+    "name": "complete-stacklands-cardopedia",
+    "author": "DeltaZuluSigma",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build"
+    },
+    "dependencies": {
+        "next": "^15.4.3",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0",
+        "typescript": "^5.8.3"
+    },
+    "devDependencies": {
+        "@types/node": "24.1.0",
+        "@types/react": "19.1.8"
+    },
+    "packageManager": "pnpm@10.18.2+sha512.9fb969fa749b3ade6035e0f109f0b8a60b5d08a1a87fdf72e337da90dcc93336e2280ca4e44f2358a649b83c17959e9993e777c2080879f3801e6f0d999ad3dd"
+}
