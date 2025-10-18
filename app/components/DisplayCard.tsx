@@ -1,18 +1,12 @@
 'use client';
-
 import { ValidateCard } from "../utils/FetchHelpers";
 import CardDetails from "./CardDetails";
 
-//import { useSearchParams } from "next/navigation";
-import { use } from "react";
+import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 
-export default function DisplayCard({
-    searchParams,
-}:{
-    searchParams: Promise<{ card?: string }>
-}) {
-    const imageID = use(searchParams).card;
+export default function DisplayCard() {
+    const imageID = useSearchParams().get("card");
 
     // Valid card check
     if (ValidateCard(imageID)) {

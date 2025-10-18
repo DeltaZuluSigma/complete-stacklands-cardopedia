@@ -1,21 +1,13 @@
-import { Suspense } from "react";
-import Link from "next/link";
-
 import Sidebar from "./components/Sidebar";
 import DisplayCard from './components/DisplayCard';
+import Link from "next/link";
 
-export default function HomePage({
-  searchParams,
-}:{
-  searchParams: Promise<{card?: string}>
-}) {
+export default function HomePage() {
   return (
     <>
       <main>
         <Sidebar />
-        <Suspense>
-          <DisplayCard searchParams={searchParams} />
-        </Suspense>
+        <DisplayCard />
       </main>
       <footer>
         <p>
