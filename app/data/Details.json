@@ -1,0 +1,63 @@
+[
+    {
+        "card-id": "altar",
+        "flavour-text": "Used for summoning Spirits",
+        "recipe":[
+            "2x \"Brick\"\n2x \"Stone\"\n1x \"Mage\"\n30s"
+        ],
+        "uses":[
+            "Summon \"spirit_of_sadness\" with \"Charcoal\"",
+            "Summon \"Spirit of Greed\" with \"Coin\"",
+            "Summon \"Spirit of Death\" with \"Raw Meat\""
+        ]
+    },
+    {
+        "card-id":"animal_pen",
+        "flavour-text": "Can hold 5 Animals",
+        "recipe":[
+            "\"Idea: Animal Pen\"",
+            "\"Idea: Animal Pen(cw_idea_animal_pen)\""
+        ],
+        "uses":[
+            "\"Breeding Pen\"",
+            "\"Petting Zoo\""
+        ]
+    },
+    {
+        "card-id": "villager",
+        "flavour-text": "A hard-working pioneer",
+        "combat-text": [
+            "Combat Level 14\n",
+            "Attack Type: Melee",
+            "Attack Speed: Slow (2.9s)",
+            "Hit Chance: Normal (68%)",
+            "Damage: Weak (2)",
+            "Defense: Weak (1)"
+        ],
+        "recipe": [
+            "1x \"House\"\n1x \"Baby\"\n240s"
+        ],
+        "sources": [
+            "\"A New World\"",
+            "Your 7th booster pack in a new world",
+            "Every 5th \"Mainland Booster Pack\" after the 10th pack, IF only 1 human villager is alive",
+            "\"Old Village\""
+        ]
+    },
+    {
+        "card-id": "ten_dollar",
+        "flavour-text": "A tenner",
+        "sources":[
+            "Selling cards in \"2000 world\""
+        ],
+        "uses":[
+            "Buying \"city booster packs\"",
+            "Recruiting \"Worker\"",
+            "Increase max card capacity (\"City Hall\")",
+            "Store in \"Credit Card\"",
+            "\"Artwork\"",
+            "\"City Hall\"",
+            "\"Export Center\""
+        ]
+    }
+]
