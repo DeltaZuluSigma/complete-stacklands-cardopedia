@@ -8,6 +8,7 @@
     padding: 0;
 }
 html {
+    /* background-image: url("/ui/cities_bg_palette.png"); */
     background-image: url("/complete-stacklands-cardopedia/ui/cities_bg_palette.png");
     background-size: 750px 600px;
     background-repeat: repeat;
