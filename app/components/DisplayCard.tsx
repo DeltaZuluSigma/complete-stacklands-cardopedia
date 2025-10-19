@@ -3,7 +3,6 @@ import { ValidateCard } from "../utils/FetchHelpers";
 import CardDetails from "./CardDetails";
 
 import { useSearchParams } from "next/navigation";
-import { Suspense } from "react";
 import Image from "next/image";
 
 export default function DisplayCard() {
@@ -12,7 +11,7 @@ export default function DisplayCard() {
     // Valid card check
     if (ValidateCard(imageID)) {
         return (
-            <Suspense>
+            <>
                 <div className="display-area">
                     <Image
                         src={`/cards/${imageID}.png`}
@@ -23,7 +22,7 @@ export default function DisplayCard() {
                     />
                 </div>
                 <CardDetails cardID={imageID}/>
-            </Suspense>
+            </>
         );
     }
     

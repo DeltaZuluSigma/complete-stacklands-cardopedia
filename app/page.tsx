@@ -1,13 +1,17 @@
 import Sidebar from "./components/Sidebar";
 import DisplayCard from './components/DisplayCard';
+
 import Link from "next/link";
+import { Suspense } from "react";
 
 export default function HomePage() {
   return (
     <>
       <main>
         <Sidebar />
-        <DisplayCard />
+        <Suspense>
+          <DisplayCard />
+        </Suspense>
       </main>
       <footer>
         <p>
