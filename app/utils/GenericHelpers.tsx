@@ -1,3 +1,6 @@
+const IMG_PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || '';
+export { IMG_PREFIX };
+
 // Capitalize - Handle capitalizing category & 1 edge case
 export function Capitalize(text:string) {
     const words = text.split(" ");

@@ -1,5 +1,6 @@
 'use client';
 import { ValidateCard } from "../utils/FetchHelpers";
+import { IMG_PREFIX } from "../utils/GenericHelpers";
 import CardDetails from "./CardDetails";
 
 import { useSearchParams } from "next/navigation";
@@ -14,7 +15,7 @@ export default function DisplayCard() {
             <>
                 <div className="display-area">
                     <Image
-                        src={`/cards/${imageID}.png`}
+                        src={`${IMG_PREFIX}/cards/${imageID}.png`}
                         alt={imageID}
                         className="display-card"
                         width={1000}

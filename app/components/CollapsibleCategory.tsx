@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { InternalLink } from "../utils/FetchHelpers";
+import { IMG_PREFIX } from "../utils/GenericHelpers";
 
 export default function CollapsibleCategory ({ category, details }) {
     const collapsible = [];
@@ -12,7 +13,7 @@ export default function CollapsibleCategory ({ category, details }) {
             <Link key={category+"trigger"} href="#" className="collapsible">
                 {category}
                 <Image
-                    src="/ui/minus.png"
+                    src={`${IMG_PREFIX}/ui/minus.png`}
                     alt="collapse icon"
                     className="right icon"
                     width={90}

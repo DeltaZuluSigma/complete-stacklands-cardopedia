@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import { IMG_PREFIX } from "../utils/GenericHelpers";
 import cards from "../data/Cards.json";
 
 export default function CardList() {
@@ -13,7 +14,7 @@ export default function CardList() {
             <Link key={cate} href="#" className="card-list-item category">
                 {`${Capitalize(cate)} (X/${cards[cate].length})`}
                 <Image
-                    src="/ui/minus.png"
+                    src={`${IMG_PREFIX}/ui/minus.png`}
                     alt="collapse icon"
                     className="right icon"
                     width={90}
@@ -32,7 +33,7 @@ export default function CardList() {
                     <>
                         {`• ${card["card-title"].substring(0,card["card-title"].indexOf("\"")-1)}`}
                         <Image
-                            src="/ui/dark_dollar.png"
+                            src={`${IMG_PREFIX}/ui/dark_dollar.png`}
                             alt="dollar"
                             className="inline icon"
                             width={256}
@@ -54,7 +55,7 @@ export default function CardList() {
                 <Link key={card["image-id"]} href="#" className="card-list-item ind-card">
                     {interm}
                     <Image
-                        src={`/ui/list_update_${card.update}.png`}
+                        src={`${IMG_PREFIX}/ui/list_update_${card.update}.png`}
                         alt={`${card.update} icon`}
                         className="right icon"
                         width={256}

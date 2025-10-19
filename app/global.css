@@ -7,11 +7,11 @@
     margin: 0;
     padding: 0;
 }
-/* html {
-    background-image: url("/ui/cities_bg_palette.png");
+html {
+    background-image: url("/complete-stacklands-cardopedia/ui/cities_bg_palette.png");
     background-size: 750px 600px;
     background-repeat: repeat;
-} */
+}
 main {
     display: flex;
 }

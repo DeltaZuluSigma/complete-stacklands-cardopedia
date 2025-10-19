@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { IMG_PREFIX } from '../utils/GenericHelpers';
 
 const UPDATES = [
     {
@@ -41,7 +42,7 @@ export default function Navbar() {
         links.push(
             <Link key={linkText} href="#" className="nav-item">
                 <Image
-                    src={`/ui/${upd.image}.png`}
+                    src={`${IMG_PREFIX}/ui/${upd.image}.png`}
                     alt={upd.update}
                     className="nav-image"
                     width={256}
