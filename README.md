@@ -1,22 +1,17 @@
 # Complete Stacklands Cardopedia
 Attempting to completely emulate Stackland's Cardopedia with some more added details. Thanks to Stacklands fandom contributors, modding community, and of course Sokpop for creating the amazing game.
 
-## Process
-* **Static Vertical Slice Implementation**
-* Static Full Implementation
-* Functional Implementation
-
 ## Personal To-Do
-* Complete `MetaData.tsx`
-* Style static implementation
-* ~~GET data parsing?~~
-* Add all cards images & data
+* Navbar logic
 * Search capability
 * Tag search capability
+* Full function sample implementation
+* Mobile styles
+* Add all cards images & data
 
 ### Current Bookmark
-* `util/FetchHelpers.tsx`
-* `components/CollapsibleCategory.tsx`
+* Test list compatibility
+* Collapsible logic
 
 ## Card Types & Fields
 * Resource Structures - value; flavour-text; drops; sources

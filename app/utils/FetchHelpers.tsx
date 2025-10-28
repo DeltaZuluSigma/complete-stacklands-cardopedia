@@ -1,7 +1,7 @@
+import Link from "next/link";
+
 import cards from "../data/Cards.json";
 import details from "../data/Details.json";
-
-import Link from "next/link";
 
 const shortList = [];
 

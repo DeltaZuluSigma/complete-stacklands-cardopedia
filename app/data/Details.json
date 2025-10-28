@@ -3,24 +3,81 @@
         "card-id": "altar",
         "flavour-text": "Used for summoning Spirits",
         "recipe":[
-            "2x \"Brick\"\n2x \"Stone\"\n1x \"Mage\"\n30s"
+            "2x \"brick\"\n2x \"stone\"\n1x \"mage\"\n30s"
         ],
         "uses":[
-            "Summon \"spirit_of_sadness\" with \"Charcoal\"",
-            "Summon \"Spirit of Greed\" with \"Coin\"",
-            "Summon \"Spirit of Death\" with \"Raw Meat\""
+            "Summon \"spirit_of_sadness\" with \"charcoal\"",
+            "Summon \"spirit_of_greed\" with \"coin\"",
+            "Summon \"spirit_of_death\" with \"raw_meat\""
         ]
     },
     {
         "card-id":"animal_pen",
         "flavour-text": "Can hold 5 Animals",
         "recipe":[
-            "\"Idea: Animal Pen\"",
-            "\"Idea: Animal Pen(cw_idea_animal_pen)\""
+            "\"idea_animal_pen\"",
+            "\"cw_idea_animal_pen\""
         ],
         "uses":[
-            "\"Breeding Pen\"",
-            "\"Petting Zoo\""
+            "\"breeding_pen\"",
+            "\"petting_zoo\""
+        ]
+    },
+    {
+        "card-id": "bear",
+        "flavour-text": "Soft yet dangerous",
+        "combat-text": [
+            "Combat Level 24\n",
+            "10% chance to do a Critical Hit on target\n",
+            "Attack Type: Melee",
+            "Attack Speed: Slow (2.9s)",
+            "Hit Chance: Small (59%)",
+            "Damage: Normal (3)",
+            "Defense: Normal (2)"
+        ],
+        "drops": [
+            "1 of:\n\"raw_meat\" (27%)\n\"poop\" (27%)\n\"bone\" (27%)\n\"bear_claw\" (27%)"
+        ],
+        "sources": [
+            "\"mainland_explorers\"",
+            "\"mainland_the_armory\"",
+            "\"strange_portal\"",
+            "\"rare_portal\""
+        ]
+    },
+    {
+        "card-id": "city_advisor",
+        "flavour-text": "Advises you in the ways of the city",
+        "extra-text": [
+            "Will appear at certain milestones within \"update_cities\""
+        ],
+        "sources": [
+            "\"pack_industrial_revolution\"",
+            "At the end of your first moon in \"update_cities\"",
+            "When a \"landfill\" overflows",
+            "At the end of a \"festival\"",
+            "When a \"pack_sale\" spawns",
+            "When Wellbeing reaches 10, 20, and 30"
+        ]
+
+    },
+    {
+        "card-id": "drought",
+        "flavour-text": "Parched!",
+        "extra-text": [
+            "After 20s, will inflicts the Drought status effect onto \"farmland\" and \"hydroponic_farm\" cards.",
+            "Drag 3 \"water\" onto them to remove the status effect."
+        ],
+        "sources": [
+            "Randomly from City Packs"
+        ]
+    },
+    {
+        "card-id": "idea_altar",
+        "flavour-text": "2x Brick\n2x Stone\n1x Mage",
+        "text-ref": "altar",
+        "sources": [
+            "Talking to the \"shaman\""
         ]
     },
     {
@@ -35,29 +92,29 @@
             "Defense: Weak (1)"
         ],
         "recipe": [
-            "1x \"House\"\n1x \"Baby\"\n240s"
+            "1x \"house\"\n1x \"baby\"\n240s"
         ],
         "sources": [
-            "\"A New World\"",
+            "\"pack_a_new_world\"",
             "Your 7th booster pack in a new world",
-            "Every 5th \"Mainland Booster Pack\" after the 10th pack, IF only 1 human villager is alive",
-            "\"Old Village\""
+            "Every 5th \"pack_mainland\" after the 10th pack, IF only 1 human villager is alive",
+            "\"old_village\""
         ]
     },
     {
         "card-id": "ten_dollar",
         "flavour-text": "A tenner",
         "sources":[
-            "Selling cards in \"2000 world\""
+            "Selling cards in \"update_cities\""
         ],
         "uses":[
-            "Buying \"city booster packs\"",
-            "Recruiting \"Worker\"",
-            "Increase max card capacity (\"City Hall\")",
-            "Store in \"Credit Card\"",
-            "\"Artwork\"",
-            "\"City Hall\"",
-            "\"Export Center\""
+            "Buying \"pack_cities\"",
+            "Recruiting \"worker\"",
+            "Increase max card capacity (\"city_hall\")",
+            "Store in \"credit_card\"",
+            "\"artwork\"",
+            "\"city_hall\"",
+            "\"export_center\""
         ]
     }
 ]

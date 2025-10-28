@@ -1,16 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
+// import { useState } from "react";
 
 import { InternalLink } from "../utils/FetchHelpers";
 import { IMG_PREFIX } from "../utils/GenericHelpers";
 
 export default function CollapsibleCategory ({ category, details }) {
     const collapsible = [];
-    const content = [];
 
     // Trigger/Header
     collapsible.push(
-            <Link key={category+"trigger"} href="#" className="collapsible">
+            <Link key={category+"trigger"} href="#" className="collapsible-header">
                 {category}
                 <Image
                     src={`${IMG_PREFIX}/ui/minus.png`}
@@ -24,7 +24,7 @@ export default function CollapsibleCategory ({ category, details }) {
 
     // Content
     collapsible.push(
-        <div key={category+"content"}>
+        <div key={category+"content"} className="collapsible-content">
             <ProcessText category={category} strArr={details}/>
         </div>
     );
@@ -55,7 +55,7 @@ function ProcessText({ category, strArr }) {
         else {
             content.push(
                 <p key={category+"line"+idx}>
-                    •
+                    {`• `}
                     <InternalLink textLine={text}/>
                 </p>
             );

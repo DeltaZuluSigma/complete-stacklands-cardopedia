@@ -13,6 +13,11 @@
     ],
     "villagers":[
         {
+            "card-title": "City Advisor",
+            "image-id": "city_advisor",
+            "update": "cities"
+        },
+        {
             "card-title": "Villager",
             "image-id": "villager",
             "update": "original"
@@ -22,6 +27,27 @@
         {
             "card-title": "10 \"dollar\"",
             "image-id": "ten_dollar",
+            "update": "cities"
+        }
+    ],
+    "ideas":[
+        {
+            "card-title": "Idea: Altar",
+            "image-id": "idea_altar",
+            "update": "cursed_worlds"
+        }
+    ],
+    "mobs":[
+        {
+            "card-title": "Bear",
+            "image-id": "bear",
+            "update": "original"
+        }
+    ],
+    "disasters":[
+        {
+            "card-title": "Drought",
+            "image-id": "drought",
             "update": "cities"
         }
     ]

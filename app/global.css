@@ -9,7 +9,7 @@
 }
 html {
     /* background-image: url("/ui/cities_bg_palette.png"); */
-    background-image: url("/complete-stacklands-cardopedia/ui/cities_bg_palette.png");
+    /* background-image: url("/complete-stacklands-cardopedia/ui/cities_bg_palette.png"); */
     background-size: 750px 600px;
     background-repeat: repeat;
 }
@@ -35,10 +35,13 @@ a:hover {
     height: 20px;
     vertical-align: text-bottom;
 }
-.collapsible {
+.collapsible-header {
     background-color: var(--collapsible-color);
     display: block;
     padding: 5px;
+}
+.collapsible-content {
+
 }
 .inline {
     display: inline;

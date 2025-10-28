@@ -1,6 +1,5 @@
 import { FetchCardDetails } from "../utils/FetchHelpers";
 import { Capitalize } from "../utils/GenericHelpers";
-
 import CollapsibleCategory from "./CollapsibleCategory";
 
 export default function CardDetails({ cardID }) {
@@ -12,11 +11,34 @@ export default function CardDetails({ cardID }) {
     fields.forEach( field => {
         switch (field) {
             case "flavour-text":    // Flavour Text
-                sideDetails.push(
-                    <p key={field} className="space-after">
-                        {selectedCard["flavour-text"]}
-                    </p>
-                );
+                if (selectedCard[field].includes("\n")) {
+                    const recipe = selectedCard[field].split("\n");
+
+                    recipe.forEach((ele,idx) => {
+                        if (idx == recipe.length - 1) {
+                            sideDetails.push(
+                                <p key={field+idx} className="space-after">
+                                    {ele}
+                                </p>
+                            );
+                        }
+                        else {
+                            sideDetails.push(
+                                <p key={field+idx}>
+                                    {ele}
+                                </p>
+                            );
+                        }
+                    });
+                }
+                else {
+                    sideDetails.push(
+                        <p key={field} className="space-after">
+                            {selectedCard[field]}
+                        </p>
+                    );
+                }
+
                 break;
             case "combat-text":
             case "equip-text":      // Combat/Equip Text
@@ -46,9 +68,17 @@ export default function CardDetails({ cardID }) {
                 sideDetails.push(
                     <>
                         <p className="underline">Mooore</p>
-                        <p className="space-after">{selectedCard[field]}</p>
                     </>
                 );
+
+                selectedCard[field].forEach(ele => {
+                    sideDetails.push(
+                        <p className="space-after">
+                            {ele}
+                        </p>
+                    );
+                });
+
                 break;
             case "drops":
             case "recipe":

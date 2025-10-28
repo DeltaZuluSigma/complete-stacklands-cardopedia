@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { IMG_PREFIX } from "../utils/GenericHelpers";
 import cards from "../data/Cards.json";
+import { IMG_PREFIX } from "../utils/GenericHelpers";
 
 export default function CardList() {
     const categories = Object.keys(cards);
@@ -52,7 +52,7 @@ export default function CardList() {
 
             // Card Output
             list.push(
-                <Link key={card["image-id"]} href="#" className="card-list-item ind-card">
+                <Link key={card["image-id"]} href={`?card=${card["image-id"]}`} className="card-list-item ind-card">
                     {interm}
                     <Image
                         src={`${IMG_PREFIX}/ui/list_update_${card.update}.png`}
