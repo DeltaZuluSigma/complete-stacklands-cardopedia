@@ -1,19 +1,25 @@
 import Link from "next/link";
 import Image from "next/image";
-// import { useState } from "react";
+import { useState } from "react";
 
 import { InternalLink } from "../utils/FetchHelpers";
 import { IMG_PREFIX } from "../utils/GenericHelpers";
 
 export default function CollapsibleCategory ({ category, details }) {
+    const [isCollapsed, setIsCollapsed] = useState<boolean>(true);
+
+    const toggleCollapsible = () => {
+        setIsCollapsed(!isCollapsed);
+    };
+
     const collapsible = [];
 
     // Trigger/Header
     collapsible.push(
-            <Link key={category+"trigger"} href="#" className="collapsible-header">
+            <Link key={category+"trigger"} href="#" className="collapsible-header" onClick={toggleCollapsible}>
                 {category}
                 <Image
-                    src={`${IMG_PREFIX}/ui/minus.png`}
+                    src={`${IMG_PREFIX}/ui/${isCollapsed ? "plus" : "minus"}.png`}
                     alt="collapse icon"
                     className="right icon"
                     width={90}
@@ -24,7 +30,7 @@ export default function CollapsibleCategory ({ category, details }) {
 
     // Content
     collapsible.push(
-        <div key={category+"content"} className="collapsible-content">
+        <div key={category+"content"} className={`collapsible-content ${isCollapsed ? "" : "open"}`}>
             <ProcessText category={category} strArr={details}/>
         </div>
     );

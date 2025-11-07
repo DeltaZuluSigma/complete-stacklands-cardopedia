@@ -1,5 +1,8 @@
+'use client'
+
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 
 import cards from "../data/Cards.json";
 import { IMG_PREFIX } from "../utils/GenericHelpers";
@@ -10,11 +13,17 @@ export default function CardList() {
     
     // Loop through card categories
     categories.forEach( cate => {
+        const [isCollapsed, setIsCollapsed] = useState<boolean>(true);
+
+        const toggleCollapsible = () => {
+            setIsCollapsed(!isCollapsed);
+        };
+
         list.push(
-            <Link key={cate} href="#" className="card-list-item category">
+            <Link key={cate} href="#" className="card-list-item category" onClick={toggleCollapsible}>
                 {`${Capitalize(cate)} (X/${cards[cate].length})`}
                 <Image
-                    src={`${IMG_PREFIX}/ui/minus.png`}
+                    src={`${IMG_PREFIX}/ui/plus.png`}
                     alt="collapse icon"
                     className="right icon"
                     width={90}
@@ -24,8 +33,10 @@ export default function CardList() {
         );
 
         // Loop through cards per category
+        const wrapper = [];
+
         cards[cate].forEach(card => {
-            const interm = [];
+            let interm = [];
 
             // Handle inline icons
             if (card["card-title"].endsWith("\"")) {
@@ -51,7 +62,7 @@ export default function CardList() {
             }
 
             // Card Output
-            list.push(
+            wrapper.push(
                 <Link key={card["image-id"]} href={`?card=${card["image-id"]}`} className="card-list-item ind-card">
                     {interm}
                     <Image
@@ -64,6 +75,12 @@ export default function CardList() {
                 </Link>
             );
         });
+
+        list.push(
+            <div key={`${cate}wrapper`} className={`collapsible-content ${isCollapsed ? "" : "open"}`}>
+                {wrapper}
+            </div>
+        );
     });
     
     return (
