@@ -46,7 +46,7 @@ a:hover {
     transition: max-height 0.4s ease-out;
 }
 .collapsible-content.open {
-    max-height: 25vh;
+    max-height: 100vh;
 }
 .inline {
     display: inline;

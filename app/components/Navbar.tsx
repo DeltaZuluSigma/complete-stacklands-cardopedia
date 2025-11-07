@@ -6,31 +6,31 @@ import { IMG_PREFIX } from '../utils/GenericHelpers';
 const UPDATES = [
     {
         "update":"All Cards",
-        "image":"nav_update_everything"
+        "image":"everything"
     },
     {
         "update":"Original",
-        "image":"nav_update_original"
+        "image":"original"
     },
     {
         "update":"The Island",
-        "image":"nav_update_island"
+        "image":"island"
     },
     {
         "update":"Dark Forest",
-        "image":"nav_update_dark_forest"
+        "image":"dark_forest"
     },
     {
         "update":"Order & Structure",
-        "image":"nav_update_order_structure"
+        "image":"order_structure"
     },
     {
         "update":"Cursed Worlds",
-        "image":"nav_update_cursed_worlds"
+        "image":"cursed_worlds"
     },
     {
         "update":"2000",
-        "image":"nav_update_cities"
+        "image":"cities"
     }
 ]
 
@@ -41,9 +41,9 @@ export default function Navbar() {
         const linkText = upd.update.trim().toLowerCase();
 
         links.push(
-            <Link key={linkText} href="#" className="nav-item">
+            <Link key={linkText} href={`?update=${upd.image}`} className="nav-item">
                 <Image
-                    src={`${IMG_PREFIX}/ui/${upd.image}.png`}
+                    src={`${IMG_PREFIX}/ui/nav_update_${upd.image}.png`}
                     alt={upd.update}
                     className="nav-image"
                     width={256}

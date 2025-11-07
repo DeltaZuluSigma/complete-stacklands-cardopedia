@@ -3,11 +3,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { useSearchParams } from "next/navigation";
 
 import cards from "../data/Cards.json";
 import { IMG_PREFIX } from "../utils/GenericHelpers";
 
 export default function CardList() {
+    const sParams = useSearchParams();
+    const update = sParams.has("update") ? sParams.get("update") : "everything";
     const categories = Object.keys(cards);
     const list = [];
     
@@ -23,7 +26,7 @@ export default function CardList() {
             <Link key={cate} href="#" className="card-list-item category" onClick={toggleCollapsible}>
                 {`${Capitalize(cate)} (X/${cards[cate].length})`}
                 <Image
-                    src={`${IMG_PREFIX}/ui/plus.png`}
+                    src={`${IMG_PREFIX}/ui/${isCollapsed ? "plus" : "minus"}.png`}
                     alt="collapse icon"
                     className="right icon"
                     width={90}
@@ -36,6 +39,8 @@ export default function CardList() {
         const wrapper = [];
 
         cards[cate].forEach(card => {
+            if (update != "everything" && update != card.update) return;
+
             let interm = [];
 
             // Handle inline icons
@@ -63,7 +68,10 @@ export default function CardList() {
 
             // Card Output
             wrapper.push(
-                <Link key={card["image-id"]} href={`?card=${card["image-id"]}`} className="card-list-item ind-card">
+                <Link
+                    key={card["image-id"]}
+                    href={`?${update != "everything" ? "update="+update+"&" : ""}card=${card["image-id"]}`}
+                    className="card-list-item ind-card">
                     {interm}
                     <Image
                         src={`${IMG_PREFIX}/ui/list_update_${card.update}.png`}
@@ -76,11 +84,17 @@ export default function CardList() {
             );
         });
 
-        list.push(
-            <div key={`${cate}wrapper`} className={`collapsible-content ${isCollapsed ? "" : "open"}`}>
-                {wrapper}
-            </div>
-        );
+        // Populated category check
+        if (wrapper.length > 0) {
+            list.push(
+                <div key={`${cate}wrapper`} className={`collapsible-content ${isCollapsed ? "" : "open"}`}>
+                    {wrapper}
+                </div>
+            );
+        }
+        else {
+            list.pop();
+        }
     });
     
     return (
