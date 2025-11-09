@@ -1,7 +1,13 @@
-export default function SearchBar() {
+export default function SearchBar({ searchText, onSearchTextChange }) {
     return (
         <form>
-            <input type="text" placeholder="Search" className="search-bar"/>
+            <input
+                type="text"
+                value={searchText}
+                placeholder="Search"
+                onChange={(ele) => onSearchTextChange(ele.target.value)}
+                className="search-bar"
+            />
         </form>
     );
 }

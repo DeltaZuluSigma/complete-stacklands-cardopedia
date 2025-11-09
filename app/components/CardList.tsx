@@ -1,16 +1,11 @@
-'use client'
-
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { useSearchParams } from "next/navigation";
 
 import cards from "../data/Cards.json";
 import { IMG_PREFIX } from "../utils/GenericHelpers";
 
-export default function CardList() {
-    const sParams = useSearchParams();
-    const update = sParams.has("update") ? sParams.get("update") : "everything";
+export default function CardList({ update, searchText }) {
     const categories = Object.keys(cards);
     const list = [];
     
@@ -40,6 +35,7 @@ export default function CardList() {
 
         cards[cate].forEach(card => {
             if (update != "everything" && update != card.update) return;
+            if (card["card-title"].toLowerCase().indexOf(searchText.toLowerCase()) === -1) return;
 
             let interm = [];
 

@@ -16,9 +16,6 @@ html {
 main {
     display: flex;
 }
-li {
-    list-style-position: inside;
-}
 
 /**** ALL ELEMENTS ****/
 a {
@@ -90,7 +87,7 @@ a:hover {
             flex-shrink: 1;
             background-color: var(--ui-secondary-color);
         }
-        .nav-item:hover {
+        .nav-item:hover, .nav-item.selected {
             background-color: var(--ui-primary-color);
         }
         .nav-image {

@@ -3,12 +3,12 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 
 ## Personal To-Do
 * Tag search capability
-* Full function sample implementation
+* Card count logic
+* Full function sample implementation (?)
 * Mobile styles
 * Add all cards images & data
 
 ### Current Bookmark
-* Navbar filter logic
 * Search capability
 
 ## Card Types & Fields
