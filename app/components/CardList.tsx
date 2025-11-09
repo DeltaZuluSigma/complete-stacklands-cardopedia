@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 import cards from "../data/Cards.json";
+import { ContextCount } from "../utils/FetchHelpers";
 import { IMG_PREFIX } from "../utils/GenericHelpers";
 
 export default function CardList({ update, searchText }) {
@@ -19,7 +20,7 @@ export default function CardList({ update, searchText }) {
 
         list.push(
             <Link key={cate} href="#" className="card-list-item category" onClick={toggleCollapsible}>
-                {`${Capitalize(cate)} (X/${cards[cate].length})`}
+                {`${Capitalize(cate)} (${ContextCount(update,cate,searchText)}/${ContextCount(update,cate)})`}
                 <Image
                     src={`${IMG_PREFIX}/ui/${isCollapsed ? "plus" : "minus"}.png`}
                     alt="collapse icon"
@@ -35,15 +36,15 @@ export default function CardList({ update, searchText }) {
 
         cards[cate].forEach(card => {
             if (update != "everything" && update != card.update) return;
-            if (card["card-title"].toLowerCase().indexOf(searchText.toLowerCase()) === -1) return;
+            if (card.name.toLowerCase().indexOf(searchText.toLowerCase()) === -1) return;
 
             let interm = [];
 
             // Handle inline icons
-            if (card["card-title"].endsWith("\"")) {
+            if (card.name.endsWith("\"")) {
                 interm.push(
                     <>
-                        {`• ${card["card-title"].substring(0,card["card-title"].indexOf("\"")-1)}`}
+                        {`• ${card.name.substring(0,card.name.indexOf("\"")-1)}`}
                         <Image
                             src={`${IMG_PREFIX}/ui/dark_dollar.png`}
                             alt="dollar"
@@ -57,7 +58,7 @@ export default function CardList({ update, searchText }) {
             else {
                 interm.push(
                     <>
-                        {`• ${card["card-title"]}`}
+                        {`• ${card.name}`}
                     </>
                 );
             }

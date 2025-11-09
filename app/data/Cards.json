@@ -1,52 +1,52 @@
 {
     "structures":[
         {
-            "card-title": "Altar",
+            "name": "Altar",
             "image-id": "altar",
             "update": "cursed_worlds"
         },
         {
-            "card-title": "Animal Pen",
+            "name": "Animal Pen",
             "image-id": "animal_pen",
             "update": "original"
         }
     ],
     "villagers":[
         {
-            "card-title": "City Advisor",
+            "name": "City Advisor",
             "image-id": "city_advisor",
             "update": "cities"
         },
         {
-            "card-title": "Villager",
+            "name": "Villager",
             "image-id": "villager",
             "update": "original"
         }
     ],
     "resources":[
         {
-            "card-title": "10 \"dollar\"",
+            "name": "10 \"dollar\"",
             "image-id": "ten_dollar",
             "update": "cities"
         }
     ],
     "ideas":[
         {
-            "card-title": "Idea: Altar",
+            "name": "Idea: Altar",
             "image-id": "idea_altar",
             "update": "cursed_worlds"
         }
     ],
     "mobs":[
         {
-            "card-title": "Bear",
+            "name": "Bear",
             "image-id": "bear",
             "update": "original"
         }
     ],
     "disasters":[
         {
-            "card-title": "Drought",
+            "name": "Drought",
             "image-id": "drought",
             "update": "cities"
         }

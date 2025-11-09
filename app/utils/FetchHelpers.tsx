@@ -43,7 +43,7 @@ export function InternalLink({textLine}) {
     const searchResult = Object.keys(cards).some(category => {
         return cards[category].some(card => {
             if (fetches.has(card["image-id"])) {
-                fetches.set(card["image-id"],card["card-title"]);
+                fetches.set(card["image-id"],card["name"]);
             }
 
             // Exit condition
@@ -81,9 +81,36 @@ export function InternalLink({textLine}) {
             );
         }
     }
+
     return (
         <>
             {output}
         </>
     );
+}
+
+// ContextCount - Counts the number of cards given the update and category/text
+export function ContextCount(update:string, category:string = "", conText:string = "") {
+    // Update context
+    if (category.length == 0) {
+        const categories = Object.keys(cards);
+        let count = 0;
+
+        categories.forEach(c => {
+            count += cards[c].filter(card => update == "everything" || card.update == update).length;
+        });
+
+        return count;
+    }
+    // Category context
+    else if (conText.length == 0) {
+        return cards[category].filter(card => update == "everything" || card.update == update).length;
+    }
+    // Name context
+    else {
+        return cards[category].filter(card =>
+            (update == "everything" || card.update == update) &&
+            card.name.toLowerCase().indexOf(conText.toLowerCase()) !== -1
+        ).length;
+    }
 }

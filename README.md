@@ -2,14 +2,15 @@
 Attempting to completely emulate Stackland's Cardopedia with some more added details. Thanks to Stacklands fandom contributors, modding community, and of course Sokpop for creating the amazing game.
 
 ## Personal To-Do
-* Tag search capability
-* Card count logic
-* Full function sample implementation (?)
-* Mobile styles
 * Add all cards images & data
 
+* Mobile styles
+* Refactor to be less messy :D
+
 ### Current Bookmark
-* Search capability
+* Tag search capability
+* First refactor
+
 
 ## Card Types & Fields
 * Resource Structures - value; flavour-text; drops; sources

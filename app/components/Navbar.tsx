@@ -41,7 +41,13 @@ export default function Navbar({ selected }) {
         const linkText = upd.update.trim().toLowerCase();
 
         links.push(
-            <Link key={linkText} href={`?update=${upd.image}`} className={`nav-item ${selected == upd.image ? "selected" : ""}`}>
+            <Link
+                key={linkText}
+                href={`?update=${upd.image}`}
+                title={upd.update}
+                className={`nav-item ${selected == upd.image ? "selected" : ""}`}
+                >
+                
                 <Image
                     src={`${IMG_PREFIX}/ui/nav_update_${upd.image}.png`}
                     alt={upd.update}

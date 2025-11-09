@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import Navbar from "./Navbar";
 import SearchBar from "./SearchBar";
 import CardList from "./CardList";
+import { ContextCount } from "../utils/FetchHelpers";
 
 export default function Sidebar() {
     const sParams = useSearchParams();
@@ -16,7 +17,9 @@ export default function Sidebar() {
         <div className="sidebar">
             <h1>CARDOPEDIA</h1>
             <Navbar selected={update} />
-            <p className="card-count"># Total Cards</p>
+            
+            <p className="card-count">{ContextCount(update)} Total Cards</p>
+
             <SearchBar searchText={searchText} onSearchTextChange={setSearchText} />
             <CardList update={update} searchText={searchText}/>
         </div>
