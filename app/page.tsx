@@ -8,8 +8,8 @@ export default function HomePage() {
   return (
     <>
       <main>
-        <Sidebar />
         <Suspense>
+          <Sidebar />
           <DisplayCard />
         </Suspense>
       </main>

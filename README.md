@@ -33,3 +33,6 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 * Weather - value; flavour-text; sources; uses
 * Disasters & Events - flavour-text; extra-text; sources
 * Booster Packs - flavour-text; cost; drops
+
+## Tags
+\#source; \#farming; \#animal; \#power; \#npc; \#currency; \#melee; \#ranged; \#magic; \#head; \#chest; \#shiny; \#unique
