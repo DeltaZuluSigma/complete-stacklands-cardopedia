@@ -17,26 +17,42 @@ export default function CardDetails({ cardID }) {
                 break;
             case "combat-text":
             case "equip-text":      // Combat/Equip Text
-                allDetails.push(
-                    <HandleItalics key={field} cardText={selectedCard[field]} toggleItalics="italics" />
-                );
+                const italicsText = selectedCard[field]
+
+                for (let i = 0; i < italicsText.length; i++) {
+                    const space = italicsText[i].endsWith("\n") || i == italicsText.length - 1 ? "space-after" : "";
+
+                    allDetails.push(
+                        <p key={`${field}-${i}`} className={`italics ${space}`}>
+                            {italicsText[i].trimEnd()}
+                        </p>
+                    );
+                }
 
                 break;
             case "text-ref":        // Text Reference
-                const leechCard = FetchCardDetails(selectedCard["text-ref"]);
-                const closeQuote = Object.keys(leechCard).includes("combat-text") ||
-                    Object.keys(leechCard).includes("equip-text") ? "" : "\"";
+                const leechCard = FetchCardDetails(selectedCard[field]);
+                const addField = Object.keys(leechCard).includes("combat-text") ? "combat-text" :
+                    Object.keys(leechCard).includes("equip-text") ? "equip-text" : undefined;
 
                 allDetails.push(
-                    <p key={"clone-flavour-text"} className="space-after">
-                        {`\"${leechCard["flavour-text"]}${closeQuote}`}
+                    <p key={`${field}-flavour-text`} className="space-after">
+                        {`\"${leechCard["flavour-text"]}${addField ? "" : "\""}`}
                     </p>
                 );
 
-                if (!closeQuote.length) {
-                    allDetails.push(
-                        <HandleItalics key={field+"end"} cardText={selectedCard[field]} toggleItalics="" />
-                    );
+                if (addField) {
+                    for (let i = 0; i < leechCard[addField].length; i++) {
+                        const space = leechCard[addField][i].endsWith("\n") || i == leechCard[addField].length - 1 ?
+                            "space-after" : "";
+
+                        allDetails.push(
+                            <p key={`${field}-${addField}-${i}`} className={space}>
+                                {leechCard[addField][i].trimEnd()}
+                                {i == leechCard[addField].length - 1 ? "\"" : ""}
+                            </p>
+                        );
+                    }
                 }
                 
                 break;
@@ -82,22 +98,4 @@ export default function CardDetails({ cardID }) {
             {allDetails}
         </div>
     );
-}
-
-// HandleItalics - Handle combat/equip text fields
-function HandleItalics({ cardText, toggleItalics }) {
-    const itl = [];
-
-    for (let i = 0; i < cardText.length; i++) {
-        const space = cardText[i].endsWith("\n") || i == cardText.length - 1 ? "space-after" : "";
-
-        itl.push(
-            <p key={`combat-text-${i}`} className={`${toggleItalics} ${space}`}>
-                {space.length ? cardText[i].trimEnd() : cardText[i]}
-                {i == cardText.length - 1 && toggleItalics.length == 0 ? "\"" : ""}
-            </p>
-        );
-    }
-
-    return itl;
 }
