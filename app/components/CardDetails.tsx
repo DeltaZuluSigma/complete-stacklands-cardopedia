@@ -1,80 +1,56 @@
 import { FetchCardDetails } from "../utils/FetchHelpers";
-import { Capitalize } from "../utils/GenericHelpers";
+import { Capitalize, UnpackNewline } from "../utils/GenericHelpers";
 import Collapsible from "./Collapsible";
+import ConvertLink from "./ConvertLink";
 
 export default function CardDetails({ cardID }) {
     const selectedCard = FetchCardDetails(cardID);
     const fields = Object.keys(selectedCard);
-    const sideDetails = [];
+    const allDetails = [];
 
     // Handle card fields
     fields.forEach( field => {
         switch (field) {
             case "flavour-text":    // Flavour Text
-                if (selectedCard[field].includes("\n")) {
-                    const recipe = selectedCard[field].split("\n");
-
-                    recipe.forEach((ele,idx) => {
-                        if (idx == recipe.length - 1) {
-                            sideDetails.push(
-                                <p key={field+idx} className="space-after">
-                                    {ele}
-                                </p>
-                            );
-                        }
-                        else {
-                            sideDetails.push(
-                                <p key={field+idx}>
-                                    {ele}
-                                </p>
-                            );
-                        }
-                    });
-                }
-                else {
-                    sideDetails.push(
-                        <p key={field} className="space-after">
-                            {selectedCard[field]}
-                        </p>
-                    );
-                }
+                allDetails.push(UnpackNewline(selectedCard[field],undefined,false,true));
 
                 break;
             case "combat-text":
             case "equip-text":      // Combat/Equip Text
-                sideDetails.push(
+                allDetails.push(
                     <HandleItalics key={field} cardText={selectedCard[field]} toggleItalics="italics" />
                 );
+
                 break;
             case "text-ref":        // Text Reference
                 const leechCard = FetchCardDetails(selectedCard["text-ref"]);
                 const closeQuote = Object.keys(leechCard).includes("combat-text") ||
                     Object.keys(leechCard).includes("equip-text") ? "" : "\"";
 
-                sideDetails.push(
+                allDetails.push(
                     <p key={"clone-flavour-text"} className="space-after">
                         {`\"${leechCard["flavour-text"]}${closeQuote}`}
                     </p>
                 );
 
                 if (!closeQuote.length) {
-                    sideDetails.push(
+                    allDetails.push(
                         <HandleItalics key={field+"end"} cardText={selectedCard[field]} toggleItalics="" />
                     );
                 }
                 
                 break;
             case "extra-text":      // Extra Text
-                sideDetails.push(
-                    <>
-                        <p className="underline">Mooore</p>
-                    </>
+                allDetails.push(
+                        <p key={field} className="underline">
+                            Mooore
+                        </p>
                 );
 
-                selectedCard[field].forEach(ele => {
-                    sideDetails.push(
-                        <p className="space-after">
-                            {ele}
+                selectedCard[field].forEach(( ele, idx ) => {
+                    allDetails.push(
+                        <p key={`${field}-${idx}`} className="space-after">
+                            {ConvertLink(ele)}
                         </p>
                     );
                 });
@@ -84,11 +60,17 @@ export default function CardDetails({ cardID }) {
             case "recipe":
             case "sources":
             case "uses":            // Drops; Recipe; Sources; Uses
-                sideDetails.push(
-                    <CollapsibleCategory
-                        key={`${field}-comp`}
-                        category={Capitalize(field)}
-                        details={selectedCard[field]}
+                const collContent = [];
+
+                selectedCard[field].forEach(line => {
+                    collContent.push(UnpackNewline(line,ConvertLink,true));
+                });
+
+                allDetails.push(
+                    <Collapsible
+                        key={field}
+                        header={Capitalize(field)}
+                        content={collContent}
                     />
                 );
                 break;
@@ -97,7 +79,7 @@ export default function CardDetails({ cardID }) {
 
     return (
         <div className="card-detail">
-            {sideDetails}
+            {allDetails}
         </div>
     );
 }

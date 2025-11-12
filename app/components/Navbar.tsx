@@ -1,26 +1,35 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import { updates } from '../data/References.json';
+import refs from '../data/References.json';
 import { IMG_PREFIX } from '../utils/GenericHelpers';
+
+// UPDATES map
+const UPDATES = new Map([
+    ["everything","All Cards"],
+    ["original","Original"],
+    ["island","The Island"],
+    ["dark_forest","Dark Forest"],
+    ["order_structure","Order & Structure"],
+    ["cursed_worlds","Cursed Worlds"],
+    ["cities","Cities"]
+]);
 
 export default function Navbar({ selected }) {
     const links = [];
 
-    updates.forEach(upd => {
-        const linkText = upd.name.trim().toLowerCase();
-
+    UPDATES.forEach(( label, id ) => {
         links.push(
             <Link
-                key={linkText}
-                href={`?update=${upd.image}`}
-                title={upd.name}
-                className={`nav-item ${selected == upd.image ? "selected" : ""}`}
+                key={id}
+                href={`?update=${id}`}
+                title={label}
+                className={`nav-item ${selected == id ? "selected" : ""}`}
             >
                 
                 <Image
-                    src={`${IMG_PREFIX}/ui/nav_update_${upd.image}.png`}
-                    alt={upd.name}
+                    src={`${IMG_PREFIX}/ui/nav_update_${id}.png`}
+                    alt={label}
                     className="nav-image"
                     width={256}
                     height={256}

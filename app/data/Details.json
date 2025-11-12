@@ -49,11 +49,11 @@
         "card-id": "city_advisor",
         "flavour-text": "Advises you in the ways of the city",
         "extra-text": [
-            "Will appear at certain milestones within \"update_cities\""
+            "Will appear at certain milestones within \"board_cities\""
         ],
         "sources": [
             "\"pack_industrial_revolution\"",
-            "At the end of your first moon in \"update_cities\"",
+            "At the end of your first moon in \"board_cities\"",
             "When a \"landfill\" overflows",
             "At the end of a \"festival\"",
             "When a \"pack_sale\" spawns",
@@ -105,7 +105,7 @@
         "card-id": "ten_dollar",
         "flavour-text": "A tenner",
         "sources":[
-            "Selling cards in \"update_cities\""
+            "Selling cards in \"board_cities\""
         ],
         "uses":[
             "Buying \"packs_cities\"",

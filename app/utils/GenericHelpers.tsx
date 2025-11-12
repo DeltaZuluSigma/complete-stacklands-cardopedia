@@ -13,7 +13,12 @@ export function Capitalize( text:string ) {
 }
 
 // UnpackNewline - Unpacks newline character separated text
-export function UnpackNewline( text:string, postProcessor:any, endSpace:boolean = false ) {
+export function UnpackNewline(
+    text:string,
+    postProcessor:Function = (x)=>{return x},
+    noNLBullet:boolean = false,
+    endSpace:boolean = false
+) {
     const out = [];
 
     if (text.includes("\n")) {
@@ -21,7 +26,7 @@ export function UnpackNewline( text:string, postProcessor:any, endSpace:boolean 
         
         for (let i = 0; i < unpacked.length; i++) {
             out.push(
-                <p key={`newline-sub-${i}`} className={endSpace && i == unpacked.length - 1 ? "space-after" : ""}>
+                <p key={`newline-sub-${i}`} className={endSpace && (i == unpacked.length - 1) ? "space-after" : ""}>
                     {postProcessor(unpacked[i])}
                 </p>
             );
@@ -29,8 +34,8 @@ export function UnpackNewline( text:string, postProcessor:any, endSpace:boolean 
     }
     else {
         out.push(
-            <p key={`newline-none`}>
-                {`• ${postProcessor(text)}`}
+            <p key={`newline-none`} className={endSpace ? "space-after" : ""}>
+                {noNLBullet ? "• " : ""}{postProcessor(text)}
             </p>
         );
     }
