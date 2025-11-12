@@ -3,14 +3,14 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 
 ## Personal To-Do
 * Add all cards images & data
-
 * Mobile styles
 * Refactor to be less messy :D
 
 ### Current Bookmark
 * Tag search capability
 * First refactor
-
+   * Convert 'CollapsibleCategory'
+   * Fix 'Sidebar' CSS
 
 ## Card Types & Fields
 * Resource Structures - value; flavour-text; drops; sources
@@ -35,4 +35,6 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 * Booster Packs - flavour-text; cost; drops
 
 ## Tags
-\#source; \#farming; \#animal; \#power; \#npc; \#currency; \#melee; \#ranged; \#magic; \#head; \#chest; \#shiny; \#unique
+* \#source; \#shiny; \#farming; \#animal; \#power; \#npc; \#currency
+* \#melee; \#ranged; \#magic; \#head; \#chest
+* \#mainland; \#island; \#death; \#greed; \#sadness; \#cities

@@ -39,8 +39,8 @@
             "1 of:\n\"raw_meat\" (27%)\n\"poop\" (27%)\n\"bone\" (27%)\n\"bear_claw\" (27%)"
         ],
         "sources": [
-            "\"mainland_explorers\"",
-            "\"mainland_the_armory\"",
+            "\"pack_explorers\"",
+            "\"pack_the_armory\"",
             "\"strange_portal\"",
             "\"rare_portal\""
         ]
@@ -69,7 +69,7 @@
             "Drag 3 \"water\" onto them to remove the status effect."
         ],
         "sources": [
-            "Randomly from City Packs"
+            "Randomly from \"packs_cities\""
         ]
     },
     {
@@ -97,7 +97,7 @@
         "sources": [
             "\"pack_a_new_world\"",
             "Your 7th booster pack in a new world",
-            "Every 5th \"pack_mainland\" after the 10th pack, IF only 1 human villager is alive",
+            "Every 5th \"packs_mainland\" after the 10th pack, IF only 1 human villager is alive",
             "\"old_village\""
         ]
     },
@@ -108,7 +108,7 @@
             "Selling cards in \"update_cities\""
         ],
         "uses":[
-            "Buying \"pack_cities\"",
+            "Buying \"packs_cities\"",
             "Recruiting \"worker\"",
             "Increase max card capacity (\"city_hall\")",
             "Store in \"credit_card\"",

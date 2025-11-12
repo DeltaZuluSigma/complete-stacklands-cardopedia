@@ -115,14 +115,9 @@ a:hover {
         /* border: 1px solid black; */
         overflow: auto;
 
-        .card-list-item {
+        .card-block {
             display: block;
             padding: 5px;
-        }
-        .category {
-            background-color: var(--collapsible-color);
-        }
-        .ind-card {
             text-decoration: none;
         }
     }
@@ -150,15 +145,15 @@ a:hover {
 }
 
 /**** RIGHT SIDEBAR ****/
-    .card-detail {
-        width: 20%;
-        height: 88.5vh;
-        margin: 5px;
-        padding: 1em;
+.card-detail {
+    width: 20%;
+    height: 88.5vh;
+    margin: 5px;
+    padding: 1em;
 
-        border: 5px solid black;
-        background-color: var(--ui-primary-color);
-    }
+    border: 5px solid black;
+    background-color: var(--ui-primary-color);
+}
 
 /**** FOOTER ****/
 footer {

@@ -1,6 +1,6 @@
 import { FetchCardDetails } from "../utils/FetchHelpers";
 import { Capitalize } from "../utils/GenericHelpers";
-import CollapsibleCategory from "./CollapsibleCategory";
+import Collapsible from "./Collapsible";
 
 export default function CardDetails({ cardID }) {
     const selectedCard = FetchCardDetails(cardID);

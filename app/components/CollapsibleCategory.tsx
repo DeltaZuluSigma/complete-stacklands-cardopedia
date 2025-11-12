@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
-import { InternalLink } from "../utils/FetchHelpers";
 import { IMG_PREFIX } from "../utils/GenericHelpers";
 
 export default function CollapsibleCategory ({ category, details }) {
