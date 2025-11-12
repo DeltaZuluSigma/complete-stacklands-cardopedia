@@ -4,11 +4,34 @@
             "name": "Altar",
             "image-id": "altar",
             "update": "cursed_worlds"
-        },
-        {
+        },{
             "name": "Animal Pen",
             "image-id": "animal_pen",
-            "update": "original"
+            "update": "original",
+            "tag": ["animal"]
+        },{
+            "name": "Apple Tree",
+            "image-id": "apple_tree",
+            "update": "original",
+            "tag": ["source", "shiny"]
+        },{
+            "name": "Burner Generator",
+            "image-id": "burner_generator",
+            "update": "cities",
+            "tag": ["power"]
+        },{
+            "name": "Cathedral",
+            "image-id": "cathedral",
+            "update": "island"
+        },{
+            "name": "Farm",
+            "image-id": "farm",
+            "update": "original",
+            "tag": ["farming"]
+        },{
+            "name": "Pirate Boat",
+            "image-id": "pirate_boat",
+            "update": "island"
         }
     ],
     "villagers":[
@@ -16,9 +39,8 @@
             "name": "City Advisor",
             "image-id": "city_advisor",
             "update": "cities",
-            "tag": ["npc","cities"]
-        },
-        {
+            "tag": ["npc", "cities"]
+        },{
             "name": "Villager",
             "image-id": "villager",
             "update": "original"
@@ -30,6 +52,14 @@
             "image-id": "ten_dollar",
             "update": "cities",
             "tag": ["currency"]
+        },{
+            "name": "Artwork",
+            "image-id": "artwork",
+            "update": "cities"
+        },{
+            "name": "Bone",
+            "image-id": "bone",
+            "update": "original"
         }
     ],
     "ideas":[
@@ -37,6 +67,14 @@
             "name": "Idea: Altar",
             "image-id": "idea_altar",
             "update": "cursed_worlds"
+        }
+    ],
+    "food":[
+        {
+            "name": "Apple",
+            "image-id": "apple",
+            "update": "original",
+            "tag": ["farming"]
         }
     ],
     "mobs":[
@@ -47,11 +85,80 @@
             "tag": ["melee"]
         }
     ],
+    "locations":[
+        {
+            "name": "Catacombs",
+            "image-id": "catacombs",
+            "update": "original"
+        }
+    ],
+    "rumors":[
+        {
+            "name": "Rumor: Combat",
+            "image-id": "rumor_combat",
+            "update": "original"
+        }
+    ],
+    "equipment":[
+        {
+            "name": "Axe",
+            "image-id": "axe",
+            "update": "cursed_worlds",
+            "tag": ["melee"]
+        },{
+            "name": "Blowpipe",
+            "image-id": "blowpipe",
+            "update": "cursed_worlds",
+            "tag": ["ranged"]
+        },{
+            "name": "Bone Staff",
+            "image-id": "bone_staff",
+            "update": "cursed_worlds",
+            "tag": ["magic"]
+        },{
+            "name": "Chainmail Armor",
+            "image-id": "chainmail_armor",
+            "update": "cursed_worlds",
+            "tag": ["chest"]
+        },{
+            "name": "Dark Amulet",
+            "image-id": "dark_amulet",
+            "update": "cursed_worlds",
+            "tag": ["head"]
+        }
+    ],
+    "weather":[
+        {
+            "name": "Lightning",
+            "image-id": "lightning",
+            "update": "cities"
+        }
+    ],
     "disasters":[
         {
             "name": "Drought",
             "image-id": "drought",
             "update": "cities"
+        }
+    ],
+    "landmarks":[
+        {
+            "name": "Academy",
+            "image-id": "academy",
+            "update": "cities"
+        }
+    ],
+    "booster_packs":[
+        {
+            "name": "Humble Beginnings",
+            "image-id": "pack_humble_beginnings",
+            "update": "original",
+            "tag": ["mainland"]
+        },{
+            "name": "Wild Weather",
+            "image-id": "pack_wild_weather",
+            "update": "cities",
+            "tag": ["cities"]
         }
     ]
 }

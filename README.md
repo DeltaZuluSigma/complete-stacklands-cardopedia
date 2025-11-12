@@ -1,39 +1,45 @@
 # Complete Stacklands Cardopedia
 Attempting to completely emulate Stackland's Cardopedia with some more added details. Thanks to Stacklands fandom contributors, modding community, and of course Sokpop for creating the amazing game.
 
-## Personal To-Do
+## To-Dos
+### Current Bookmark
 * Searching tags tooltip
+* Shrink 'Cards.json'
+* Shrink 'Details.json'
+
+### Pending
+* Disclaimer cards
+   * Equipment dropping
+   * Idea spawning
 * Add all cards images & data (& tags)
+* Refactoring
+   * Fix 'Sidebar' CSS
+   * Shrink 'Cards.json'; convertable names & unique image ids instead of store
+   * Shrink 'Details.json' combat text?
+   * Apply binary search to 'FetchHelper' functions
+
+### Future Implementation ... Maybe
 * Mobile styles
 * SearchParam injection catching
+* Recipe/peeking tooltip
 
-### Current Bookmark
-* First refactor
-   * Fix 'Sidebar' CSS
+## Card Fields
+* **Visible:** flavour-text; combat-text; equip-text; text-ref; extra-text
+* **Collapsed:** drops; recipe; sources; uses
+* Fields are ordered
 
-## Card Types & Fields
-* Resource Structures - value; flavour-text; drops; sources
-* Functional Structures - value; \[inventory\]; \[pollution\]; \[food\]; flavour-text; recipe; uses
-* Power Structures - value; flavour-text; recipe; \[sources\]; uses
-* Trophy Structures - \[value\]; flavour-text; \[recipe\]; uses
-* Hostile Structures - flavour-text; sources; uses
-* Landmarks - flavour-text; recipe; uses
-* Villagers - value; health; flavour-text; combat-text; recipe; sources
-* NPCs (Structure; Villager; Spirits & Curses) - flavour-text; extra-text; uses
-* Currency Resources - flavour-text; sources; uses
-* Standard Resources - value; flavour-text; \[extra-text\]; recipe; sources; uses
-* Trophy Resources - flavour-text; \[recipe\]; sources; uses
-* Ideas - value; flavour-text; text-ref; sources
-* Foods - value; food; flavour-text; \[recipe\]; sources
-* Mobs (Mobs; Fish) - health; flavour-text; combat-text; drops; sources
-* Locations - value; flavour-text; \[extra-text\]; drops; \[recipe\]; sources
-* Rumors - value; flavour-text; sources
-* Equipment - value; flavour-text; equip-text; \[recipe\]; sources; \[uses\]
-* Weather - value; flavour-text; sources; uses
-* Disasters & Events - flavour-text; extra-text; sources
-* Booster Packs - flavour-text; cost; drops
-
-## Tags
+### Tags
 * \#source; \#shiny; \#farming; \#animal; \#power; \#npc; \#currency
 * \#melee; \#ranged; \#magic; \#head; \#chest
 * \#mainland; \#island; \#death; \#greed; \#sadness; \#cities
+
+### More Info / Validation Required
+* Mainland
+   * Idea: Altar
+   * Rumor: Combat
+   * Shaman
+   * New Weaponry Pack
+* Island
+   * Pirate Boat
+* Cities
+   * Wild Weather Pack

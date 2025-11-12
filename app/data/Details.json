@@ -1,29 +1,92 @@
 [
     {
+        "card-id": "academy",
+        "flavour-text": "Used to educate your Workers",
+        "extra-text": [
+            "Requires: 1x Sewer, 1x LV Power"
+        ],
+        "recipe": [
+            "\"landmark_academy\" 30s*"
+        ],
+        "uses": [
+            "\"educated_worker\"",
+            "\"genius\"",
+            "\"robot_genius\""
+        ]
+    },{
         "card-id": "altar",
         "flavour-text": "Used for summoning Spirits",
-        "recipe":[
-            "2x \"brick\"\n2x \"stone\"\n1x \"mage\"\n30s"
+        "recipe": [
+            "\"idea_altar\" 30s"
         ],
-        "uses":[
-            "Summon \"spirit_of_sadness\" with \"charcoal\"",
-            "Summon \"spirit_of_greed\" with \"coin\"",
-            "Summon \"spirit_of_death\" with \"raw_meat\""
+        "uses": [
+            "\"spirit_of_sadness\"",
+            "\"spirit_of_greed\"",
+            "\"spirit_of_death\""
         ]
-    },
-    {
-        "card-id":"animal_pen",
+    },{
+        "card-id": "animal_pen",
         "flavour-text": "Can hold 5 Animals",
-        "recipe":[
-            "\"idea_animal_pen\"",
-            "\"cw_idea_animal_pen\""
+        "recipe": [
+            "\"idea_animal_pen\" 30s",
+            "\"cw_idea_animal_pen\" 30s*"
         ],
-        "uses":[
+        "uses": [
             "\"breeding_pen\"",
             "\"petting_zoo\""
         ]
-    },
-    {
+    },{
+        "card-id": "apple",
+        "flavour-text": "Keeps doctors away",
+        "sources": [
+            "\"tree\" (13%)",
+            "\"apple_tree\" (90%)",
+            "\"pack_reap_n_sow\" (25%/4)",
+            "\"pack_curious_cuisine\" (25%/3)",
+            "\"forest\" (5%)",
+            "\"travelling_cart\" (8%)",
+            "\"treasure_chest\""
+        ]
+    },{
+        "card-id": "apple_tree",
+        "flavour-text": "A tree.. with apples in it",
+        "recipe": [
+            "1x \"apple\" in:\n\"poop\"/\"soil\" for 120s\n\"garden\" for 90s\n\"farm\"/\"greenhouse\" for 60s"
+        ],
+        "drops": [
+            "3x:\n\"apple\" (90%)\n\"stick\" (10%)"
+        ],
+        "sources": [
+            "\"forest\" (5%)"
+        ]
+    },{
+        "card-id": "artwork",
+        "flavour-text": "The next Van Gogh?",
+        "recipe": [
+            "40 \"dollar\"\n\"art_gallery\"\n60s"
+        ]
+    },{
+        "card-id": "axe",
+        "flavour-text": "For chopping wood and monsters",
+        "equip-text": [
+            "Item Level 3\n",
+            "10% chance to Bleed target\n",
+            "Attack Type: Melee",
+            "Attack Speed: -1",
+            "Damage: +2"
+        ],
+        "recipe": [
+            "\"idea_axe\" 15s"
+        ],
+        "sources": [
+            "\"skeleton\" (33%)",
+            "\"elf\" (Equipped)",
+            "\"ogre\" (Equipped)"
+        ],
+        "uses": [
+            "\"lumberjack\""
+        ]
+    },{
         "card-id": "bear",
         "flavour-text": "Soft yet dangerous",
         "combat-text": [
@@ -39,13 +102,129 @@
             "1 of:\n\"raw_meat\" (27%)\n\"poop\" (27%)\n\"bone\" (27%)\n\"bear_claw\" (27%)"
         ],
         "sources": [
-            "\"pack_explorers\"",
-            "\"pack_the_armory\"",
+            "\"pack_explorers\" (13%/3)",
+            "\"pack_the_armory\" (13%/3)",
             "\"strange_portal\"",
             "\"rare_portal\""
         ]
-    },
-    {
+    },{
+        "card-id": "blowpipe",
+        "flavour-text": "Blow as hard as you can",
+        "equip-text": [
+            "Item Level 3\n",
+            "10% chance to Poison target\n",
+            "Attack Type: Ranged",
+            "Attack Speed: -1",
+            "Hit Chance: +1",
+            "Damage: +1"
+        ],
+        "sources": [
+            "\"frog_man\" (11%)",
+            "\"mosquito\" (Equipped)"
+        ],
+        "uses": [
+            "\"militia\""
+        ]
+    },{
+        "card-id": "bone",
+        "flavour-text": "Fact: a skeleton consists of many of these",
+        "sources": [
+            "\"giant_rat\" (33%)",
+            "\"parrot\" (33%)",
+            "\"bear\" (27%)",
+            "\"chicken\" (25%)",
+            "\"monkey\" (25%)",
+            "\"skeleton\" (22%)",
+            "\"cow\" (22%)",
+            "\"rabbit\" (17%)",
+            "\"graveyard\" (13%)",
+            "\"treasure_chest\"",
+            "\"\"travelling_cart\" (8%)"
+        ],
+        "uses": [
+            "\"bone_spear\"",
+            "\"bone_staff\"",
+            "\"dog\""
+        ]
+    },{
+        "card-id": "bone_staff",
+        "flavour-text": "A bone with special abilities",
+        "equip-text": [
+            "Item Level 4\n",
+            "20% chance to Lifesteal from target\n",
+            "Attack Type: Magic",
+            "Max Health: -6",
+            "Attack Speed: +1",
+            "Damage: +2"
+        ],
+        "recipe": [
+            "\"idea_bone_staff\" 15s"
+        ],
+        "sources": [
+            "\"dark_elf\" (Equipped)",
+            "\"goblin_shaman\" (Equipped)"
+        ],
+        "uses": [
+            "\"Mage\""
+        ]
+    },{
+        "card-id": "burner_generator",
+        "flavour-text": "Burns Lumber to generate Energy",
+        "recipe": [
+            "\"idea_burner_generator\" 60s"
+        ],
+        "uses": [
+            "Every 60s:\nConsumes 1x \"lumber\",\nMaintains 5x LV Power,\nProduces 2x \"pollution\""
+        ]
+    },{
+        "card-id": "catacombs",
+        "flavour-text": "Rumored to contain a mysterious object",
+        "extra-text": [
+            "Can only be explored 5 times",
+            "Only one can exist on the board at a time"
+        ],
+        "drops": [
+            "\"goblin_goblet\" guarenteed 4th card",
+            "\"skeleton\" (13%)",
+            "\"wolf\" (13%)",
+            "\"giant_rat\" (13%)",
+            "\"goblin_shaman\" (13%)",
+            "\"frog_man\" (13%)",
+            "\"slime\" (13%)",
+            "\"mimic\" (13%)",
+            "\"treasure_chest\" (10%)"
+        ],
+        "sources": [
+            "\"graveyard\" (13%)",
+            "\"forest\" (8%)",
+            "\"mountain\" (5%)",
+            "\"old_village\" (4%)"
+        ]
+    },{
+        "card-id": "cathedral",
+        "flavour-text": "An important place of worship. It needs a relic.",
+        "recipe": [
+            "\"idea_cathedral\" 180s"
+        ],
+        "uses": [
+            "\"demon_lord\""
+        ]
+    },{
+        "card-id": "chainmail_armor",
+        "flavour-text": "A medieval era classic",
+        "equip-text": [
+            "Item Level 6\n",
+            "Max Health: +5",
+            "Defense: +2"
+        ],
+        "recipe": [
+            "\"idea_chainmail_armor\" 15s"
+        ],
+        "sources": [
+            "\"elf\" (Equipped)",
+            "\"elf_archer\" (Equipped)"
+        ]
+    },{
         "card-id": "city_advisor",
         "flavour-text": "Advises you in the ways of the city",
         "extra-text": [
@@ -60,8 +239,18 @@
             "When Wellbeing reaches 10, 20, and 30"
         ]
 
-    },
-    {
+    },{
+        "card-id": "dark_amulet",
+        "flavour-text": "Its dark force makes you stronger",
+        "equip-text": [
+            "Item Level 7\n",
+            "10% chance to do a Critical Hit on random enemy\n",
+            "Max Health: +10"
+        ],
+        "sources": [
+            "\"dark_elf\" (20%)"
+        ]
+    },{
         "card-id": "drought",
         "flavour-text": "Parched!",
         "extra-text": [
@@ -71,16 +260,85 @@
         "sources": [
             "Randomly from \"packs_cities\""
         ]
-    },
-    {
+    },{
+        "card-id": "farm",
+        "flavour-text": "An advanced building for growing food",
+        "recipe": [
+            "\"idea_farm\" 40s"
+        ],
+        "uses": [
+            "Produces duplicates/source of the plant after 60-90s"
+        ]
+    },{
         "card-id": "idea_altar",
         "flavour-text": "2x Brick\n2x Stone\n1x Mage",
         "text-ref": "altar",
         "sources": [
             "Talking to the \"shaman\""
         ]
-    },
-    {
+    },{
+        "card-id": "lightning",
+        "flavour-text": "Can smelt ores instantly",
+        "sources": [
+            "\"pack_wild_weather\""
+        ],
+        "uses": [
+            "Smelts 1 ore after 3s which consumes the card"
+        ]
+    },{
+        "card-id": "pack_humble_beginnings",
+        "extra-text": [
+            "Costs 3 Coins"
+        ],
+        "drops": [
+            "3x:\n\"wood\" (19%)\n\"stone\" (19%)\n\"tree\" (13%)\n\"rock\" (13%)\n\"berry_bush\" (13%)\n\"soil\" (13%)\n\"rabbit\" (3%)\n\"rat\" (3%)\n\"key\" (3%)"
+        ]
+    },{
+        "card-id": "pack_wild_weather",
+        "extra-text": [
+            "Spawns every 3+ Moons"
+        ],
+        "drops": [
+            "2 of:\n\"lightning\"\n\"rain\"\n\"sunshine\"\n\"wind\"",
+            "1 of:\n\"drought\"\n\"earthquake\"\n\"financial_crisis\"\n\"wildfire\"\n\"crashed_ufo\"\n\"festival\"\n\"event_pack_sale\""
+        ]
+    },{
+        "card-id": "pirate_boat",
+        "flavour-text": "We'll leave you alone for 10 Coins",
+        "extra-text": [
+            "Can be bribed for (1 + 3 * times bribed) Coins to leave; maximum 100 Coins"
+        ],
+        "sources": [
+            "Spawns every 7th Moon on \"board_island\"; resets when revisited"
+        ],
+        "uses": [
+            "Spawns X \"pirate\" after Xs based on 'times bribed' and 'number of pirate boats encountered'; maximum 7 \"pirate\""
+        ]
+    },{
+        "card-id": "rumor_combat",
+        "flavour-text": "Some attack types are stronger against others. For example, Melee beats Magic!",
+        "extra-text": [
+            "A more effective attack deals 40% more damage"
+        ],
+        "sources": [
+            "\"pack_new_weaponry\""
+        ]
+    },{
+        "card-id": "ten_dollar",
+        "flavour-text": "A tenner",
+        "sources":[
+            "Selling cards in \"board_cities\""
+        ],
+        "uses":[
+            "Buying \"packs_cities\"",
+            "Increase max card capacity (\"city_hall\")",
+            "Store in \"credit_card\"",
+            "\"worker\"",
+            "\"artwork\"",
+            "\"city_hall\"",
+            "\"export_center\""
+        ]
+    },{
         "card-id": "villager",
         "flavour-text": "A hard-working pioneer",
         "combat-text": [
@@ -92,29 +350,14 @@
             "Defense: Weak (1)"
         ],
         "recipe": [
+            "\"idea_offspring\"",
             "1x \"house\"\n1x \"baby\"\n240s"
         ],
         "sources": [
-            "\"pack_a_new_world\"",
+            "\"pack_a_new_world\" (100%)",
             "Your 7th booster pack in a new world",
             "Every 5th \"packs_mainland\" after the 10th pack, IF only 1 human villager is alive",
-            "\"old_village\""
-        ]
-    },
-    {
-        "card-id": "ten_dollar",
-        "flavour-text": "A tenner",
-        "sources":[
-            "Selling cards in \"board_cities\""
-        ],
-        "uses":[
-            "Buying \"packs_cities\"",
-            "Recruiting \"worker\"",
-            "Increase max card capacity (\"city_hall\")",
-            "Store in \"credit_card\"",
-            "\"artwork\"",
-            "\"city_hall\"",
-            "\"export_center\""
+            "\"old_village\" (9%)"
         ]
     }
 ]
