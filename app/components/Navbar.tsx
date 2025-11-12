@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import refs from '../data/References.json';
 import { IMG_PREFIX } from '../utils/GenericHelpers';
 
 // UPDATES map

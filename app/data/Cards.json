@@ -15,7 +15,8 @@
         {
             "name": "City Advisor",
             "image-id": "city_advisor",
-            "update": "cities"
+            "update": "cities",
+            "tag": ["npc","cities"]
         },
         {
             "name": "Villager",
@@ -27,7 +28,8 @@
         {
             "name": "10 \"dollar\"",
             "image-id": "ten_dollar",
-            "update": "cities"
+            "update": "cities",
+            "tag": ["currency"]
         }
     ],
     "ideas":[
@@ -41,7 +43,8 @@
         {
             "name": "Bear",
             "image-id": "bear",
-            "update": "original"
+            "update": "original",
+            "tag": ["melee"]
         }
     ],
     "disasters":[

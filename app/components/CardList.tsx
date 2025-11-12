@@ -32,18 +32,27 @@ export default function CardList({ update, searchText }) {
 // CContentCards - Produces the cards that are within the given category, update, and/or containing the search text
 function CContentCards( update:string, category:string, searchText:string ) {
     const visibleCards = [];
-    //const searchTag = searchText.startsWith('#') ? searchText.substring(1) : "";
-
     cards[category].forEach(card => {
         // Same update check
         if (update != "everything" && update != card.update) return;
-        // if (searchTag.length > 0) {
+        // Tag check
+        if (searchText.startsWith('#') && card.tag) {
+            let noTag = true;
+            const searchTag = searchText.substring(1);
 
-        // }
-        // else {
+            for (let i = 0; i < card.tag.length; i++) {
+                if (card.tag[i].startsWith(searchTag)) {
+                    noTag = false;
+                    break;
+                }
+            }
+
+            if (noTag) return;
+        }
+        else {
             // Containing search text check
             if (card.name.toLowerCase().indexOf(searchText.toLowerCase()) === -1) return;
-        //}
+        }
 
         // Add card
         visibleCards.push(

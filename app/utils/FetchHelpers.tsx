@@ -40,6 +40,24 @@ export function ContextCount( update:string, category:string = "", conText:strin
     else if (conText.length == 0) {
         return cards[category].filter(card => update == "everything" || card.update == update).length;
     }
+    // Tag context
+    else if (conText.startsWith('#')) {
+        return cards[category].filter(card => {
+            if (card.tag && (update == "everything" || card.update == update)) {
+                let noTag = true;
+                const searchTag = conText.substring(1);
+
+                for (let i = 0; i < card.tag.length; i++) {
+                    if (card.tag[i].startsWith(searchTag)) {
+                        return true;
+                    }
+                }
+
+                if (noTag) return false;
+            }
+            return false;
+        }).length;
+    }
     // Name context
     else {
         return cards[category].filter(card =>

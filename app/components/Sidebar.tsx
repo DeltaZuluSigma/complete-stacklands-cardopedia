@@ -11,7 +11,7 @@ export default function Sidebar() {
     const sParams = useSearchParams();
     const update = sParams.has("update") ? sParams.get("update") : "everything";
 
-    const [searchText, setSearchText] = useState('');
+    const [searchText, setSearchText] = useState(sParams.has("search") ? sParams.get("search") : "");
 
     return (
         <div className="sidebar">

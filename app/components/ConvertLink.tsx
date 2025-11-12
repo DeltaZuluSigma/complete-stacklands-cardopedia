@@ -60,11 +60,11 @@ export default function ConvertLinks( convertLine:string ) {
         }
         else {
             const linkText = disassembled[i].startsWith("board_") || disassembled[i].startsWith("packs_") ?
-                `?search=#${disassembled[i].substring(6)}` :
+                `?search=%23${disassembled[i].substring(6)}` :
                 `?card=${disassembled[i]}`;
             
             output.push(
-                <Link href={linkText}>
+                <Link key={disassembled[i]} href={linkText}>
                     {fetches.get(disassembled[i])}
                 </Link>
             );

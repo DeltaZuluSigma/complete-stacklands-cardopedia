@@ -2,14 +2,15 @@
 Attempting to completely emulate Stackland's Cardopedia with some more added details. Thanks to Stacklands fandom contributors, modding community, and of course Sokpop for creating the amazing game.
 
 ## Personal To-Do
-* Add all cards images & data
+* Add all cards images & data (& tags)
 * Mobile styles
-* Refactor to be less messy :D
+* SearchParam injection catching
 
 ### Current Bookmark
-* Tag search capability
 * First refactor
    * Convert 'CollapsibleCategory'
+      * Combat/equip italics text function
+      * Text ref function
    * Fix 'Sidebar' CSS
 
 ## Card Types & Fields
