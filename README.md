@@ -3,7 +3,6 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 
 ## To-Dos
 ### Current Bookmark
-* Searching tags tooltip
 * Shrink 'Cards.json'
 * Shrink 'Details.json'
 
@@ -17,11 +16,13 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
    * Shrink 'Cards.json'; convertable names & unique image ids instead of store
    * Shrink 'Details.json' combat text?
    * Apply binary search to 'FetchHelper' functions
+   * Animate plus/minus
 
 ### Future Implementation ... Maybe
 * Mobile styles
 * SearchParam injection catching
 * Recipe/peeking tooltip
+* Adjust 'DisplayCard' for displaying packs larger
 
 ## Card Fields
 * **Visible:** flavour-text; combat-text; equip-text; text-ref; extra-text
@@ -41,5 +42,8 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
    * New Weaponry Pack
 * Island
    * Pirate Boat
+* World of Death
+   * Curse of Death
+   * Life is Short Pack (NAY)
 * Cities
    * Wild Weather Pack

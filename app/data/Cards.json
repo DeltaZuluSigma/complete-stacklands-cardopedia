@@ -127,6 +127,13 @@
             "tag": ["head"]
         }
     ],
+    "spirits-n-curses":[
+        {
+            "name": "Curse of Death",
+            "image-id": "curse_of_death",
+            "update": "cursed_worlds"
+        }
+    ],
     "weather":[
         {
             "name": "Lightning",
@@ -148,7 +155,7 @@
             "update": "cities"
         }
     ],
-    "booster_packs":[
+    "booster-packs":[
         {
             "name": "Humble Beginnings",
             "image-id": "pack_humble_beginnings",

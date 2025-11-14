@@ -6,7 +6,7 @@
             "Requires: 1x Sewer, 1x LV Power"
         ],
         "recipe": [
-            "\"landmark_academy\" 30s*"
+            "\"landmark_academy\" 30s"
         ],
         "uses": [
             "\"educated_worker\"",
@@ -232,13 +232,29 @@
         ],
         "sources": [
             "\"pack_industrial_revolution\"",
-            "At the end of your first moon in \"board_cities\"",
+            "At the end of your first Moon in \"board_cities\"",
             "When a \"landfill\" overflows",
             "At the end of a \"festival\"",
             "When a \"pack_sale\" spawns",
             "When Wellbeing reaches 10, 20, and 30"
         ]
 
+    },{
+        "card-id": "curse_of_death",
+        "flavour-text": "Death, but no taxes. Villagers grow old and get sick.",
+        "extra-text": [
+            "Villagers will age, decreasing their working speed per stage, and dying after X Moons",
+            "Makes villagers produce \"villager_poop\" per food consumed at the end of every Moon",
+            "If there is more than X Poop (collectively), villagers without \"plague_mask\" will receive the [insert] status effect, taking X damage per second until cured with \"herbal_tea\""
+        ],
+        "sources": [
+            "\"pack_life_is_short\"",
+            "Summoned at the start of a run when enabled",
+            "Summoned if its prompt at the altar is accepted; only available after completing \"board_death\""
+        ],
+        "uses": [
+            "Removed by placing \"fountain_of_youth\" on the card after Xs"
+        ]
     },{
         "card-id": "dark_amulet",
         "flavour-text": "Its dark force makes you stronger",

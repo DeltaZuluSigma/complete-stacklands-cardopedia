@@ -12,7 +12,7 @@ export default function CardList({ update, searchText }) {
     
     // Loop through card categories
     categories.forEach( cat => {
-        const catHeader = `${Capitalize(cat)} (${ContextCount(update,cat,searchText)}/${ContextCount(update,cat)})`;
+        const catHeader = `${Capitalize(cat,"-")} (${ContextCount(update,cat,searchText)}/${ContextCount(update,cat)})`;
         const catContent = CContentCards(update,cat,searchText);
 
         if (catContent.length > 0) {

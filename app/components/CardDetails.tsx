@@ -12,7 +12,7 @@ export default function CardDetails({ cardID }) {
     fields.forEach( field => {
         switch (field) {
             case "flavour-text":    // Flavour Text
-                allDetails.push(UnpackNewline(selectedCard[field],undefined,false,true));
+                allDetails.push(UnpackNewline(selectedCard[field],undefined,2));
 
                 break;
             case "combat-text":
@@ -79,7 +79,7 @@ export default function CardDetails({ cardID }) {
                 const collContent = [];
 
                 selectedCard[field].forEach(line => {
-                    collContent.push(UnpackNewline(line,ConvertLink,true));
+                    collContent.push(UnpackNewline(line,ConvertLink,5));
                 });
 
                 allDetails.push(
