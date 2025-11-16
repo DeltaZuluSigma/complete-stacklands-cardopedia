@@ -1,5 +1,5 @@
 import { FetchCardDetails } from "../utils/FetchHelpers";
-import { Capitalize, UnpackNewline } from "../utils/GenericHelpers";
+import { Capitalize, UnpackNewline, DecodeCEText } from "../utils/GenericHelpers";
 import Collapsible from "./Collapsible";
 import ConvertLink from "./ConvertLink";
 
@@ -17,7 +17,7 @@ export default function CardDetails({ cardID }) {
                 break;
             case "combat-text":
             case "equip-text":      // Combat/Equip Text
-                const italicsText = selectedCard[field]
+                const italicsText = DecodeCEText(selectedCard[field], field);
 
                 for (let i = 0; i < italicsText.length; i++) {
                     const space = italicsText[i].endsWith("\n") || i == italicsText.length - 1 ? "space-after" : "";

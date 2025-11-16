@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import cards from "../data/Cards.json";
 import { ContextCount } from "../utils/FetchHelpers";
-import { IMG_PREFIX, Capitalize } from "../utils/GenericHelpers";
+import { IMG_PREFIX, Capitalize, FetchImageId } from "../utils/GenericHelpers";
 import Collapsible from "./Collapsible";
 
 export default function CardList({ update, searchText }) {
@@ -32,6 +32,7 @@ export default function CardList({ update, searchText }) {
 // CContentCards - Produces the cards that are within the given category, update, and/or containing the search text
 function CContentCards( update:string, category:string, searchText:string ) {
     const visibleCards = [];
+
     cards[category].forEach(card => {
         // Same update check
         if (update != "everything" && update != card.update) return;
@@ -57,8 +58,8 @@ function CContentCards( update:string, category:string, searchText:string ) {
         // Add card
         visibleCards.push(
             <Link
-                key={card["image-id"]}
-                href={`?${update != "everything" ? "update="+update+"&" : ""}card=${card["image-id"]}`}
+                key={FetchImageId(card)}
+                href={`?${update != "everything" ? "update="+update+"&" : ""}card=${FetchImageId(card)}`}
                 className="card-block"
             >
 

@@ -68,13 +68,7 @@
     },{
         "card-id": "axe",
         "flavour-text": "For chopping wood and monsters",
-        "equip-text": [
-            "Item Level 3\n",
-            "10% chance to Bleed target\n",
-            "Attack Type: Melee",
-            "Attack Speed: -1",
-            "Damage: +2"
-        ],
+        "equip-text": "3|BLT10|ATME,AS-1,DA2",
         "recipe": [
             "\"idea_axe\" 15s"
         ],
@@ -89,15 +83,7 @@
     },{
         "card-id": "bear",
         "flavour-text": "Soft yet dangerous",
-        "combat-text": [
-            "Combat Level 24\n",
-            "10% chance to do a Critical Hit on target\n",
-            "Attack Type: Melee",
-            "Attack Speed: Slow (2.9s)",
-            "Hit Chance: Small (59%)",
-            "Damage: Normal (3)",
-            "Defense: Normal (2)"
-        ],
+        "combat-text": "24|CHT10|ATME,AS2,HC2,DA3,DF2",
         "drops": [
             "1 of:\n\"raw_meat\" (27%)\n\"poop\" (27%)\n\"bone\" (27%)\n\"bear_claw\" (27%)"
         ],
@@ -110,14 +96,7 @@
     },{
         "card-id": "blowpipe",
         "flavour-text": "Blow as hard as you can",
-        "equip-text": [
-            "Item Level 3\n",
-            "10% chance to Poison target\n",
-            "Attack Type: Ranged",
-            "Attack Speed: -1",
-            "Hit Chance: +1",
-            "Damage: +1"
-        ],
+        "equip-text": "3|PTG10|ATRG,AS-1,HC1,DA1",
         "sources": [
             "\"frog_man\" (11%)",
             "\"mosquito\" (Equipped)"
@@ -149,14 +128,7 @@
     },{
         "card-id": "bone_staff",
         "flavour-text": "A bone with special abilities",
-        "equip-text": [
-            "Item Level 4\n",
-            "20% chance to Lifesteal from target\n",
-            "Attack Type: Magic",
-            "Max Health: -6",
-            "Attack Speed: +1",
-            "Damage: +2"
-        ],
+        "equip-text": "4|LST20|ATMG,MH-6,AS1,DA2",
         "recipe": [
             "\"idea_bone_staff\" 15s"
         ],
@@ -212,11 +184,7 @@
     },{
         "card-id": "chainmail_armor",
         "flavour-text": "A medieval era classic",
-        "equip-text": [
-            "Item Level 6\n",
-            "Max Health: +5",
-            "Defense: +2"
-        ],
+        "equip-text": "6|MH5,DF2",
         "recipe": [
             "\"idea_chainmail_armor\" 15s"
         ],
@@ -258,11 +226,7 @@
     },{
         "card-id": "dark_amulet",
         "flavour-text": "Its dark force makes you stronger",
-        "equip-text": [
-            "Item Level 7\n",
-            "10% chance to do a Critical Hit on random enemy\n",
-            "Max Health: +10"
-        ],
+        "equip-text": "7|CHR10|MH10",
         "sources": [
             "\"dark_elf\" (20%)"
         ]
@@ -357,14 +321,7 @@
     },{
         "card-id": "villager",
         "flavour-text": "A hard-working pioneer",
-        "combat-text": [
-            "Combat Level 14\n",
-            "Attack Type: Melee",
-            "Attack Speed: Slow (2.9s)",
-            "Hit Chance: Normal (68%)",
-            "Damage: Weak (2)",
-            "Defense: Weak (1)"
-        ],
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF1",
         "recipe": [
             "\"idea_offspring\"",
             "1x \"house\"\n1x \"baby\"\n240s"

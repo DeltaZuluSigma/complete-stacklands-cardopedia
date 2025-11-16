@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import cards from '../data/Cards.json';
+import { FetchImageId } from "../utils/GenericHelpers";
 
 // BOARDS dictionary
 const BOARDS = new Map([
@@ -29,8 +30,8 @@ export default function ConvertLinks( convertLine:string ) {
 
     Object.keys(cards).some(category => {
         return cards[category].some(card => {
-            if (fetches.has(card["image-id"])) {
-                fetches.set(card["image-id"],card["name"]);
+            if (fetches.has(FetchImageId(card))) {
+                fetches.set(FetchImageId(card),card["name"]);
                 fills++;
             }
 

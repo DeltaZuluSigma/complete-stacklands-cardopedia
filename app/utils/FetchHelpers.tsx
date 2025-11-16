@@ -1,10 +1,11 @@
 import cards from "../data/Cards.json";
 import details from "../data/Details.json";
+import { FetchImageId } from "./GenericHelpers";
 
 // ValidateCard - Validates that the card exists
 export function ValidateCard( target:string ) {
     return Object.keys(cards).some(category => {
-        return cards[category].some(card => target == card["image-id"]);
+        return cards[category].some(card => target == FetchImageId(card));
     });
 }
 
