@@ -4,34 +4,306 @@
             "name": "Altar",
             "update": "cursed_worlds"
         },{
+            "name": "Animal Cage",
+            "update": "cursed_worlds",
+            "tag": ["animal"]
+        },{
             "name": "Animal Pen",
             "update": "original",
             "tag": ["animal"]
         },{
+            "name": "Apartment",
+            "update": "cities"
+        },{
             "name": "Apple Tree",
             "update": "original",
-            "tag": ["source", "shiny"]
+            "tag": ["source"]
+        },{
+            "name": "Aquarium",
+            "update": "island",
+            "tag": ["animal"]
+        },{
+            "name": "Banana Tree",
+            "update": "island",
+            "tag": ["source", "island"]
+        },{
+            "name": "Barracks",
+            "update": "cities"
+        },{
+            "name": "Barrel",
+            "update": "cursed_worlds"
+        },{
+            "name": "Berry Bush",
+            "update": "original",
+            "tag": ["source"]
+        },{
+            "name": "Breeding Pen",
+            "update": "order_structure",
+            "tag": ["animal"]
+        },{
+            "name": "Brickyard",
+            "update": "original"
         },{
             "name": "Burner Generator",
             "update": "cities",
             "tag": ["power"]
         },{
+            "name": "Butchery",
+            "update": "order_structure",
+            "tag": ["animal"]
+        },{
+            "name": "Campfire",
+            "update": "original"
+        },{
             "name": "Cathedral",
             "update": "island"
+        },{
+            "name": "Charity",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "City Hall",
+            "update": "cities"
+        },{
+            "name": "Coin Chest",
+            "update": "original",
+            "tag": ["currency"]
+        },{
+            "name": "Composter",
+            "update": "island",
+            "tag": ["farming"]
+        },{
+            "name": "Copper Deposit",
+            "update": "cities",
+            "tag": ["source"]
+        },{
+            "name": "Copper Mine",
+            "update": "cities"
+        },{
+            "name": "Cotton Plant",
+            "update": "island",
+            "tag": ["source", "island"]
+        },{
+            "name": "Crane",
+            "update": "order_structure"
+        },{
+            "name": "Credit Card",
+            "update": "cities",
+            "tag": ["currency"]
+        },{
+            "name": "Crossroads",
+            "update": "order_structure"
+        },{
+            "name": "Distillery",
+            "update": "island"
+        },{
+            "name": "Driftwood",
+            "update": "island",
+            "tag": ["source"]
+        },{
+            "name": "Dustbin",
+            "update": "order_structure"
+        },{
+            "name": "Electricity Pylon",
+            "update": "cities",
+            "tag": ["power"]
+        },{
+            "name": "Energy Combiner",
+            "update": "cities",
+            "tag": ["power"]
+        },{
+            "name": "Energy Splitter",
+            "update": "cities",
+            "tag": ["power"]
+        },{
+            "name": "Export Center",
+            "update": "cities",
+            "tag": ["currency"]
+        },{
+            "name": "Factory",
+            "update": "cities"
         },{
             "name": "Farm",
             "update": "original",
             "tag": ["farming"]
         },{
+            "name": "Farmland",
+            "update": "cities",
+            "tag": ["farming"]
+        },{
+            "name": "Filter Crossroads",
+            "update": "original"
+        },{
+            "name": "Filter Junction",
+            "update": "cities"
+        },{
+            "name": "Fish Trap",
+            "update": "island",
+            "tag": ["animal"]
+        },{
+            "name": "Fishing Spot",
+            "update": "island",
+            "tag": ["source", "animal"]
+        },{
+            "name": "Flour Mill",
+            "update": "cursed_worlds"
+        },{
+            "name": "Food Warehouse",
+            "update": "cities"
+        },{
+            "name": "Fountain of Youth",
+            "update": "cursed_worlds",
+            "tag": ["death"]
+        },{
+            "name": "Frigate",
+            "update": "island"
+        },{
+            "name": "Garden",
+            "update": "original",
+            "tag": ["farming"]
+        },{
+            "name": "Gold Deposit",
+            "update": "island",
+            "tag": ["source", "island"]
+        },{
+            "name": "Gold Mine",
+            "update": "island"
+        },{
+            "name": "Grape Vine",
+            "update": "cursed_worlds",
+            "tag": ["source", "greed"]
+        },{
+            "name": "Gravel Deposit",
+            "update": "cities",
+            "tag": ["source"]
+        },{
+            "name": "Gravel Pit",
+            "update": "cities"
+        },{
+            "name": "Greenhouse",
+            "update": "island",
+            "tag": ["farming"]
+        },{
+            "name": "Hamster Wheel",
+            "update": "cities",
+            "tag": ["power"]
+        },{
+            "name": "Hotpot",
+            "update": "order_structure"
+        },{
+            "name": "House",
+            "update": "original"
+        },{
+            "name": "Hydroponic Farm",
+            "update": "cities",
+            "tag": ["farming"]
+        },{
+            "name": "Industrial Smelter",
+            "update": "cities"
+        },{
+            "name": "Iron Deposit",
+            "update": "original",
+            "tag": ["source"]
+        },{
+            "name": "Iron Deposit",
+            "image-id": "cities_iron_deposit",
+            "update": "cities",
+            "tag": ["source"]
+        },{
+            "name": "Iron Mine",
+            "update": "original"
+        },{
+            "name": "Iron Mine",
+            "image-id": "cities_iron_mine",
+            "update": "cities"
+        },{
+            "name": "Junction",
+            "update": "cities"
+        },{
+            "name": "Laboratory",
+            "update": "cities"
+        },{
+            "name": "Landfill",
+            "update": "cities"
+        },{
+            "name": "Lighthouse",
+            "update": "order_structure"
+        },{
+            "name": "Lumber Camp",
+            "update": "original"
+        },{
+            "name": "Lumber Deposit",
+            "update": "cities",
+            "tag": ["source"]
+        },{
+            "name": "Luxury Apartment",
+            "update": "cities"
+        },{
+            "name": "Magic Glue",
+            "update": "order_structure"
+        },{
+            "name": "Market",
+            "update": "original",
+            "tag": ["currency"]
+        },{
+            "name": "Mess Hall",
+            "update": "island"
+        },{
+            "name": "Naming Stone",
+            "update": "cursed_worlds"
+        },{
+            "name": "Nuclear Power Plant",
+            "update": "cities",
+            "tag": ["power"]
+        },{
+            "name": "Oil Power Plant",
+            "update": "cities",
+            "tag": ["power"]
+        },{
+            "name": "Oil Rig",
+            "update": "cities"
+        },{
+            "name": "Olive Tree",
+            "update": "cursed_worlds",
+            "tag": ["source", "greed"]
+        },{
+            "name": "Outhouse",
+            "update": "cursed_worlds"
+        },{
+            "name": "Oven",
+            "update": "cursed_worlds"
+        },{
+            "name": "Particle Collider",
+            "update": "cities"
+        },{
+            "name": "Petting Zoo",
+            "update": "cursed_worlds",
+            "tag": ["animal"]
+        },{
             "name": "Pirate Boat",
             "update": "island"
+        },{
+            "name": "Quarry",
+            "update": "original"
+        },{
+            "name": "Radar Station",
+            "update": "cities"
+        },{
+            "name": "Rare Portal",
+            "update": "original"
+        },{
+            "name": "Recycling Center",
+            "update": "cities"
+        },{
+            "name": "Resource Chest",
+            "update": "order_structure"
         }
     ],
     "villagers":[
         {
             "name": "City Advisor",
             "update": "cities",
-            "tag": ["npc", "cities"]
+            "tag": ["npc"]
         },{
             "name": "Villager",
             "update": "original"
@@ -139,8 +411,7 @@
         },{
             "name": "Wild Weather",
             "image-id": "pack_wild_weather",
-            "update": "cities",
-            "tag": ["cities"]
+            "update": "cities"
         }
     ]
 }

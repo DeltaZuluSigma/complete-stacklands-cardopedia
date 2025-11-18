@@ -164,3 +164,8 @@ export function DecodeCEText( code:string, type:string ) {
 
     return out;
 }
+
+// BinarySearch - Standard binary search
+// export function BinarySearch( libName:string, lib:object, targetName:string ) {
+
+// }

@@ -1,16 +1,15 @@
 import { Capitalize } from "../utils/GenericHelpers";
 
 const TAGS = {
-    boards: [ "#mainland", "#island", "#death", "#greed", "#sadness", "#cities" ],
+    boards: [ " - No #cities tag as all cards are unique to their board", "#mainland", "#island", "#death", "#greed", "#sadness" ],
     combat: [ "#melee", "#ranged", "#magic", "#head", "#chest" ],
     misc: [
         "#source - Harvestables / Brown Cards",
-        "#shiny - Chance of being Shiny",
         "#farming - Related to Farming",
         "#animal - Related to domestic Animals",
         "#power - Power-related",
         "#npc - NPCs",
-        "#currency - Currencies"
+        "#currency - Currencies & Currency Related"
     ]
 };
 
