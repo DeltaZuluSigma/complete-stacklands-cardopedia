@@ -297,6 +297,38 @@
         },{
             "name": "Resource Chest",
             "update": "order_structure"
+        },{
+            "name": "Resource Magnet",
+            "update": "order_structure"
+        },{
+            "name": "Road Builder",
+            "update": "order_structure"
+        },{
+            "name": "Robot Station",
+            "update": "cities"
+        },{
+            "name": "Rock",
+            "update": "original",
+            "tag": ["source"]
+        },{
+            "name": "Rowboat",
+            "update": "island"
+        },{
+            "name": "Sad Event",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "Sand Quarry",
+            "update": "island"
+        },{
+            "name": "Sawmill",
+            "update": "original"
+        },{
+            "name": "Septic Tank",
+            "update": "cities"
+        },{
+            "name": "Sewer",
+            "update": "cursed_worlds"
         }
     ],
     "villagers":[
