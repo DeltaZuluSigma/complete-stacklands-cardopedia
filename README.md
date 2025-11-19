@@ -34,6 +34,7 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
    * Rumor: Combat
    * Shaman
    * New Weaponry Pack
+   * University
 * Island
    * Pirate Boat
 * World of Death

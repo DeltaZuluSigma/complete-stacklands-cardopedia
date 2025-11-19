@@ -329,6 +329,125 @@
         },{
             "name": "Sewer",
             "update": "cursed_worlds"
+        },{
+            "name": "Shack",
+            "update": "cities"
+        },{
+            "name": "Shed",
+            "update": "original"
+        },{
+            "name": "Shell Chest",
+            "update": "island",
+            "tag": ["currency"]
+        },{
+            "name": "Sloop",
+            "update": "island"
+        },{
+            "name": "Slums",
+            "update": "cities"
+        },{
+            "name": "Smelter",
+            "update": "original"
+        },{
+            "name": "Smithy",
+            "update": "original"
+        },{
+            "name": "Soil",
+            "update": "original",
+            "tag": ["farming"]
+        },{
+            "name": "Solar Panel",
+            "update": "cities",
+            "tag": ["power"]
+        },{
+            "name": "Spring",
+            "update": "island",
+            "tag": ["source"]
+        },{
+            "name": "Stable Portal",
+            "update": "island"
+        },{
+            "name": "Storage Container",
+            "update": "cities"
+        },{
+            "name": "Stove",
+            "update": "original"
+        },{
+            "name": "Strange Portal",
+            "update": "original"
+        },{
+            "name": "Sugar Cane",
+            "update": "island",
+            "tag": ["farming"]
+        },{
+            "name": "Tavern",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "Temple",
+            "update": "original"
+        },{
+            "name": "Tomato Plant",
+            "update": "cursed_worlds",
+            "tag": ["greed"]
+        },{
+            "name": "Trash",
+            "update": "cities",
+            "tag": ["source"]
+        },{
+            "name": "Travelling Cart",
+            "update": "original",
+            "tag": ["npc"]
+        },{
+            "name": "Treasure Chest",
+            "update": "original"
+        },{
+            "name": "Tree",
+            "update": "original",
+            "tag": ["source"]
+        },{
+            "name": "Tree Plantation",
+            "update": "cities"
+        },{
+            "name": "University",
+            "update": "order_structure"
+        },{
+            "name": "Unknown Machine",
+            "update": "cities"
+        },{
+            "name": "Uranium Deposit",
+            "update": "cities",
+            "tag": ["source"]
+        },{
+            "name": "Uranium Mine",
+            "update": "cities"
+        },{
+            "name": "Warehouse",
+            "update": "original"
+        },{
+            "name": "Water Deposit",
+            "update": "cities",
+            "tag": ["source"]
+        },{
+            "name": "Water Pump",
+            "update": "cities"
+        },{
+            "name": "Water Treatment Plant",
+            "update": "cities"
+        },{
+            "name": "Water Wheel",
+            "update": "cities",
+            "tag": ["power"]
+        },{
+            "name": "Well",
+            "update": "cursed_worlds"
+        },{
+            "name": "Wind Turbine",
+            "update": "cities",
+            "tag": ["power"]
+        },{
+            "name": "Wishing Well",
+            "update": "order_structure"
         }
     ],
     "villagers":[
