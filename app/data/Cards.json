@@ -594,11 +594,74 @@
             "update": "cities",
             "tag": ["currency"]
         },{
+            "name": "100 \"dollar\"",
+            "image-id": "hundred_dollar",
+            "update": "cities",
+            "tag": ["currency"]
+        },{
+            "name": "20 \"dollar\"",
+            "image-id": "twenty_dollar",
+            "update": "cities",
+            "tag": ["currency"]
+        },{
+            "name": "50 \"dollar\"",
+            "image-id": "fifty_dollar",
+            "update": "cities",
+            "tag": ["currency"]
+        },{
             "name": "Artwork",
             "update": "cities"
         },{
             "name": "Bone",
             "update": "original"
+        },{
+            "name": "Book",
+            "update": "cursed_worlds"
+        },{
+            "name": "Brick",
+            "update": "original"
+        },{
+            "name": "Cement",
+            "update": "cities"
+        },{
+            "name": "Charcoal",
+            "update": "island"
+        },{
+            "name": "Coin",
+            "update": "original",
+            "tag": ["currency"]
+        },{
+            "name": "Copper Bar",
+            "update": "cities"
+        },{
+            "name": "Copper Ore",
+            "update": "cities"
+        },{
+            "name": "Corpse",
+            "update": "original"
+        },{
+            "name": "Cotton",
+            "update": "island",
+            "tag": ["farming", "island"]
+        },{
+            "name": "Dragon Egg",
+            "update": "cursed_worlds"
+        },{
+            "name": "Electric Motor",
+            "update": "cities"
+        },{
+            "name": "Empty Bottle",
+            "update": "island"
+        },{
+            "name": "Euphoria",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "Fabric",
+            "update": "island"
+        },{
+            "name": "Factory Parts",
+            "update": "cities"
         }
     ],
     "ideas":[
