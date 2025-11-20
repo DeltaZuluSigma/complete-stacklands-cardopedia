@@ -662,6 +662,68 @@
         },{
             "name": "Factory Parts",
             "update": "cities"
+        },{
+            "name": "Flint",
+            "update": "original"
+        },{
+            "name": "Fossil",
+            "update": "cities"
+        },{
+            "name": "Glass",
+            "update": "island"
+        },{
+            "name": "Gold Bar",
+            "update": "island"
+        },{
+            "name": "Gold Ore",
+            "update": "island",
+            "tag": ["island"]
+        },{
+            "name": "Golden Goblet",
+            "update": "original"
+        },{
+            "name": "Goop",
+            "update": "island"
+        },{
+            "name": "Gravel",
+            "update": "cities"
+        },{
+            "name": "Happiness",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "Iron Bar",
+            "update": "original"
+        },{
+            "name": "Iron Ore",
+            "update": "original"
+        },{
+            "name": "Island Relic",
+            "update": "island"
+        },{
+            "name": "Key",
+            "update": "original"
+        },{
+            "name": "Lumber",
+            "update": "cities"
+        },{
+            "name": "Magic Dust",
+            "update": "original"
+        },{
+            "name": "Merch",
+            "update": "cities"
+        },{
+            "name": "Metal Scraps",
+            "update": "cities"
+        },{
+            "name": "Oil",
+            "update": "cities"
+        },{
+            "name": "Old Tome",
+            "update": "original"
+        },{
+            "name": "Painting",
+            "update": "cursed_worlds"
         }
     ],
     "ideas":[
