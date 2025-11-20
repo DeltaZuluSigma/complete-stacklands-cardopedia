@@ -452,12 +452,139 @@
     ],
     "villagers":[
         {
+            "name": "Alien",
+            "update": "cities"
+        },{
+            "name": "Archer",
+            "update": "dark_forest"
+        },{
+            "name": "Attack Helicopter",
+            "update": "cities"
+        },{
+            "name": "Baby",
+            "update": "original"
+        },{
+            "name": "Builder",
+            "update": "dark_forest"
+        },{
+            "name": "Cat",
+            "update": "cursed_worlds"
+        },{
+            "name": "Cat 2000",
+            "update": "cities"
+        },{
             "name": "City Advisor",
             "update": "cities",
             "tag": ["npc"]
         },{
+            "name": "Dog",
+            "update": "original"
+        },{
+            "name": "Dog 2000",
+            "update": "cities"
+        },{
+            "name": "Educated Worker",
+            "update": "cities"
+        },{
+            "name": "Explorer",
+            "update": "original"
+        },{
+            "name": "Fighter Jet",
+            "update": "cities"
+        },{
+            "name": "Fisher",
+            "update": "island"
+        },{
+            "name": "Friendly Pirate",
+            "update": "island"
+        },{
+            "name": "Genius",
+            "update": "cities"
+        },{
+            "name": "Jester",
+            "update": "cursed_worlds"
+        },{
+            "name": "Kitten",
+            "update": "cursed_worlds"
+        },{
+            "name": "Lumberjack",
+            "update": "dark_forest"
+        },{
+            "name": "Mage",
+            "update": "dark_forest"
+        },{
+            "name": "Merchant",
+            "update": "cursed_worlds",
+            "tag": ["npc"]
+        },{
+            "name": "Militia",
+            "update": "original"
+        },{
+            "name": "Miner",
+            "update": "dark_forest"
+        },{
+            "name": "Ninja",
+            "update": "dark_forest"
+        },{
+            "name": "Old Cat",
+            "update": "cursed_worlds"
+        },{
+            "name": "Old Dog",
+            "update": "cursed_worlds"
+        },{
+            "name": "Old Villager",
+            "update": "cursed_worlds"
+        },{
+            "name": "Puppy",
+            "update": "cursed_worlds"
+        },{
+            "name": "Robot Genius",
+            "update": "cities"
+        },{
+            "name": "Robot Soldier",
+            "update": "cities"
+        },{
+            "name": "Robot Worker",
+            "update": "cities"
+        },{
+            "name": "Royal",
+            "update": "cursed_worlds"
+        },{
+            "name": "Sniper",
+            "update": "cities"
+        },{
+            "name": "Soldier",
+            "update": "cities"
+        },{
+            "name": "Spy",
+            "update": "cities"
+        },{
+            "name": "Swordsman",
+            "update": "original"
+        },{
+            "name": "Tank",
+            "update": "cities"
+        },{
+            "name": "Trained Monkey",
+            "update": "island"
+        },{
             "name": "Villager",
             "update": "original"
+        },{
+            "name": "War Ship",
+            "update": "cities"
+        },{
+            "name": "Warrior",
+            "update": "dark_forest"
+        },{
+            "name": "Wizard",
+            "update": "dark_forest"
+        },{
+            "name": "Worker",
+            "update": "cities"
+        },{
+            "name": "Young Villager",
+            "update": "cursed_worlds"
         }
     ],
     "resources":[
