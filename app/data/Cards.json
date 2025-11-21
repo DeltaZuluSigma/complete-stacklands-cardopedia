@@ -724,6 +724,75 @@
         },{
             "name": "Painting",
             "update": "cursed_worlds"
+        },{
+            "name": "Paper",
+            "update": "cursed_worlds"
+        },{
+            "name": "Plank",
+            "update": "original"
+        },{
+            "name": "Plastic",
+            "update": "cities"
+        },{
+            "name": "Poop",
+            "update": "original"
+        },{
+            "name": "Quantum Matter",
+            "update": "cities"
+        },{
+            "name": "Rope",
+            "update": "island"
+        },{
+            "name": "Sacred Chest",
+            "update": "island"
+        },{
+            "name": "Sacred Key",
+            "update": "island"
+        },{
+            "name": "Sadness",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "Sail",
+            "update": "island"
+        },{
+            "name": "Sand",
+            "update": "island",
+            "tag": ["island"]
+        },{
+            "name": "Sandstone",
+            "update": "island"
+        },{
+            "name": "Science",
+            "update": "cities"
+        },{
+            "name": "Shell",
+            "update": "island",
+            "tag": ["currency"]
+        },{
+            "name": "Stick",
+            "update": "original"
+        },{
+            "name": "Stone",
+            "update": "original"
+        },{
+            "name": "Toy",
+            "update": "cities"
+        },{
+            "name": "Treasure Map",
+            "update": "island"
+        },{
+            "name": "Uranium",
+            "update": "cities"
+        },{
+            "name": "Villager Poop",
+            "update": "cursed_worlds"
+        },{
+            "name": "Wood",
+            "update": "original"
+        },{
+            "name": "Wool",
+            "update": "cursed_worlds"
         }
     ],
     "ideas":[
