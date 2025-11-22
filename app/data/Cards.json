@@ -860,7 +860,202 @@
         },{
             "name": "Idea: Breeding Pen",
             "update": "order_structure"
+        },{
+            "name": "Idea: Brick",
+            "update": "original"
+        },{
+            "name": "Idea: Brickyard",
+            "update": "original"
+        },{
+            "name": "Idea: Broken Bottle",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Burner Generator",
+            "update": "cities"
+        },{
+            "name": "Idea: Butchery",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Campfire",
+            "update": "original"
+        },{
+            "name": "Idea: Cathedral",
+            "update": "island"
+        },{
+            "name": "Idea: Cement",
+            "update": "cities"
+        },{
+            "name": "Idea: Ceviche",
+            "update": "island"
+        },{
+            "name": "Idea: Chainmail Armor",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Charcoal",
+            "update": "island"
+        },{
+            "name": "Idea: Charity",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Cheese",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Chicken",
+            "update": "original"
+        },{
+            "name": "Idea: City Hall",
+            "update": "cities"
+        },{
+            "name": "Idea: Club",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Coin",
+            "update": "island"
+        },{
+            "name": "Idea: Coin Chest",
+            "update": "original"
+        },{
+            "name": "Idea: Composter",
+            "update": "island"
+        },{
+            "name": "Idea: Cooked Meat",
+            "update": "original"
+        },{
+            "name": "Idea: Crane",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Credit Card",
+            "update": "cities"
+        },{
+            "name": "Idea: Crossbow",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Crossroads",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Distillery",
+            "update": "island"
+        },{
+            "name": "Idea: Dough",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Dustbin",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Electric Motor",
+            "update": "cities"
+        },{
+            "name": "Idea: Electricity Pylon",
+            "update": "cities"
+        },{
+            "name": "Idea: Empty Bottle",
+            "update": "island"
+        },{
+            "name": "Idea: Energy Combiner",
+            "update": "cities"
+        },{
+            "name": "Idea: Energy Splitter",
+            "update": "cities"
+        },{
+            "name": "Idea: Euphoria",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: Export Center",
+            "update": "cities"
+        },{
+            "name": "Idea: Fabric",
+            "update": "island"
+        },{
+            "name": "Idea: Fabric",
+            "image-id": "cw_idea_fabric",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: Factory",
+            "update": "cities"
+        },{
+            "name": "Idea: Factory Parts",
+            "update": "cities"
+        },{
+            "name": "Idea: Fancy Dress",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: Farm",
+            "update": "original"
+        },{
+            "name": "Idea: Farmland",
+            "update": "cities"
+        },{
+            "name": "Idea: Fighter Jet",
+            "update": "cities"
+        },{
+            "name": "Idea: Filter Crossroads",
+            "update": "original"
+        },{
+            "name": "Idea: Filter Junction",
+            "update": "cities"
+        },{
+            "name": "Idea: Fish and Chips",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: Fish Trap",
+            "update": "island"
+        },{
+            "name": "Idea: Fishing Rod",
+            "update": "island"
+        },{
+            "name": "Idea: Flour",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: Flour Mill",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: Food Warehouse",
+            "update": "cities"
+        },{
+            "name": "Idea: Forest Amulet",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Fountain of Youth",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: French Fries",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: Fried Fish",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: Fried Meat",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: Frigate",
+            "update": "island"
+        },{
+            "name": "Idea: Frittata",
+            "update": "original"
+        },{
+            "name": "Idea: Fruit Salad",
+            "update": "original"
+        },{
+            "name": "Idea: Fruit Salad",
+            "image-id": "cw_idea_fruit_salad",
+            "update": "cursed_world"
+        },{
+            "name": "Idea: Garden",
+            "update": "original"
+        },{
+            "name": "Idea: Glass",
+            "update": "island"
+        },{
+            "name": "Idea: Gold Bar",
+            "update": "island"
+        },{
+            "name": "Idea: Gold Mine",
+            "update": "island"
+        },{
+            "name": "Idea: Golden Chestplate",
+            "update": "dark_forest"
         }
+
     ],
     "food":[
         {
