@@ -799,6 +799,67 @@
         {
             "name": "Idea: Altar",
             "update": "cursed_worlds"
+        },{
+            "name": "Idea: Animal Cage",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Animal Pen",
+            "update": "original"
+        },{
+            "name": "Idea: Animal Pen",
+            "image-id": "cw_idea_animal_pen",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Apartment",
+            "update": "cities"
+        },{
+            "name": "Idea: Aquarium",
+            "update": "island"
+        },{
+            "name": "Idea: Attack Helicopter",
+            "update": "cities"
+        },{
+            "name": "Idea: Axe",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Barracks",
+            "update": "cities"
+        },{
+            "name": "Idea: Barrel",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Beer",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Blunderbuss",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Bone Spear",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Bone Staff",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Book",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Boomerang",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Bottle of Rum",
+            "update": "island"
+        },{
+            "name": "Idea: Bow",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Bread",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Bread 2000",
+            "update": "cities"
+        },{
+            "name": "Idea: Breeding Pen",
+            "update": "order_structure"
         }
     ],
     "food":[
