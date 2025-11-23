@@ -1054,8 +1054,67 @@
         },{
             "name": "Idea: Golden Chestplate",
             "update": "dark_forest"
+        },{
+            "name": "Idea: Grape Pulp",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Greenhouse",
+            "update": "island"
+        },{
+            "name": "Idea: Growth",
+            "update": "original"
+        },{
+            "name": "Idea: Hammer",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Hamster Wheel",
+            "update": "cities"
+        },{
+            "name": "Idea: Happiness",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Herbal Tea",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Hotpot",
+            "update": "order_structure"
+        },{
+            "name": "Idea: House",
+            "update": "original"
+        },{
+            "name": "Idea: Hydroponic Farm",
+            "update": "cities"
+        },{
+            "name": "Idea: Industrial Smelter",
+            "update": "cities"
+        },{
+            "name": "Idea: Iron Bar",
+            "update": "original"
+        },{
+            "name": "Idea: Iron Bar",
+            "update": "cities"
+        },{
+            "name": "Idea: Iron Mine",
+            "update": "original"
+        },{
+            "name": "Idea: Iron Shield",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Jester's Hat",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Junction",
+            "update": "cities"
+        },{
+            "name": "Idea: Laboratory",
+            "update": "cities"
+        },{
+            "name": "Idea: Landfill",
+            "update": "cities"
+        },{
+            "name": "Idea: Lift Curse",
+            "update": "cursed_worlds"
         }
-
     ],
     "food":[
         {
