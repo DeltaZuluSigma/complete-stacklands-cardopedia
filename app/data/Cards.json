@@ -1114,6 +1114,66 @@
         },{
             "name": "Idea: Lift Curse",
             "update": "cursed_worlds"
+        },{
+            "name": "Idea: Lighthouse",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Lumber Camp",
+            "update": "original"
+        },{
+            "name": "Idea: Luxury Apartment",
+            "update": "cities"
+        },{
+            "name": "Idea: Magic Blade",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Magic Glue",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Magic Ring",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Magic Staff",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Magic Tome",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Magic Wand",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Market",
+            "update": "original"
+        },{
+            "name": "Idea: Mess Hall",
+            "update": "island"
+        },{
+            "name": "Idea: Metal Scraps",
+            "update": "cities"
+        },{
+            "name": "Idea: Milkshake",
+            "update": "original"
+        },{
+            "name": "Idea: Mountain Amulet",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Muesli",
+            "update": "cities"
+        },{
+            "name": "Idea: Naming Stone",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Nuclear Power Plant",
+            "update": "cities"
+        },{
+            "name": "Idea: Offspring",
+            "update": "original"
+        },{
+            "name": "Idea: Oil Power Plant",
+            "update": "cities"
+        },{
+            "name": "Idea: Oil Rig",
+            "update": "cities"
         }
     ],
     "food":[
