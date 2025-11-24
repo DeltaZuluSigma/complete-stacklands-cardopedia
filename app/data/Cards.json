@@ -1092,6 +1092,7 @@
             "update": "original"
         },{
             "name": "Idea: Iron Bar",
+            "image-id": "cities_idea_iron_bar",
             "update": "cities"
         },{
             "name": "Idea: Iron Mine",
@@ -1174,6 +1175,103 @@
         },{
             "name": "Idea: Oil Rig",
             "update": "cities"
+        },{
+            "name": "Idea: Olive Oil",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Olive Pulp",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Omelette",
+            "update": "original"
+        },{
+            "name": "Idea: Outhouse",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Oven",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Painting",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Pancakes",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Paper",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Petting Zoo",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Pickaxe",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Pizza",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Plague Mask",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Plank",
+            "update": "original"
+        },{
+            "name": "Idea: Plastic",
+            "update": "cities"
+        },{
+            "name": "Idea: Purple Socks",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Quarry",
+            "update": "original"
+        },{
+            "name": "Idea: Radar Station",
+            "update": "cities"
+        },{
+            "name": "Idea: Ready Meal",
+            "update": "cities"
+        },{
+            "name": "Idea: Recruiting",
+            "update": "cities"
+        },{
+            "name": "Idea: Recycling Center",
+            "update": "cities"
+        },{
+            "name": "Idea: Resource Chest",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Resource Magnet",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Road Builder",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Robot Soldier",
+            "update": "cities"
+        },{
+            "name": "Idea: Robot Station",
+            "update": "cities"
+        },{
+            "name": "Idea: Robot Worker",
+            "update": "cities"
+        },{
+            "name": "Idea: Rope",
+            "update": "island"
+        },{
+            "name": "Idea: Rope",
+            "image-id": "cw_idea_rope",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Rowboat",
+            "update": "island"
+        },{
+            "name": "Idea: Royal Banquet",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Sacred Key",
+            "update": "island"
+        },{
+            "name": "Idea: Sail",
+            "update": "island"
         }
     ],
     "food":[
