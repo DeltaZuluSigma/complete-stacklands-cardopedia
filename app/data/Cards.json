@@ -1272,6 +1272,78 @@
         },{
             "name": "Idea: Sail",
             "update": "island"
+        },{
+            "name": "Idea: Sand Quarry",
+            "update": "island"
+        },{
+            "name": "Idea: Sandstone",
+            "update": "island"
+        },{
+            "name": "Idea: Sawmill",
+            "update": "original"
+        },{
+            "name": "Idea: Scythe",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Seafood Stew",
+            "update": "island"
+        },{
+            "name": "Idea: Septic Tank",
+            "update": "cities"
+        },{
+            "name": "Idea: Sewer",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Shack",
+            "update": "cities"
+        },{
+            "name": "Idea: Shed",
+            "update": "original"
+        },{
+            "name": "Idea: Shell Chest",
+            "update": "island"
+        },{
+            "name": "Idea: Slingshot",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Sloop",
+            "update": "island"
+        },{
+            "name": "Idea: Smelter",
+            "update": "original"
+        },{
+            "name": "Idea: Smithy",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Sniper",
+            "update": "cities"
+        },{
+            "name": "Idea: Solar Panel",
+             "update": "cities"
+        },{
+            "name": "Idea: Spear",
+            "update": "original"
+        },{
+            "name": "Idea: Spiked Plank",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Stable Portal",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Stew",
+            "update": "original"
+        },{
+            "name": "Idea: Stick",
+            "update": "original"
+        },{
+            "name": "Idea: Storage Container",
+            "update": "cities"
+        },{
+            "name": "Idea: Stove",
+            "update": "original"
+        },{
+            "name": "Idea: Sushi",
+            "update": "island"
         }
     ],
     "food":[
