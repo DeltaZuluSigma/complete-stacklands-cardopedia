@@ -1344,6 +1344,105 @@
         },{
             "name": "Idea: Sushi",
             "update": "island"
+        },{
+            "name": "Idea: Sword",
+            "update": "original"
+        },{
+            "name": "Idea: Tamago Sushi",
+            "update": "island"
+        },{
+            "name": "Idea: Tank",
+            "update": "cities"
+        },{
+            "name": "Idea: Tavern",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Temple",
+            "update": "original"
+        },{
+            "name": "Idea: Throwing Stars",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Tomatoes",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Toy",
+            "update": "cities"
+        },{
+            "name": "Idea: University",
+            "update": "order_structure"
+        },{
+            "name": "Idea: War Ship",
+            "update": "cities"
+        },{
+            "name": "Idea: Warehouse",
+            "update": "original"
+        },{
+            "name": "Idea: Water Treatment Plant",
+            "update": "cities"
+        },{
+            "name": "Idea: Water Wheel",
+            "update": "cities"
+        },{
+            "name": "Idea: Well",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Wind Turbine",
+            "update": "cities"
+        },{
+            "name": "Idea: Wine",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Winter Coat",
+            "update": "cursed_worlds"
+        },{
+            "name": "Idea: Wishing Well",
+            "update": "order_structure"
+        },{
+            "name": "Idea: Wizard Robe",
+            "update": "dark_forest"
+        },{
+            "name": "Idea: Wooden Shield",
+            "update": "dark_forest"
+        },{
+            "name": "Landmark: Academy",
+            "update": "cities"
+        },{
+            "name": "Landmark: Airport",
+            "update": "cities"
+        },{
+            "name": "Landmark: Art Gallery",
+            "update": "cities"
+        },{
+            "name": "Landmark: Cinema",
+            "update": "cities"
+        },{
+            "name": "Landmark: City Park",
+            "update": "cities"
+        },{
+            "name": "Landmark: Hospital",
+            "update": "cities"
+        },{
+            "name": "Landmark: Particle Collider",
+            "update": "cities"
+        },{
+            "name": "Landmark: Stadium",
+            "update": "cities"
+        },{
+            "name": "Landmark: Theme Park",
+            "update": "cities"
+        },{
+            "name": "Landmark: Toy Shop",
+            "update": "cities"
+        },{
+            "name": "Landmark: Unknown Machine",
+            "update": "cities"
+        },{
+            "name": "Landmark: Villager Statue",
+            "update": "cities"
+        },{
+            "name": "Landmark: Zoo",
+            "update": "cities"
         }
     ],
     "food":[
