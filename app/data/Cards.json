@@ -1450,6 +1450,83 @@
             "name": "Apple",
             "update": "original",
             "tag": ["farming"]
+        },{
+            "name": "Banana",
+            "update": "island",
+            "tag": ["farming"]
+        },{
+            "name": "Beer",
+            "update": "cursed_worlds"
+        },{
+            "name": "Berry",
+            "update": "original",
+            "tag": ["farming"]
+        },{
+            "name": "Bottle of Rum",
+            "update": "island"
+        },{
+            "name": "Bottle of Water",
+            "update": "island"
+        },{
+            "name": "Bread",
+            "update": "cursed_worlds"
+        },{
+            "name": "Bread 2000",
+            "update": "cities"
+        },{
+            "name": "Cane Sugar",
+            "update": "island",
+            "tag": ["farming"]
+        },{
+            "name": "Carrot",
+            "update": "original",
+            "tag": ["farming"]
+        },{
+            "name": "Ceviche",
+            "update": "island"
+        },{
+            "name": "Cheese",
+            "update": "cursed_worlds"
+        },{
+            "name": "Chili Pepper",
+            "update": "island"
+        },{
+            "name": "Cooked Crab",
+            "update": "island"
+        },{
+            "name": "Cooked Meat",
+            "update": "original"
+        },{
+            "name": "Dough",
+            "update": "cursed_worlds"
+        },{
+            "name": "Egg",
+            "update": "original"
+        },{
+            "name": "Fish and Chips",
+            "update": "cursed_worlds"
+        },{
+            "name": "Flour",
+            "update": "cursed_worlds"
+        },{
+            "name": "French Fries",
+            "update": "cursed_worlds"
+        },{
+            "name": "Fried Fish",
+            "update": "cursed_worlds"
+        },{
+            "name": "Fried Meat",
+            "update": "cursed_worlds"
+        },{
+            "name": "Frittata",
+            "update": "original"
+        },{
+            "name": "Fruit Salad",
+            "update": "original"
+        },{
+            "name": "Grain",
+            "update": "cities",
+            "tag": ["farming"]
         }
     ],
     "mobs":[
