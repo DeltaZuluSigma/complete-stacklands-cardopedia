@@ -1527,6 +1527,106 @@
             "name": "Grain",
             "update": "cities",
             "tag": ["farming"]
+        },{
+            "name": "Grape",
+            "update": "cursed_worlds",
+            "tag": ["farming"]
+        },{
+            "name": "Grape Pulp",
+            "update": "cursed_worlds"
+        },{
+            "name": "Grilled Fish",
+            "update": "island"
+        },{
+            "name": "Herbal Tea",
+            "update": "cursed_worlds"
+        },{
+            "name": "Herbs",
+            "update": "cursed_worlds"
+        },{
+            "name": "Lime",
+            "update": "island"
+        },{
+            "name": "Milk",
+            "update": "original"
+        },{
+            "name": "Milkshake",
+            "update": "original"
+        },{
+            "name": "Muesli",
+            "update": "cities"
+        },{
+            "name": "Mushroom",
+            "update": "original"
+        },{
+            "name": "Olive",
+            "update": "cursed_worlds",
+            "tag": ["farming"]
+        },{
+            "name": "Olive Oil",
+            "update": "cursed_worlds"
+        },{
+            "name": "Olive Pulp",
+            "update": "cursed_worlds"
+        },{
+            "name": "Omelette",
+            "update": "original"
+        },{
+            "name": "Onion",
+            "update": "original"
+        },{
+            "name": "Pancakes",
+            "update": "cursed_worlds"
+        },{
+            "name": "Pizza",
+            "update": "cursed_worlds"
+        },{
+            "name": "Potato",
+            "update": "original",
+            "tag": ["farming"]
+        },{
+            "name": "Raw Crab Meat",
+            "update": "island"
+        },{
+            "name": "Raw Fish",
+            "update": "island"
+        },{
+            "name": "Raw Meat",
+            "update": "original"
+        },{
+            "name": "Ready Meal",
+            "update": "cities"
+        },{
+            "name": "Royal Banquet",
+            "update": "cursed_worlds"
+        },{
+            "name": "Seafood Stew",
+            "update": "island"
+        },{
+            "name": "Seaweed",
+            "update": "island"
+        },{
+            "name": "Stew",
+            "update": "original"
+        },{
+            "name": "Sushi",
+            "update": "island"
+        },{
+            "name": "Tamago Sushi",
+            "update": "island"
+        },{
+            "name": "Tomato",
+            "update": "cursed_worlds"
+        },{
+            "name": "Water",
+            "update": "island"
+        },{
+            "name": "Wheat",
+            "update": "cursed_worlds",
+            "tag": ["farming"]
+        },{
+            "name": "Wine",
+            "update": "cursed_worlds"
         }
     ],
     "mobs":[
