@@ -83,9 +83,9 @@
     },{
         "card-id": "bear",
         "flavour-text": "Soft yet dangerous",
-        "combat-text": "24|CHT10|ATME,AS2,HC2,DA3,DF2",
+        "combat-text": "24|CHT10|ATME,AS2,HC2,DA3,DF3",
         "drops": [
-            "1 of:\n\"raw_meat\" (27%)\n\"poop\" (27%)\n\"bone\" (27%)\n\"bear_claw\" (27%)"
+            "1 of:\n\"raw_meat\" (27%)\n\"poop\" (27%)\n\"bone\" (27%)\n\"bear_claw\" (20%)"
         ],
         "sources": [
             "\"pack_explorers\" (13%/3)",

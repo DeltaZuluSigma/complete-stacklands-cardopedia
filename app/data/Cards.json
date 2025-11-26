@@ -1631,9 +1631,100 @@
     ],
     "mobs":[
         {
+            "name": "Angry Royal",
+            "update": "cursed_worlds",
+            "tag": ["melee"]
+        },{
+            "name": "Baby Dragon",
+            "update": "cursed_worlds",
+            "tag": ["magic"]
+        },{
             "name": "Bear",
             "update": "original",
             "tag": ["melee"]
+        },{
+            "name": "Chicken",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Cow",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Crab",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "Dark Elf",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Demon",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Demon Lord",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "Demon of Sadness",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Elf",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Elf Archer",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Enchanted Shroom",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Ent",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Feral Cat",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Fiend",
+            "update": "cursed_worlds",
+            "tag": ["magic"]
+        },{
+            "name": "Frog Man",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Ghost",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Ghoul",
+            "update": "cursed_worlds",
+            "tag": ["melee"]
+        },{
+            "name": "Giant Rat",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Giant Snail",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Goblin",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Goblin Archer",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Goblin Chopper",
+            "update": "cities"
         }
     ],
     "locations":[
