@@ -56,7 +56,8 @@ const CE_CODES = {
         2: "Small (59%)",
         3: "Normal (68%)",
         4: "High (77%)",
-        5: "Very High (86%)"
+        5: "Very High (86%)",
+        6: "Extremely High (95%)"
     },
     "D": {
         1: "Very Weak (1)",

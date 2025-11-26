@@ -1725,6 +1725,140 @@
         },{
             "name": "Goblin Chopper",
             "update": "cities"
+        },{
+            "name": "Goblin Commando",
+            "update": "cities"
+        },{
+            "name": "Goblin Marksman",
+            "update": "cities"
+        },{
+            "name": "Goblin Shaman",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Goblin Tank",
+            "update": "cities"
+        },{
+            "name": "Goblin War Ship",
+            "update": "cities"
+        },{
+            "name": "Goblin Warplane",
+            "update": "cities"
+        },{
+            "name": "Horse",
+            "update": "cursed_worlds",
+            "tag": ["melee"]
+        },{
+            "name": "Imp",
+            "update": "cursed_worlds",
+            "tag": ["ranged"]
+        },{
+            "name": "Kraken",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "Merman",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Mimic",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Momma Crab",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "Monkey",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "Mosquito",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Ogre",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Orc Wizard",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Parrot",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "Pirate",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "Poop Slime",
+            "update": "cursed_worlds",
+            "tag": ["ranged"]
+        },{
+            "name": "Rabbit",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Rat",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Royal Archer",
+            "update": "cursed_worlds",
+            "tag": ["ranged"]
+        },{
+            "name": "Royal Guard",
+            "update": "cursed_worlds",
+            "tag": ["melee"]
+        },{
+            "name": "Royal Mage",
+            "update": "cursed_worlds",
+            "tag": ["magic"]
+        },{
+            "name": "Seagull",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "Sheep",
+            "update": "cursed_worlds",
+            "tag": ["melee"]
+        },{
+            "name": "Skeleton",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Slime",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Small Slime",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Snake",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "Tentacle",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "Tiger",
+            "update": "island",
+            "tag": ["melee"]
+        },{
+            "name": "T-Rex",
+            "update": "cities"
+        },{
+            "name": "Wicked Witch",
+            "update": "original",
+            "tag": ["magic"]
+        },{
+            "name": "Wolf",
+            "update": "original",
+            "tag": ["melee"]
         }
     ],
     "locations":[
