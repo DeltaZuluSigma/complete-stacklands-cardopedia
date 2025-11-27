@@ -1865,12 +1865,90 @@
         {
             "name": "Catacombs",
             "update": "original"
+        },{
+            "name": "Cave",
+            "update": "island"
+        },{
+            "name": "Forest",
+            "update": "original"
+        },{
+            "name": "Graveyard",
+            "update": "original"
+        },{
+            "name": "Jungle",
+            "update": "island"
+        },{
+            "name": "Mountain",
+            "update": "original"
+        },{
+            "name": "Old Village",
+            "update": "original"
+        },{
+            "name": "Plains",
+            "update": "original"
+        },{
+            "name": "Ruins",
+            "update": "cursed_worlds"
+        }
+    ],
+    "fish":[
+        {
+            "name": "Cod",
+            "update": "island"
+        },{
+            "name": "Eel",
+            "update": "island"
+        },{
+            "name": "Mackerel",
+            "update": "island"
+        },{
+            "name": "Shark",
+            "update": "island"
+        },{
+            "name": "Tuna",
+            "update": "island"
         }
     ],
     "rumors":[
         {
             "name": "Rumor: Combat",
             "update": "original"
+        },{
+            "name": "Rumor: Dark Forest",
+            "update": "original"
+        },{
+            "name": "Rumor: Eel Bait",
+            "update": "island"
+        },{
+            "name": "Rumor: Eureka!",
+            "update": "cities"
+        },{
+            "name": "Rumor: Extraction",
+            "update": "cities"
+        },{
+            "name": "Rumor: Industrial Revolution",
+            "update": "cities"
+        },{
+            "name": "Rumor: Quantum Matter",
+            "update": "cities"
+        },{
+            "name": "Rumor: Shark Bait",
+            "update": "island"
+        },{
+            "name": "Rumor: The Island",
+            "update": "island"
+        },{
+            "name": "Rumor: Tuna Bait",
+            "update": "island"
+        },{
+            "name": "Rumor: World of Death",
+            "update": "cursed_worlds"
+        },{
+            "name": "Rumor: World of Greed",
+            "update": "cursed_worlds"
+        },{
+            "name": "Rumor: World of Sadness",
+            "update": "cursed_worlds"
         }
     ],
     "equipment":[
