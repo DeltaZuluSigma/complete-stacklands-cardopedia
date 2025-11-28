@@ -1957,20 +1957,108 @@
             "update": "cursed_worlds",
             "tag": ["melee"]
         },{
+            "name": "Bear Claw",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
             "name": "Blowpipe",
             "update": "cursed_worlds",
             "tag": ["ranged"]
+        },{
+            "name": "Blunderbuss",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Bone Spear",
+            "update": "dark_forest",
+            "tag": ["melee"]
         },{
             "name": "Bone Staff",
             "update": "cursed_worlds",
             "tag": ["magic"]
         },{
+            "name": "Boomerang",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Bow",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Broken Bottle",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
             "name": "Chainmail Armor",
             "update": "cursed_worlds",
             "tag": ["chest"]
         },{
+            "name": "Club",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Crab Scale Armor",
+            "update": "dark_forest",
+            "tag": ["chest"]
+        },{
+            "name": "Crossbow",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Cursed Wand",
+            "update": "cursed_worlds",
+            "tag": ["magic"]
+        },{
             "name": "Dark Amulet",
             "update": "cursed_worlds",
+            "tag": ["head"]
+        },{
+            "name": "Demon Sword",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Dragonscale Armor",
+            "update": "cursed_worlds",
+            "tag": ["chest"]
+        },{
+            "name": "Fancy Dress",
+            "update": "cursed_worlds",
+            "tag": ["chest"]
+        },{
+            "name": "Fire Cloak",
+            "update": "dark_forest",
+            "tag": ["chest"]
+        },{
+            "name": "Fishing Rod",
+            "update": "island",
+            "tag": ["ranged"]
+        },{
+            "name": "Forest Amulet",
+            "update": "dark_forest",
+            "tag": ["head"]
+        },{
+            "name": "Frog Helmet",
+            "update": "dark_forest",
+            "tag": ["head"]
+        },{
+            "name": "Goblin Hat",
+            "update": "dark_forest",
+            "tag": ["head"]
+        },{
+            "name": "Golden Chestplate",
+            "update": "dark_forest",
+            "tag": ["chest"]
+        },{
+            "name": "Guard's Tunic",
+            "update": "cursed_worlds",
+            "tag": ["chest"]
+        },{
+            "name": "Hammer",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Helmet",
+            "update": "dark_forest",
             "tag": ["head"]
         }
     ],
