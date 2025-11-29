@@ -2226,11 +2226,57 @@
         {
             "name": "Curse of Death",
             "update": "cursed_worlds"
+        },{
+            "name": "Curse of Greed",
+            "update": "cursed_worlds"
+        },{
+            "name": "Curse of Sadness",
+            "update": "cursed_worlds"
+        },{
+            "name": "Shaman",
+            "update": "cursed_worlds",
+            "tag": ["npc"]
+        },{
+            "name": "Spirit of Death",
+            "update": "cursed_worlds",
+            "tag": ["npc"]
+        },{
+            "name": "Spirit of Greed",
+            "update": "cursed_worlds",
+            "tag": ["npc"]
+        },{
+            "name": "Spirit of Sadness",
+            "update": "cursed_worlds",
+            "tag": ["npc"]
         }
     ],
     "weather":[
         {
             "name": "Lightning",
+            "update": "cities"
+        },{
+            "name": "Rain",
+            "update": "cities"
+        },{
+            "name": "Sunshine",
+            "update": "cities"
+        },{
+            "name": "Wind",
+            "update": "cities"
+        },{
+            "name": "Earthquake",
+            "update": "cities"
+        },{
+            "name": "Financial Crisis",
+            "update": "cities"
+        },{
+            "name": "Goblin Conflict",
+            "update": "cities"
+        },{
+            "name": "Pollution",
+            "update": "cities"
+        },{
+            "name": "Wildfire",
             "update": "cities"
         }
     ],
@@ -2238,11 +2284,53 @@
         {
             "name": "Drought",
             "update": "cities"
+        },{
+            "name": "Crashed UFO",
+            "update": "cities"
+        },{
+            "name": "Festival",
+            "update": "cities"
+        },{
+            "name": "Industrial Revolution",
+            "update": "cities"
+        },{
+            "name": "Pack Sale",
+            "update": "cities"
         }
     ],
     "landmarks":[
         {
             "name": "Academy",
+            "update": "cities"
+        },{
+            "name": "Airport",
+            "update": "cities"
+        },{
+            "name": "Art Gallery",
+            "update": "cities"
+        },{
+            "name": "Cinema",
+            "update": "cities"
+        },{
+            "name": "City Park",
+            "update": "cities"
+        },{
+            "name": "Hospital",
+            "update": "cities"
+        },{
+            "name": "Stadium",
+            "update": "cities"
+        },{
+            "name": "Theme Park",
+            "update": "cities"
+        },{
+            "name": "Toy Shop",
+            "update": "cities"
+        },{
+            "name": "Villager Statue",
+            "update": "cities"
+        },{
+            "name": "Zoo",
             "update": "cities"
         }
     ],
