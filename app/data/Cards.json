@@ -2060,6 +2060,166 @@
             "name": "Helmet",
             "update": "dark_forest",
             "tag": ["head"]
+        },{
+            "name": "Horned Helmet",
+            "update": "dark_forest",
+            "tag": ["head"]
+        },{
+            "name": "Iron Shield",
+            "update": "dark_forest",
+            "tag": ["chest"]
+        },{
+            "name": "Jester's Hat",
+            "update": "cursed_worlds",
+            "tag": ["head"]
+        },{
+            "name": "Kraken Tooth Axe",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Leather Tunic",
+            "update": "dark_forest",
+            "tag": ["chest"]
+        },{
+            "name": "Magic Blade",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Magic Broom",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Magic Ring",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Magic Staff",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Magic Tome",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Magic Wand",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Map",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Morning Star",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Mountain Amulet",
+            "update": "dark_forest",
+            "tag": ["head"]
+        },{
+            "name": "Pickaxe",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Pirate Hat",
+            "update": "dark_forest",
+            "tag": ["head"]
+        },{
+            "name": "Pirate Sabre",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Plague Mask",
+            "update": "cursed_worlds",
+            "tag": ["head"]
+        },{
+            "name": "Possessed Blade",
+            "update": "cursed_worlds",
+            "tag": ["melee"]
+        },{
+            "name": "Purple Socks",
+            "update": "cursed_worlds",
+            "tag": ["chest"]
+        },{
+            "name": "Quiver",
+            "update": "dark_forest",
+            "tag": ["chest"]
+        },{
+            "name": "Rabbit Hat",
+            "update": "dark_forest",
+            "tag": ["head"]
+        },{
+            "name": "Rag",
+            "update": "cursed_worlds",
+            "tag": ["chest"]
+        },{
+            "name": "Rat Crown",
+            "update": "dark_forest",
+            "tag": ["head"]
+        },{
+            "name": "Royal Crown",
+            "update": "cursed_worlds",
+            "tag": ["head"]
+        },{
+            "name": "Scythe",
+            "update": "cursed_worlds",
+            "tag": ["melee"]
+        },{
+            "name": "Skull Helmet",
+            "update": "dark_forest",
+            "tag": ["head"]
+        },{
+            "name": "Slingshot",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Spear",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Spiked Plank",
+            "update": "dark_forest",
+            "tag": ["melee"]
+        },{
+            "name": "Staff of Fear",
+            "update": "dark_forest",
+            "tag": ["magic"]
+        },{
+            "name": "Sword",
+            "update": "original",
+            "tag": ["melee"]
+        },{
+            "name": "Throwing Stars",
+            "update": "dark_forest",
+            "tag": ["ranged"]
+        },{
+            "name": "Tiger Fur Coat",
+            "update": "dark_forest",
+            "tag": ["chest"]
+        },{
+            "name": "Tomatoes",
+            "update": "cursed_worlds",
+            "tag": ["ranged"]
+        },{
+            "name": "Whip",
+            "update": "cursed_worlds",
+            "tag": ["ranged"]
+        },{
+            "name": "Winter Coat",
+            "update": "cursed_worlds",
+            "tag": ["chest"]
+        },{
+            "name": "Wizard Robe",
+            "update": "dark_forest",
+            "tag": ["chest"]
+        },{
+            "name": "Wolf Head",
+            "update": "dark_forest",
+            "tag": ["head"]
+        },{
+            "name": "Wooden Shield",
+            "update": "dark_forest",
+            "tag": ["chest"]
         }
     ],
     "spirits-n-curses":[
