@@ -3,7 +3,7 @@
         "card-id": "academy",
         "flavour-text": "Used to educate your Workers",
         "extra-text": [
-            "Requires: 1x Sewer, 1x LV Power"
+            "Requires:\n1x Low Voltage\n1x Sewer"
         ],
         "recipe": [
             "\"landmark_academy\" 30s"
@@ -14,15 +14,41 @@
             "\"robot_genius\""
         ]
     },{
+        "card-id": "airport",
+        "flavour-text": "Time for holidays!",
+        "extra-text": [
+            "Requires:\n2x High Voltage\n2x Sewer",
+            "Wellbeing Conditions:\nHas energy: +2\nLandmark in city for first time: +5\nDoesn't have energy: -2"
+        ],
+        "recipe": [
+            "\"landmark_airport\" #s"
+        ]
+    },{
+        "card-id": "alien",
+        "flavour-text": "Worker from outer space",
+        "sources": [
+            "\"crashed_ufo\" (2%)"
+        ]
+    },{
         "card-id": "altar",
         "flavour-text": "Used for summoning Spirits",
         "recipe": [
             "\"idea_altar\" 30s"
         ],
         "uses": [
-            "\"spirit_of_sadness\"",
-            "\"spirit_of_greed\"",
-            "\"spirit_of_death\""
+            "\"rumor_spirit_of_sadness\"",
+            "\"rumor_spirit_of_greed\"",
+            "\"rumor_spirit_of_death\""
+        ]
+    },{
+        "card-id": "angry_royal",
+        "flavour-text": "You have angered the most important man alive",
+        "combat-text": "133|ATME,AS5,HC5,DA6,DF5",
+        "drops": [
+            "\"royal_crown\""
+        ],
+        "sources": [
+            "By placing a \"villager\" on top of the \"royal\" 9 times"
         ]
     },{
         "card-id": "animal_pen",
@@ -34,6 +60,16 @@
         "uses": [
             "\"breeding_pen\"",
             "\"petting_zoo\""
+        ]
+    },{
+        "card-id": "apartment",
+        "flavour-text": "Houses 5 Workers for cheap",
+        "extra-text": [
+            "Requires:\n1x Low Voltage\n1x Sewer",
+            "Wellbeing Conditions:\nNot able to consume 4 food: -2"
+        ],
+        "recipe": [
+            "\"idea_apartment\" 20s"
         ]
     },{
         "card-id": "apple",
@@ -60,10 +96,63 @@
             "\"forest\" (5%)"
         ]
     },{
+        "card-id": "aquarium",
+        "flavour-text": "Can hold 5 Fish",
+        "recipe": [
+            "\"idea_aquarium\" 30s"
+        ]
+    },{
+        "card-id": "archer",
+        "flavour-text": "Afraid to get too close",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2",
+        "sources": [
+            "Equipping a \"villager\" with a:\n\"bow\"\n\"crossbow\""
+        ]
+    },{
+        "card-id": "art_gallery",
+        "flavour-text": "Converts 50 Money into an Artwork",
+        "extra-text": [
+            "Transport: 1 Input",
+            "Wellbeing Conditions:\nLandmark in city for first time: +2"
+        ],
+        "recipe": [
+            "\"landmark_art_gallery\" #s"
+        ],
+        "uses": [
+            "\"artwork\""
+        ]
+    },{
         "card-id": "artwork",
         "flavour-text": "The next Van Gogh?",
+        "extra-text": [
+            "Wellbeing Conditions:\nIn the city: +2"
+        ],
         "recipe": [
-            "40 \"dollar\"\n\"art_gallery\"\n60s"
+            "50 \"dollar\"\n\"art_gallery\"\n60s"
+        ]
+    },{
+        "card-id": "attack_helicopter",
+        "flavour-text": "Eye in the sky",
+        "combat-text": "52|ATAI,AS4,HC4,DA4,DF4",
+        "recipe": [
+            "\"idea_attack_helicopter\" #s"
+        ]
+    },{
+        "card-id": "baby",
+        "flavour-text": "A young'un. Needs a House to grow up in.",
+        "extra-text": [
+            "Fed first at the end of a Moon, and consumes half the food of a regular \"villager\"",
+            "Cannot work, fight, or be targeted by mobs"
+        ],
+        "recipe": [
+            "\"idea_offspring\" 20s"
+        ],
+        "sources": [
+            "\"jungle\" (5%)"
+        ],
+        "uses": [
+            "\"villager\"",
+            "\"young_villager\""
         ]
     },{
         "card-id": "axe",
@@ -324,7 +413,6 @@
         "flavour-text": "A hard-working pioneer",
         "combat-text": "14|ATME,AS2,HC3,DA2,DF1",
         "recipe": [
-            "\"idea_offspring\"",
             "1x \"house\"\n1x \"baby\"\n240s"
         ],
         "sources": [

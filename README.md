@@ -31,18 +31,3 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 * **Visible:** flavour-text; combat-text; equip-text; text-ref; extra-text
 * **Collapsed:** drops; recipe; sources; uses
 * Fields are ordered
-
-### More Info / Validation Required
-* Mainland
-   * Idea: Altar
-   * Rumor: Combat
-   * Shaman
-   * New Weaponry Pack
-   * University
-* Island
-   * Pirate Boat
-* World of Death
-   * Curse of Death
-   * Life is Short Pack (NAY)
-* Cities
-   * Wild Weather Pack

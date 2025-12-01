@@ -92,7 +92,7 @@ export function UnpackNewline(
     const out = [];
 
     if (encodedFlags < 0 || encodedFlags > 7) encodedFlags = 0;
-    // noNLBullet; endSpace; noLeadBullet
+    // NLBullet; endSpace; noLeadBullet
     const strFlags = encodedFlags.toString(2).split('').reverse();
     const flags = [strFlags[0] == '1',strFlags[1] == '1',strFlags[2] == '1'];
 

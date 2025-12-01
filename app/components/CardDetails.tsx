@@ -63,12 +63,8 @@ export default function CardDetails({ cardID }) {
                         </p>
                 );
 
-                selectedCard[field].forEach(( ele, idx ) => {
-                    allDetails.push(
-                        <p key={`${field}-${idx}`} className="space-after">
-                            {ConvertLink(ele)}
-                        </p>
-                    );
+                selectedCard[field].forEach(ele => {
+                    allDetails.push(UnpackNewline(ele,ConvertLink,6));
                 });
 
                 break;
