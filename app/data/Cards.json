@@ -25,7 +25,7 @@
         },{
             "name": "Banana Tree",
             "update": "island",
-            "tag": ["source", "island"]
+            "tag": ["source"]
         },{
             "name": "Barracks",
             "update": "cities"
@@ -82,7 +82,7 @@
         },{
             "name": "Cotton Plant",
             "update": "island",
-            "tag": ["source", "island"]
+            "tag": ["source"]
         },{
             "name": "Crane",
             "update": "order_structure"
@@ -164,14 +164,14 @@
         },{
             "name": "Gold Deposit",
             "update": "island",
-            "tag": ["source", "island"]
+            "tag": ["source"]
         },{
             "name": "Gold Mine",
             "update": "island"
         },{
             "name": "Grape Vine",
             "update": "cursed_worlds",
-            "tag": ["source", "greed"]
+            "tag": ["source"]
         },{
             "name": "Gravel Deposit",
             "update": "cities",
@@ -265,7 +265,7 @@
         },{
             "name": "Olive Tree",
             "update": "cursed_worlds",
-            "tag": ["source", "greed"]
+            "tag": ["source"]
         },{
             "name": "Outhouse",
             "update": "cursed_worlds"
@@ -548,7 +548,8 @@
             "update": "cities"
         },{
             "name": "Royal",
-            "update": "cursed_worlds"
+            "update": "cursed_worlds",
+            "tag": ["npc"]
         },{
             "name": "Sniper",
             "update": "cities"
@@ -642,7 +643,7 @@
         },{
             "name": "Cotton",
             "update": "island",
-            "tag": ["farming", "island"]
+            "tag": ["farming", "island", "sadness"]
         },{
             "name": "Dragon Egg",
             "update": "cursed_worlds"
@@ -654,8 +655,7 @@
             "update": "island"
         },{
             "name": "Euphoria",
-            "update": "cursed_worlds",
-            "tag": ["sadness"]
+            "update": "cursed_worlds"
         },{
             "name": "Fabric",
             "update": "island"
@@ -677,7 +677,7 @@
         },{
             "name": "Gold Ore",
             "update": "island",
-            "tag": ["island"]
+            "tag": ["island", "greed"]
         },{
             "name": "Golden Goblet",
             "update": "original"
@@ -689,8 +689,7 @@
             "update": "cities"
         },{
             "name": "Happiness",
-            "update": "cursed_worlds",
-            "tag": ["sadness"]
+            "update": "cursed_worlds"
         },{
             "name": "Iron Bar",
             "update": "original"
@@ -1453,7 +1452,7 @@
         },{
             "name": "Banana",
             "update": "island",
-            "tag": ["farming"]
+            "tag": ["farming", "island"]
         },{
             "name": "Beer",
             "update": "cursed_worlds"
@@ -1476,7 +1475,7 @@
         },{
             "name": "Cane Sugar",
             "update": "island",
-            "tag": ["farming"]
+            "tag": ["farming", "island"]
         },{
             "name": "Carrot",
             "update": "original",
@@ -1489,7 +1488,8 @@
             "update": "cursed_worlds"
         },{
             "name": "Chili Pepper",
-            "update": "island"
+            "update": "island",
+            "tag": ["farming", "island"]
         },{
             "name": "Cooked Crab",
             "update": "island"
@@ -1530,7 +1530,7 @@
         },{
             "name": "Grape",
             "update": "cursed_worlds",
-            "tag": ["farming"]
+            "tag": ["farming", "death", "greed"]
         },{
             "name": "Grape Pulp",
             "update": "cursed_worlds"
@@ -1542,10 +1542,12 @@
             "update": "cursed_worlds"
         },{
             "name": "Herbs",
-            "update": "cursed_worlds"
+            "update": "cursed_worlds",
+            "tag": ["farming", "death"]
         },{
             "name": "Lime",
-            "update": "island"
+            "update": "island",
+            "tag": ["farming", "island"]
         },{
             "name": "Milk",
             "update": "original"
@@ -1557,11 +1559,12 @@
             "update": "cities"
         },{
             "name": "Mushroom",
-            "update": "original"
+            "update": "original",
+            "tag": ["farming"]
         },{
             "name": "Olive",
             "update": "cursed_worlds",
-            "tag": ["farming"]
+            "tag": ["farming", "greed"]
         },{
             "name": "Olive Oil",
             "update": "cursed_worlds"
@@ -1573,7 +1576,8 @@
             "update": "original"
         },{
             "name": "Onion",
-            "update": "original"
+            "update": "original",
+            "tag": ["farming"]
         },{
             "name": "Pancakes",
             "update": "cursed_worlds"
@@ -1604,7 +1608,8 @@
             "update": "island"
         },{
             "name": "Seaweed",
-            "update": "island"
+            "update": "island",
+            "tag": ["farming", "island"]
         },{
             "name": "Stew",
             "update": "original"
@@ -1616,14 +1621,15 @@
             "update": "island"
         },{
             "name": "Tomato",
-            "update": "cursed_worlds"
+            "update": "cursed_worlds",
+            "tag": ["farming", "sadness"]
         },{
             "name": "Water",
             "update": "island"
         },{
             "name": "Wheat",
             "update": "cursed_worlds",
-            "tag": ["farming"]
+            "tag": ["farming", "sadness", "greed"]
         },{
             "name": "Wine",
             "update": "cursed_worlds"
@@ -2295,6 +2301,7 @@
             "update": "cities"
         },{
             "name": "Pack Sale",
+            "image-id": "event_pack_sale",
             "update": "cities"
         }
     ],
@@ -2336,14 +2343,219 @@
     ],
     "booster-packs":[
         {
+            "name": "A New World",
+            "image-id": "pack_a_new_world",
+            "update": "original",
+            "tag": ["mainland"]
+        },{
+            "name": "Advanced Archipelago",
+            "image-id": "pack_advanced_archipelago",
+            "update": "island",
+            "tag": ["island"]
+        },{
+            "name": "Advanced Automation",
+            "image-id": "pack_advanced_automation",
+            "update": "cities"
+        },{
+            "name": "Animal Lives",
+            "image-id": "pack_animal_lives",
+            "update": "cursed_worlds",
+            "tag": ["death"]
+        },{
+            "name": "Black Gold",
+            "image-id": "pack_black_gold",
+            "update": "cities"
+        },{
+            "name": "Courtyard Contraptions",
+            "image-id": "pack_courtyard_contraptions",
+            "update": "cursed_worlds",
+            "tag": ["greed"]
+        },{
+            "name": "Curious Cuisine",
+            "image-id": "pack_curious_cuisine",
+            "update": "original",
+            "tag": ["mainland"]
+        },{
+            "name": "Daily Life",
+            "image-id": "pack_daily_life",
+            "update": "cursed_worlds",
+            "tag": ["death"]
+        },{
+            "name": "Deep Thoughts",
+            "image-id": "pack_deep_thoughts",
+            "update": "cursed_worlds",
+            "tag": ["death"]
+        },{
+            "name": "Department of Defense",
+            "image-id": "pack_department_of_defense",
+            "update": "cities"
+        },{
+            "name": "Enclave Explorers",
+            "image-id": "pack_enclave_explorers",
+            "update": "island",
+            "tag": ["island"]
+        },{
+            "name": "Explorers",
+            "image-id": "pack_explorers",
+            "update": "original",
+            "tag": ["mainland"]
+        },{
+            "name": "Fresh Isle",
+            "image-id": "pack_fresh_isle",
+            "update": "island",
+            "tag": ["island"]
+        },{
+            "name": "Greedy Intro",
+            "image-id": "pack_greedy_intro",
+            "update": "cursed_worlds",
+            "tag": ["greed"]
+        },{
+            "name": "Grilling and Brewing",
+            "image-id": "pack_grilling_and_brewing",
+            "update": "island",
+            "tag": ["island"]
+        },{
+            "name": "Happy Animals",
+            "image-id": "pack_happy_animals",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "Happy Ever After",
+            "image-id": "pack_happy_ever_after",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "Happy Start",
+            "image-id": "pack_happy_start",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "Happy Thoughts",
+            "image-id": "pack_happy_thoughts",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
             "name": "Humble Beginnings",
             "image-id": "pack_humble_beginnings",
             "update": "original",
             "tag": ["mainland"]
         },{
+            "name": "Impressive Industry",
+            "image-id": "pack_impressive_industry",
+            "update": "cities"
+        },{
+            "name": "Industrial Revolution",
+            "image-id": "pack_industrial_revolution",
+            "update": "cities"
+        },{
+            "name": "Island Insights",
+            "image-id": "pack_island_insights",
+            "update": "island",
+            "tag": ["island"]
+        },{
+            "name": "Island of Ideas",
+            "image-id": "pack_island_of_ideas",
+            "update": "island",
+            "tag": ["island"]
+        },{
+            "name": "Life is Short",
+            "image-id": "pack_life_is_short",
+            "update": "cursed_worlds",
+            "tag": ["death"]
+        },{
+            "name": "Logic and Reason",
+            "image-id": "pack_logic_and_reason",
+            "update": "original",
+            "tag": ["mainland"]
+        },{
+            "name": "Major Metals",
+            "image-id": "pack_major_metals",
+            "update": "cities"
+        },{
+            "name": "Modern Solutions",
+            "image-id": "pack_modern_solutions",
+            "update": "cities"
+        },{
+            "name": "New Weaponry",
+            "image-id": "pack_new_weaponry",
+            "update": "dark_forest"
+        },{
+            "name": "Noble Creatures",
+            "image-id": "pack_noble_creatures",
+            "update": "cursed_worlds",
+            "tag": ["greed"]
+        },{
+            "name": "On the Shore",
+            "image-id": "pack_on_the_shore",
+            "update": "island",
+            "tag": ["island"]
+        },{
+            "name": "Order and Structure",
+            "image-id": "pack_order_and_structure",
+            "update": "order_structure",
+            "tag": ["mainland"]
+        },{
+            "name": "Precious Resources",
+            "image-id": "pack_precious_resources",
+            "update": "cities"
+        },{
+            "name": "Pure Greed",
+            "image-id": "pack_pure_greed",
+            "update": "cursed_worlds",
+            "tag": ["greed"]
+        },{
+            "name": "Reap & Sow",
+            "image-id": "pack_reap_n_sow",
+            "update": "original",
+            "tag": ["mainland"]
+        },{
+            "name": "Royal Inventor",
+            "image-id": "pack_royal_inventor",
+            "update": "cursed_worlds",
+            "tag": ["greed"]
+        },{
+            "name": "Royal Luxuries",
+            "image-id": "pack_royal_luxuries",
+            "update": "cursed_worlds",
+            "tag": ["greed"]
+        },{
+            "name": "Seeking Wisdom",
+            "image-id": "pack_seeking_wisdom",
+            "update": "original",
+            "tag": ["mainland"]
+        },{
+            "name": "Simple Life",
+            "image-id": "pack_simple_life",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "Soul Food",
+            "image-id": "pack_soul_food",
+            "update": "cursed_worlds",
+            "tag": ["sadness"]
+        },{
+            "name": "The Armory",
+            "image-id": "pack_the_armory",
+            "update": "original",
+            "tag": ["mainland"]
+        },{
+            "name": "The End",
+            "image-id": "pack_the_end",
+            "update": "cursed_worlds",
+            "tag": ["death"]
+        },{
+            "name": "The Island?",
+            "image-id": "pack_the_island",
+            "update": "island"
+        },{
             "name": "Wild Weather",
             "image-id": "pack_wild_weather",
             "update": "cities"
+        },{
+            "name": "Wisdom of Life",
+            "image-id": "pack_wisdom_of_life",
+            "update": "cursed_worlds",
+            "tag": ["death"]
         }
     ]
 }

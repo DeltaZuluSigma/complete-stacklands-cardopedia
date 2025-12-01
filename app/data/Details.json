@@ -267,10 +267,12 @@
     },{
         "card-id": "pack_humble_beginnings",
         "extra-text": [
-            "Costs 3 Coins"
+            "Unlocks after completing 3 Quests, and costs 3 Coins",
+            "\"disclaimer_packs\""
         ],
         "drops": [
-            "3x:\n\"wood\" (19%)\n\"stone\" (19%)\n\"tree\" (13%)\n\"rock\" (13%)\n\"berry_bush\" (13%)\n\"soil\" (13%)\n\"rabbit\" (3%)\n\"rat\" (3%)\n\"key\" (3%)"
+            "\"idea_growth\", \"idea_house\", \"idea_offspring\", \"idea_stick\", and 1 \"soil\" will be a part of the undiscovered card pool until discovered",
+            "3x:\n\"wood\" (22%)\n\"stone\" (22%)\n\"tree\" (15%)\n\"rock\" (15%)\n\"berry_bush\" (15%)\n\"rabbit\" (4%)\n\"rat\" (4%)\n\"key\" (4%)"
         ]
     },{
         "card-id": "pack_wild_weather",
@@ -279,7 +281,7 @@
         ],
         "drops": [
             "2 of:\n\"lightning\"\n\"rain\"\n\"sunshine\"\n\"wind\"",
-            "1 of:\n\"drought\"\n\"earthquake\"\n\"financial_crisis\"\n\"wildfire\"\n\"crashed_ufo\"\n\"festival\"\n\"event_pack_sale\""
+            "1 of:\n\"drought\"\n\"earthquake\"\n\"financial_crisis\"\n\"wildfire\"\n\"crashed_ufo\"\n\"festival\"\n\"pack_sale\""
         ]
     },{
         "card-id": "pirate_boat",
@@ -326,8 +328,12 @@
             "1x \"house\"\n1x \"baby\"\n240s"
         ],
         "sources": [
-            "\"pack_a_new_world\" (100%)",
-            "Your 7th booster pack in a new world",
+            "\"pack_a_new_world\"",
+            "\"pack_life_is_short\"",
+            "\"pack_happy_start\"",
+            "\"pack_greedy_intro\"",
+            "Your 6th booster pack in a new world",
+            "After the 5th Moon in \"board_greed\"",
             "Every 5th \"packs_mainland\" after the 10th pack, IF only 1 human villager is alive",
             "\"old_village\" (9%)"
         ]

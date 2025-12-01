@@ -11,15 +11,17 @@ export default function DisplayCard() {
 
     // Valid card check
     if (ValidateCard(imageID)) {
+        const bpack = imageID.startsWith("pack_");
+
         return (
             <>
                 <div className="display-area">
                     <Image
                         src={`${IMG_PREFIX}/cards/${imageID}.png`}
                         alt={imageID}
-                        className="display-card"
-                        width={582}
-                        height={704}
+                        className={`display-pos ${bpack ? "display-pack" : "display-card"}`}
+                        width={bpack ? 616 : 582}
+                        height={bpack ? 800 : 704}
                     />
                 </div>
                 <CardDetails cardID={imageID}/>

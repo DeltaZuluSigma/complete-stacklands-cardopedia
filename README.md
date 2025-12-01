@@ -4,18 +4,22 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 ## To-Dos
 ### Current Bookmark
 * Add all cards images & data (& tags)
-   * Done: House
-* Apply binary search to 'FetchHelper' functions
+   * Card list complete - booster packs
+   * Details still needed (decompile?)
 
 ### Pending
 * Disclaimer cards
    * Equipment dropping
    * Villager type adoption
-   * Idea spawning
-   * Foil cards
+   * Idea discovery
+   * Pack logic (undiscovered card rates)
 * Refactoring
    * Fix 'Sidebar' CSS
-   * Animate plus/minus
+   * Replace & animate plus/minus
+   * Remove packs from card count
+   * Make collapsible full container size
+   * Apply binary search to 'FetchHelper' functions
+      * Separate search file?
 
 ### Future Implementation ... Maybe
 * Mobile styles

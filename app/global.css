@@ -164,13 +164,19 @@ a:hover {
     margin: 5px;
 
     /*** DISPLAY CARD ***/
-    .display-card {
+    .display-pos {
         position: relative;
-        width: 200px;
-        height: 250px;
         left: 50%;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
+    }
+    .display-card {
+        width: 200px;
+        height: 250px;
+    }
+    .display-pack {
+        width: 220px;
+        height: 300px;
     }
 }
 .larger {
