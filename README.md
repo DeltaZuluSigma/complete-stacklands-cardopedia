@@ -4,8 +4,8 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 ## To-Dos
 ### Current Bookmark
 * Add all cards images & data (& tags)
-   * Card list complete - booster packs
    * Details still needed (decompile?)
+   * Wiki Bookmark: banana_tree
 
 ### Pending
 * Disclaimer cards

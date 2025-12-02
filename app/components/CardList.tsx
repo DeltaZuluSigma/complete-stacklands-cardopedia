@@ -86,7 +86,7 @@ function DollarCheck( cardName:string ) {
             <>
                 {`• ${cardName.substring(0,cardName.indexOf("\"")-1)}`}
                 <Image
-                    src={`${IMG_PREFIX}/ui/dark_dollar.png`}
+                    src={`${IMG_PREFIX}/ui/dollar_icon.png`}
                     alt="dollar"
                     className="inline icon"
                     width={256}

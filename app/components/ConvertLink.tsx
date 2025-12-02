@@ -9,8 +9,7 @@ const BOARDS = new Map([
     ["island","Island"],
     ["death","World of Death"],
     ["greed","World of Greed"],
-    ["sadness","World of Sadness"],
-    ["cities","Cities"]
+    ["sadness","World of Sadness"]
 ]);
 
 // ConvertLinks - Converts quoted text into their respective link with JSON references

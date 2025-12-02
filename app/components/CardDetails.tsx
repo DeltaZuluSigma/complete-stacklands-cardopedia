@@ -1,5 +1,7 @@
+import Image from "next/image";
+
 import { FetchCardDetails } from "../utils/FetchHelpers";
-import { Capitalize, UnpackNewline, DecodeCEText } from "../utils/GenericHelpers";
+import { IMG_PREFIX, Capitalize, UnpackNewline, DecodeCEText } from "../utils/GenericHelpers";
 import Collapsible from "./Collapsible";
 import ConvertLink from "./ConvertLink";
 
@@ -12,7 +14,7 @@ export default function CardDetails({ cardID }) {
     fields.forEach( field => {
         switch (field) {
             case "flavour-text":    // Flavour Text
-                allDetails.push(UnpackNewline(selectedCard[field],undefined,2));
+                allDetails.push(UnpackNewline(selectedCard[field],FTCurrencyIcons,2));
 
                 break;
             case "combat-text":
@@ -93,5 +95,26 @@ export default function CardDetails({ cardID }) {
         <div className="card-detail">
             {allDetails}
         </div>
+    );
+}
+
+function FTCurrencyIcons( line:string ) {
+    if (!line.includes('\"')) return line;
+    if (!line.includes('_icon')) return ConvertLink(line);
+
+    const sep = line.split('\"');
+    
+    return (
+        <>
+            {sep[0]}
+            <Image
+                src={`${IMG_PREFIX}/ui/${sep[1]}.png`}
+                alt={sep[1]}
+                className="inline icon"
+                width={256}
+                height={256}
+            />
+            {sep[2]}
+        </>
     );
 }
