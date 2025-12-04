@@ -740,6 +740,9 @@
         "card-id": "euphoria",
         "flavour-text": "A feeling or state of intense excitement and happiness"
     },{
+        "card-id": "event_pack_sale",
+        "flavour-text": "Packs are 25% off!"
+    },{
         "card-id": "explorer",
         "flavour-text": "Very fast at exploring Locations, but slightly slower at other tasks",
         "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
@@ -827,7 +830,8 @@
         "card-id": "fishing_spot",
         "flavour-text": "A body of water filled with Fish",
         "drops": [
-            "1x \"cod\" OR 1x \"mackerel\" with \"fisher\""
+            "1x \"cod\"",
+            "1x \"mackerel\" with \"fisher\""
         ]
     },{
         "card-id": "flint",
@@ -845,7 +849,19 @@
         "card-id": "forest",
         "flavour-text": "A quaint place that also contains monsters",
         "drops": [
-            "\"stick\" (16%)\n\"berry_bush\" (11%)\n\"tree\" (11%)\n\"rabbit\" (11%)\n\"mushroom\" (11%)\n\"catacombs\" (8%)\n\"apple\" (5%)\n\"treasure_chest\" (5%)\n\"apple_tree\" (5%)\n\"slime\" (4%)\n\"goblin\" (4%)\n\"goblin_archer\" (4%)\n\"rat\" (4%)"
+            "\"stick\" (16%)",
+            "\"berry_bush\" (11%)",
+            "\"tree\" (11%)",
+            "\"rabbit\" (11%)",
+            "\"mushroom\" (11%)",
+            "\"catacombs\" (8%)",
+            "\"apple\" (5%)",
+            "\"treasure_chest\" (5%)",
+            "\"apple_tree\" (5%)",
+            "\"slime\" (4%)",
+            "\"goblin\" (4%)",
+            "\"goblin_archer\" (4%)",
+            "\"rat\" (4%)"
         ]
     },{
         "card-id": "forest_amulet",
@@ -1051,7 +1067,12 @@
         "card-id": "graveyard",
         "flavour-text": "Very different from a normal yard",
         "drops": [
-            "\"soil\" (25%)\n\"treasure_chest\" (25%)\n\"bone\" (13%)\n\"skeleton\" (13%)\n\"corpse\" (13%)\n\"catacombs\" (13%)"
+            "\"soil\" (25%)",
+            "\"treasure_chest\" (25%)",
+            "\"bone\" (13%)",
+            "\"skeleton\" (13%)",
+            "\"corpse\" (13%)",
+            "\"catacombs\" (13%)"
         ]
     },{
         "card-id": "greenhouse",
@@ -1120,6 +1141,740 @@
             "Talking to the \"shaman\""
         ]
     },{
+        "card-id": "idea_animal_cage",
+        "flavour-text": "3x \"stick\"\n1x \"villager\""
+    },{
+        "card-id": "idea_animal_pen",
+        "flavour-text": "2x \"plank\"\n2x \"wood\"\n1x \"iron_bar\"\n1x \"villager\""
+    },{
+        "card-id": "idea_apartment",
+        "flavour-text": "3x \"cement\"\n1x \"worker\""
+    },{
+        "card-id": "idea_aquarium",
+        "flavour-text": "2x \"glass\"\n1x \"iron_bar\"\n1x \"villager\""
+    },{
+        "card-id": "idea_attack_helicopter",
+        "flavour-text": "1x \"barracks\"\n3x \"electric_motor\"\n3x \"plastic\""
+    },{
+        "card-id": "idea_axe",
+        "flavour-text": "1x \"iron_bar\"\n1x \"stick\"\n1x \"wood\""
+    },{
+        "card-id": "idea_barracks",
+        "flavour-text": "2x \"cement\"\n1x \"iron_bar\"\n1x \"worker\""
+    },{
+        "card-id": "idea_barrel",
+        "flavour-text": "3x \"plank\"\n1x \"villager\""
+    },{
+        "card-id": "idea_beer",
+        "flavour-text": "1x \"barrel\"\n2x \"wheat\""
+    },{
+        "card-id": "idea_blunderbuss",
+        "flavour-text": "1x \"gold_bar\"\n1x \"iron_bar\"\n1x \"plank\"\n1x \"flint\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_bone_spear",
+        "flavour-text": "1x \"spear\"\n 1x \"bone\""
+    },{
+        "card-id": "idea_bone_staff",
+        "flavour-text": "1x \"magic_staff\"\n1x \"bone\"\n1x \"gold_bar\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_book",
+        "flavour-text": "3x \"paper\""
+    },{
+        "card-id": "idea_boomerang",
+        "flavour-text": "3x \"plank\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_bottle_of_rum",
+        "flavour-text": "1x \"distillery\"\n1x \"cane_sugar\"\n1x \"bottle_of_water\""
+    },{
+        "card-id": "idea_bow",
+        "flavour-text": "1x \"rope\"\n1x \"plank\"\n1x \"wood\""
+    },{
+        "card-id": "idea_bread",
+        "flavour-text": "1x \"oven\"\n1x \"dough\""
+    },{
+        "card-id": "idea_bread_2000",
+        "flavour-text": "1x \"factory\"\n1x \"grain\"\n1x \"water\""
+    },{
+        "card-id": "idea_breeding_pen",
+        "flavour-text": "1x \"animal_pen\"\n2x \"magic_dust\""
+    },{
+        "card-id": "idea_brick",
+        "flavour-text": "3x \"stone\"\n1x \"villager\""
+    },{
+        "card-id": "idea_brickyard",
+        "flavour-text": "1x \"brick\"\n1x \"iron_bar\"\n1x \"wood\"\n1x \"villager\""
+    },{
+        "card-id": "idea_broken_bottle",
+        "flavour-text": "1x \"empty_bottle\"\n1x \"stone\""
+    },{
+        "card-id": "idea_burner_generator",
+        "flavour-text": "1x \"factory_parts\"\n1x \"iron_bar\"\n1x \"worker\""
+    },{
+        "card-id": "idea_butchery",
+        "flavour-text": "1x \"raw_meat\"\n2x \"plank\"\n1x \"iron_bar\"\n1x \"villager\""
+    },{
+        "card-id": "idea_campfire",
+        "flavour-text": "1x \"stick\"\n1x \"flint\""
+    },{
+        "card-id": "idea_cathedral",
+        "flavour-text": "5x \"gold_bar\"\n5x \"glass\"\n5x \"brick\"\n5x \"plank\"\n5x \"villager\""
+    },{
+        "card-id": "idea_cement",
+        "flavour-text": "1x \"gravel\"\n1x \"water\""
+    },{
+        "card-id": "idea_ceviche",
+        "flavour-text": "1x \"line\"\n1x \"raw_fish\""
+    },{
+        "card-id": "idea_chainmail_armor",
+        "flavour-text": "2x \"iron_bar\"\n 1x \"smithy\""
+    },{
+        "card-id": "idea_charcoal",
+        "flavour-text": "1x \"campfire\"\n1x \"wood\""
+    },{
+        "card-id": "idea_charity",
+        "flavour-text": "1x \"brick\"\n1x \"coin\"\n1x \"villager\""
+    },{
+        "card-id": "idea_cheese",
+        "flavour-text": "2x \"milk\"\n1x \"barrel\""
+    },{
+        "card-id": "idea_chicken",
+        "flavour-text": "1x \"chicken\"\n1x \"egg\""
+    },{
+        "card-id": "idea_city_hall",
+        "flavour-text": "2x \"cement\"\n2x \"lumber\"\n1x \"ten_dollar\"\n1x \"worker\""
+    },{
+        "card-id": "idea_club",
+        "flavour-text": "2x \"wood\"\n1x \"stick\""
+    },{
+        "card-id": "idea_coin",
+        "flavour-text": "1x \"smelter\"\n1x \"gold_bar\"\n1x \"wood\""
+    },{
+        "card-id": "idea_coin_chest",
+        "flavour-text": "1x \"coin\"\n2x \"wood\""
+    },{
+        "card-id": "idea_composter",
+        "flavour-text": "2x \"poop\"\n1x \"plank\"\n1x \"brick\"\n1x \"villager\""
+    },{
+        "card-id": "idea_cooked_meat",
+        "flavour-text": "1x \"campfire\"\n1x \"raw_meat\""
+    },{
+        "card-id": "idea_crane",
+        "flavour-text": "1x \"iron_bar\"\n1x \"plank\"\n1x \"stick\"\n1x \"magic_dust\""
+    },{
+        "card-id": "idea_credit_card",
+        "flavour-text": "1x \"plastic\"\n1x \"hundred_dollar\"\n1x \"worker\""
+    },{
+        "card-id": "idea_crossbow",
+        "flavour-text": "1x \"rope\"\n1x \"plank\"\n1x \"wood\"\n1x \"iron_bar\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_crossroads",
+        "flavour-text": "1x \"brick\"\n1x \"flint\"\n1x \"villager\""
+    },{
+        "card-id": "idea_distillery",
+        "flavour-text": "1x \"stove\"\n1x \"iron_bar\"\n1x \"plank\"\n1x \"villager\""
+    },{
+        "card-id": "idea_dough",
+        "flavour-text": "2x \"flour\"\n1x \"water\""
+    },{
+        "card-id": "idea_dustbin",
+        "flavour-text": "1x \"villager\"\n1x \"iron_bar\"\n1x \"goop\""
+    },{
+        "card-id": "idea_electric_motor",
+        "flavour-text": "2x \"copper_bar\"\n1x \"factory\""
+    },{
+        "card-id": "idea_electricity_pylon",
+        "flavour-text": "1x \"cement\"\n2x \"iron_bar\"\n1x \"worker\""
+    },{
+        "card-id": "idea_empty_bottle",
+        "flavour-text": "1x \"campfire\"\n2x \"glass\""
+    },{
+        "card-id": "idea_energy_combiner",
+        "flavour-text": "1x \"cement\"\n1x \"metal_scraps\"\n1x \"worker\""
+    },{
+        "card-id": "idea_energy_splitter",
+        "flavour-text": "1x \"cement\"\n1x \"copper_bar\"\n1x \"worker\""
+    },{
+        "card-id": "idea_euphoria",
+        "flavour-text": "10x \"happiness\"\n3x \"villager\""
+    },{
+        "card-id": "idea_export_center",
+        "flavour-text": "1x \"factory_parts\"\n1x \"fifty_dollar\"\n1x \"worker\""
+    },{
+        "card-id": "idea_fabric",
+        "flavour-text": "4x \"cotton\"\n1x \"villager\""
+    },{
+        "card-id": "idea_factory",
+        "flavour-text": "2x \"factory_parts\"\n1x \"worker\""
+    },{
+        "card-id": "idea_factory_parts",
+        "flavour-text": "1x \"gravel\"\n1x \"metal scraps\""
+    },{
+        "card-id": "idea_fancy_dress",
+        "flavour-text": "2x \"wool\"\n1x \"rope\"\n2x \"stick\""
+    },{
+        "card-id": "idea_farm",
+        "flavour-text": "1x \"soil\"\n2x \"brick\"\n2x \"plank\"\n1x \"villager\""
+    },{
+        "card-id": "idea_farmland",
+        "flavour-text": "1x \"gravel\"\n2x \"lumber\"\n1x \"worker\""
+    },{
+        "card-id": "idea_fighter_jet",
+        "flavour-text": "1x \"barracks\"\n2x \"plastic\"\n2x \"electric_motor\""
+    },{
+        "card-id": "idea_filter_crossroads",
+        "flavour-text": "2x \"brick\"\n1x \"flint\"\n1x \"villager\""
+    },{
+        "card-id": "idea_filter_junction",
+        "flavour-text": "2x \"cement\"\n1x \"gravel\"\n1x \"worker\""
+    },{
+        "card-id": "idea_fish_and_chips",
+        "flavour-text": "1x \"french_fries\"\n1x \"fried_fish\""
+    },{
+        "card-id": "idea_fish_trap",
+        "flavour-text": "1x \"fishing_spot\"\n1x \"stone\"\n1x \"rope\""
+    },{
+        "card-id": "idea_fishing_rod",
+        "flavour-text": "1x \"stick\"\n1x \"rope\""
+    },{
+        "card-id": "idea_flour",
+        "flavour-text": "1x \"wheat\"\n1x \"villager\""
+    },{
+        "card-id": "idea_flour_mill",
+        "flavour-text": "1x \"stone\"\n1x \"wood\"\n1x \"rope\"\n1x \"villager\""
+    },{
+        "card-id": "idea_food_warehouse",
+        "flavour-text": "1x \"cement\"\n1x \"grain\"\n1x \"worker\""
+    },{
+        "card-id": "idea_forest_amulet",
+        "flavour-text": "2x \"gold_bar\"\n1x \"magic_dust\"\n1x \"wood\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_fountain_of_youth",
+        "flavour-text": "1x \"spring\"\n1x \"magic_dust\"\n1x \"young_villager\"\n1x \"villager\"\n1x \"old_villager\""
+    },{
+        "card-id": "idea_french_fries",
+        "flavour-text": "1x \"campfire\"\n1x \"potato\"\n1x \"olive_oil\""
+    },{
+        "card-id": "idea_fried_fish",
+        "flavour-text": "1x \"campfire\"\n1x \"raw_fish\"\n1x \"olive_oil\""
+    },{
+        "card-id": "idea_fried_meat",
+        "flavour-text": "1x \"campfire\"\n1x \"raw_meat\"\n1x \"olive_oil\""
+    },{
+        "card-id": "idea_frigate",
+        "flavour-text": "10x \"plank\"\n3x \"sail\"\n2x \"villager\""
+    },{
+        "card-id": "idea_frittata",
+        "flavour-text": "1x \"campfire\"\n1x \"egg\"\n1x \"potato\""
+    },{
+        "card-id": "idea_fruit_salad",
+        "flavour-text": "1x \"apple\"\n1x \"berry\""
+    },{
+        "card-id": "idea_fruit_salad",
+        "flavour-text": "1x \"apple\"\n1x \"grape\""
+    },{
+        "card-id": "idea_garden",
+        "flavour-text": "1x \"soil\"\n2x \"stone\"\n2x \"wood\"\n1x \"villager\""
+    },{
+        "card-id": "idea_glass",
+        "flavour-text": "1x \"smelter\"\n1x \"wood\"\n1x \"sand\""
+    },{
+        "card-id": "idea_gold_bar",
+        "flavour-text": "1x \"smelter\"\n1x \"wood\"\n1x \"gold_ore\""
+    },{
+        "card-id": "idea_gold_mine",
+        "flavour-text": "1x \"flint\"\n1x \"gold_ore\"\n1x \"wood\"\n1x \"stone\"\n1x \"villager\""
+    },{
+        "card-id": "idea_golden_chestplate",
+        "flavour-text": "2x \"gold_bar\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_grape_pulp",
+        "flavour-text": "2x \"grape\"\n1x \"villager\""
+    },{
+        "card-id": "idea_greenhouse",
+        "flavour-text": "2x \"iron_bar\"\n2x \"glass\"\n1x \"soil\"\n1x \"villager\""
+    },{
+        "card-id": "idea_growth",
+        "flavour-text": "1x \"berry\"\n1x \"soil\""
+    },{
+        "card-id": "idea_hammer",
+        "flavour-text": "1x \"iron_bar\"\n1x \"stick\"\n1x \"stone\""
+    },{
+        "card-id": "idea_hamster_wheel",
+        "flavour-text": "1x \"lumber\"\n1x \"metal_scraps\"\n1x \"worker\""
+    },{
+        "card-id": "idea_happiness",
+        "flavour-text": "1x \"coin\"\n1x \"villager\""
+    },{
+        "card-id": "idea_herbal_tea",
+        "flavour-text": "1x \"herbs\"\n1x \"water\"\n1x \"campfire\""
+    },{
+        "card-id": "idea_hotpot",
+        "flavour-text": "1x \"villager\"\n1x \"campfire\"\n2x \"iron_bar\""
+    },{
+        "card-id": "idea_house",
+        "flavour-text": "2x \"wood\"\n1x \"stone\"\n1x \"villager\""
+    },{
+        "card-id": "idea_hydroponic_farm",
+        "flavour-text": "1x \"factory_parts\"\n2x \"plastic\""
+    },{
+        "card-id": "idea_industrial_smelter",
+        "flavour-text": "1x \"factory_parts\"\n2x \"metal_scraps\"\n1x \"worker\""
+    },{
+        "card-id": "idea_iron_bar",
+        "flavour-text": "1x \"smelter\"\n1x \"wood\"\n1x \"iron_ore\""
+    },{
+        "card-id": "idea_iron_bar",
+        "flavour-text": "3x \"metal_scraps\"\n1x \"worker\""
+    },{
+        "card-id": "idea_iron_mine",
+        "flavour-text": "2x \"flint\"\n1x \"wood\"\n1x \"stone\"\n1x \"villager\""
+    },{
+        "card-id": "idea_iron_shield",
+        "flavour-text": "1x \"iron_bar\"\n1x \"plank\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_jester's_hat",
+        "flavour-text": "2x \"wool\"\n1x \"gold_bar\""
+    },{
+        "card-id": "idea_junction",
+        "flavour-text": "1x \"cement\"\n1x \"gravel\"\n1x \"worker\""
+    },{
+        "card-id": "idea_laboratory",
+        "flavour-text": "3x \"copper_bar\"\n3x \"plastic\"\n3x \"educated_worker\""
+    },{
+        "card-id": "idea_landfill",
+        "flavour-text": "3x \"gravel\"\n1x \"metal_scraps\"\n1x \"worker\""
+    },{
+        "card-id": "idea_lift_curse",
+        "flavour-text": "1x \"curse_of_sadness\"\n3x \"euphoria\""
+    },{
+        "card-id": "idea_lighthouse",
+        "flavour-text": "2x \"brick\"\n1x \"glass\"\n 1x \"campfire\"\n1x \"villager\""
+    },{
+        "card-id": "idea_lumber_camp",
+        "flavour-text": "3x \"wood\"\n1x \"stone\"\n1x \"villager\""
+    },{
+        "card-id": "idea_luxury_apartment",
+        "flavour-text": "1x \"apartment\"\n2x \"copper_bar\"\n1x \"worker\""
+    },{
+        "card-id": "idea_magic_blade",
+        "flavour-text": "2x \"magic_dust\"\n1x \"sword\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_magic_glue",
+        "flavour-text": "1x \"magic_dust\"\n1x \"charcoal\""
+    },{
+        "card-id": "idea_magic_ring",
+        "flavour-text": "1x \"magic_dust\"\n2x \"coin\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_magic_staff",
+        "flavour-text": "1x \"magic_dust\"\n1x \"wood\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_magic_tome",
+        "flavour-text": "1x \"magic_dust\"\n1x \"map\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_magic_wand",
+        "flavour-text": "1x \"magic_dust\"\n1x \"stick\""
+    },{
+        "card-id": "idea_market",
+        "flavour-text": "1x \"brick\"\n1x \"plank\"\n3x \"coin\"\n1x \"villager\""
+    },{
+        "card-id": "idea_mess_hall",
+        "flavour-text": "1x \"plank\"\n1x \"iron_bar\"\n1x \"campfire\""
+    },{
+        "card-id": "idea_metal_scraps",
+        "flavour-text": "1x \"iron_bar\"\n1x \"worker\""
+    },{
+        "card-id": "idea_milkshake",
+        "flavour-text": "1x \"milk\"\n1x \"berry\""
+    },{
+        "card-id": "idea_mountain_amulet",
+        "flavour-text": "2x \"gold_bar\"\n1x \"magic_dust\"\n1x \"stone\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_muesli",
+        "flavour-text": "1x \"factory\"\n1x \"grain\""
+    },{
+        "card-id": "idea_naming_stone",
+        "flavour-text": "1x \"flint\"\n1x \"stone\"\n1x \"villager\""
+    },{
+        "card-id": "idea_nuclear_power_plant",
+        "flavour-text": "3x \"iron_bar\"\n3x \"uranium\"\n3x \"science\"\n3x \"educated_worker\""
+    },{
+        "card-id": "idea_offspring",
+        "flavour-text": "1x \"house\"\n2x \"villager\""
+    },{
+        "card-id": "idea_oil_power_plant",
+        "flavour-text": "2x \"factory_parts\"\n2x \"electric_motor\"\n2x \"oil\"\n1x \"educated_worker\""
+    },{
+        "card-id": "idea_oil_rig",
+        "flavour-text": "3x \"water\"\n2x \"electric_motor\"\n1x \"educated_worker\""
+    },{
+        "card-id": "idea_olive_oil",
+        "flavour-text": "1x \"olive_pulp\"\n1x \"barrel\""
+    },{
+        "card-id": "idea_olive_pulp",
+        "flavour-text": "2x \"olive\"\n1x \"villager\""
+    },{
+        "card-id": "idea_omelette",
+        "flavour-text": "1x \"campfire\"\n2x \"egg\""
+    },{
+        "card-id": "idea_outhouse",
+        "flavour-text": "1x \"plank\"\n1x \"poop\"\n1x \"villager\""
+    },{
+        "card-id": "idea_oven",
+        "flavour-text": "1x \"campfire\"\n1x \"brick\"\n1x \"villager\""
+    },{
+        "card-id": "idea_painting",
+        "flavour-text": "2x \"paper\"\n2x \"plank\"\n1x \"charcoal\"\n1x \"villager\""
+    },{
+        "card-id": "idea_pancakes",
+        "flavour-text": "1x \"egg\"\n1x \"milk\"\n1x \"flour\"\n1x \"campfire\""
+    },{
+        "card-id": "idea_paper",
+        "flavour-text": "1x \"wood\"\n1x \"water\""
+    },{
+        "card-id": "idea_petting_zoo",
+        "flavour-text": "1x \"animal_pen\"\n1x \"soil\""
+    },{
+        "card-id": "idea_pickaxe",
+        "flavour-text": "1x \"iron_bar\"\n1x \"stick\"\n1x \"flint\""
+    },{
+        "card-id": "idea_pizza",
+        "flavour-text": "1x \"oven\"\n1x \"dough\"\n1x \"tomato\"\n1x \"cheese\""
+    },{
+        "card-id": "idea_plague_mask",
+        "flavour-text": "2x \"wool\"\n3x \"herbs\"\n1x \"villager\""
+    },{
+        "card-id": "idea_plank",
+        "flavour-text": "3x \"wood\"\n1x \"villager\""
+    },{
+        "card-id": "idea_plastic",
+        "flavour-text": "1x \"factory\"\n2x \"oil\""
+    },{
+        "card-id": "idea_purple_socks",
+        "flavour-text": "2x \"wool\"\n1x \"grape\"\n1x \"villager\""
+    },{
+        "card-id": "idea_quarry",
+        "flavour-text": "3x \"stone\"\n1x \"wood\"\n1x \"villager\""
+    },{
+        "card-id": "idea_radar_station",
+        "flavour-text": "1x \"barracks\"\n1x \"electric_motor\"\n1x \"educated_worker\""
+    },{
+        "card-id": "idea_ready_meal",
+        "flavour-text": "1x \"grain\"\n1x \"plastic\"\n1x \"factory\""
+    },{
+        "card-id": "idea_recruiting",
+        "flavour-text": "Place 20 Money on a Shack to recruit a Worker\""
+    },{
+        "card-id": "idea_recycling_center",
+        "flavour-text": "2x \"electric_motor\"\n2x \"iron_bar\"\n2x \"science\"\n1x \"educated_worker\""
+    },{
+        "card-id": "idea_resource_chest",
+        "flavour-text": "2x \"plank\"\n1x \"iron_bar\"\n1x \"flint\""
+    },{
+        "card-id": "idea_resource_magnet",
+        "flavour-text": "1x \"villager\"\n1x \"gold_bar\"\n1x \"magic_dust\""
+    },{
+        "card-id": "idea_road_builder",
+        "flavour-text": "4x \"brick\"\n1x \"builder\""
+    },{
+        "card-id": "idea_robot_soldier",
+        "flavour-text": "1x \"robot_worker\"\n1x \"barracks\""
+    },{
+        "card-id": "idea_robot_station",
+        "flavour-text": "3x \"factory_parts\"\n2x \"cement\"\n1x \"worker\""
+    },{
+        "card-id": "idea_robot_worker",
+        "flavour-text": "1x \"factory\"\n1x \"metal_scraps\"\n1x \"iron_bar\""
+    },{
+        "card-id": "idea_rope",
+        "flavour-text": "2x \"cotton\"\n1x \"villager\""
+    },{
+        "card-id": "idea_rope",
+        "flavour-text": "2x \"wool\"\n1x \"villager\""
+    },{
+        "card-id": "idea_rowboat",
+        "flavour-text": "1x \"plank\"\n1x \"iron_bar\""
+    },{
+        "card-id": "idea_royal_banquet",
+        "flavour-text": "1x \"fruit_salad\"\n1x \"wine\"\n1x \"fried_meat\""
+    },{
+        "card-id": "idea_sacred_key",
+        "flavour-text": "1x \"smelter\"\n3x \"gold_bar\"\n3x \"glass\""
+    },{
+        "card-id": "idea_sail",
+        "flavour-text": "1x \"fabric\"\n1x \"rope\"\n1x \"villager\""
+    },{
+        "card-id": "idea_sand_quarry",
+        "flavour-text": "1x \"villager\"\n1x \"sand\"\n1x \"flint\"\n1x \"wood\""
+    },{
+        "card-id": "idea_sandstone",
+        "flavour-text": "2x \"sand\"\n1x \"villager\""
+    },{
+        "card-id": "idea_sawmill",
+        "flavour-text": "1x \"plank\"\n1x \"stone\"\n1x \"iron_bar\"\n1x \"villager\""
+    },{
+        "card-id": "idea_scythe",
+        "flavour-text": "2x \"iron_bar\"\n1x \"flint\"\n1x \"stick\"\n1x \"villager\""
+    },{
+        "card-id": "idea_seafood_stew",
+        "flavour-text": "1x \"campfire\"\n1x \"raw_crab_meat\"\n1x \"raw_fish\"\n1x \"chili_pepper\""
+    },{
+        "card-id": "idea_septic_tank",
+        "flavour-text": "1x \"cement\"\n1x \"water\"\n1x \"worker\""
+    },{
+        "card-id": "idea_sewer",
+        "flavour-text": "2x \"brick\"\n1x \"poop\""
+    },{
+        "card-id": "idea_shack",
+        "flavour-text": "1x \"cement\"\n1x \"lumber\"\n1x \"worker\""
+    },{
+        "card-id": "idea_shed",
+        "flavour-text": "1x \"wood\"\n1x \"stone\"\n1x \"stick\"\n1x \"villager\""
+    },{
+        "card-id": "idea_shell_chest",
+        "flavour-text": "1x \"shell\"\n2x \"wood\""
+    },{
+        "card-id": "idea_slingshot",
+        "flavour-text": "2x \"stick\"\n1x \"stone\""
+    },{
+        "card-id": "idea_sloop",
+        "flavour-text": "2x \"plank\"\n1x \"sail\"\n1x \"villager\""
+    },{
+        "card-id": "idea_smelter",
+        "flavour-text": "2x \"flint\"\n2x \"brick\"\n1x \"plank\"\n1x \"villager\""
+    },{
+        "card-id": "idea_smithy",
+        "flavour-text": "1x \"villager\"\n2x \"iron_bar\"\n2x \"brick\""
+    },{
+        "card-id": "idea_sniper",
+        "flavour-text": "1x \"barracks\"\n1x \"iron_bar\"\n1x \"soldier\""
+    },{
+        "card-id": "idea_solar_panel",
+        "flavour-text": "1x \"sunshine\"\n1x \"plastic\"\n1x \"worker\""
+    },{
+        "card-id": "idea_spear",
+        "flavour-text": "1x \"wood\"\n2x \"stick\""
+    },{
+        "card-id": "idea_spiked_plank",
+        "flavour-text": "1x \"plank\"\n1x \"flint\""
+    },{
+        "card-id": "idea_stable_portal",
+        "flavour-text": "2x \"brick\"\n2x \"magic_dust\"\n1x \"villager\""
+    },{
+        "card-id": "idea_stew",
+        "flavour-text": "1x \"campfire\"\n1x \"potato\"\n1x \"raw_meat\"\n1x \"onion\"\n1x \"carrot\""
+    },{
+        "card-id": "idea_stick",
+        "flavour-text": "1x \"wood\"\n1x \"villager\""
+    },{
+        "card-id": "idea_storage_container",
+        "flavour-text": "2x \"lumber\"\n1x \"metal_scraps\"\n1x \"worker\""
+    },{
+        "card-id": "idea_stove",
+        "flavour-text": "1x \"brick\"\n1x \"iron_bar\"\n1x \"flint\"\n1x \"villager\""
+    },{
+        "card-id": "idea_sushi",
+        "flavour-text": "1x \"raw_fish\"\n1x \"seaweed\""
+    },{
+        "card-id": "idea_sword",
+        "flavour-text": "1x \"iron_bar\"\n2x \"stick\""
+    },{
+        "card-id": "idea_tamago_sushi",
+        "flavour-text": "1x \"omelette\"\n1x \"seaweed\""
+    },{
+        "card-id": "idea_tank",
+        "flavour-text": "1x \"barracks\"\n3x \"iron_bar\""
+    },{
+        "card-id": "idea_tavern",
+        "flavour-text": "1x \"happiness\"\n2x \"plank\"\n1x \"villager\""
+    },{
+        "card-id": "idea_temple",
+        "flavour-text": "5x \"plank\"\n5x \"brick\"\n3x \"iron_bar\"\n3x \"villager\""
+    },{
+        "card-id": "idea_throwing_stars",
+        "flavour-text": "3x \"iron_bar\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_tomatoes",
+        "flavour-text": "3x \"tomato\"\n1x \"villager\""
+    },{
+        "card-id": "idea_toy",
+        "flavour-text": "2x \"plastic\"\n1x \"factory\""
+    },{
+        "card-id": "idea_university",
+        "flavour-text": "4x \"brick\"\n1x \"wizard\""
+    },{
+        "card-id": "idea_war_ship",
+        "flavour-text": "1x \"barracks\"\n2x \"iron_bar\"\n2x \"electric_motor\""
+    },{
+        "card-id": "idea_warehouse",
+        "flavour-text": "1x \"stone\"\n1x \"iron_bar\"\n1x \"villager\""
+    },{
+        "card-id": "idea_water_treatment_plant",
+        "flavour-text": "3x \"cement\"\n1x \"water\"\n1x \"worker\""
+    },{
+        "card-id": "idea_water_wheel",
+        "flavour-text": "3x \"lumber\"\n1x \"water\"\n1x \"worker\""
+    },{
+        "card-id": "idea_well",
+        "flavour-text": "1x \"water\"\n2x \"brick\"\n1x \"villager\""
+    },{
+        "card-id": "idea_wind_turbine",
+        "flavour-text": "1x \"factory_parts\"\n1x \"wind\"\n1x \"worker\""
+    },{
+        "card-id": "idea_wine",
+        "flavour-text": "1x \"grape_pulp\"\n1x \"barrel\""
+    },{
+        "card-id": "idea_winter_coat",
+        "flavour-text": "2x \"wool\"\n1x \"rope\""
+    },{
+        "card-id": "idea_wishing_well",
+        "flavour-text": "1x \"villager\"\n2x \"brick\"\n2x \"magic_dust\"\n1x \"bottle_of_water\""
+    },{
+        "card-id": "idea_wizard_robe",
+        "flavour-text": "1x \"fabric\"\n1x \"rope\"\n1x \"smithy\""
+    },{
+        "card-id": "idea_wooden_shield",
+        "flavour-text": "1x \"plank\"\n1x \"stick\""
+    },{
+        "card-id": "imp",
+        "flavour-text": "A nasty lil creature",
+        "combat-text": "7|AXS10|ATRG,AS4,HC2,DA1,DF1",
+        "drops": [
+            "1x:\n\"magic dust\" (50%)\n\"bone\" (50%)",
+            "Can be equipped with:\n\"bone_spear\"\n\"whip\"\n\"rag\"\n\"cursed_wand\""
+        ]
+    },{
+        "card-id": "industrial_revolution",
+        "flavour-text": "Place a Villager on top of this card to start the Industrial Revolution"
+    },{
+        "card-id": "industrial_smelter",
+        "flavour-text": "Used for smelting ores"
+    },{
+        "card-id": "iron_bar",
+        "flavour-text": "A shiny, valuable material"
+    },{
+        "card-id": "iron_ore",
+        "flavour-text": "Can be turned into Iron Bars"
+    },{
+        "card-id": "iron_shield",
+        "flavour-text": "A strong defense against hard blows",
+        "equip-text": "6|STG10|DF2"
+    },{
+        "card-id": "iron_deposit",
+        "flavour-text": "Contains Iron Ore",
+        "drops": [
+            "3x:\n\"iron_ore\" (71%)\n\"stone\" (14%)\n\"coin\" (14%)"
+        ]
+    },{
+        "card-id": "iron_mine",
+        "flavour-text": "An unlimited resource for Iron Ore",
+        "drops": [
+            "\"iron_ore\" (67%)",
+            "\"stone\" (17%)",
+            "\"coin\" (17%)"
+        ]
+    },{
+        "card-id": "island_relic",
+        "flavour-text": "Bring it to a Cathedral"
+    },{
+        "card-id": "jester",
+        "flavour-text": "Fun at parties",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+    },{
+        "card-id": "jester's_hat",
+        "flavour-text": "Makes you look like a clown",
+        "equip-text": "10|SRD10,PRD10,LSR10|AS2,DF1"
+    },{
+        "card-id": "junction",
+        "flavour-text": "Automatically redirects cards on top of it to its road outputs. It cycles through the different outputs one by one"
+    },{
+        "card-id": "jungle",
+        "flavour-text": "A forest known for books",
+        "drops": [
+            "\"tiger\" (14%)",
+            "\"banana\" (14%)",
+            "\"parrot\" (14%)",
+            "\"cotton_plant\" (10%)",
+            "\"monkey\" (10%)",
+            "\"lime\" (10%)",
+            "\"sugar_cane\" (10%)",
+            "\"wolf\" (10%)",
+            "\"baby\" (5%)",
+            "\"old_tome\" (5%)"
+        ]
+    },{
+        "card-id": "key",
+        "flavour-text": "I wonder what it's for…"
+    },{
+        "card-id": "kitten",
+        "flavour-text": "Fluffy cuteness",
+        "combat-text": "9|ATME,AS3,HC3,DA2,DF1"
+    },{
+        "card-id": "kraken",
+        "flavour-text": "Mad that you took its relic",
+        "combat-text": "145|SAL20|ATME,AS4,HC3,DA5,DF3",
+        "drops": [
+            "kraken_tooth_axe"
+        ]
+    },{
+        "card-id": "kraken_tooth_axe",
+        "flavour-text": "Left for the tooth fairy, you took it instead",
+        "equip-text": "12|CHT20|ATME,MH5,HC2,DA2,DF1"
+    },{
+        "card-id": "laboratory",
+        "flavour-text": "Where science is made",
+        "drops": [
+            "science"
+        ]
+    },{
+        "card-id": "landfill",
+        "flavour-text": "Removes pollution from the city"
+    },{
+        "card-id": "landmark_academy",
+        "flavour-text": "2x \"cement\"\n2x \"iron_bar\"\n2x \"copper_bar\"\n1x \"worker\""
+    },{
+        "card-id": "landmark_airport",
+        "flavour-text": "3x \"cement\"\n3x \"plastic\"\n3x \"electric_motor\"\n1x \"educated_worker\""
+    },{
+        "card-id": "landmark_art_gallery",
+        "flavour-text": "3x \"lumber\"\n1x \"metal_scraps\"\n1x \"worker\""
+    },{
+        "card-id": "landmark_cinema",
+        "flavour-text": "3x \"cement\"\n5x \"iron_bar\"\n1x \"worker\""
+    },{
+        "card-id": "landmark_city_park",
+        "flavour-text": "4x \"lumber\"\n1x \"worker\""
+    },{
+        "card-id": "landmark_hospital",
+        "flavour-text": "5x \"cement\"\n2x \"plastic\"\n1x \"educated_worker\""
+    },{
+        "card-id": "landmark_particle_collider",
+        "flavour-text": "3x \"factory_parts\"\n3x \"electric_motor\"\n3x \"science\"\n1x \"genius\""
+    },{
+        "card-id": "landmark_stadium",
+        "flavour-text": "5x \"cement\"\n3x \"iron_bar\"\n3x \"worker\""
+    },{
+        "card-id": "landmark_theme_park",
+        "flavour-text": "2x \"electric_motor\"\n2x \"toy\"\n2x \"worker\""
+    },{
+        "card-id": "landmark_toy_shop",
+        "flavour-text": "3x \"toy\"\n2x \"cement\"\n1x \"worker\""
+    },{
+        "card-id": "landmark_unknown_machine",
+        "flavour-text": "3x \"factory_parts\"\n5x \"science\"\n3x \"plastic\"\n1x \"quantum_matter\"\n1x \"genius\""
+    },{
+        "card-id": "landmark_villager_statue",
+        "flavour-text": "3x \"copper_bar\"\n1x \"worker\""
+    },{
+        "card-id": "landmark_zoo",
+        "flavour-text": "5x \"grain\"\n5x \"iron_bar\"\n1x \"worker\""
+    },{
+        "card-id": "leather_tunic",
+        "flavour-text": "Armor made from the finest leather",
+        "equip-text": "7|MH10,DF1"
+    },{
+        "card-id": "lighthouse",
+        "flavour-text": "Increases the board size past the Warehouse limit"
+    },{
         "card-id": "lightning",
         "flavour-text": "Can smelt ores instantly",
         "sources": [
@@ -1129,15 +1884,701 @@
             "Smelts 1 ore after 3s which consumes the card"
         ]
     },{
+        "card-id": "lime",
+        "flavour-text": "Round and sour"
+    },{
+        "card-id": "lumber",
+        "flavour-text": "An essential building material"
+    },{
+        "card-id": "lumber_camp",
+        "flavour-text": "An unlimited resource for Wood",
+        "drops": [
+            "\"wood\""
+        ]
+    },{
+        "card-id": "lumber_deposit",
+        "flavour-text": "Lumbers in numbers",
+        "drops": [
+            "3x \"lumber\""
+        ]
+    },{
+        "card-id": "lumberjack",
+        "flavour-text": "Way faster at harvesting Wood",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+    },{
+        "card-id": "luxury_apartment",
+        "flavour-text": "Houses 8 Workers"
+    },{
+        "card-id": "mackerel",
+        "flavour-text": "Small fish",
+        "combat-text": "9|ATME,AS3,HC3,DA2,DF2",
+        "drops": [
+            "2x \"raw_fish\""
+        ]
+    },{
+        "card-id": "mage",
+        "flavour-text": "A post-grad Wizard",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+    },{
+        "card-id": "magic_blade",
+        "flavour-text": "An ordinary sword that glitters",
+        "equip-text": "7|FRF20|ATMG,AS1,HC1,DA1"
+    },{
+        "card-id": "magic_broom",
+        "flavour-text": "You took it from some Old Lady",
+        "equip-text": "12|HAF15|ATMG,AS2,HC3,DA2"
+    },{
+        "card-id": "magic_dust",
+        "flavour-text": "It looks like glitter"
+    },{
+        "card-id": "magic_ring",
+        "flavour-text": "Once it slides on your finger it grants you magic powers",
+        "equip-text": "8|IRF10|ATMG,MH10,HC1,DA1"
+    },{
+        "card-id": "magic_staff",
+        "flavour-text": "A long, enchanted rod",
+        "equip-text": "2|HLS15,CHT10|ATMG,AS1,DA2"
+    },{
+        "card-id": "magic_tome",
+        "flavour-text": "An old book with spells in it",
+        "equip-text": "10|HRF10,FRF10|ATMG,MH10,HC1,DA1"
+    },{
+        "card-id": "magic_wand",
+        "flavour-text": "A simple magic weapon",
+        "equip-text": "1|HLS10|ATMG,DA2"
+    },{
+        "card-id": "magic_glue",
+        "flavour-text": "Sticks the stack on top of it to the board and prevents it from moving"
+    },{
+        "card-id": "map",
+        "flavour-text": "Use a Map to turn a Villager into an Explorer",
+        "equip-text": "1|ATME,DA-1"
+    },{
+        "card-id": "market",
+        "flavour-text": "Can be used to sell Cards for more than usual"
+    },{
+        "card-id": "merch",
+        "flavour-text": "Fans go wild!"
+    },{
+        "card-id": "merchant",
+        "flavour-text": "Selling a Dragon Egg for 100 Coins!"
+    },{
+        "card-id": "merman",
+        "flavour-text": "Half man, half mer",
+        "combat-text": "18|ATMG,AS2,HC3,DA3,DF2",
+        "drops": [
+            "1x:\n\"raw_fish\" (50%)\n\"magic_dust\" (50%)",
+            "Can be equipped with:\n\"golden_chestplate\"\n\"magic_tome\""
+        ]
+    },{
+        "card-id": "mess_hall",
+        "flavour-text": "Villagers will prioritize eating food that's on top of the Mess Hall"
+    },{
+        "card-id": "metal_scraps",
+        "flavour-text": "Rusty bits of metal"
+    },{
+        "card-id": "militia",
+        "flavour-text": "A villager that's ready to rumble.",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+    },{
+        "card-id": "milk",
+        "flavour-text": "Fresh from the Cow"
+    },{
+        "card-id": "milkshake",
+        "flavour-text": "It's Berry flavoured"
+    },{
+        "card-id": "mimic",
+        "flavour-text": "It almost got me",
+        "combat-text": "14|ATMG,AS3,HC2,DA1,DF2",
+        "drops": [
+            "1x:\n\"key\" (50%)\n\"gold_bar\" (50%)"
+        ]
+    },{
+        "card-id": "miner",
+        "flavour-text": "Way faster at harvesting Rock, Gold & Iron",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+    },{
+        "card-id": "momma_crab",
+        "flavour-text": "Maybe you shouldn't have killed those Crabs?",
+        "combat-text": "66|STG20|ATME,AS4,HC3,DA2,DF4",
+        "drops": [
+            "crab_scale_armor"
+        ]
+    },{
+        "card-id": "monkey",
+        "flavour-text": "Would really like a Banana",
+        "combat-text": "7|ATME,AS2,HC1,DA2,DF1",
+        "drops": [
+            "1x:\n\"raw_meat\" (25%)\n\"banana\" (25%)\n\"poop\" (25%)\n\"bone\" (25%)"
+        ],
+        "uses": [
+            "Makes 1 \"poop\" every 90s"
+        ]
+    },{
+        "card-id": "morning_star",
+        "flavour-text": "Spikes on a stick",
+        "equip-text": "7|SRD15|ATME,AS-1,DA3,DF1"
+    },{
+        "card-id": "mosquito",
+        "flavour-text": "He even hates himself",
+        "combat-text": "9|ATRG,AS2,HC3,DA3,DF1",
+        "drops": [
+            "Can be equipped with:\n\"slingshot\"\n\"blowpipe\""
+        ]
+    },{
+        "card-id": "mountain",
+        "flavour-text": "A hill with a pointy edge",
+        "drops": [
+            "\"iron_deposit\" (42%)",
+            "\"rock\" (21%)",
+            "\"goblin\" (7%)",
+            "\"goblin_archer\" (7%)",
+            "\"slime\" (7%)",
+            "\"rat\" (7%)",
+            "\"treasure_chest\" (5%)",
+            "\"catacombs\" (5%)"
+        ]
+    },{
+        "card-id": "mountain_amulet",
+        "flavour-text": "It grounds you",
+        "equip-text": "4|IRF10|DA2"
+    },{
+        "card-id": "muesli",
+        "flavour-text": "Grainy breakfast: the food of the future"
+    },{
+        "card-id": "mushroom",
+        "flavour-text": "An edible fungus"
+    },{
+        "card-id": "naming_stone",
+        "flavour-text": "No more forgetting who's who!"
+    },{
+        "card-id": "ninja",
+        "flavour-text": "Silent and deadly",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+    },{
+        "card-id": "nuclear_power_plant",
+        "flavour-text": "Uses Uranium to generate Energy"
+    },{
+        "card-id": "ogre",
+        "flavour-text": "Big and chunky",
+        "combat-text": "21|ATME,AS2,HC3,DA2,DF2",
+        "drops": [
+            "1x:\n\"bone\" (50%)\n\"club\" (50%)",
+            "Can be equipped with:\n\"boomerang\"\n\"morning_star\"\n\"leather_tunic\"\n\"hammer\"\n\"throwing_stars\"\n\"axe\""
+        ]
+    },{
+        "card-id": "oil",
+        "flavour-text": "Nasty dinosaur goop"
+    },{
+        "card-id": "oil_power_plant",
+        "flavour-text": "Generates energy from Oil"
+    },{
+        "card-id": "oil_rig",
+        "flavour-text": "Uses energy to drill for Oil",
+        "drops": [
+            "\"oil\""
+        ]
+    },{
+        "card-id": "old_tome",
+        "flavour-text": "A book with some Idea in it",
+        "drops": [
+            "1x \"map\""
+        ]
+    },{
+        "card-id": "old_village",
+        "flavour-text": "A person is rumored to still live here..",
+        "drops": [
+            "\"coin\" (17%)",
+            "\"wood\" (17%)",
+            "\"villager\" (9%)",
+            "\"corpse\" (9%)",
+            "\"iron_bar\" (9%)",
+            "\"slime\" (9%)",
+            "\"treasure_chest\" (9%)",
+            "\"milk\" (9%)",
+            "\"catacombs\" (4%)",
+            "\"old_tome\" (4%)",
+            "\"slime\" (1%)",
+            "\"goblin\" (1%)",
+            "\"goblin_archer\" (1%)",
+            "\"rat\" (1%)"
+        ]
+    },{
+        "card-id": "old_cat",
+        "flavour-text": "Grumpy sometimes",
+        "combat-text": "9|ATME,AS3,HC3,DA2,DF1"
+    },{
+        "card-id": "old_dog",
+        "flavour-text": "Still adorable",
+        "combat-text": "9|ATME,AS3,HC3,DA2,DF1"
+    },{
+        "card-id": "old_villager",
+        "flavour-text": "Life's flashing before their eyes",
+        "combat-text": "8|ATME,AS1,HC2,DA2,DF1"
+    },{
+        "card-id": "olive",
+        "flavour-text": "Mediterranean classic"
+    },{
+        "card-id": "olive_oil",
+        "flavour-text": "Tasty olive juice"
+    },{
+        "card-id": "olive_pulp",
+        "flavour-text": "A slurry of olives"
+    },{
+        "card-id": "olive_tree",
+        "flavour-text": "Can grow as old as 3,500 years",
+        "drops": [
+            "3x \"olive\""
+        ]
+    },{
+        "card-id": "omelette",
+        "flavour-text": "Pépin would be proud"
+    },{
+        "card-id": "onion",
+        "flavour-text": "Can be eaten raw or can be cooked, whichever you prefer"
+    },{
+        "card-id": "orc_wizard",
+        "flavour-text": "Mean and green",
+        "combat-text": "16|ATMG,AS2,HC3,DA2,DF3",
+        "drops": [
+            "1x:\n\"magic_dust\" (50%)\n\"bone\" (50%)",
+            "Can be equipped with:\n\"wizard_robe\"\n\"staff_of_fear\""
+        ]
+    },{
+        "card-id": "outhouse",
+        "flavour-text": "Use it to get rid of Poop"
+    },{
+        "card-id": "oven",
+        "flavour-text": "Used to bake all sorts of things"
+    },{
+        "card-id": "pack_a_new_world",
+        "extra-text": [
+            "The starting pack for \"board_mainland\""
+        ],
+        "drops": [
+            "\"berry_bush\"",
+            "\"villager\"",
+            "\"coin\"",
+            "\"rock\"",
+            "\"wood\""
+        ]
+    },{
+        "card-id": "pack_advanced_archipelago",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "1x:\n\"pirate\" (20%)\n\"skeleton\" (20%)\n\"frog_man\" (20%)\n\"merman\" (20%)\n\"orc_wizard\" (20%)",
+            "1x:\n\"spring\" (25%)\n\"sugar_cane\" (25%)\n\"gold_deposit\" (25%)\n\"iron_deposit\" (25%)",
+            "1x:\n\"glass\" (20%)\n\"gold_bar\" (20%)\n\"iron_bar\" (20%)\n\"cane_sugar\" (20%)\n\"sandstone\" (20%)"
+        ]
+    },{
+        "card-id": "pack_advanced_automation",
+        "extra-text": [
+            "180 money"
+        ],
+        "drops": [
+            "1x:\n\"iron_bar\" (High Chance)\n\"copper_bar\" (High Chance)\n\"science\" (Low Chance)\n\"plastic\" (Low Chance)",
+            "3x:\n\"uranium_deposit\" (38%)\n\"plastic\" (38%)\n\"energy_splitter\" (8%)\n\"energy_combiner\" (8%)\n\"electricity_pylon\" (8%)"
+        ]
+    },{
+        "card-id": "pack_animal_lives",
+        "extra-text": [
+            "10 coins"
+        ],
+        "drops": [
+            "1x:\n\"cow\" (25%)\n\"chicken\" (25%)\n\"sheep\" (25%)\n\"horse\" (25%)",
+            "1x:\n\"berry\" (25%)\n\"apple\" (25%)\n\"carrot\" (25%)\n\"raw_meat\" (25%)",
+            "1x:\n\"magic_dust\" (50%)\n\"iron_bar\" (50%)"
+        ]
+    },{
+        "card-id": "pack_black_gold",
+        "extra-text": [
+            "100 money"
+        ],
+        "drops": [
+            "2x:\n\"iron_bar\" (High Chance)\n\"metal_scraps\" (High Chance)\n\"factory_parts\" (Low Chance)",
+            "2x:\n\"iron_bar\" (33%)\n\"copper_bar\" (33%)\n\"oil\" (16%)\n\"wind_turbine\" (5%)\n\"electric_motor\" (5%)\n\"trash\" (Low Chance)\n\"fossil\" (Low Chance)"
+        ]
+    },{
+        "card-id": "pack_courtyard_contraptions",
+        "extra-text": [
+            "10 coins"
+        ],
+        "drops": [
+            "2x:\n\"wood\" (29%)\n\"stone\" (29%)\n\"rock\" (14%)\n\"tree\" (14%)\n\"grape\" (7%)\n\"wheat\" (7%)",
+            "2x:\n\"plank\" (31%)\n\"brick\" (31%)\n\"iron_ore\" (23%)\n\"iron_bar\" (8%)\n\"gold_ore\" (8%)"
+        ]
+    },{
+        "card-id": "pack_curious_cuisine",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "1x:\n\"onion\" (20%)\n\"egg\" (20%)\n\"milk\" (20%)\n\"potato\" (20%)\n\"mushroom\" (20%)",
+            "1x:\n\"tree\" (33%)\n\"rock\" (33%)\n\"berry_bush\" (33%)",
+            "1x:\n\"berry\" (25%)\n\"apple\" (25%)\n\"carrot\" (25%)\n\"raw_meat\" (25%)"
+        ]
+    },{
+        "card-id": "pack_daily_life",
+        "extra-text": [
+            "3 coins"
+        ],
+        "drops": [
+            "3x:\n\"rock\" (19%)\n\"tree\" (19%)\n\"wood\" (19%)\n\"stone\" (19%)\n\"grape_vine\" (13%)\n\"cow\" (13%)"
+        ]
+        },{
+        "card-id": "pack_deep_thoughts",
+        "extra-text": [
+            "10 coins"
+        ],
+        "drops": [
+            "1x:\n\"tree\" (25%)\n\"rock\" (25%)\n\"berry_bush\" (25%)\n\"spring\" (25%)",
+            "1x:\n\"spring\" (29%)\n\"herbs\" (29%)\n\"rock\" (14%)\n\"tree\" (14%)\n\"grape_vine\" (14%)",
+            "1x:\n\"magic_dust\" (50%)\n\"iron_bar\" (50%)"
+        ]
+    },{
+        "card-id": "pack_department_of_defense",
+        "extra-text": [
+            "80 money"
+        ],
+        "drops": [
+            "1x:\n\"copper_deposit\" (50%)\n\"iron_deposit\" (50%)",
+            "\"lumber_deposit\"",
+            "\"water_deposit\"",
+            "\"gravel_deposit\""
+        ]
+    },{
+        "card-id": "pack_enclave_explorers",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "1x:\n\"spring\" (25%)\n\"sugar_cane\" (25%)\n\"gold_deposit\" (25%)\n\"iron_deposit\" (25%)",
+            "1x:\n\"seagull\" (20%)\n\"snake\" (20%)\n\"tiger\" (20%)\n\"skeleton\" (20%)\n\"mosquito\" (20%)",
+            "1x:\n\"jungle\" (25%)\n\"mountain\" (25%)\n\"cave\" (25%)\n\"old_village\" (25%)",
+            "1x:\n\"glass\" (20%)\n\"gold_bar\" (20%)\n\"iron_bar\" (20%)\n\"cane_sugar\" (20%)\n\"sandstone\" (20%)"
+        ]
+    },{
+        "card-id": "pack_explorers",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "1x:\n\"tree\" (33%)\n\"rock\" (33%)\n\"berry_bush\" (33%)",
+            "1x:\n\"giant_rat\" (13%)\n\"bear\" (13%)\n\"skeleton\" (13%)\n\"wolf\" (13%)\n\"slime\" (13%)\n\"goblin_shaman\" (13%)\n\"mimic\" (13%)\n\"frog_man\" (13%)",
+            "1x:\n\"forest\" (25%)\n\"mountain\" (25%)\n\"plains\" (25%)\n\"old_village\" (25%)"
+        ]
+    },{
+        "card-id": "pack_fresh_isle",
+        "extra-text": [
+            "The starting pack for \"board_island\""
+        ],
+        "drops": [
+            "\"banana_tree\"",
+            "\"seaweed\"",
+            "\"sand\"",
+            "\"driftwood\"",
+            "\"shell\""
+        ]
+    },{
+        "card-id": "pack_greedy_intro",
+        "extra-text": [
+            "The starting pack for \"board_greed\""
+        ],
+        "drops": [
+            "\"grape_vine\"",
+            "\"villager\"",
+            "\"rock\"",
+            "\"royal\"",
+            "\"coin\"",
+            "\"curse_of_greed\"",
+            "\"spirit_of_greed\""
+        ]
+    },{
+        "card-id": "pack_grilling_and_brewing",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "1x:\n\"chili_pepper\" (33%)\n\"raw_crab_meat\" (33%)\n\"lime\" (33%)",
+            "1x:\n\"crab\" (33%)\n\"monkey\" (33%)\n\"parrot\" (33%)",
+            "1x:\n\"fishing_spot\" (25%)\n\"cotton_plant\" (25%)\n\"banana_tree\" (25%)\n\"driftwood\" (25%)",
+            "1x:\n\"banana\" (33%)\n\"bottle_of_rum\" (33%)\n\"raw_meat\" (33%)"
+        ]
+    },{
+        "card-id": "pack_happy_animals",
+        "extra-text": [
+            "10 coins"
+        ],
+        "drops": [
+            "1x:\"brick\" (33%)\n\"plank\" (33%)\n\"iron_ore\" (33%)",
+            "1x:\n\"sheep\" (33%)\n\"chicken\" (33%)\n\"cow\" (33%)",
+            "1x:\n\"animal_pen\" (33%)\n\"warehouse\" (33%)\n\"resource_chest\" (33%)"
+        ]
+    },{
+        "card-id": "pack_happy_ever_after",
+        "extra-text": [
+            "12 coins"
+        ],
+        "drops": [
+            "3x:\n\"wheat\" (33%)\n\"spring\" (17%)\n\"cotton_plant\" (17%)\n\"tree\" (17%)\n\"rock\" (17%)",
+            "1x:\n\"onion\" (20%)\n\"egg\" (20%)\n\"milk\" (20%)\n\"potato\" (20%)\n\"mushroom\" (20%)"
+        ]
+    },{
+        "card-id": "pack_happy_start",
+        "extra-text": [
+            "The starting pack for \"board_sadness\""
+        ],
+        "drops": [
+            "\"garden\"",
+            "\"tree\"",
+            "\"tomato_plant\"",
+            "\"villager\"",
+            "\"happiness\"",
+            "\"curse_of_sadness\"",
+            "\"spirit_of_sadness"
+        ]
+    },{
+        "card-id": "pack_happy_thoughts",
+        "extra-text": [
+            "4 coins"
+        ],
+        "drops": [
+            "3x:\n\"wheat\" (33%)\n\"spring\" (17%)\n\"cotton_plant\" (17%)\n\"tree\" (17%)\n\"rock\" (17%)",
+            "1x:\n\"wood\" (27%)\n\"stone\" (27%)\n\"stick\" (13%)\n\"flint\" (13%)\n\"poop\" (13%)\n\"coin\" (7%)"
+        ]
+    },{
         "card-id": "pack_humble_beginnings",
         "extra-text": [
-            "Unlocks after completing 3 Quests, and costs 3 Coins",
+            "Unlocks after completing 3 Mainland Quests, and costs 3 Coins",
             "\"disclaimer_packs\"",
-            "The \"soil\" will only be a part of the pack if there is no \"soil\" on the board."
+            "The \"soil\" (13%) will only be a part of the pack if there is no \"soil\" on the board."
         ],
         "drops": [
             "\"idea_growth\", \"idea_house\", \"idea_offspring\", and \"idea_stick\" will be a part of the undiscovered card pool until discovered",
-            "3x:\n\"wood\" (19%)\n\"stone\" (19%)\n\"tree\" (13%)\n\"rock\" (13%)\n\"berry_bush\" (13%)\n\"soil\" (13%)\n\"rabbit\" (3%)\n\"rat\" (3%)\n\"key\" (3%)"
+            "3x:\n\"wood\" (22%)\n\"stone\" (22%)\n\"tree\" (14%)\n\"rock\" (14%)\n\"berry_bush\" (14%)\n\"soil\" (See above)\n\"rabbit\" (4%)\n\"rat\" (4%)\n\"key\" (4%)"
+        ]
+    },{
+        "card-id": "pack_impressive_industry",
+        "extra-text": [
+            "140 money"
+        ],
+        "drops": [
+            "2x:\n\"copper_ore\" (High Chance)\n\"iron_ore\" (High Chance)\n\"metal_scraps\" (Moderate Chance)\n\"trash\" (Low Chance)",
+            "2x:\n\"copper bar\" (33%)\n\"cement\" (33%)\n\"electric_motor\" (17%)\n\"storage_container\" (7%)\n\"spy\" (3%)\n\"dog_2000\" (3%)\n\"cat_2000\" (3%)"
+        ]
+    },{
+        "card-id": "pack_industrial_revolution",
+        "extra-text": [
+            "The starting pack for Cities"
+        ],
+        "drops": [
+            "2x:\n\"worker\"\n\"gravel_deposit\"\n\"lumber_deposit\"\n\"trash\"\n\"rain\"\n\"twenty_dollar\""
+        ]
+    },{
+        "card-id": "pack_island_insights",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "2x:\n\"fishing_spot\" (25%)\n\"cotton_plant\" (25%)\n\"banana_tree\" (25%)\n\"driftwood\" (25%)",
+            "1x:\n\"glass\" (20%)\n\"gold_bar\" (20%)\n\"iron_bar\" (20%)\n\"cane_sugar\" (20%)\n\"sandstone\" (20%)",
+            "1x:\n\"chili_pepper\" (33%)\n\"raw_crab_meat\" (33%)\n\"lime\" (33%)"
+        ]
+    },{
+        "card-id": "pack_island_of_ideas",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "3x:\n\"fishing_spot\" (25%)\n\"cotton_plant\" (25%)\n\"banana_tree\" (25%)\n\"driftwood\" (25%)",
+            "1x:\n\"driftwood\" (25%)\n\"sand\" (25%)\n\"flint\" (25%)\n\"seaweed\" (25%)"
+        ]
+    },{
+        "card-id": "pack_life_is_short",
+        "extra-text": [
+            "The starting pack for \"board_death\""
+        ],
+        "drops": [
+            "\"grape_vine\"",
+            "\"cow\"",
+            "\"tree\"",
+            "\"animal_cage\"",
+            "\"young_villager\"",
+            "\"curse_of_death\"",
+            "\"spirit_of_death\""
+        ]
+    },{
+        "card-id": "pack_logic_and_reason",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "3x:\n\"tree\" (33%)\n\"rock\" (33%)\n\"berry_bush\" (33%)",
+            "1x:\n\"brick\" (33%)\n\"plank\" (33%)\n\"iron_ore\" (33%)"
+        ]
+    },{
+        "card-id": "pack_major_metals",
+        "extra-text": [
+            "80 money"
+        ],
+        "drops": [
+            "2x:\n\"gravel\" (21%)\n\"lumber\" (21%)\n\"grain\" (18%)\n\"water\" (16%)\n\"metal_scraps\" (16%)\n\"trash\" (5%)\n\"worker\" (3%)",
+            "1x:\n\"metal_scraps\" (44%)\n\"iron_ore\" (22%)\n\"copper_ore\" (22%)\n\"trash\" (11%)",
+            "1x:\n\"copper_deposit\" (50%)\n\"iron_deposit\" (50%)"
+        ]
+    },{
+        "card-id": "pack_modern_solutions",
+        "extra-text": [
+            "50 money",
+            "The \"credit_card\" (90%) will only be a part of the pack if there is no \"credit_card\" on the board."
+        ],
+        "drops": [
+            "2x:\n\"gravel\" (21%)\n\"lumber\" (21%)\n\"grain\" (18%)\n\"water\" (16%)\n\"metal_scraps\" (16%)\n\"trash\" (5%)\n\"worker\" (3%)",
+            "2x:\n\"credit_card\" (See Above)\n\"gravel\" (26%)\n\"lumber\" (26%)\n\"metal_scraps\" (26%)\n\"trash\" (9%)\n\"cement\" (9%)\n\"storage_container\" (2%)\n\"hamster_wheel\" (2%)"
+        ]
+    },{
+        "card-id": "pack_new_weaponry",
+        "extra-text": [
+            "Spawns once per save after opening at least your 6th pack."
+        ],
+        "drops": [
+            "2x Equipment Ideas",
+            "1x \"rumor_combat\""
+        ]
+    },{
+        "card-id": "pack_noble_creatures",
+        "extra-text": [
+            "6 coins"
+        ],
+        "drops": [
+            "2x:\n\"wheat\" (43%)\n\"soil\" (14%)\n\"grape_vine\" (14%)\n\"olive_tree\" (14%)\n\"spring\" (14%)",
+            "1x:\n\"sheep\" (80%)\n\"horse\" (20%)"
+        ]
+    },{
+        "card-id": "pack_on_the_shore",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "3x:\n\"driftwood\" (16%)\n\"sand\" (16%)\n\"fishing_spot\" (16%)\n\"flint\" (12%)\n\"cotton_plant\" (12%)\n\"banana_tree\" (8%)\n\"banana\" (8%)\n\"monkey\" (4%)\n\"seagull\" (4%)\n\"seaweed\" (4%)"
+        ]
+    },{
+        "card-id": "pack_order_and_structure",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "1x \"iron_deposit\"",
+            "2x:\n\"tree\" (33%)\n\"rock\" (33%)\n\"berry_bush\" (33%)",
+            "1x:\n\"brick\" (33%)\n\"plank\" (33%)\n\"iron_ore\" (33%)"
+        ]
+    },{
+        "card-id": "pack_precious_resources",
+        "extra-text": [
+            "40 money"
+        ],
+        "drops": [
+            "2x:\n\"gravel\" (21%)\n\"lumber\" (21%)\n\"grain\" (18%)\n\"water\" (16%)\n\"metal_scraps\" (16%)\n\"trash\" (5%)\n\"worker\" (3%)",
+            "2x:\n\"gravel_deposit\" (25%)\n\"lumber_deposit\" (25%)\n\"water_deposit\" (25%)\n\"trash\" (25%)"
+        ]
+    },{
+        "card-id": "pack_pure_greed",
+        "extra-text": [
+            "3 coins",
+            "The \"soil\" (14%) will only be a part of the pack if there is no \"soil\" on the board."
+        ],
+        "drops": [
+            "2x:\n\"grape_vine\" (29%)\n\"tree\" (21%)\n\"rock\" (21%)\n\"soil\" (See above)\n\"grape\" (7%)\n\"wheat\" (7%)",
+            "1x:\n\"wood\" (40%)\n\"stone\" (40%)\n\"stick\" (20%)"
+        ]
+    },{
+        "card-id": "pack_reap_n_sow",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "1x:\n\"berry\" (25%)\n\"apple\" (25%)\n\"carrot\" (25%)\n\"raw_meat\" (25%)",
+            "1x:\n\"rabbit\" (25%)\n\"cow\" (25%)\n\"chicken\" (25%)\n\"soil\" (25%)",
+            "2x:\n\"tree\" (33%)\n\"rock\" (33%)\n\"berry_bush\" (33%)"
+        ]
+    },{
+        "card-id": "pack_royal_inventor",
+        "extra-text": [
+            "4 coins"
+        ],
+        "drops": [
+            "2x:\n\"wood\" (29%)\n\"stone\" (29%)\n\"rock\" (14%)\n\"tree\" (14%)\n\"grape\" (7%)\n\"wheat\" (7%)",
+            "1x:\n\"olive_tree\" (67%)\n\"spring\" (33%)"
+        ]
+    },{
+        "card-id": "pack_royal_luxuries",
+        "extra-text": [
+            "15 coins"
+        ],
+        "drops": [
+            "1x:\n\"wood\" (29%)\n\"stone\" (29%)\n\"rock\" (14%)\n\"tree\" (14%)\n\"grape\" (7%)\n\"wheat\" (7%)",
+            "2x:\n\"plank\" (31%)\n\"brick\" (31%)\n\"iron_ore\" (23%)\n\"iron_bar\" (8%)\n\"gold_ore\" (8%)"
+        ]
+    },{
+        "card-id": "pack_seeking_wisdom",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "3x:\n\"tree\" (33%)\n\"rock\" (33%)\n\"berry_bush\" (33%)",
+            "1x:\n\"wood\" (27%)\n\"stone\" (27%)\n\"stick\" (13%)\n\"flint\" (13%)\n\"poop\" (13%)\n\"coin\" (7%)"
+        ]
+    },{
+        "card-id": "pack_simple_life",
+        "extra-text": [
+            "3 coins",
+            "The \"soil\" (12%) will only be a part of the pack if there is no \"soil\" on the board."
+        ],
+        "drops": [
+            "2x:\n\"rock\" (18%)\n\"tree\" (18%)\n\"book\" (18%)\n\"tomato_plant\" (12%)\n\"wood\" (12%)\n\"stone\" (12%)\n\"soil\" (See Above)",
+            "1x:\n\"wood\" (25%)\n\"stone\" (25%)\n\"rock\" (17%)\n\"tree\" (17%)\n\"plank\" (8%)\n\"brick\" (8%)"
+        ]
+    },{
+        "card-id": "pack_soul_food",
+        "extra-text": [
+            "7 coins"
+        ],
+        "drops": [
+            "2x:\n\"wheat\" (33%)\n\"spring\" (17%)\n\"cotton_plant\" (17%)\n\"tree\" (17%)\n\"rock\" (17%)",
+            "1x:\n\"onion\" (20%)\n\"egg\" (20%)\n\"milk\" (20%)\n\"potato\" (20%)\n\"mushroom\" (20%)",
+            "1x:\n\"plank\" (50%)\n\"brick\" (50%)"
+        ]
+    },{
+        "card-id": "pack_the_armory",
+        "extra-text": [
+            "hmm"
+        ],
+        "drops": [
+            "1x:\n\"tree\" (33%)\n\"rock\" (33%)\n\"berry_bush\" (33%)",
+            "1x:\n\"giant_rat\" (13%)\n\"bear\" (13%)\n\"skeleton\" (13%)\n\"wolf\" (13%)\n\"slime\" (13%)\n\"goblin_shaman\" (13%)\n\"mimic\" (13%)\n\"frog_man\" (13%)",
+            "1x:\n\"brick\" (33%)\n\"plank\" (33%)\n\"iron_ore\" (33%)"
+        ]
+    },{
+        "card-id": "pack_the_end",
+        "extra-text": [
+            "15 coins"
+        ],
+        "drops": [
+            "1x:\n\"ruins\" (33%)\n\"mountain\" (33%)\n\"forest\" (33%)",
+            "1x:\n\"magic_dust\" (50%)\n\"iron_bar\" (50%)",
+            "1x:\n\"poop_slime\" (33%)\n\"mosquito\" (33%)\n\"slime\" (33%)"
+        ]
+    },{
+        "card-id": "pack_the_island",
+        "extra-text": [
+            "Spawns once per save after killing the \"demon\" or \"demon_lord\""
+        ],
+        "drops": [
+            "idea_rowboat\"",
+            "\"idea_cathedral\"",
+            "\"rumor_the_island\""
         ]
     },{
         "card-id": "pack_wild_weather",
@@ -1147,6 +2588,52 @@
         "drops": [
             "2x:\n\"lightning\"\n\"rain\"\n\"sunshine\"\n\"wind\"",
             "1x:\n\"drought\"\n\"earthquake\"\n\"financial_crisis\"\n\"wildfire\"\n\"crashed_ufo\"\n\"festival\"\n\"pack_sale\""
+        ]
+    },{
+        "card-id": "pack_wisdom_of_life",
+        "extra-text": [
+            "4 coins"
+        ],
+        "drops": [
+            "1x:\n\"tree\" (25%)\n\"rock\" (25%)\n\"berry_bush\" (25%)\n\"spring\" (25%)",
+            "2x:\n\"spring\" (29%)\n\"herbs\" (29%)\n\"rock\" (14%)\n\"tree\" (14%)\n\"grape_vine\" (14%)"
+        ]
+    },{
+        "card-id": "painting",
+        "flavour-text": "A drawing of a French Villager"
+    },{
+        "card-id": "pancakes",
+        "flavour-text": "A big stack!"
+    },{
+        "card-id": "paper",
+        "flavour-text": "Wet wood, thinly-sliced"
+    },{
+        "card-id": "parrot",
+        "flavour-text": "Talks like a human, flies like a bird. Makes Pirates happy",
+        "combat-text": "7|ATME,AS3,HC2,DA2,DF1",
+        "drops": [
+            "1x:\n\"raw_meat\" (33%)\n\"poop\" (33%)\n\"bone\" (33%)"
+        ],
+        "uses": [
+            "Makes 1 \"berry\" every 120s"
+        ]
+    },{
+        "card-id": "particle_collider",
+        "flavour-text": "Collides particles at very high speed"
+    },{
+        "card-id": "petting_zoo",
+        "flavour-text": "Generates Happiness for every Animal on top of it"
+    },{
+        "card-id": "pickaxe",
+        "flavour-text": "A stick with two pointy ends",
+        "equip-text": "3|CHT10|ATME,AS-1,DA2"
+    },{
+        "card-id": "pirate",
+        "flavour-text": "A burly angry seaman",
+        "combat-text": "16|STG10|ATME,AS2,HC3,DA2,DF2",
+        "drops": [
+            "1x:\n\"coin\" (60%)\n\"pirate_sabre\" (20%)\n\"pirate_hat\" (20%)",
+            "Can be equipped with:\n\"blunderbuss\"\n\"pirate_sabre\"\n\"tiger_fur_coat\"\n\"slingshot\""
         ]
     },{
         "card-id": "pirate_boat",
@@ -1161,6 +2648,213 @@
             "Spawns X \"pirate\" after Xs based on 'times bribed' and 'number of pirate boats encountered'; maximum 7 \"pirate\""
         ]
     },{
+        "card-id": "pirate_hat",
+        "flavour-text": "Useful for dress up parties",
+        "equip-text": "9|STG20|MH5,HC2,DF1"
+    },{
+        "card-id": "pirate_sabre",
+        "flavour-text": "Designed for swashbucklers",
+        "equip-text": "6|ISL7|ATME,AS2,HC1,DA1"
+    },{
+        "card-id": "pizza",
+        "flavour-text": "Hell yeah"
+    },{
+        "card-id": "plague_mask",
+        "flavour-text": "You can't get Sick",
+        "equip-text": "9|MH5,DA2,DF2"
+    },{
+        "card-id": "plains",
+        "flavour-text": "The great outdoors",
+        "drops": [
+            "\"chicken\" (14%)",
+            "\"soil\" (14%)",
+            "\"rat\" (14%)",
+            "\"cow\" (14%)",
+            "\"onion\" (14%)",
+            "\"mushroom\" (7%)",
+            "\"wolf\" (7%)",
+            "\"carrot\" (7%)",
+            "\"milk\" (7%)"
+        ]
+    },{
+        "card-id": "plank",
+        "flavour-text": "A strong building material"
+    },{
+        "card-id": "plastic",
+        "flavour-text": "Will be everywhere before you even know it"
+    },{
+        "card-id": "pollution",
+        "flavour-text": "Leaves a nasty smell"
+    },{
+        "card-id": "poop",
+        "flavour-text": "It looks stinky"
+    },{
+        "card-id": "poop_slime",
+        "flavour-text": "Slime made of Poop",
+        "combat-text": "35|SKA100|ATRG,AS5,HC6,DA1,DF3",
+        "drops": [
+            "3x:\n\"poop\" (71%)\n\"magic_dust\" (14%)\n\"bone\" (14%)"
+        ]
+    },{
+        "card-id": "possessed_blade",
+        "flavour-text": "Makes its wielder feel uneasy",
+        "equip-text": "1|AXS50,CHT15|ATME,MH-3,AS1,DA4,DF1"
+    },{
+        "card-id": "potato",
+        "flavour-text": "Smooth and starchy, but should be cooked first"
+    },{
+        "card-id": "puppy",
+        "flavour-text": "It's adorable",
+        "combat-text": "9|ATME,AS3,HC3,DA2,DF1"
+    },{
+        "card-id": "purple_socks",
+        "flavour-text": "They have small cat paws on!",
+        "equip-text": "4|HSL10|MH5"
+    },{
+        "card-id": "quantum_matter",
+        "flavour-text": "A highly unstable resource used in special machines"
+    },{
+        "card-id": "quarry",
+        "flavour-text": "An unlimited resource for Stone",
+        "drops": [
+            "\"stone\" (88%)",
+            "\"flint\" (13%)"
+        ]
+    },{
+        "card-id": "quiver",
+        "flavour-text": "Makes you more efficient",
+        "equip-text": "4|BLT10|AS2"
+    },{
+        "card-id": "rabbit",
+        "flavour-text": "Fluffy poop machine",
+        "combat-text": "9|FSL10|ATME,AS3,HC2,DA2,DF1",
+        "drops": [
+            "1x:\n\"rabbit_hat\" (33%)\n\"raw_meat\" (17%)\n\"carrot\" (17%)\n\"poop\" (17%)\n\"bone\" (17%)"
+        ],
+        "uses": [
+            "Makes 1 \"poop\" every 90s"
+        ]
+    },{
+        "card-id": "rabbit_hat",
+        "flavour-text": "It's adorable!",
+        "equip-text": "1|MH-5,AS1,DF1"
+    },{
+        "card-id": "radar_station",
+        "flavour-text": "Detects attacks 3 moons before they happen"
+    },{
+        "card-id": "rag",
+        "flavour-text": "Ill-fitted piece of cotton",
+        "equip-text": "1|MH2,AS1,DF-1"
+    },{
+        "card-id": "rain",
+        "flavour-text": "Can be havested for Water",
+        "drops": [
+            "3x \"water\""
+        ]
+    },{
+        "card-id": "rare_portal",
+        "flavour-text": "It looks threatening. I wonder if we can enter it?"
+    },{
+        "card-id": "rat",
+        "flavour-text": "Small version of a Giant Rat",
+        "combat-text": "7|ATME,AS3,HC2,DA2,DF1",
+        "drops": [
+            "1x:\n\"raw_meat\" (50%)\n\"coin\" (50%)"
+        ]
+    },{
+        "card-id": "rat_crown",
+        "flavour-text": "Turn into the King of the Rats",
+        "equip-text": "5|MH5,HC2,DF1"
+    },{
+        "card-id": "raw_crab_meat",
+        "flavour-text": "Should be cooked before consumption"
+    },{
+        "card-id": "raw_fish",
+        "flavour-text": "It's slippery"
+    },{
+        "card-id": "raw_meat",
+        "flavour-text": "Should be cooked first"
+    },{
+        "card-id": "ready_meal",
+        "flavour-text": "Microplastic flavored"
+    },{
+        "card-id": "recycling_center",
+        "flavour-text": "Removes pollution over time"
+    },{
+        "card-id": "resource_chest",
+        "flavour-text": "A Chest for storing Resources"
+    },{
+        "card-id": "resource_magnet",
+        "flavour-text": "This card magically pulls cards of the same kind towards it"
+    },{
+        "card-id": "road_builder",
+        "flavour-text": "A guild for road builders, allows you to build roads between cards"
+    },{
+        "card-id": "robot_genius",
+        "flavour-text": "Artificial intelligence"
+    },{
+        "card-id": "robot_soldier",
+        "flavour-text": "Roger roger",
+        "combat-text": "16|ATFT,AS3,HC3,DA2,DF3"
+    },{
+        "card-id": "robot_station",
+        "flavour-text": "Houses Robot Workers"
+    },{
+        "card-id": "robot_worker",
+        "flavour-text": "A Worker made of metal - doesn't need Food!"
+    },{
+        "card-id": "rock",
+        "flavour-text": "It looks sturdy, yet punchable",
+        "drops": [
+            "2x:\n\"stone\" (70%)\n\"flint\" (20%)\n\"coin\" (10%)"
+        ]
+    },{
+        "card-id": "rope",
+        "flavour-text": "Long and fibrous"
+    },{
+        "card-id": "rowboat",
+        "flavour-text": "Can carry 1 Card. Needs a Villager to start sailing. Can't carry Buildings"
+    },{
+        "card-id": "royal",
+        "flavour-text": "A spoiled brat"
+    },{
+        "card-id": "royal_archer",
+        "flavour-text": "Trained on the castle grounds",
+        "combat-text": "14|ATRG,AS2,HC3,DA2,DF2",
+        "drops": [
+            "\"coin\"",
+            "Can be equipped with:\n\"bow\"\n\"crossbow\"\n\"guard's_tunic\""
+        ]
+    },{
+        "card-id": "royal_banquet",
+        "flavour-text": "Some very tasty foods combined"
+    },{
+        "card-id": "royal_crown",
+        "flavour-text": "Gives you strength and makes you greedy",
+        "equip-text": "124|MH100,AS5,HC5,DA5,DF5"
+    },{
+        "card-id": "royal_guard",
+        "flavour-text": "Will give their life for the Royal",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2",
+        "drops": [
+            "\"coin\"",
+            "Can be equipped with:\n\"sword\"\n\"helmet\"\n\"guard's_tunic\""
+        ]
+    },{
+        "card-id": "royal_mage",
+        "flavour-text": "A noble wizard",
+        "combat-text": "14|ATMG,AS2,HC3,DA2,DF2",
+        "drops": [
+            "\"coin\"",
+            "Can be equipped with:\n\"magic_staff\"\n\"guard's_tunic\""
+        ]
+    },{
+        "card-id": "ruins",
+        "flavour-text": "An ancient place. Requires 5 Villagers to explore.",
+        "drops": [
+            "5x:\n\"feral cat\" (20%)\n\"magic_dust\" (20%)\n\"brick\" (20%)\n\"iron_bar\" (20%)\n\"gold_bar\" (20%)"
+        ]
+    },{
         "card-id": "rumor_combat",
         "flavour-text": "Some attack types are stronger against others. For example, Melee beats Magic!",
         "extra-text": [
@@ -1169,6 +2863,281 @@
         "sources": [
             "\"pack_new_weaponry\""
         ]
+    },{
+        "card-id": "rumor_dark_forest",
+        "flavour-text": "There's a hidden world behind the Strange Portal"
+    },{
+        "card-id": "rumor_eel_bait",
+        "flavour-text": "When using a Fish Trap, Banana can be used to catch Eel"
+    },{
+        "card-id": "rumor_eureka!",
+        "flavour-text": "Educating an Educated Worker while having a city wellbeing of 50 will create a Genius"
+    },{
+        "card-id": "rumor_extraction",
+        "flavour-text": "Combine a Deposit, Factory Parts and a Worker.\nFor example, doing this with a Lumber Deposit will make a Tree Plantation"
+    },{
+        "card-id": "rumor_industrial_revolution",
+        "flavour-text": "Having a surplus of 25 food will trigger the Industrial Revolution!"
+    },{
+        "card-id": "rumor_quantum_matter",
+        "flavour-text": "Two Uranium cards colliding at high speeds should cause some nice sparks…"
+    },{
+        "card-id": "rumor_shark_bait",
+        "flavour-text": "When using a Fish Trap, Raw Meat can be used to catch Shark"
+    },{
+        "card-id": "rumor_the_island",
+        "flavour-text": "Gold and Glass can be found on the Island"
+    },{
+        "card-id": "rumor_tuna_bait",
+        "flavour-text": "When using a Fish Trap, Lime can be used to catch Tuna"
+    },{
+        "card-id": "rumor_world_of_death",
+        "flavour-text": "Offering Raw Meat at the Altar will summon a spirit"
+    },{
+        "card-id": "rumor_world_of_greed",
+        "flavour-text": "Offering the Altar a Coin will summon a spirit"
+    },{
+        "card-id": "rumor_world_of_sadness",
+        "flavour-text": "Offering Charcoal at the Altar will summon a spirit"
+    },{
+        "card-id": "sacred_chest",
+        "flavour-text": "It needs a Sacred Key to be opened"
+    },{
+        "card-id": "sacred_key",
+        "flavour-text": "Forged with Glass and Gold. Used for opening the Sacred Chest."
+    },{
+        "card-id": "sad_event",
+        "flavour-text": "Creates 1 Sadness for every 2 Villagers"
+    },{
+        "card-id": "sadness",
+        "flavour-text": "Makes Villagers sad\nYou need 1 extra Happiness for every Sadness card you have"
+    },{
+        "card-id": "sail",
+        "flavour-text": "Used for making Boats"
+    },{
+        "card-id": "sand",
+        "flavour-text": "The main ingredient for a nice beach"
+    },{
+        "card-id": "sand_quarry",
+        "flavour-text": "An unlimited resource for Sand",
+        "drops": [
+            "\"sand\""
+        ]
+    },{
+        "card-id": "sandstone",
+        "flavour-text": "An alternative to Stone. Can be used for anything Stone is needed for."
+    },{
+        "card-id": "sawmill",
+        "flavour-text": "Quickly turns Wood into Planks"
+    },{
+        "card-id": "science",
+        "flavour-text": "The result of practicing the scientific method"
+    },{
+        "card-id": "scythe",
+        "flavour-text": "Useful for farming and chopping down monsters",
+        "equip-text": "1|DGA10|ATME,MH-5,AS1,DA1"
+    },{
+        "card-id": "seafood_stew",
+        "flavour-text": "Delicious Island stew"
+    },{
+        "card-id": "seagull",
+        "flavour-text": "An angry bird",
+        "combat-text": "8|ATME,AS3,HC2,DA2,DF1",
+        "drops": [
+            "\"raw_fish\""
+        ]
+    },{
+        "card-id": "seaweed",
+        "flavour-text": "Salad of the sea"
+    },{
+        "card-id": "septic_tank",
+        "flavour-text": "Poop storage"
+    },{
+        "card-id": "sewer",
+        "flavour-text": "Automatically attracts Poop"
+    },{
+        "card-id": "shack",
+        "flavour-text": "Barely liveable…"
+    },{
+        "card-id": "Shaman",
+        "flavour-text": "Talks to spirits"
+    },{
+        "card-id": "shark",
+        "flavour-text": "A type of big angry fish",
+        "combat-text": "20|BLT10|ATME,AS3,HC3,DA3,DF3",
+        "drops": [
+            "3x \"raw fish\""
+        ]
+    },{
+        "card-id": "shed",
+        "flavour-text": "Increases your Card Cap by 4"
+    },{
+        "card-id": "sheep",
+        "flavour-text": "Fluffy!",
+        "combat-text": "7|ATME,AS3,HC2,DA2,DF1",
+        "drops": [
+            "1x:\n\"wool\" (80%)\n\"raw_meat\" (20%)"
+        ],
+        "uses": [
+            "Makes 1 \"wool\" every 90s"
+        ]
+    },{
+        "card-id": "shell",
+        "flavour-text": "The main currency on the Island"
+    },{
+        "card-id": "shell_chest",
+        "flavour-text": "A chest that can hold Shells. Interact to remove Shells. Contains 0/100 \"shell_icon\""
+    },{
+        "card-id": "skeleton",
+        "flavour-text": "A monster consisting of a set of bones",
+        "combat-text": "13|CHT5|ATME,AS2,HC3,DA2,DF2",
+        "drops": [
+            "1x:\n\"axe\" (33%)\n\"bone\" (22%)\n\"skull_helmet\" (22%)\n\"magic_dust\" (22%)",
+            "Can be equipped with:\n\"spiked_plank\"\n\"wooden_shield\"\n\"bone_spear\"\n\"helmet\"\n\"morning_star\""
+        ]
+    },{
+        "card-id": "skull_helmet",
+        "flavour-text": "Kinda messed up",
+        "equip-text": "11|LST10|MH5,DA2,DF2"
+    },{
+        "card-id": "slime",
+        "flavour-text": "3 small slimes in a trench coat",
+        "combat-text": "14|ATME,AS3,HC3,DA2,DF2"
+    },{
+        "card-id": "slingshot",
+        "flavour-text": "Very inaccurately hurl rocks at enemies",
+        "equip-text": "8|DGR25|ATRG,AS1,HC1,DA1"
+    },{
+        "card-id": "sloop",
+        "flavour-text": "Can carry 10 Cards. Needs a Villager to start sailing. Can't carry Buildings"
+    },{
+        "card-id": "slums",
+        "flavour-text": "Too many Shacks in one spot"
+    },{
+        "card-id": "small_slime",
+        "flavour-text": "A goodie-filled goo",
+        "combat-text": "6|ATME,AS1,HC3,DA2,DF1",
+        "drops": [
+            "1x:\n\"coin\" (40%)\n\"magic_dust\" (30%)\n\"egg\" (20%)\n\"key\" (10%)"
+        ]
+    },{
+        "card-id": "smelter",
+        "flavour-text": "Processes various materials by smelting them"
+    },{
+        "card-id": "smithy",
+        "flavour-text": "A building used for creating better weapons"
+    },{
+        "card-id": "snake",
+        "flavour-text": "A slithering, poisonous creature",
+        "combat-text": "15|PTG30|ATME,AS3,HC3,DA2,DF1",
+        "drops": [
+            "\"raw_meat\""
+        ]
+    },{
+        "card-id": "sniper",
+        "flavour-text": "Farsighted soldiers",
+        "combat-text": "15|ATFT,AS3,HC4,DA3,DF2"
+    },{
+        "card-id": "soil",
+        "flavour-text": "A simple and slow way of growing Food"
+    },{
+        "card-id": "solar_panel",
+        "flavour-text": "Unlimited free energy from the sun"
+    },{
+        "card-id": "soldier",
+        "flavour-text": "Fights to keep the city safe!",
+        "combat-text": "16|ATFT,AS3,HC3,DA2,DF3"
+    },{
+        "card-id": "spear",
+        "flavour-text": "Stick with a pointy end",
+        "equip-text": "3|CHT5|ATME,DA2"
+    },{
+        "card-id": "spiked_plank",
+        "flavour-text": "For tough construction workers",
+        "equip-text": "3|BLT7|ATME,HC1,DA1"
+    },{
+        "card-id": "spirit_of_death",
+        "flavour-text": "From a far away world, where Villagers get old and sick"
+    },{
+        "card-id": "spirit_of_greed",
+        "flavour-text": "From a far away world, where a Royal rules the land"
+    },{
+        "card-id": "spirit_of_sadness",
+        "flavour-text": "From a far away world where Villagers get sad",
+        "drops": [
+            "On entering \"board_sadness\":\n\"idea_lift_curse\"\n\"idea_euphoria\""
+        ]
+    },{
+        "card-id": "spring",
+        "flavour-text": "A water source. Can only be used to fill Empty Bottles",
+        "drops": [
+            "3x \"water\""
+        ]
+    },{
+        "card-id": "spy",
+        "flavour-text": "Looks just like a Goblin!",
+        "combat-text": "20|ATFT,AS3,HC3,DA3,DF3"
+    },{
+        "card-id": "stable_portal",
+        "flavour-text": "A permanent portal to the Dark Forest. Can move 7 Cards. Time for revenge!"
+    },{
+        "card-id": "stadium",
+        "flavour-text": "Houses sports events for multiple moons"
+    },{
+        "card-id": "staff_of_fear",
+        "flavour-text": "Very scary!!",
+        "equip-text": "2|SRD20|ATMG,MH-12,AS1,HC1,DA2"
+    },{
+        "card-id": "stew",
+        "flavour-text": "A hearty meal"
+    },{
+        "card-id": "stick",
+        "flavour-text": "Used to be part of a Tree"
+    },{
+        "card-id": "stone",
+        "flavour-text": "A simple resource"
+    },{
+        "card-id": "storage_container",
+        "flavour-text": "A place to store your resources. Contained cards don't count towards your Card Cap"
+    },{
+        "card-id": "stove",
+        "flavour-text": "Cooks faster than a Campfire"
+    },{
+        "card-id": "strange_portal",
+        "flavour-text": "It looks threatening. I wonder if we can enter it?"
+    },{
+        "card-id": "sugar_cane",
+        "flavour-text": "It's candy flavored grass",
+        "drops": [
+            "2x \"cane_sugar\""
+        ]
+    },{
+        "card-id": "sunshine",
+        "flavour-text": "Better bring sunscreen!"
+    },{
+        "card-id": "sushi",
+        "flavour-text": "A delicious treat"
+    },{
+        "card-id": "sword",
+        "flavour-text": "An Iron Bar with a pointy end",
+        "equip-text": "5|BLT10|ATME,AS1,HC1,DA1"
+    },{
+        "card-id": "swordsman",
+        "flavour-text": "A villager that's ready to fight.",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+    },{
+        "card-id": "tamago_sushi",
+        "flavour-text": "Egg flavored sushi"
+    },{
+        "card-id": "tank",
+        "flavour-text": "Long range safety",
+        "combat-text": "27|ATAR,AS3,HC2,DA3,DF4"
+    },{
+        "card-id": "tavern",
+        "flavour-text": "Turns Food into Happiness"
+    },{
+        "card-id": "temple",
+        "flavour-text": "An important place of worship. It needs a mysterious artifact."
     },{
         "card-id": "ten_dollar",
         "flavour-text": "A tenner",
@@ -1184,6 +3153,232 @@
             "\"city_hall\"",
             "\"export_center\""
         ]
+    },{
+        "card-id": "tentacle",
+        "flavour-text": "Wiggle wiggle wiggle",
+        "combat-text": "40|STG20|ATME,AS4,HC2,DA4,DF2",
+        "drops": [
+            "\"raw_fish\""
+        ]
+    },{
+        "card-id": "theme_park",
+        "flavour-text": "I love rollercoasters"
+    },{
+        "card-id": "throwing_stars",
+        "flavour-text": "Fast and accurate, ninjas love them",
+        "equip-text": "8|ATRG,AS3,HC1,DA1"
+    },{
+        "card-id": "tiger",
+        "flavour-text": "A very strong cat",
+        "combat-text": "22|STG20|ATME,AS4,HC3,DA2,DF3",
+        "drops": [
+            "1x:\n\"raw_meat\" (57%)\n\"tiger_fur_suit\" (43%)"
+        ]
+    },{
+        "card-id": "tiger_fur_coat",
+        "flavour-text": "Trashy but at least it makes you feel strong",
+        "equip-text": "7|MH10,DF1"
+    },{
+        "card-id": "tomato",
+        "flavour-text": "Red, round and fun to throw"
+    },{
+        "card-id": "tomato_plant",
+        "flavour-text": "Only eat the red parts",
+        "drops": [
+            "3x \"tomato\""
+        ]
+    },{
+        "card-id": "tomatoes",
+        "flavour-text": "The crowd did not like it",
+        "equip-text": "1|PAL5|ATRG,AS-1,HC-1,DA-1"
+    },{
+        "card-id": "toy",
+        "flavour-text": "Lightyears ahead of the competition"
+    },{
+        "card-id": "toy_shop",
+        "flavour-text": "All kinds of collectibles"
+    },{
+        "card-id": "trained_monkey",
+        "flavour-text": "Can help you out with chores. Turns back into a normal Monkey at the end of the Moon",
+        "combat-text": "7|ATME,AS2,HC1,DA2,DF1"
+    },{
+        "card-id": "trash",
+        "flavour-text": "Time for some dumpster diving",
+        "drops": [
+            "1x:\n\"metal_scraps\" (53%)\n\"plastic\" (11%)\n\"grain\" (11%)\n\"muesli\" (5%)\n\"toy\" (5%)\n\"credit_card\" (5%)\n\"iron_bar\" (5%)\n\"copper_bar\" (5%)"
+        ]
+    },{
+        "card-id": "travelling_cart",
+        "flavour-text": "Give me 5 Coins and I'll give you a Card!",
+        "drops": [
+            "On purchase:\n\"bone\" (8%)\n\"iron_bar\" (8%)\n\"spear\" (8%)\n\"apple\" (8%)\n\"soil\" (8%)\n\"key\" (8%)\n\"treasure_chest\" (8%)\n\"frittata\" (8%)\n\"brick\" (8%)\n\"plank\" (8%)\n\"map\" (8%)\n\"old_tome\" (8%)"
+        ]
+    },{
+        "card-id": "treasure_map",
+        "flavour-text": "x marks the spot. Needs to be searched with a Villager"
+    },{
+        "card-id": "treasure_chest",
+        "flavour-text": "It's locked"
+    },{
+        "card-id": "tree",
+        "flavour-text": "Made of Wood and Sticks",
+        "drops": [
+            "2x:\n\"wood\" (63%)\n\"stick\" (25%)\n\"apple\" (13%)"
+        ]
+    },{
+        "card-id": "tree_plantation",
+        "flavour-text": "An infinite source of Lumber",
+        "drops": [
+            "\"lumber\""
+        ]
+    },{
+        "card-id": "t-rex",
+        "flavour-text": "Big bad dino",
+        "combat-text": "268|ATFT,AS2,HC4,DA6,DF5"
+    },{
+        "card-id": "tuna",
+        "flavour-text": "Chunky fish",
+        "combat-text": "9|ATME,AS2,HC3,DA2,DF2",
+        "drops": [
+            "3x \"raw_fish\""
+        ]
+    },{
+        "card-id": "twenty_dollar",
+        "flavour-text": "Twenty buckaroos"
+    },{
+        "card-id": "university",
+        "flavour-text": "A place of wisdom. You've discovered all their Ideas."
+    },{
+        "card-id": "unknown_machine",
+        "flavour-text": "Needs a lot of charge before we know what it is"
+    },{
+        "card-id": "uranium",
+        "flavour-text": "Handle carefully..."
+    },{
+        "card-id": "uranium_deposit",
+        "flavour-text": "Contains small traces of Uranium",
+        "drops": [
+            "3x \"uranium\""
+        ]
+    },{
+        "card-id": "uranium_mine",
+        "flavour-text": "Radio active, radio active",
+        "drops": [
+            "\"uranium\""
+        ]
+    },{
+        "card-id": "villager_poop",
+        "flavour-text": "It's extra smelly"
+    },{
+        "card-id": "villager_statue",
+        "flavour-text": "Remembering the old times of Villagers and Berry Bushes"
+    },{
+        "card-id": "war_ship",
+        "flavour-text": "Keeps the fish safe",
+        "combat-text": "35|ATAR,AS2,HC4,DA5,DF4"
+    },{
+        "card-id": "warehouse",
+        "flavour-text": "Increases your Card Cap by 14"
+    },{
+        "card-id": "warrior",
+        "flavour-text": "A Villager who goes to the gym",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+    },{
+        "card-id": "water",
+        "flavour-text": "Wet liquid"
+    },{
+        "card-id": "water_deposit",
+        "flavour-text": "A large deposit of Water",
+        "drops": [
+            "3x \"water\""
+        ]
+    },{
+        "card-id": "water_pump",
+        "flavour-text": "Pumps Water from the ground",
+        "drops": [
+            "\"water\""
+        ]
+    },{
+        "card-id": "water_treatment_plant",
+        "flavour-text": "Converts sewage into Water",
+        "drops": [
+            "water"
+        ]
+    },{
+        "card-id": "water_wheel",
+        "flavour-text": "Generates energy from Water"
+    },{
+        "card-id": "well",
+        "flavour-text": "An infinite source of Water",
+        "drops": [
+            "\"water\""
+        ]
+    },{
+        "card-id": "wheat",
+        "flavour-text": "It's grass for humans, but heaven for animals"
+    },{
+        "card-id": "whip",
+        "flavour-text": "Melee or ranged? Who knows",
+        "equip-text": "2|ATRG,AS-1,HC2,DA2"
+    },{
+        "card-id": "wicked_witch",
+        "flavour-text": "I liked her more when she was still a regular Old Lady",
+        "combat-text": "162|ATMG,AS2,HC3,DA3,DF4",
+        "drops": [
+            "\"magic_broom\"",
+            "Can be equipped with:\n\"magic_broom\""
+        ]
+    },{
+        "card-id": "wildfire",
+        "flavour-text": "Sets buildings on fire"
+    },{
+        "card-id": "wind",
+        "flavour-text": "If only you could utilize its energy somehow…"
+    },{
+        "card-id": "wind_turbine",
+        "flavour-text": "Automatically generates energy"
+    },{
+        "card-id": "wine",
+        "flavour-text": "This grape juice is making me feel funny"
+    },{
+        "card-id": "winter_coat",
+        "flavour-text": "Wonderful in winter",
+        "equip-text": "9|HSL10|MH15"
+    },{
+        "card-id": "wishing_well",
+        "flavour-text": "It grants you a wish for every 100 coins."
+    },{
+        "card-id": "wizard",
+        "flavour-text": "A villager with glitter",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+    },{
+        "card-id": "wizard_robe",
+        "flavour-text": "It's like a magical snuggle",
+        "equip-text": "2|ISL10|HC1"
+    },{
+        "card-id": "wolf",
+        "flavour-text": "It looks vicious",
+        "combat-text": "19|ATME,AS3,HC2,DA2,DF3",
+        "drops": [
+            "1x:\n\"raw_meat\" (60%)\n\"wolf_head\" (40%)"
+        ]
+    },{
+        "card-id": "wolf_head",
+        "flavour-text": "Perfect for furries",
+        "equip-text": "7|MH5,AS1,DF2"
+    },{
+        "card-id": "wood",
+        "flavour-text": "A simple resource"
+    },{
+        "card-id": "wooden_shield",
+        "flavour-text": "A basic defense against hard blows",
+        "equip-text": "3|DA1,DF1"
+    },{
+        "card-id": "wool",
+        "flavour-text": "A soft resource"
+    },{
+        "card-id": "worker",
+        "flavour-text": "Working 9 to 5"
     },{
         "card-id": "villager",
         "flavour-text": "A hard-working pioneer",
@@ -1201,5 +3396,12 @@
             "Every 5th \"packs_mainland\" after the 10th pack, IF only 1 human villager is alive",
             "\"old_village\" (9%)"
         ]
+    },{
+        "card-id": "young_villager",
+        "flavour-text": "The world right at your feet",
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+    },{
+        "card-id": "zoo",
+        "flavour-text": "For the animal lovers"
     }
 ]
