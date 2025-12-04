@@ -5,7 +5,7 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 ### Current Bookmark
 * Add all cards images & data (& tags)
    * Details still needed (decompile?)
-   * Wiki Bookmark: banana_tree
+   * Wiki Bookmark: bottle_of_rum
 
 ### Pending
 * Disclaimer cards

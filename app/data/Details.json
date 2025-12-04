@@ -95,6 +95,9 @@
     },{
         "card-id": "apple_tree",
         "flavour-text": "A tree.. with apples in it",
+        "extra-text": [
+            "Time to harvest: 10s"
+        ],
         "recipe": [
             "1x \"apple\" in:\n\"poop\"/\"soil\" for 120s\n\"garden\" for 90s\n\"farm\"/\"greenhouse\" for 60s"
         ],
@@ -203,15 +206,40 @@
     },{
         "card-id": "banana_tree",
         "flavour-text": "Made of Bananas",
+        "extra-text": [
+            "Time to harvest: 10s"
+        ],
         "drops": [
             "2x \"banana\""
+        ],
+        "recipe": [
+            "1x \"banana\" in:\n\"poop\"/\"soil\" for 120s\n\"garden\" for 90s\n\"farm\"/\"greenhouse\" for 60s"
+        ],
+        "sources": [
+            "\"pack_fresh_isle\"",
+            "\"pack_on_the_shore\" (8% of 3/3)",
+            "\"pack_island_of_ideas\" (25% of 3/4)",
+            "\"pack_island_insights\" (25% of 2/4)",
+            "\"pack_grilling_and_brewing\" (25% of 1/4)"
         ]
     },{
         "card-id": "barracks",
-        "flavour-text": "Military building that turns Workers into Soldiers and produces vehicles"
+        "flavour-text": "Military building that turns Workers into Soldiers and produces vehicles",
+        "recipe": [
+            "\"idea_barracks\" #s"
+        ]
     },{
         "card-id": "barrel",
-        "flavour-text": "Turns wet mixtures into different wet mixtures"
+        "flavour-text": "Turns wet mixtures into different wet mixtures",
+        "recipe": [
+            "\"idea_barrel\" 30s"
+        ],
+        "uses": [
+            "\"cheese\"",
+            "\"beer\"",
+            "\"wine\"",
+            "\"olive_oil\""
+        ]
     },{
         "card-id": "bear",
         "flavour-text": "Soft yet dangerous",
@@ -227,25 +255,68 @@
     },{
         "card-id": "bear_claw",
         "flavour-text": "Cheap Wolverine knockoff",
-        "equip-text": "9|CHT10,FSL10|ATME,MH5,AS1,HC1,DA1"
+        "equip-text": "9|CHT10,FSL10|ATME,MH5,AS1,HC1,DA1",
+        "uses": [
+            "\"warrior\""
+        ]
     },{
         "card-id": "beer",
-        "flavour-text": "Water and wheat. Iconic duo."
+        "flavour-text": "Water and wheat. Iconic duo.",
+        "extra-text": [
+            "Inflicts Drunk on \"villagers\" who consume it",
+            "Does not spoil on \"board_island\""
+        ],
+        "recipe": [
+            "\"idea_beer\" 60s"
+        ]
     },{
         "card-id": "berry",
-        "flavour-text": "A simple food found in Berry Bushes"
+        "flavour-text": "A simple food found in Berry Bushes",
+        "sources": [
+            "\"berry_bush\" (99%)",
+            "\"parrot\"",
+            "\"treasure_chest\"",
+            "\"pack_animal_lives\" (25% of 1/3)",
+            "\"pack_curious_cuisine\" (25% of 1/3)",
+            "\"pack_reap_n_sow\" (25% of 1/4)"
+        ],
+        "uses": [
+            "\"berry_bush\"",
+            "\"fruit_salad\"",
+            "\"milkshake\""
+        ]
     },{
         "card-id": "berry_bush",
         "flavour-text": "A bush with delicious berries in it",
+        "extra-text": [
+            "Time to harvest: 10s"
+        ],
         "drops": [
             "3x:\n\"berry\" (99%)\n\"rabbit\" (1%)"
+        ],
+        "recipe": [
+            "\"idea_growth\"",
+            "1x \"berry\" in:\n\"poop\"/\"soil\" for 120s\n\"garden\" for 90s\n\"farm\"/\"greenhouse\" for 60s"
+        ],
+        "sources": [
+            "\"forest\" (11%)",
+            "\"pack_a_new_world\"",
+            "\"pack_curious_cuisine\" (33% of 1/3)",
+            "\"pack_deep_thoughts\" (25% of 1/3)",
+            "\"pack_explorers\" (33% of 1/3)",
+            "\"pack_logic_and_reason\" (33% of 1/3)",
+            "\"pack_order_and_structure\" (33% of 2/4)",
+            "\"pack_reap_n_sow\" (33% of 2/4)",
+            "\"pack_seeking_wisdom\" (33% of 3/4)",
+            "\"pack_the_armory\" (33% of 1/3)",
+            "\"pack_wisdom_of_life\" (25% of 1/3)"
         ]
     },{
         "card-id": "blowpipe",
         "flavour-text": "Blow as hard as you can",
         "equip-text": "3|PTG10|ATRG,AS-1,HC1,DA1",
         "sources": [
-            "\"frog_man\" (11%)",
+            "\"frog_man\" (11% / Equipped)",
             "\"mosquito\" (Equipped)"
         ],
         "uses": [
@@ -254,7 +325,16 @@
     },{
         "card-id": "blunderbuss",
         "flavour-text": "Watch out! Could blow up in your own face",
-        "equip-text": "5|DGA15,CHS10|ATRG,HC-1,DA4"
+        "equip-text": "5|DGA15,CHS10|ATRG,HC-1,DA4",
+        "recipe": [
+            "\"idea_blunderbuss\" 15s"
+        ],
+        "sources": [
+            "\"pirate\" (Equipped)"
+        ],
+        "uses": [
+            "\"militia\""
+        ]
     },{
         "card-id": "bone",
         "flavour-text": "Fact: a skeleton consists of many of these",
@@ -279,7 +359,19 @@
     },{
         "card-id": "bone_spear",
         "flavour-text": "Intimidating version of a regular Spear",
-        "equip-text": "5|CHT10|ATME,HC1,DA2"
+        "equip-text": "5|CHT10|ATME,HC1,DA2",
+        "recipe": [
+            "\"idea_bone_spear\" 15s"
+        ],
+        "sources": [
+            "\"giant_rat\" (Equipped)",
+            "\"goblin\" (Equipped)",
+            "\"imp\" (Equipped)",
+            "\"skeleton\" (Equipped)"
+        ],
+        "uses": [
+            "\"militia\""
+        ]
     },{
         "card-id": "bone_staff",
         "flavour-text": "A bone with special abilities",
@@ -292,15 +384,27 @@
             "\"goblin_shaman\" (Equipped)"
         ],
         "uses": [
-            "\"Mage\""
+            "\"mage\""
         ]
     },{
         "card-id": "book",
-        "flavour-text": "Videogames, but for nerds"
+        "flavour-text": "Videogames, but for nerds",
+        "recipe": [
+            "\"idea_book\" #s"
+        ],
+        "uses": [
+            "\"happiness\""
+        ]
     },{
         "card-id": "boomerang",
         "flavour-text": "Always comes back to you",
-        "equip-text": "5|DGA15|ATRG,HC3,DA1"
+        "equip-text": "5|DGA15|ATRG,HC3,DA1",
+        "recipe": [
+            "\"idea_boomerang\" 15s"
+        ],
+        "uses": [
+            "\"militia\""
+        ]
     },{
         "card-id": "bottle_of_rum",
         "flavour-text": "Be careful: gets Villagers drunk!"
