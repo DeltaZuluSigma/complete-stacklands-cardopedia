@@ -51,6 +51,12 @@
             "By placing a \"villager\" on top of the \"royal\" 9 times"
         ]
     },{
+        "card-id": "animal_cage",
+        "flavour-text": "Can hold 1 Animal",
+        "recipe": [
+            "\"idea_animal_cage\" 10s"
+        ]
+    },{
         "card-id": "animal_pen",
         "flavour-text": "Can hold 5 Animals",
         "recipe": [
@@ -2959,7 +2965,7 @@
         "card-id": "shack",
         "flavour-text": "Barely liveable…"
     },{
-        "card-id": "Shaman",
+        "card-id": "shaman",
         "flavour-text": "Talks to spirits"
     },{
         "card-id": "shark",
