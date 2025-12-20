@@ -36,9 +36,9 @@
             "\"idea_altar\" 30s"
         ],
         "uses": [
-            "\"rumor_spirit_of_sadness\"",
-            "\"rumor_spirit_of_greed\"",
-            "\"rumor_spirit_of_death\""
+            "\"spirit_of_death\"",
+            "\"spirit_of_greed\"",
+            "\"spirit_of_sadness\""
         ]
     },{
         "card-id": "angry_royal",
@@ -81,13 +81,13 @@
         "card-id": "apple",
         "flavour-text": "Keeps doctors away",
         "sources": [
-            "\"tree\" (13%)",
             "\"apple_tree\" (90%)",
-            "\"pack_reap_n_sow\" (25% of 1/4)",
-            "\"pack_curious_cuisine\" (25% of 1/3)",
             "\"forest\" (5%)",
+            "\"tree\" (13%)",
             "\"travelling_cart\" (8%)",
-            "\"treasure_chest\""
+            "\"treasure_chest\"",
+            "\"pack_reap_n_sow\" (25% of 1/4)",
+            "\"pack_curious_cuisine\" (25% of 1/3)"
         ],
         "uses": [
             "\"apple_tree\""
@@ -124,7 +124,7 @@
         "card-id": "art_gallery",
         "flavour-text": "Converts 50 Money into an Artwork",
         "extra-text": [
-            "Transport: 1 Input",
+            "Can have:\n1x Input Road",
             "Wellbeing Conditions:\nLandmark in city for first time: +2"
         ],
         "recipe": [
@@ -193,10 +193,10 @@
         "flavour-text": "Everyone's favorite yellow fruit",
         "sources": [
             "\"banana_tree\"",
-            "\"pack_on_the_shore\" (8% of 3/3)",
-            "\"pack_grilling_and_brewing\" (33% of 1/4)",
             "\"jungle\" (14%)",
-            "\"monkey\" (25%)"
+            "\"monkey\" (25%)",
+            "\"pack_on_the_shore\" (8% of 3/3)",
+            "\"pack_grilling_and_brewing\" (33% of 1/4)"
         ],
         "uses": [
             "\"banana_tree\"",
@@ -339,17 +339,17 @@
         "card-id": "bone",
         "flavour-text": "Fact: a skeleton consists of many of these",
         "sources": [
-            "\"giant_rat\" (33%)",
-            "\"parrot\" (33%)",
             "\"bear\" (27%)",
             "\"chicken\" (25%)",
-            "\"monkey\" (25%)",
-            "\"skeleton\" (22%)",
             "\"cow\" (22%)",
-            "\"rabbit\" (17%)",
+            "\"giant_rat\" (33%)",
             "\"graveyard\" (13%)",
+            "\"monkey\" (25%)",
+            "\"parrot\" (33%)",
+            "\"rabbit\" (17%)",
+            "\"skeleton\" (22%)",
             "\"treasure_chest\"",
-            "\"\"travelling_cart\" (8%)"
+            "\"travelling_cart\" (8%)"
         ],
         "uses": [
             "\"bone_spear\"",
@@ -407,37 +407,124 @@
         ]
     },{
         "card-id": "bottle_of_rum",
-        "flavour-text": "Be careful: gets Villagers drunk!"
+        "flavour-text": "Be careful: gets Villagers drunk!",
+        "extra-text": [
+            "Inflicts Drunk on \"villagers\" who consume it",
+            "Does not spoil on \"board_island\""
+        ],
+        "recipe": [
+            "\"idea_bottle_of_rum\" 10s"
+        ],
+        "sources": [
+            "\"pack_grilling_and_brewing\" (33% of 1/4)"
+        ]
     },{
         "card-id": "bottle_of_water",
-        "flavour-text": "A transparent bottle filled with transparent liquid"
+        "flavour-text": "A transparent bottle filled with transparent liquid",
+        "recipe": [
+            "1x \"empty_bottle\"\n1x \"spring\"\n10s",
+            "1x \"empty_bottle\"\n1x \"water\"\n10s"
+        ],
+        "uses": [
+            "\"bottle_of_rum\"",
+            "\"wishing_well\""
+        ]
     },{
         "card-id": "bow",
         "flavour-text": "Makes you feel like Robin Hood",
-        "equip-text": "4|CHT7|ATRG,AS-1,HC2,DA2"
+        "equip-text": "4|CHT7|ATRG,AS-1,HC2,DA2",
+        "recipe": [
+            "\"idea_bow\" 15s"
+        ],
+        "sources": [
+            "\"elf_archer\" (Equipped)",
+            "\"ent\" (Equipped)",
+            "\"giant_rat\" (Equipped)",
+            "\"royal_archer\" (Equipped)"
+        ],
+        "uses": [
+            "\"archer\""
+        ]
     },{
         "card-id": "bread",
-        "flavour-text": "Who doesn't love it"
+        "flavour-text": "Who doesn't love it",
+        "recipe": [
+            "\"idea_bread\" 30s"
+        ]
     },{
         "card-id": "bread_2000",
-        "flavour-text": "Bread: Reinvented"
+        "flavour-text": "Bread: Reinvented",
+        "recipe": [
+            "\"idea_bread_2000\" 30s"
+        ]
     },{
         "card-id": "breeding_pen",
-        "flavour-text": "A pen for breeding Animals"
+        "flavour-text": "A pen for breeding Animals",
+        "recipe": [
+            "\"idea_breeding_pen\" 30s"
+        ],
+        "uses": [
+            "Breeds 2 of the same Animal creating an offspring after 120s"
+        ]
     },{
         "card-id": "brick",
-        "flavour-text": "A strong building material"
+        "flavour-text": "A strong building material",
+        "recipe": [
+            "\"idea_brick\" 30s",
+            "2x \"stone\"\n1x \"brickyard\"\n 10s"
+        ],
+        "uses": [
+            "\"altar\"",
+            "\"brickyard\"",
+            "\"cathedral\"",
+            "\"charity\"",
+            "\"composter\"",
+            "\"crossroads\"",
+            "\"farm\"",
+            "\"filter_crossroads\"",
+            "\"lighthouse\"",
+            "\"market\"",
+            "\"oven\"",
+            "\"road_builder\"",
+            "\"sewer\"",
+            "\"smelter\"",
+            "\"smithy\"",
+            "\"stable_portal\"",
+            "\"stove\"",
+            "\"temple\"",
+            "\"university\"",
+            "\"well\"",
+            "\"wishing_well\""
+        ]
     },{
         "card-id": "brickyard",
-        "flavour-text": "Quickly turns Stone into Bricks"
+        "flavour-text": "Quickly turns Stone into Bricks",
+        "recipe": [
+            "\"idea_brickyard\" 30s"
+        ],
+        "uses": [
+            "\"brick\""
+        ]
     },{
         "card-id": "broken_bottle",
         "flavour-text": "Cut out for the job",
-        "equip-text": "3|BLS10,BLT20|ATME,HC1,DA1"
+        "equip-text": "3|BLS10,BLT20|ATME,HC1,DA1",
+        "recipe": [
+            "\"idea_broken_bottle\" 0.5s"
+        ],
+        "uses": [
+            "\"warrior\""
+        ]
     },{
         "card-id": "builder",
         "flavour-text": "Way faster at Building",
-        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2",
+        "extra-text": [
+            "Crafts recipes twice as fast (Crafting speed is determined by the slowest \"villager\")"
+        ],
+        "sources": [
+            "Equipping a \"villager\" with a:\n\"hammer\"\n\"spiked_plank\""
+        ]
     },{
         "card-id": "burner_generator",
         "flavour-text": "Burns Lumber to generate Energy",
@@ -449,27 +536,91 @@
         ]
     },{
         "card-id": "butchery",
-        "flavour-text": "Sends animals on vacation"
+        "flavour-text": "Sends animals on vacation",
+        "recipe": [
+            "\"idea_butchery\" 30s"
+        ],
+        "uses": [
+            "\"raw_meat\"",
+            "\"raw_fish\""
+        ]
     },{
         "card-id": "campfire",
-        "flavour-text": "Can be used to cook foods - it looks warm & cozy"
+        "flavour-text": "Can be used to cook foods - it looks warm & cozy",
+        "recipe": [
+            "\"idea_campfire\" 30s"
+        ],
+        "uses": [
+            "\"charcoal\"",
+            "\"cooked_meat\"",
+            "\"empty_bottle\"",
+            "\"french_fries\"",
+            "\"fried_fish\"",
+            "\"fried_meat\"",
+            "\"frittata\"",
+            "\"herbal_tea\"",
+            "\"hotpot\"",
+            "\"lighthouse\"",
+            "\"mess_hall\"",
+            "\"omelette\"",
+            "\"oven\"",
+            "\"pancakes\"",
+            "\"seafood_stew\"",
+            "\"stew\""
+        ]
     },{
         "card-id": "cane_sugar",
-        "flavour-text": "Very sweet!"
+        "flavour-text": "Very sweet!",
+        "sources": [
+            "\"sugar_cane\"",
+            "\"pack_advanced_archipelago\" (20% of 1/3)",
+            "\"pack_enclave_explorers\" (20% of 1/4)",
+            "\"pack_island_insights\" (20% of 1/4)"
+        ],
+        "uses": [
+            "\"sugar_cane\"",
+            "\"bottle_of_rum\""
+        ]
     },{
         "card-id": "carrot",
-        "flavour-text": "The crunchiest vegetable"
+        "flavour-text": "The crunchiest vegetable",
+        "sources": [
+            "\"plains\" (7%)",
+            "\"rabbit\" (17%)",
+            "\"treasure_chest\"",
+            "\"pack_animal_lives\" (25% of 1/3)",
+            "\"pack_curious_cuisine\" (25% of 1/3)",
+            "\"pack_reap_n_sow\" (25% of 1/4)"
+        ],
+        "uses": [
+            "\"stew\""
+        ]
     },{
         "card-id": "cat",
         "flavour-text": "Cute and mean",
-        "combat-text": "9|ATME,AS3,HC3,DA2,DF1"
+        "combat-text": "9|ATME,AS3,HC3,DA2,DF1",
+        "extra-text": [
+            "Crafts recipes twice as slow (Crafting speed is determined by the slowest \"villager\")",
+            "Can't be obtained in Peaceful Mode"
+        ],
+        "recipe": [
+            "1x \"feral_cat\"\n1x \"milk\"",
+            "2x \"cat\"\n1x \"house\"\n60s, when there is no \"curse_of_death\""
+        ]
     },{
         "card-id": "cat_2000",
-        "flavour-text": "Cat civilization?"
+        "flavour-text": "Cat civilization?",
+        "extra-text": [
+            "Wellbeing Conditions:\nDoesn't have housing: -1"
+        ],
+        "sources": [
+            "\"pack_impressive_industry\" (3% of 2/4)"
+        ]
     },{
         "card-id": "catacombs",
         "flavour-text": "Rumored to contain a mysterious object",
         "extra-text": [
+            "Time to explore: 60s",
             "Can only be explored 5 times",
             "Only one can exist on the board at a time"
         ],
@@ -502,15 +653,58 @@
     },{
         "card-id": "cave",
         "flavour-text": "Pirates used to keep their Treasure Maps in these..",
+        "extra-text": [
+            "Time to explore: 60s",
+            "Can only be explored 5 times"
+        ],
         "drops": [
-            "5x:\n\"treasure_map\" (20%)\n\"skeleton\" (16%)\n\"tiger\" (16%)\n\"mosquito\" (16%)\n\"snake\" (16%)\n\"seagull\" (16%)"
+            "\"treasure_map\" guarenteed on 4th explore",
+            "\"skeleton\" (20%)",
+            "\"tiger\" (20%)",
+            "\"mosquito\" (20%)",
+            "\"snake\" (20%)",
+            "\"seagull\" (20%)"
+        ],
+        "sources": [
+            "\"pack_enclave_explorers\" (25% of 1/4)"
         ]
     },{
         "card-id": "cement",
-        "flavour-text": "A wet mix for building structures"
+        "flavour-text": "A wet mix for building structures",
+        "recipe": [
+            "\"idea_cement\" 10s"
+        ],
+        "sources": [
+            "\"pack_impressive_industry\" (33% of 2/4)",
+            "\"pack_modern_solutions\" (9% of 2/4)"
+        ],
+        "uses": [
+            "\"academy\"",
+            "\"airport\"",
+            "\"apartment\"",
+            "\"art_gallery\"",
+            "\"barracks\"",
+            "\"cinema\"",
+            "\"city_hall\"",
+            "\"electricity_pylon\"",
+            "\"energy_combiner\"",
+            "\"energy_splitter\"",
+            "\"filter_junction\"",
+            "\"food_warehouse\"",
+            "\"hospital\"",
+            "\"junction\"",
+            "\"robot_station\"",
+            "\"septic_tank\"",
+            "\"stadium\"",
+            "\"toy_shop\"",
+            "\"water_treatment_plant\""
+        ]
     },{
         "card-id": "ceviche",
-        "flavour-text": "Sour fish, what's not to like"
+        "flavour-text": "Sour fish, what's not to like",
+        "recipe": [
+            "\"idea_ceviche\" 10s"
+        ]
     },{
         "card-id": "chainmail_armor",
         "flavour-text": "A medieval era classic",
@@ -524,13 +718,35 @@
         ]
     },{
         "card-id": "charcoal",
-        "flavour-text": "Functions as an antidote for Snake Poison"
+        "flavour-text": "Functions as an antidote for Snake Poison",
+        "recipe": [
+            "\"idea_charcoal\" 10s",
+            "1x \"wood\"\n1x \"stove\"\n3s"
+        ],
+        "uses": [
+            "Heals \"villager\" inflicted with Poison after 5s",
+            "\"magic_glue\"",
+            "\"painting\"",
+            "\"spirit_of_sadness\""
+        ]
     },{
         "card-id": "charity",
-        "flavour-text": "Generates 1 Happiness for every 1 Coins you give it"
+        "flavour-text": "Generates 1 Happiness for every 1 Coins you give it",
+        "recipe": [
+            "\"idea_charity\" 70s"
+        ],
+        "uses": [
+            "\"happiness\" only while \"curse_of_sadness\" is active"
+        ]
     },{
         "card-id": "cheese",
-        "flavour-text": "It tastes like Gouda"
+        "flavour-text": "It tastes like Gouda",
+        "recipe": [
+            "\"idea_cheese\" 80s"
+        ],
+        "uses": [
+            "\"pizza\""
+        ]
     },{
         "card-id": "chicken",
         "flavour-text": "Alleged descendent of dinosaurs. I don't see it.",
@@ -538,26 +754,60 @@
         "drops": [
             "1x:\n\"raw_meat\" (25%)\n\"egg\" (25%)\n\"poop\" (25%)\n\"bone\" (25%)"
         ],
+        "recipe": [
+            "\"idea_chicken\" 120s"
+        ],
+        "sources": [
+            "\"pack_animal_lives\" (25% of 1/3)",
+            "\"pack_happy_animals\" (33% of 1/3)",
+            "\"pack_reap_n_sow\" (25% of 1/4)"
+        ],
         "uses": [
             "Makes 1 \"egg\" every 90s"
         ]
     },{
         "card-id": "chili_pepper",
-        "flavour-text": "Nice and spicy"
+        "flavour-text": "Nice and spicy",
+        "sources": [
+            "\"pack_grilling_and_brewing\" (33% of 1/4)",
+            "\"pack_island_insights\" (33% of 1/4)"
+        ],
+        "uses": [
+            "\"seafood_stew\""
+        ]
     },{
         "card-id": "cinema",
-        "flavour-text": "Real kino only"
+        "flavour-text": "Real kino only",
+        "extra-text": [
+            "Requires:\n1x High Voltage\n1x Sewer\n1x \"worker\"",
+            "Wellbeing Conditions:\nHas energy: +2\nLandmark in city for first time: +1\nDoesn't have energy: -2\nDoesn't have Workers: -1"
+        ],
+        "recipe": [
+            "\"landmark_cinema\" #s"
+        ]
     },{
         "card-id": "cities_iron_deposit",
         "flavour-text": "Contains Iron Ore",
         "drops": [
             "3x \"iron_ore\""
+        ],
+        "sources": [
+            "\"pack_department_of_defense\" (50% of 1/4)",
+            "\"pack_major_metals\" (50% of 1/4)"
         ]
     },{
         "card-id": "cities_iron_mine",
         "flavour-text": "Specialized in mining Iron Ore",
+        "extra-text": [
+            "Requires:\n1x Low Voltage",
+            "Can have:\n1x \"worker\"\n1x Output Road"
+        ],
         "drops": [
-            "\"iron_ore\""
+            "\"iron_ore\" every 60s while a \"worker\" is assigned"
+        ],
+        "recipe": [
+            "\"rumor_extraction\"",
+            "1x \"cities_iron_deposit\"\n1x \"factory_parts\"\n1x \"worker\"\n10s"
         ]
     },{
         "card-id": "city_advisor",
@@ -575,65 +825,228 @@
         ]
     },{
         "card-id": "city_park",
-        "flavour-text": "Outdoor pleasantries"
+        "flavour-text": "Outdoor pleasantries",
+        "extra-text": [
+            "Wellbeing Conditions:\nLandmark in city for first time: +2"
+        ],
+        "recipe": [
+            "\"landmark_city_park\" #s"
+        ]
     },{
         "card-id": "city_hall",
-        "flavour-text": "Increases Card Cap by 2 for every 10 Money given to it. Can also be used to rename Workers."
+        "flavour-text": "Increases Card Cap by 2 for every 10 Money given to it. Can also be used to rename Workers.",
+        "extra-text": [
+            "Wellbeing Conditions:\nLandmark in city for first time: +2\nDoesn't have energy: -1"
+        ],
+        "recipe": [
+            "\"idea_city_hall\" 20s"
+        ]
     },{
         "card-id": "club",
         "flavour-text": "Not used for playing baseball",
-        "equip-text": "3|FSL10|ATME,AS-1,DA2"
+        "equip-text": "3|FSL10|ATME,AS-1,DA2",
+        "recipe": [
+            "\"idea_club\" 15s"
+        ],
+        "sources": [
+            "\"ent\" (Equipped)",
+            "\"goblin\" (Equipped)",
+            "\"ogre\" (50%)"
+        ],
+        "uses": [
+            "\"warrior\""
+        ]
     },{
         "card-id": "cod",
         "flavour-text": "Wet and slippery fish",
         "combat-text": "6|ATME,AS2,HC3,DA2,DF1",
         "drops": [
             "\"raw_fish\""
+        ],
+        "sources": [
+            "\"fishing_spot\""
         ]
     },{
         "card-id": "coin",
-        "flavour-text": "Humanity's best friend"
+        "flavour-text": "Humanity's best friend",
+        "extra-text": [
+            "Do not count towards the card count."
+        ],
+        "recipe": [
+            "\"idea_coin\" 10s"
+        ],
+        "sources": [
+            "Selling cards in: \"board_mainland\", \"board_death\", \"board_greed\", \"board_sadness\"",
+            "\"coin_chest\"",
+            "\"gold_deposit\" (14%)",
+            "\"gold_mine\" (33%)",
+            "\"iron_deposit\" (14%)",
+            "\"iron_mine\" (17%)",
+            "\"old_village\" (17%)",
+            "\"pirate\" (60%)",
+            "\"rat\" (50%)",
+            "\"rock\" (10%)",
+            "\"royal_archer\"",
+            "\"royal_guard\"",
+            "\"royal_mage\"",
+            "\"small_slime\" (40%)",
+            "\"treasure_chest\"",
+            "\"pack_a_new_world\"",
+            "\"pack_greedy_intro\"",
+            "\"pack_happy_thoughts\" (7% of 1/4)",
+            "\"pack_seeking_wisdom\" (7% of 1/4)"
+        ],
+        "uses": [
+            "Can be stored in \"coin_chest\"",
+            "\"charity\"",
+            "\"happiness\"",
+            "\"market\"",
+            "\"pirate_boat\"",
+            "\"travelling_cart\"",
+            "Buying: \"packs_mainland\", \"packs_death\", \"packs_greed\", and \"packs_sadness\""
+        ]
     },{
         "card-id": "coin_chest",
-        "flavour-text": "A chest that can hold Coins. Interact to remove Coins. Contains 0/100 \"coin_icon\""
+        "flavour-text": "A chest that can hold Coins. Interact to remove Coins. Contains 0/100 \"coin_icon\"",
+        "extra-text": [
+            "Left Click will withdraw 5 \"coin\" at a time if possible",
+            "Right Click will withdraw 1 \"coin\" at a time if possible"
+        ],
+        "recipe": [
+            "\"idea_coin_chest\" 10s"
+        ]
     },{
         "card-id": "composter",
-        "flavour-text": "Turns 5 Food into Soil"
+        "flavour-text": "Turns 5 Food into Soil",
+        "recipe": [
+            "\"idea_composter\" 30s"
+        ],
+        "uses": [
+            "\"soil\""
+        ]
     },{
         "card-id": "cooked_crab",
-        "flavour-text": "It's fancy"
+        "flavour-text": "It's fancy",
+        "recipe": [
+            "1x \"raw_crab_meat\"\n1x \"campfire\"\n60s",
+            "1x \"raw_crab_meat\"\n1x \"stove\"\n18s"
+        ]
     },{
         "card-id": "cooked_meat",
-        "flavour-text": "It's cooked medium rare"
+        "flavour-text": "It's cooked medium rare",
+        "recipe": [
+            "\"idea_cooked_meat\" 60s",
+            "1x \"raw_meat\"\n1x \"stove\"\n18s"
+        ],
+        "sources": [
+            "\"treasure_chest\""
+        ]
     },{
         "card-id": "copper_bar",
-        "flavour-text": "Used for making advanced buildings"
+        "flavour-text": "Used for making advanced buildings",
+        "recipe": [
+            "1x \"copper_ore\"\n1x \"industrial_smelter\"\n30s",
+            "1x \"copper_ore\"\n1x \"lightning\""
+        ],
+        "sources": [
+            "\"trash\" (5%)",
+            "\"pack_advanced_automation\" (High Chance of 1/4)",
+            "\"pack_black_gold\" (33% of 2/4)"
+        ],
+        "uses": [
+            "\"academy\"",
+            "\"electric_motor\"",
+            "\"energy_splitter\"",
+            "\"laboratory\"",
+            "\"luxury_apartment\"",
+            "\"villager_statue\""
+        ]
     },{
         "card-id": "copper_deposit",
         "flavour-text": "Contains Copper Ore",
+        "extra-text": [
+            "Time to harvest: 10s"
+        ],
         "drops": [
             "3x \"copper_ore\""
+        ],
+        "sources": [
+            "\"pack_department_of_defense\" (50% of 1/4)",
+            "\"pack_major_metals\" (50% of 1/4)"
+        ],
+        "uses": [
+            "\"copper_mine\""
         ]
     },{
         "card-id": "copper_mine",
         "flavour-text": "Specialized in mining Copper Ore",
+        "extra-text": [
+            "Requires:\n1x Low Voltage",
+            "Can have:\n1x \"worker\"\n1x Output Road"
+        ],
         "drops": [
-            "\"copper_ore\""
+            "\"copper_ore\" every 60s while a \"worker\" is assigned"
+        ],
+        "recipe": [
+            "\"rumor_extraction\"",
+            "1x \"copper_deposit\"\n1x \"factory_parts\"\n1x \"worker\"\n10s"
         ]
     },{
         "card-id": "copper_ore",
-        "flavour-text": "Orange looking rock"
+        "flavour-text": "Orange looking rock",
+        "sources": [
+            "\"copper_deposit\"",
+            "\"copper_mine\"",
+            "\"pack_impressive_industry\" (High Chance of 2/4)",
+            "\"pack_major_metals\" (22% of 1/4)"
+        ],
+        "uses": [
+            "\"copper_bar\""
+        ]
     },{
         "card-id": "corpse",
-        "flavour-text": "A dead human"
+        "flavour-text": "A dead human",
+        "sources": [
+            "When a \"villager\" dies",
+            "\"graveyard\" (13%)",
+            "\"old_village\" (9%)",
+            "\"treasure_chest\""
+        ],
+        "uses": [
+            "\"graveyard\""
+        ]
     },{
         "card-id": "cotton",
-        "flavour-text": "Nature's wool"
+        "flavour-text": "Nature's wool",
+        "sources": [
+            "\"cotton_plant\""
+        ],
+        "uses": [
+            "\"cotton_plant\"",
+            "\"fabric\"",
+            "\"rope\""
+        ]
     },{
         "card-id": "cotton_plant",
         "flavour-text": "Can be harvested for Cotton",
+        "extra-text": [
+            "Time to harvest: 10s"
+        ],
         "drops": [
             "2x \"cotton\""
+        ],
+        "recipe": [
+            "1x \"cotton\" in:\n\"poop\"/\"soil\" for 120s\n\"garden\" for 90s\n\"farm\"/\"greenhouse\" for 60s"
+        ],
+        "sources": [
+            "\"jungle\" (10%)",
+            "\"pack_grilling_and_brewing\" (25% of 1/4)",
+            "\"pack_happy_ever_after\" (17% of 3/4)",
+            "\"pack_happy_thoughts\" (17% of 3/4)",
+            "\"pack_island_insights\" (25% of 2/4)",
+            "\"pack_island_of_ideas\" (25% of 3/4)",
+            "\"pack_on_the_shore\" (12% of 3/3)",
+            "\"pack_soul_food\" (17% of 2/4)"
         ]
     },{
         "card-id": "cow",
@@ -641,6 +1054,14 @@
         "combat-text": "9|STG10|ATME,AS3,HC2,DA2,DF1",
         "drops": [
             "1x:\n\"raw_meat\" (22%)\n\"milk\" (22%)\n\"poop\" (22%)\n\"bone\" (22%)\n\"leather_tunic\" (11%)"
+        ],
+        "sources": [
+            "\"plains\" (14%)",
+            "\"pack_animal_lives\" (25% of 1/3)",
+            "\"pack_daily_life\" (13% of 3/3)",
+            "\"pack_happy_animals\" (33% of 1/3)",
+            "\"pack_life_is_short\"",
+            "\"pack_reap_n_sow\" (25% of 1/4)"
         ],
         "uses": [
             "Makes 1 \"milk\" every 90s"
@@ -651,14 +1072,27 @@
         "combat-text": "9|ISL10|ATME,AS3,HC2,DA2,DF1",
         "drops": [
             "\"raw_crab_meat\""
+        ],
+        "sources": [
+            "\"pack_grilling_and_brewing\" (33% of 1/4)"
         ]
     },{
         "card-id": "crab_scale_armor",
         "flavour-text": "The scales are impenetrable",
-        "equip-text": "6|PTG10|MH5,DF1"
+        "equip-text": "6|PTG10|MH5,DF1",
+        "sources": [
+            "\"momma_crab\""
+        ]
     },{
         "card-id": "crane",
-        "flavour-text": "Lifts cards from one place to another"
+        "flavour-text": "Lifts cards from one place to another",
+        "extra-text": [
+            "Moves cards according to the arrows to and from this card",
+            "Prioritizes structures with the same card"
+        ],
+        "recipe": [
+            "\"idea_crane\" 10s"
+        ]
     },{
         "card-id": "crashed_ufo",
         "flavour-text": "The government tried hiding it",
@@ -667,39 +1101,83 @@
         ]
     },{
         "card-id": "credit_card",
-        "flavour-text": "Money storage"
+        "flavour-text": "Money storage",
+        "recipe": [
+            "\"idea_credit_card\" #s"
+        ],
+        "sources": [
+            "\"trash\" (5%)",
+            "\"pack_modern_solutions\" (90% of 2/4 IF there is no Credit Card on the board)"
+        ]
     },{
         "card-id": "crossbow",
         "flavour-text": "A gun for arrows",
-        "equip-text": "6|CHT15|ATRG,HC2,DA2"
+        "equip-text": "6|CHT15|ATRG,HC2,DA2",
+        "recipe": [
+            "\"idea_crossbow\" 15s"
+        ],
+        "sources": [
+            "\"elf_archer\" (Equipped)",
+            "\"royal_archer\" (Equipped)"
+        ],
+        "uses": [
+            "\"archer\""
+        ]
     },{
         "card-id": "crossroads",
-        "flavour-text": "Automatically redirects cards on top of it to its road outputs. It cycles through the different outputs one by one"
+        "flavour-text": "Automatically redirects cards on top of it to its road outputs. It cycles through the different outputs one by one",
+        "extra-text": [
+            "Can have:\n3x Input Road\n3x Output Road"
+        ],
+        "recipe": [
+            "\"idea_crossroads\" #s"
+        ]
     },{
         "card-id": "curse_of_death",
         "flavour-text": "Death, but no taxes. Villagers grow old and get sick.",
         "extra-text": [
             "Villagers will age, decreasing their working speed per stage, and dying after X Moons",
             "Makes villagers produce \"villager_poop\" per food consumed at the end of every Moon",
-            "If there is more than X Poop (collectively), villagers without \"plague_mask\" will receive the [insert] status effect, taking X damage per second until cured with \"herbal_tea\""
+            "If there is more than X Poop (collectively), villagers without \"plague_mask\" will receive the [insert] status effect, taking X damage per second until cured with \"herbal_tea\"",
+            "Solution: \"fountain_of_youth\""
         ],
         "sources": [
             "\"pack_life_is_short\"",
             "After completing \"board_death\":\nSummoned at the start of a run when enabled\nSummoned if its prompt at the altar is accepted"
-        ],
-        "uses": [
-            "Removed by placing \"fountain_of_youth\" on the card after Xs"
         ]
     },{
         "card-id": "curse_of_greed",
-        "flavour-text": "A Greedy Royal rules the land. Fulfill his demands."
+        "flavour-text": "A Greedy Royal rules the land. Fulfill his demands.",
+        "extra-text": [
+            "Spawns a \"royal\" which will demand certain items or goals to be achieved within a variable number of Moons",
+            "If a demand is not completed by the intended Moon, the \"royal\" will spawn: \"royal_archer\", \"royal_guard\", and/or \"royal_mage\"",
+            "Solution: \"royal_crown\""
+        ],
+        "sources": [
+            "\"pack_greedy_intro\"",
+            "After completing \"board_greed\":\nSummoned at the start of a run when enabled\nSummoned if its prompt at the altar is accepted"
+        ]
     },{
         "card-id": "curse_of_sadness",
-        "flavour-text": "Everyone needs Happiness."
+        "flavour-text": "Everyone needs Happiness.",
+        "extra-text": [
+            "Requires \"happiness\" per villager which are consumed at the end of each Moon",
+            "Produces \"sadness\" when \"villager\" die, and Food is sold",
+            "When there is not enough \"happiness\" to satisfy \"villager\" and existing \"sadness\" on the board, \"imp\", \"fiend\", and/or \"ghoul\" will spawn at the start of the next Moon",
+            "Solution: \"idea_lift_curse\""
+        ],
+        "sources": [
+            "\"pack_happy_start\"",
+            "After completing \"board_sadness\":\nSummoned at the start of a run when enabled\nSummoned if its prompt at the altar is accepted"
+        ]
     },{
         "card-id": "cursed_wand",
         "flavour-text": "It uses dark magic",
-        "equip-text": "1|AXS50,LST5|ATMG,MH5,DA3"
+        "equip-text": "1|AXS50,LST5|ATMG,MH5,DA3",
+        "sources": [
+            "\"ghoul\" (Equipped)",
+            "\"imp\" (Equipped)"
+        ]
     },{
         "card-id": "cw_idea_animal_pen",
         "flavour-text": "3x \"animal_cage\"",
@@ -2880,10 +3358,64 @@
         "flavour-text": "Should be cooked before consumption"
     },{
         "card-id": "raw_fish",
-        "flavour-text": "It's slippery"
+        "flavour-text": "It's slippery",
+        "recipe": [
+            "1x Fish (except \"shark\")\n1x \"butchery\"\n60s"
+        ],
+        "sources": [
+            "\"cod\"",
+            "\"eel\"",
+            "\"mackerel\"",
+            "\"merman\" (50%)",
+            "\"seagull\"",
+            "\"shark\"",
+            "\"tentacle\"",
+            "\"tuna\""
+        ],
+        "uses": [
+            "\"ceviche\"",
+            "\"fried_fish\"",
+            "\"grilled_fish\"",
+            "\"seafood_stew\"",
+            "\"sushi\""
+        ]
     },{
         "card-id": "raw_meat",
-        "flavour-text": "Should be cooked first"
+        "flavour-text": "Should be cooked first",
+        "recipe": [
+            "1x Animal\n1x \"butchery\"\n60s"
+        ],
+        "sources": [
+            "\"chicken\" (25%)",
+            "\"cow\" (22%)",
+            "\"dark_elf\" (40%)",
+            "\"elf\" (50%)",
+            "\"elf_archer\" (40%)",
+            "\"fiend\" (33%)",
+            "\"giant_rat\" (33%)",
+            "\"horse\" (50%)",
+            "\"monkey\" (25%)",
+            "\"parrot\" (33%)",
+            "\"rabbit\" (17%)",
+            "\"rat\" (50%)",
+            "\"sheep\" (20%)",
+            "\"snake\"",
+            "\"tiger\" (57%)",
+            "\"wolf\" (60%)",
+            "\"treasure_chest\"",
+            "\"pack_animal_lives\" (25% of 1/3)",
+            "\"pack_curious_cuisine\" (25% of 1/3)",
+            "\"pack_grilling_and_brewing\" (33% of 1/4)",
+            "\"pack_reap_n_sow\" (25% of 1/4)"
+        ],
+        "uses": [
+            "\"butchery\"",
+            "\"cooked_meat\"",
+            "\"fried_meat\"",
+            "\"shark\"",
+            "\"spirit_of_death\"",
+            "\"stew\""
+        ]
     },{
         "card-id": "ready_meal",
         "flavour-text": "Microplastic flavored"
@@ -3328,7 +3860,20 @@
         "flavour-text": "x marks the spot. Needs to be searched with a Villager"
     },{
         "card-id": "treasure_chest",
-        "flavour-text": "It's locked"
+        "flavour-text": "It's locked",
+        "drops": [
+            "\"apple\", \"berry\", \"carrot\", \"cooked_meat\", \"egg\", \"frittata\", \"fruit_salad\", \"milk\", \"milkshake\", \"omelette\", \"onion\", \"potato\", \"raw_meat\", \"stew\"",
+            "\"bone\", \"brick\", \"coin\", \"corpse\", \"flint\", \"iron_bar\", \"iron_ore\", \"magic_dust\", \"old_tome\", \"plank\", \"poop\", \"stick\", \"stone\", \"wood\"",
+            "\"spear\", \"sword\", \"map\""
+        ],
+        "sources": [
+            "\"catacombs\" (10%)",
+            "\"forest\" (5%)",
+            "\"graveyard\" (25%)",
+            "\"mountain\" (5%)",
+            "\"old_village\" (9%)",
+            "\"travelling_cart\" (8%)"
+        ]
     },{
         "card-id": "tree",
         "flavour-text": "Made of Wood and Sticks",
