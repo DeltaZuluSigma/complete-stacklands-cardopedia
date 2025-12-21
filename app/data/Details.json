@@ -168,7 +168,7 @@
         "card-id": "baby",
         "flavour-text": "A young'un. Needs a House to grow up in.",
         "extra-text": [
-            "Fed first at the end of a Moon, and consumes half the food of a regular \"villager\"",
+            "Fed first at the end of a Moon, and only consumes 1 Food",
             "Cannot work, fight, or be targeted by mobs"
         ],
         "recipe": [
@@ -600,8 +600,9 @@
         "flavour-text": "Cute and mean",
         "combat-text": "9|ATME,AS3,HC3,DA2,DF1",
         "extra-text": [
+            "Consumes 1 Food every Moon instead",
             "Crafts recipes twice as slow (Crafting speed is determined by the slowest \"villager\")",
-            "Can't be obtained in Peaceful Mode"
+            "Cannot be obtained in Peaceful Mode"
         ],
         "recipe": [
             "1x \"feral_cat\"\n1x \"milk\"",
@@ -1191,7 +1192,8 @@
         "flavour-text": "Its dark force makes you stronger",
         "equip-text": "7|CHR10|MH10",
         "sources": [
-            "\"dark_elf\" (20%)"
+            "\"dark_elf\" (20%)",
+            "\"fiend\" (Equipped)"
         ]
     },{
         "card-id": "dark_elf",
@@ -1200,6 +1202,9 @@
         "drops": [
             "1x:\n\"raw_meat\" (40%)\n\"bone\" (40%)\n\"dark_amulet\" (20%)",
             "Can be equipped with:\n\"bone_staff\"\n\"wizard_robe\"\n\"magic_wand\"\n\"magic_staff\"\n\"magic_ring\"\n\"helmet\""
+        ],
+        "sources": [
+            "From the Dark Forest, wave 4 onwards"
         ]
     },{
         "card-id": "demon",
@@ -1207,6 +1212,9 @@
         "combat-text": "168|SAL5|ATME,AS4,HC4,DA5,DF3",
         "drops": [
             "1x:\n\"fire_cloak\" (67%)\n\"demon_sword\" (33%)"
+        ],
+        "recipe": [
+            "1x \"temple\"\n1x \"golden_goblet\"\n#s"
         ]
     },{
         "card-id": "demon_lord",
@@ -1214,40 +1222,99 @@
         "combat-text": "364|LSR10|ATME,AS5,HC4,DA6,DF4",
         "drops": [
             "1x:\n\"fire_cloak\" (50%)\n\"horned helmet\" (50%)"
+        ],
+        "recipe": [
+            "1x \"cathedral\"\n1x \"island_relic\"\n#s"
         ]
     },{
         "card-id": "demon_of_sadness",
         "flavour-text": "It was created by your Villagers' sadness",
-        "combat-text": "168|SAL5|ATME,AS4,HC4,DA5,DF3"
+        "combat-text": "168|SAL5|ATME,AS4,HC4,DA5,DF3",
+        "recipe": [
+            "20x \"sadness\""
+        ]
     },{
         "card-id": "demon_sword",
         "flavour-text": "An excellent blade used by the Demon himself",
-        "equip-text": "16|LST5|ATME,MH10,AS2,HC2,DA3"
+        "equip-text": "16|LST5|ATME,MH10,AS2,HC2,DA3",
+        "extra-text": [
+            "Only one can exist on the board at a time"
+        ],
+        "uses": [
+            "\"swordsman\""
+        ]
     },{
         "card-id": "distillery",
-        "flavour-text": "Used for making booze"
+        "flavour-text": "Used for making booze",
+        "recipe": [
+            "\"idea_distillery\" 30s"
+        ],
+        "uses": [
+            "\"bottle_of_rum\""
+        ]
     },{
         "card-id": "dog",
         "flavour-text": "Humanity's true best friend. Can do anything a Human can, just slower!",
-        "combat-text": "9|ATME,AS3,HC3,DA2,DF1"
+        "combat-text": "9|ATME,AS3,HC3,DA2,DF1",
+        "extra-text": [
+            "Consumes 1 Food every Moon instead",
+            "Crafts recipes twice as slow (Crafting speed is determined by the slowest \"villager\")",
+            "Cannot be obtained in Peaceful Mode"
+        ],
+        "recipe": [
+            "1x \"wolf\"\n1x \"bone\"",
+            "2x \"dog\"\n1x \"house\"\n60s"
+        ]
     },{
         "card-id": "dog_2000",
-        "flavour-text": "*woof*"
+        "flavour-text": "*woof*",
+        "extra-text": [
+            "Wellbeing Conditions:\nDoesn't have housing: -1"
+        ],
+        "sources": [
+            "\"pack_impressive_industry\" (3% of 2/4)"
+        ]
     },{
         "card-id": "dough",
-        "flavour-text": "It passes the windowpane test"
+        "flavour-text": "It passes the windowpane test",
+        "recipe": [
+            "\"idea_dough\" 30s"
+        ],
+        "uses": [
+            "\"bread\"",
+            "\"pizza\""
+        ]
     },{
         "card-id": "dragon_egg",
-        "flavour-text": "A big speckled chicken egg"
+        "flavour-text": "A big speckled chicken egg",
+        "sources": [
+            "Purchasable from the \"merchant\" for 100 Coins"
+        ],
+        "uses": [
+            "Fulfills the \"royal\"'s last demand and starts the \"dragon_egg\"'s hatching process; when the \"baby_dragon\" hatches, it will kill the \"royal\""
+        ]
     },{
         "card-id": "dragonscale_armor",
         "flavour-text": "A nice piece of armor, but at what cost…",
-        "equip-text": "7|AXS10|MH10,AS1,DF2"
+        "equip-text": "7|AXS10|MH10,AS1,DF2",
+        "sources": [
+            "\"baby_dragon\""
+        ]
     },{
         "card-id": "driftwood",
         "flavour-text": "A bunch of wood that has washed ashore",
+        "extra-text": [
+            "Time to harvest: 10s"
+        ],
         "drops": [
             "2x:\n\"wood\" (88%)\n\"stick\" (9%)\n\"bottle_of_rum\" (2%)\n\"plank\" (2%)"
+        ],
+        "sources": [
+            "\"pack_fresh_isle\"",
+            "\"pack_grilling_and_brewing\" (25% of 1/4)",
+            "\"pack_island_insights\" (25% of 2/4)",
+            "\"pack_island_of_ideas\" (25% of 4/4)",
+            "\"pack_on_the_shore\" (16% of 3/3)"
         ]
     },{
         "card-id": "drought",
@@ -1261,7 +1328,13 @@
         ]
     },{
         "card-id": "dustbin",
-        "flavour-text": "Allows you to get rid of cards you don't want anymore"
+        "flavour-text": "Allows you to get rid of cards you don't want anymore",
+        "extra-text": [
+            "Time to remove: 4s"
+        ],
+        "recipe": [
+            "\"idea_dustbin\" 30s"
+        ]
     },{
         "card-id": "earthquake",
         "flavour-text": "Richter scale 6.3"
