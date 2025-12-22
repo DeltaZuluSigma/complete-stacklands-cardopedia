@@ -1099,6 +1099,9 @@
         "flavour-text": "The government tried hiding it",
         "drops": [
             "3x:\n\"metal_scraps\" (27%)\n\"plastic\" (27%)\n\"electric_motor\" (27%)\n\"science\" (9%)\n\"uranium\" (9%)\n\"alien\" (2%)"
+        ],
+        "sources": [
+            "\"pack_wild_weather\" (?% of 1/3)"
         ]
     },{
         "card-id": "credit_card",
@@ -1324,7 +1327,7 @@
             "Drag 3 \"water\" onto them to remove the status effect."
         ],
         "sources": [
-            "Randomly from Cities Packs"
+            "\"pack_wild_weather\" (?% of 1/3)"
         ]
     },{
         "card-id": "dustbin",
@@ -1337,26 +1340,84 @@
         ]
     },{
         "card-id": "earthquake",
-        "flavour-text": "Richter scale 6.3"
+        "flavour-text": "Richter scale 6.3",
+        "sources": [
+            "\"pack_wild_weather\" (?% of 1/3)"
+        ]
     },{
         "card-id": "educated_worker",
-        "flavour-text": "Work smarter, not harder"
+        "flavour-text": "Work smarter, not harder",
+        "extra-text": [
+            "Wellbeing Conditions:\nDoesn't have housing: -1"
+        ],
+        "recipe": [
+            "1x \"worker\"\n1x \"academy\"\n120s"
+        ],
+        "uses": [
+            "Crafts cards 25% faster"
+        ]
     },{
         "card-id": "eel",
         "flavour-text": "Electric sea snake",
         "combat-text": "11|ATME,AS2,HC3,DA3,DF2",
         "drops": [
             "2x \"raw_fish\""
+        ],
+        "sources": [
+            "\"rumor_eel_bait\""
         ]
     },{
         "card-id": "egg",
-        "flavour-text": "Can't be eaten raw: thanks salmonella"
+        "flavour-text": "Can't be eaten raw: thanks salmonella",
+        "sources": [
+            "\"chicken\" (25%) OR every 90s its on the board",
+            "\"small_slime\" (20%)",
+            "\"treasure_chest\"",
+            "\"pack_curious_cuisine\" (20% of 1/3)",
+            "\"pack_happy_ever_after\" (20% of 1/4)",
+            "\"pack_soul_food\" (20% of 1/4)"
+        ],
+        "uses": [
+            "\"chicken\"",
+            "\"frittata\"",
+            "\"omelette\"",
+            "\"pancakes\""
+        ]
     },{
         "card-id": "electric_motor",
-        "flavour-text": "Spinning magnets"
+        "flavour-text": "Spinning magnets",
+        "recipe": [
+            "\"idea_electric_motor\" 20s"
+        ],
+        "sources": [
+            "\"crashed_ufo\" (27%)",
+            "\"pack_black_gold\" (5% of 2/4)",
+            "\"pack_impressive_industry\" (17% of 2/4)"
+        ],
+        "uses": [
+            "\"airport\"",
+            "\"attack_helicopter\"",
+            "\"fighter_jet\"",
+            "\"oil_power_plant\"",
+            "\"oil_rig\"",
+            "\"particle_collider\"",
+            "\"radar_station\"",
+            "\"recycling_center\"",
+            "\"theme_park\"",
+            "\"war_ship\""
+        ]
     },{
         "card-id": "electricity_pylon",
-        "flavour-text": "Brrrrzzzz. Used to organize energy cables."
+        "flavour-text": "Brrrrzzzz. Used to organize energy cables.",
+        "extra-text": [
+            "Can have:\n4x Input Low Voltage\n4x Output Low Voltage"
+        ],
+        "recipe": [
+            "\"idea_electricity_pylon\" 20s"
+        ],
+        "sources": [
+            "\"pack_advanced_automation\" (8% of 3/4)"
+        ]
     },{
         "card-id": "elf",
         "flavour-text": "Does not work for Santa Claus anymore",
@@ -1364,6 +1425,10 @@
         "drops": [
             "1x:\n\"raw_meat\" (50%)\n\"bone\" (50%)",
             "Can be equipped with:\n\"sword\"\n\"iron_shield\"\n\"chainmail_armor\"\n\"axe\"\n\"hammer\"\n\"pickaxe\""
+        ],
+        "sources": [
+            "\"strange_portal\" and \"rare_portal\" starting Moon 24",
+            "Dark Forest"
         ]
     },{
         "card-id": "elf_archer",
@@ -1372,23 +1437,57 @@
         "drops": [
             "1x:\n\"raw_meat\" (40%)\n\"bone\" (40%)\n\"quiver\" (20%)",
             "Can be equipped with:\n\"bow\"\n\"crossbow\"\n\"chainmail_armor\"\n\"quiver\"\n\"helmet\""
+        ],
+        "sources": [
+            "\"strange_portal\" and \"rare_portal\" starting Moon 24",
+            "Dark Forest"
         ]
     },{
         "card-id": "empty_bottle",
-        "flavour-text": "Made of Glass. Can be refilled!"
+        "flavour-text": "Made of Glass. Can be refilled!",
+        "recipe": [
+            "\"idea_empty_bottle\" 10s",
+            "2x \"glass\"\n1x \"stove\"\n3s"
+        ],
+        "uses": [
+            "\"bottle_of_water\"",
+            "\"broken_bottle\""
+        ]
     },{
         "card-id": "enchanted_shroom",
         "flavour-text": "It's a magic shroom",
         "combat-text": "22|ATMG,AS2,HC3,DA3,DF3",
         "drops": [
             "1x: \"mushroom\" (50%)\n\"magic_dust\" (50%)"
+        ],
+        "sources": [
+            "\"strange_portal\" and \"rare_portal\" starting Moon 24",
+            "Dark Forest"
         ]
     },{
         "card-id": "energy_combiner",
-        "flavour-text": "Combines 3x Low Voltage and turns it into 1x High Voltage"
+        "flavour-text": "Combines 3x Low Voltage and turns it into 1x High Voltage",
+        "extra-text": [
+            "Can have:\n3x Input Low Voltage\n1x Output High Voltage"
+        ],
+        "recipe": [
+            "\"idea_energy_combiner\" 20s"
+        ],
+        "sources": [
+            "\"pack_advanced_automation\" (8% of 3/4)"
+        ]
     },{
         "card-id": "energy_splitter",
-        "flavour-text": "Splits 1x High Voltage into 4x Low Voltage"
+        "flavour-text": "Splits 1x High Voltage into 4x Low Voltage",
+        "extra-text": [
+            "Can have:\n1x Input High Voltage\n4x Output Low Voltage"
+        ],
+        "recipe": [
+            "\"idea_energy_splitter\" 20s"
+        ],
+        "sources": [
+            "\"pack_advanced_automation\" (8% of 3/4)"
+        ]
     },{
         "card-id": "ent",
         "flavour-text": "A talking and walking tree",
@@ -1396,23 +1495,52 @@
         "drops": [
             "1x:\n\"plank\" (50%)\n\"magic_dust\" (50%)",
             "Can be equipped with:\n\"club\"\n\"bow\"\n\"wooden_shield\""
+        ],
+        "sources": [
+            "From the Dark Forest, wave 4 onwards"
         ]
     },{
         "card-id": "euphoria",
-        "flavour-text": "A feeling or state of intense excitement and happiness"
+        "flavour-text": "A feeling or state of intense excitement and happiness",
+        "recipe": [
+            "\"idea_euphoria\" #s"
+        ],
+        "uses": [
+            "\"idea_lift_curse\""
+        ]
     },{
         "card-id": "event_pack_sale",
-        "flavour-text": "Packs are 25% off!"
+        "flavour-text": "Packs are 25% off!",
+        "sources": [
+            "\"pack_wild_weather\" (?% of 1/3)"
+        ]
     },{
         "card-id": "explorer",
         "flavour-text": "Very fast at exploring Locations, but slightly slower at other tasks",
-        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2",
+        "extra-text": [
+            "Explores Locations twice as fast, but 20% slower at everything else"
+        ],
+        "sources": [
+            "Equipping a \"villager\" with a:\n\"map\""
+        ]
     },{
         "card-id": "export_center",
-        "flavour-text": "Exports resources that are placed on top of it"
+        "flavour-text": "Exports resources that are placed on top of it",
+        "extra-text": [
+            "Requires:\n1x Low Voltage",
+            "Can have:\n1x \"worker\"\n3x Input Road\n1x Output Road"
+        ],
+        "recipe": [
+            "\"idea_export_center\" 20s"
+        ]
     },{
         "card-id": "fabric",
-        "flavour-text": "Fibres. together. strong."
+        "flavour-text": "Fibres. together. strong.",
+        "recipe": [
+            "\"idea_fabric\" 10s",
+            "\"\""
+        ]
     },{
         "card-id": "factory",
         "flavour-text": "The beating heart of the modern era"
@@ -2539,7 +2667,7 @@
         "card-id": "lightning",
         "flavour-text": "Can smelt ores instantly",
         "sources": [
-            "\"pack_wild_weather\" (?%)"
+            "\"pack_wild_weather\" (?% of 2/3)"
         ],
         "uses": [
             "Smelts 1 ore after 3s which consumes the card"
@@ -3244,7 +3372,7 @@
     },{
         "card-id": "pack_wild_weather",
         "extra-text": [
-            "Spawns every 3+ Moons starting from at least the 4th Moon."
+            "Spawns every 3+ Moons starting from the 4th Moon at the earliest."
         ],
         "drops": [
             "2x:\n\"lightning\"\n\"rain\"\n\"sunshine\"\n\"wind\"",
