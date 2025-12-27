@@ -117,6 +117,9 @@
         "card-id": "archer",
         "flavour-text": "Afraid to get too close",
         "combat-text": "14|ATME,AS2,HC3,DA2,DF2",
+        "drops": [
+            "\"corpse\" and any equipped Equipment"
+        ],
         "sources": [
             "Equipping a \"villager\" with a:\n\"bow\"\n\"crossbow\""
         ]
@@ -170,6 +173,9 @@
         "extra-text": [
             "Fed first at the end of a Moon, and only consumes 1 Food",
             "Cannot work, fight, or be targeted by mobs"
+        ],
+        "drops": [
+            "\"corpse\""
         ],
         "recipe": [
             "\"idea_offspring\" 20s"
@@ -522,6 +528,9 @@
         "extra-text": [
             "Crafts recipes twice as fast (Crafting speed is determined by the slowest \"villager\")"
         ],
+        "drops": [
+            "\"corpse\" and any equipped Equipment"
+        ],
         "sources": [
             "Equipping a \"villager\" with a:\n\"hammer\"\n\"spiked_plank\""
         ]
@@ -800,11 +809,11 @@
         "card-id": "cities_iron_mine",
         "flavour-text": "Specialized in mining Iron Ore",
         "extra-text": [
-            "Requires:\n1x Low Voltage",
-            "Can have:\n1x \"worker\"\n1x Output Road"
+            "Requires:\n1x Low Voltage\n1x \"worker\"",
+            "Can have:\n1x Output Road"
         ],
         "drops": [
-            "\"iron_ore\" every 60s while a \"worker\" is assigned"
+            "\"iron_ore\""
         ],
         "recipe": [
             "\"rumor_extraction\"",
@@ -865,7 +874,8 @@
             "\"raw_fish\""
         ],
         "sources": [
-            "\"fishing_spot\""
+            "\"fishing_spot\"",
+            "\"fish_trap\""
         ]
     },{
         "card-id": "coin",
@@ -982,11 +992,11 @@
         "card-id": "copper_mine",
         "flavour-text": "Specialized in mining Copper Ore",
         "extra-text": [
-            "Requires:\n1x Low Voltage",
-            "Can have:\n1x \"worker\"\n1x Output Road"
+            "Requires:\n1x Low Voltage\n1x \"worker\"",
+            "Can have:\n1x Output Road"
         ],
         "drops": [
-            "\"copper_ore\" every 60s while a \"worker\" is assigned"
+            "\"copper_ore\""
         ],
         "recipe": [
             "\"rumor_extraction\"",
@@ -1468,7 +1478,7 @@
         "card-id": "energy_combiner",
         "flavour-text": "Combines 3x Low Voltage and turns it into 1x High Voltage",
         "extra-text": [
-            "Can have:\n3x Input Low Voltage\n1x Output High Voltage"
+            "Requires:\n3x Input Low Voltage for 1x Output High Voltage"
         ],
         "recipe": [
             "\"idea_energy_combiner\" 20s"
@@ -1521,6 +1531,9 @@
         "extra-text": [
             "Explores Locations twice as fast, but 20% slower at everything else"
         ],
+        "drops": [
+            "\"corpse\" and any equipped Equipment"
+        ],
         "sources": [
             "Equipping a \"villager\" with a:\n\"map\""
         ]
@@ -1528,8 +1541,8 @@
         "card-id": "export_center",
         "flavour-text": "Exports resources that are placed on top of it",
         "extra-text": [
-            "Requires:\n1x Low Voltage",
-            "Can have:\n1x \"worker\"\n3x Input Road\n1x Output Road"
+            "Requires:\n1x Low Voltage\n1x \"worker\"",
+            "Can have:\n3x Input Road\n1x Output Road"
         ],
         "recipe": [
             "\"idea_export_center\" 20s"
@@ -1539,18 +1552,66 @@
         "flavour-text": "Fibres. together. strong.",
         "recipe": [
             "\"idea_fabric\" 10s",
-            "\"\""
+            "\"cw_idea_fabric\" 10s"
+        ],
+        "uses": [
+            "\"sail\"",
+            "\"wizard_robe\""
         ]
     },{
         "card-id": "factory",
-        "flavour-text": "The beating heart of the modern era"
+        "flavour-text": "The beating heart of the modern era",
+        "extra-text": [
+            "Requires:\n1x Low Voltage\n1x \"worker\"",
+            "Can have:\n3x Input Road\n1x Output Road"
+        ],
+        "recipe": [
+            "\"idea_factory\" #s"
+        ],
+        "uses": [
+            "\"bread_2000\"",
+            "\"electric_motor\"",
+            "\"muesli\"",
+            "\"plastic\"",
+            "\"ready_meal\"",
+            "\"robot_worker\"",
+            "\"toy\"",
+            "Almost all crafting with a \"worker\" can be done in a \"factory\""
+        ]
     },{
         "card-id": "factory_parts",
-        "flavour-text": "A small part of a big machine"
+        "flavour-text": "A small part of a big machine",
+        "recipe": [
+            "\"idea_factory_parts\" #s"
+        ],
+        "sources": [
+            "\"pack_black_gold\" (Low Chance of 2/4)"
+        ],
+        "uses": [
+            "\"burner_generator\"",
+            "\"copper_mine\"",
+            "\"export_center\"",
+            "\"factory\"",
+            "\"gravel_pit\"",
+            "\"hydroponic_farm\"",
+            "\"industrial_smelter\"",
+            "\"cities_iron_mine\"",
+            "\"oil_power_plant\"",
+            "\"particle_collider\"",
+            "\"robot_station\"",
+            "\"tree_plantation\"",
+            "\"water_pump\"",
+            "\"wind_turbine\"",
+            "\"unknown_machine\"",
+            "\"uranium_mine\""
+        ]
     },{
         "card-id": "fancy_dress",
         "flavour-text": "A dress to impress",
-        "equip-text": "1|MH-5,AS2"
+        "equip-text": "1|MH-5,AS2",
+        "recipe": [
+            "\"idea_fancy_dress\" #s"
+        ]
     },{
         "card-id": "farm",
         "flavour-text": "An advanced building for growing food",
@@ -1558,21 +1619,53 @@
             "\"idea_farm\" 40s"
         ],
         "uses": [
-            "Produces duplicates/source of the plant after 60-90s"
+            "\"apple_tree\"",
+            "\"berry_bush\"",
+            "\"banana_tree\"",
+            "\"carrot\"",
+            "\"chili_pepper\"",
+            "\"cotton_plant\"",
+            "\"lime\"",
+            "\"mushroom\"",
+            "\"onion\"",
+            "\"potato\"",
+            "\"sugar_cane\"",
+            "\"seaweed\""
         ]
     },{
         "card-id": "farmland",
-        "flavour-text": "Gives Grain when harvested"
+        "flavour-text": "Gives Grain when harvested",
+        "extra-text": [
+            "Requires:\n1x \"worker\"",
+            "Can have:\n1x Output Road"
+        ],
+        "recipe": [
+            "\"idea_farmland\" 20s"
+        ],
+        "uses": [
+            "\"grain\""
+        ]
     },{
         "card-id": "feral_cat",
         "flavour-text": "Does it have rabies? Probably!",
         "combat-text": "10|PTG10|ATME,AS3,HC2,DA1,DF1",
         "drops": [
             "1x:\n\"milk\" (50%)\n\"poop\" (50%)"
+        ],
+        "sources": [
+            "\"strange_portal\" and \"rare_portal\" starting Moon 24",
+            "Dark Forest",
+            "\"ruins\" (20%)"
+        ],
+        "uses": [
+            "\"cat\""
         ]
     },{
         "card-id": "festival",
-        "flavour-text": "Everybody's celebrating"
+        "flavour-text": "Everybody's celebrating",
+        "sources": [
+            "\"pack_wild_weather\" (?% of 1/3)"
+        ]
     },{
         "card-id": "fiend",
         "flavour-text": "A large, demon-like creature",
@@ -1580,122 +1673,346 @@
         "drops": [
             "1x:\n\"bone\" (33%)\n\"raw_meat\" (33%)\n\"magic_dust\" (33%)\n",
             "Can be equipped with:\n\"dark_amulet\"\n\"rag\"\n\"possessed_blade\""
+        ],
+        "sources": [
+            "While \"curse_of_sadness\" is active, has a chance to spawn if a \"villager\" does not receive \"happiness\" at the end of a Moon"
         ]
     },{
         "card-id": "fifty_dollar",
-        "flavour-text": "More than 50 cent"
+        "flavour-text": "More than 50 cent",
+        "sources":[
+            "Selling cards in Cities"
+        ],
+        "uses":[
+            "Buying Cities Packs",
+            "Increase max card capacity (\"city_hall\")",
+            "Store in \"credit_card\"",
+            "\"worker\"",
+            "\"artwork\"",
+            "\"city_hall\"",
+            "\"export_center\""
+        ]
     },{
         "card-id": "fighter_jet",
         "flavour-text": "High in the sky",
-        "combat-text": "46|ATAI,AS4,HC3,DA4,DF4"
+        "combat-text": "46|ATAI,AS4,HC3,DA4,DF4",
+        "extra-text": [
+            "Wellbeing Conditions:\nDoesn't have housing: -2"
+        ],
+        "recipe": [
+            "\"idea_fighter_jet\" 240s"
+        ]
     },{
         "card-id": "filter_crossroads",
-        "flavour-text": "Drag a Card on top to set the Filter. It will output the filtered card to the top road connection, and any others to the bottom"
+        "flavour-text": "Drag a Card on top to set the Filter. It will output the filtered card to the top road connection, and any others to the bottom",
+        "extra-text": [
+            "Requires:\n\"road_builder\"",
+            "Can have:\n3x Input Road\n2x Output Road"
+        ],
+        "recipe": [
+            "\"idea_filter_crossroads\" #s"
+        ]
     },{
         "card-id": "filter_junction",
-        "flavour-text": "Drag a Card on top to set the Filter. It will output the filtered card to the top road connection, and any others to the bottom"
+        "flavour-text": "Drag a Card on top to set the Filter. It will output the filtered card to the top road connection, and any others to the bottom",
+        "extra-text": [
+            "Can have:\n3x Input Road\n2x Output Road"
+        ],
+        "recipe": [
+            "\"idea_filter_junction\" 10s"
+        ]
     },{
         "card-id": "financial_crisis",
-        "flavour-text": "Credit default swaps gone wrong"
+        "flavour-text": "Credit default swaps gone wrong",
+        "extra-text": [
+            "Increases Cities Packs prices by 50%"
+        ],
+        "sources": [
+            "\"pack_wild_weather\" (?% of 1/3)"
+        ]
     },{
         "card-id": "fire_cloak",
         "flavour-text": "It's lit",
-        "equip-text": "12|CHA7|MH10,AS1,DA1,DF2"
+        "equip-text": "12|CHA7|MH10,AS1,DA1,DF2",
+        "sources": [
+            "\"demon\" (67%)",
+            "\"demon_lord\" (50%)"
+        ]
     },{
         "card-id": "fish_and_chips",
-        "flavour-text": "Not to be confused with Fish and Crisps"
+        "flavour-text": "Not to be confused with Fish and Crisps",
+        "extra-text": [
+            "Gives the \"villager\" who consumes it the Well Fed status effect increasing work speed by 100% for a Moon"
+        ],
+        "recipe": [
+            "\"idea_fish_and_chips\" 10s"
+        ]
     },{
         "card-id": "fish_trap",
-        "flavour-text": "Needs a type of Food as bait"
+        "flavour-text": "Needs a type of Food as bait",
+        "extra-text": [
+            "Time to produce: 30s"
+        ],
+        "drops": [
+            "\"cod\"",
+            "\"eel\"",
+            "\"mackerel\"",
+            "\"shark\"",
+            "\"tuna\""
+        ],
+        "recipe": [
+            "\"idea_fish_trap\" 30s"
+        ]
     },{
         "card-id": "fisher",
         "flavour-text": "An expert at fishing. Fish fear him",
-        "combat-text": "14|ATME,AS2,HC3,DA2,DF2"
+        "combat-text": "14|ATME,AS2,HC3,DA2,DF2",
+        "extra-text": [
+            "Works twice as fast on \"fishing_spot\" and \"fish_trap\"",
+            "Catches \"mackerel\" instead of \"cod\""
+        ],
+        "drops": [
+            "\"corpse\" and any equipped Equipment"
+        ],
+        "sources": [
+            "Equipping a \"villager\" with a:\n\"fishing_rod\""
+        ]
     },{
         "card-id": "fishing_rod",
         "flavour-text": "Give it to a Villager to turn them into a Fisher",
-        "equip-text": "1|ATRG,DA1"
+        "equip-text": "1|ATRG,DA1",
+        "recipe": [
+            "\"idea_fishing_rod\" 10s"
+        ],
+        "uses": [
+            "\"fisher\""
+        ]
     },{
         "card-id": "fishing_spot",
         "flavour-text": "A body of water filled with Fish",
+        "extra-text": [
+            "Time to harvest: 30s"
+        ],
         "drops": [
             "1x \"cod\"",
             "1x \"mackerel\" with \"fisher\""
+        ],
+        "sources": [
+            "\"pack_grilling_and_brewing\" (25% of 1/4)",
+            "\"pack_island_insights\" (25% of 2/4)",
+            "\"pack_island_of_ideas\" (25% of 3/4)",
+            "\"pack_on_the_shore\" (16% of 3/3)"
+        ],
+        "uses": [
+            "\"fish_trap\""
         ]
     },{
         "card-id": "flint",
-        "flavour-text": "Used to start fires"
+        "flavour-text": "Used to start fires",
+        "sources": [
+            "\"quarry\" (13%)",
+            "\"rock\" (20%)",
+            "\"treasure_chest\"",
+            "\"pack_happy_thoughts\" (13% of 1/4)",
+            "\"pack_island_of_ideas\" (25% of 1/4)",
+            "\"pack_on_the_shore\" (12% of 3/3)",
+            "\"pack_seeking_wisdom\" (13% of 1/4)"
+        ],
+        "uses": [
+            "\"blunderbuss\"",
+            "\"campfire\"",
+            "\"crossroads\"",
+            "\"filter_crossroads\"",
+            "\"gold_mine\"",
+            "\"iron_mine\"",
+            "\"naming_stone\"",
+            "\"pickaxe\"",
+            "\"resource_chest\"",
+            "\"sand_quarry\"",
+            "\"scythe\"",
+            "\"smelter\"",
+            "\"spiked_plank\"",
+            "\"stove\""
+        ]
     },{
         "card-id": "flour",
-        "flavour-text": "Sandy. The main ingredient for Dough"
+        "flavour-text": "Sandy. The main ingredient for Dough",
+        "recipe": [
+            "\"idea_flour\" 30s",
+            "1x \"wheat\"\n1x \"flour_mill\"\n10s"
+        ],
+        "uses": [
+            "\"dough\"",
+            "\"pancakes\""
+        ]
     },{
         "card-id": "flour_mill",
-        "flavour-text": "Turns Wheat into Flour"
+        "flavour-text": "Turns Wheat into Flour",
+        "recipe": [
+            "\"idea_flour_mill\" 10s"
+        ],
+        "uses": [
+            "\"flour\""
+        ]
     },{
         "card-id": "food_warehouse",
-        "flavour-text": "Stores Food"
+        "flavour-text": "Stores Food",
+        "extra-text": [
+            "Can have:\n3x Input Road\n1x Output Road",
+            "Outputs cards every 10s"
+        ],
+        "recipe": [
+            "\"idea_food_warehouse\" 20s"
+        ]
     },{
         "card-id": "forest",
         "flavour-text": "A quaint place that also contains monsters",
+        "extra-text": [
+            "Time to explore: 60s"
+        ],
         "drops": [
-            "\"stick\" (16%)",
-            "\"berry_bush\" (11%)",
-            "\"tree\" (11%)",
-            "\"rabbit\" (11%)",
-            "\"mushroom\" (11%)",
-            "\"catacombs\" (8%)",
+            "\"idea_forest_amulet\" will be a part of the undiscovered card pool until discovered",
             "\"apple\" (5%)",
-            "\"treasure_chest\" (5%)",
             "\"apple_tree\" (5%)",
-            "\"slime\" (4%)",
+            "\"berry_bush\" (11%)",
+            "\"catacombs\" (8%)",
             "\"goblin\" (4%)",
             "\"goblin_archer\" (4%)",
-            "\"rat\" (4%)"
+            "\"mushroom\" (11%)",
+            "\"rabbit\" (11%)",
+            "\"rat\" (4%)",
+            "\"slime\" (4%)",
+            "\"stick\" (16%)",
+            "\"treasure_chest\" (5%)",
+            "\"tree\" (11%)"
+        ],
+        "sources": [
+            "\"pack_explorers\" (25% of 1/3)",
+            "\"pack_the_end\" (33% of 1/3)"
         ]
     },{
         "card-id": "forest_amulet",
         "flavour-text": "You feel the healing power of nature running through you",
-        "equip-text": "2|HLS10|MH5,AS2"
+        "equip-text": "2|HLS10|MH5,AS2",
+        "recipe": [
+            "\"idea_forest_amulet\" 15s"
+        ]
     },{
         "card-id": "fossil",
-        "flavour-text": "Bony mess"
+        "flavour-text": "Bony mess",
+        "sources": [
+            "\"pack_black_gold\" (Low Chance of 2/4)"
+        ]
     },{
         "card-id": "fountain_of_youth",
-        "flavour-text": "Lifts the Curse of Death"
+        "flavour-text": "Lifts the Curse of Death",
+        "extra-text": [
+            "Prevents aging while on the board"
+        ],
+        "recipe": [
+            "\"idea_fountain_of_youth\" 30s"
+        ],
+        "uses": [
+            "\"curse_of_death\""
+        ]
     },{
         "card-id": "french_fries",
-        "flavour-text": "Crispy Potato"
+        "flavour-text": "Crispy Potato",
+        "recipe": [
+            "\"idea_french_fries\" 30s",
+            "1x \"potato\"\n1x \"olive_oil\"\n1x \"stove\"\n30s"
+        ],
+        "uses": [
+            "\"fish_and_chips\""
+        ]
     },{
         "card-id": "fried_fish",
-        "flavour-text": "Browned nicely"
+        "flavour-text": "Browned nicely",
+        "recipe": [
+            "\"idea_fried_fish\" 30s",
+            "1x \"raw_fish\"\n1x \"olive_oil\"\n1x \"stove\"\n30s"
+        ],
+        "uses": [
+            "\"fish_and_chips\""
+        ]
     },{
         "card-id": "fried_meat",
-        "flavour-text": "Crunchy on the outside"
+        "flavour-text": "Crunchy on the outside",
+        "recipe": [
+            "\"idea_fried_meat\" 30s",
+            "1x \"raw_meat\"\n1x \"olive_oil\"\n1x \"stove\"\n30s"
+        ],
+        "uses": [
+            "\"royal_banquet\""
+        ]
     },{
         "card-id": "friendly_pirate",
         "flavour-text": "It has joined your side",
-        "combat-text": "16|STG10|ATME,AS2,HC3,DA2,DF2"
+        "combat-text": "16|STG10|ATME,AS2,HC3,DA2,DF2",
+        "drops": [
+            "\"corpse\" and any equipped Equipment"
+        ],
+        "recipe": [
+            "1x \"pirate\"\n1x \"parrot\""
+        ]
     },{
         "card-id": "frigate",
-        "flavour-text": "Can carry 25 Cards. Needs a Villager to start sailing. Can't carry Buildings"
+        "flavour-text": "Can carry 25 Cards. Needs a Villager to start sailing. Can't carry Buildings",
+        "extra-text": [
+            "Cannot carry resource nodes either"
+        ],
+        "recipe": [
+            "\"idea_frigate\" 60s"
+        ]
     },{
         "card-id": "frittata",
-        "flavour-text": "Delicious! Eat it with a fork"
+        "flavour-text": "Delicious! Eat it with a fork",
+        "extra-text": [
+            "Gives the \"villager\" who consumes it the Well Fed status effect increasing work speed by 100% for a Moon"
+        ],
+        "recipe": [
+            "\"idea_frittata\" 60s",
+            "1x \"egg\"\n1x \"potato\"\n1x \"stove\"\n18s"
+        ],
+        "sources": [
+            "\"travelling_cart\" (8%)",
+            "\"treasure_chest\""
+        ]
     },{
         "card-id": "frog_helmet",
         "flavour-text": "Grants you frog powers",
-        "equip-text": "6|MH5,AS2,DF1"
+        "equip-text": "6|MH5,AS2,DF1",
+        "sources": [
+            "\"frog_man\" (11%)"
+        ]
     },{
         "card-id": "frog_man",
         "flavour-text": "A man made of frogs",
         "combat-text": "14|ATRG,AS2,HC3,DA2,DF2",
         "drops": [
-            "1x:\n\"goop\" (33%)\n\"hammer\" (22%)\n\"pickaxe\" (22%)\n\"blowpipe\" (11%)\n\"frog_helmet\" (11%)\n",
+            "1x:\n\"goop\" (33%)\n\"hammer\" (22%)\n\"pickaxe\" (22%)\n\"blowpipe\" (11%)\n\"frog_helmet\" (11%)",
             "Can be equipped with:\n\"blowpipe\""
+        ],
+        "sources": [
+            "\"catacombs\" (13%)",
+            "\"strange_portal\" and \"rare_portal\" starting Moon 16",
+            "\"pack_advanced_archipelago\" (20% of 1/3)",
+            "\"pack_explorers\" (13% of 1/3)",
+            "\"pack_the_armory\" (13% of 1/3)"
         ]
     },{
         "card-id": "fruit_salad",
-        "flavour-text": "A classic ancient food"
+        "flavour-text": "A classic ancient food",
+        "recipe": [
+            "\"idea_fruit_salad\" 10s",
+            "\"cw_idea_fruit_salad\" 10s"
+        ],
+        "sources": [
+            "\"treasure_chest\""
+        ],
+        "uses": [
+            "\"royal_banquet\""
+        ]
     },{
         "card-id": "garden",
         "flavour-text": "A simple building for growing Food"
@@ -2158,7 +2475,7 @@
         "card-id": "idea_fruit_salad",
         "flavour-text": "1x \"apple\"\n1x \"berry\""
     },{
-        "card-id": "idea_fruit_salad",
+        "card-id": "cw_idea_fruit_salad",
         "flavour-text": "1x \"apple\"\n1x \"grape\""
     },{
         "card-id": "idea_garden",
