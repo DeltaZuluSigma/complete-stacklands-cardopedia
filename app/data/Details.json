@@ -610,8 +610,7 @@
         "combat-text": "9|ATME,AS3,HC3,DA2,DF1",
         "extra-text": [
             "Consumes 1 Food every Moon instead",
-            "Crafts recipes twice as slow (Crafting speed is determined by the slowest \"villager\")",
-            "Cannot be obtained in Peaceful Mode"
+            "Crafts recipes twice as slow (Crafting speed is determined by the slowest \"villager\")"
         ],
         "recipe": [
             "1x \"feral_cat\"\n1x \"milk\"",
@@ -798,6 +797,9 @@
     },{
         "card-id": "cities_iron_deposit",
         "flavour-text": "Contains Iron Ore",
+        "extra-text": [
+            "Time to extract: 10s"
+        ],
         "drops": [
             "3x \"iron_ore\""
         ],
@@ -810,7 +812,8 @@
         "flavour-text": "Specialized in mining Iron Ore",
         "extra-text": [
             "Requires:\n1x Low Voltage\n1x \"worker\"",
-            "Can have:\n1x Output Road"
+            "Can have:\n1x Output Road",
+            "Time to extract: 60s"
         ],
         "drops": [
             "\"iron_ore\""
@@ -976,7 +979,7 @@
         "card-id": "copper_deposit",
         "flavour-text": "Contains Copper Ore",
         "extra-text": [
-            "Time to harvest: 10s"
+            "Time to extract: 10s"
         ],
         "drops": [
             "3x \"copper_ore\""
@@ -993,7 +996,8 @@
         "flavour-text": "Specialized in mining Copper Ore",
         "extra-text": [
             "Requires:\n1x Low Voltage\n1x \"worker\"",
-            "Can have:\n1x Output Road"
+            "Can have:\n1x Output Road",
+            "Time to extract: 60s"
         ],
         "drops": [
             "\"copper_ore\""
@@ -1317,7 +1321,7 @@
         "card-id": "driftwood",
         "flavour-text": "A bunch of wood that has washed ashore",
         "extra-text": [
-            "Time to harvest: 10s"
+            "Time to extract: 10s"
         ],
         "drops": [
             "2x:\n\"wood\" (88%)\n\"stick\" (9%)\n\"bottle_of_rum\" (2%)\n\"plank\" (2%)"
@@ -1358,13 +1362,11 @@
         "card-id": "educated_worker",
         "flavour-text": "Work smarter, not harder",
         "extra-text": [
-            "Wellbeing Conditions:\nDoesn't have housing: -1"
+            "Wellbeing Conditions:\nDoesn't have housing: -1",
+            "Crafts cards 25% faster"
         ],
         "recipe": [
             "1x \"worker\"\n1x \"academy\"\n120s"
-        ],
-        "uses": [
-            "Crafts cards 25% faster"
         ]
     },{
         "card-id": "eel",
@@ -1542,7 +1544,8 @@
         "flavour-text": "Exports resources that are placed on top of it",
         "extra-text": [
             "Requires:\n1x Low Voltage\n1x \"worker\"",
-            "Can have:\n3x Input Road\n1x Output Road"
+            "Can have:\n3x Input Road\n1x Output Road",
+            "Outputs cards every 10s"
         ],
         "recipe": [
             "\"idea_export_center\" 20s"
@@ -1637,7 +1640,8 @@
         "flavour-text": "Gives Grain when harvested",
         "extra-text": [
             "Requires:\n1x \"worker\"",
-            "Can have:\n1x Output Road"
+            "Can have:\n1x Output Road",
+            "Time to harvest: 60s"
         ],
         "recipe": [
             "\"idea_farmland\" 20s"
@@ -1751,7 +1755,7 @@
         "card-id": "fish_trap",
         "flavour-text": "Needs a type of Food as bait",
         "extra-text": [
-            "Time to produce: 30s"
+            "Time to fish: 30s"
         ],
         "drops": [
             "\"cod\"",
@@ -1791,7 +1795,7 @@
         "card-id": "fishing_spot",
         "flavour-text": "A body of water filled with Fish",
         "extra-text": [
-            "Time to harvest: 30s"
+            "Time to fish: 30s"
         ],
         "drops": [
             "1x \"cod\"",
@@ -2015,10 +2019,33 @@
         ]
     },{
         "card-id": "garden",
-        "flavour-text": "A simple building for growing Food"
+        "flavour-text": "A simple building for growing Food",
+        "recipe": [
+            "\"idea_garden\" 30s"
+        ],
+        "uses": [
+            "\"apple_tree\"",
+            "\"berry_bush\"",
+            "\"banana_tree\"",
+            "\"carrot\"",
+            "\"chili_pepper\"",
+            "\"cotton_plant\"",
+            "\"lime\"",
+            "\"mushroom\"",
+            "\"onion\"",
+            "\"potato\"",
+            "\"sugar_cane\"",
+            "\"seaweed\""
+        ]
     },{
         "card-id": "genius",
-        "flavour-text": "Rumored to have an IQ of 538"
+        "flavour-text": "Rumored to have an IQ of 538",
+        "extra-text": [
+            "Wellbeing Conditions:\nDoesn't have housing: -1"
+        ],
+        "recipe": [
+            "\"rumor_eureka!\" #s"
+        ]
     },{
         "card-id": "ghost",
         "flavour-text": "Only shows up on low quality photos",
@@ -2026,6 +2053,10 @@
         "drops": [
             "\"magic_dust\"",
             "Can be equipped with:\n\"magic_blade\""
+        ],
+        "sources": [
+            "\"strange_portal\" and \"rare_portal\" starting Moon 24",
+            "Dark Forest"
         ]
     },{
         "card-id": "ghoul",
@@ -2034,6 +2065,9 @@
         "drops": [
             "1x:\n\"magic_dust\" (50%)\n\"goop\" (50%)",
             "Can be equipped with:\n\"sword\"\n\"skull_helmet\"\n\"rag\"\n\"cursed_wand\""
+        ],
+        "sources": [
+            "While \"curse_of_sadness\" is active, has a chance to spawn if a \"villager\" does not receive \"happiness\" at the end of a Moon"
         ]
     },{
         "card-id": "giant_rat",
@@ -2042,6 +2076,12 @@
         "drops": [
             "1x:\n\"raw_meat\" (33%)\n\"bone\" (33%)\n\"rat_crown\" (33%)",
             "Can be equipped with:\n\"bone_spear\"\n\"wooden_shield\"\n\"spiked_plank\"\n\"slingshot\"\n\"bow\""
+        ],
+        "sources": [
+            "\"catacombs\" (13%)",
+            "\"strange_portal\" and \"rare_portal\" starting Moon 16",
+            "\"pack_explorers\" (13% of 1/3)",
+            "\"pack_the_armory\" (13% of 1/3)"
         ]
     },{
         "card-id": "giant_snail",
@@ -2049,10 +2089,30 @@
         "combat-text": "18|ATRG,HC2,DA4,DF3",
         "drops": [
             "1x:\"goop\" (50%)\n\"magic_dust\" (50%)"
+        ],
+        "sources": [
+            "\"strange_portal\" and \"rare_portal\" starting Moon 24",
+            "Dark Forest"
         ]
     },{
         "card-id": "glass",
-        "flavour-text": "A transparent resource"
+        "flavour-text": "A transparent resource",
+        "recipe": [
+            "\"idea_glass\" 10s"
+        ],
+        "sources": [
+            "\"pack_advanced_archipelago\" (20% of 1/3)",
+            "\"pack_enclave_explorers\" (20% of 1/4)",
+            "\"pack_island_insights\" (20% of 1/4)"
+        ],
+        "uses": [
+            "\"aquarium\"",
+            "\"cathedral\"",
+            "\"empty_bottle\"",
+            "\"greenhouse\"",
+            "\"lighthouse\"",
+            "\"sacred_key\""
+        ]
     },{
         "card-id": "goblin",
         "flavour-text": "A monster with bad posture",
@@ -2060,6 +2120,12 @@
         "drops": [
             "1x:\n\"magic_dust\" (33%)\n\"map\" (33%)\n\"goblin_hat\" (33%)",
             "Can be equipped with:\n\"bone_spear\"\n\"club\"\n\"goblin_hat\"\n\"wooden_shield\"\n\"spiked_plank\"\n\"pickaxe\""
+        ],
+        "sources": [
+            "\"forest\" (4%)",
+            "\"mountain\" (7%)",
+            "\"old_village\" (1%)",
+            "\"strange_portal\" and \"rare_portal\" starting Moon 12"
         ]
     },{
         "card-id": "goblin_archer",
@@ -2068,6 +2134,12 @@
         "drops": [
             "1x:\n\"bone\" (60%)\n\"quiver\" (20%)\n\"goblin_hat\" (20%)",
             "Can be equipped with:\n\"slingshot\"\n\"leather_tunic\"\n\"goblin_hat\""
+        ],
+        "sources": [
+            "\"forest\" (4%)",
+            "\"mountain\" (7%)",
+            "\"old_village\" (1%)",
+            "\"strange_portal\" and \"rare_portal\" starting Moon 12"
         ]
     },{
         "card-id": "goblin_chopper",
@@ -2083,7 +2155,11 @@
     },{
         "card-id": "goblin_hat",
         "flavour-text": "Goblin fashion is outdated",
-        "equip-text": "6|CHT5|MH5,HC1,DF1"
+        "equip-text": "6|CHT5|MH5,HC1,DF1",
+        "sources": [
+            "\"goblin\" (33% / Equipped)",
+            "\"goblin_archer\" (20% / Equipped)"
+        ]
     },{
         "card-id": "goblin_marksman",
         "flavour-text": "Goblin with a long rifle",
@@ -2095,6 +2171,12 @@
         "drops": [
             "1x:\n\"magic_dust\" (75%)\n\"bone\" (25%)",
             "Can be equipped with:\n\"bone_staff\"\n\"magic_wand\"\n\"magic_blade\""
+        ],
+        "sources": [
+            "\"catacombs\" (13%)",
+            "\"strange_portal\" and \"rare_portal\" starting Moon 16",
+            "\"pack_explorers\" (13% of 1/3)",
+            "\"pack_the_armory\" (13% of 1/3)"
         ]
     },{
         "card-id": "goblin_tank",
@@ -2113,65 +2195,218 @@
         ]
     },{
         "card-id": "gold_bar",
-        "flavour-text": "A very shiny, very valuable material"
+        "flavour-text": "A very shiny, very valuable material",
+        "recipe": [
+            "\"idea_gold_bar\" 10s"
+        ],
+        "sources": [
+            "\"mimic\" (50%)",
+            "\"ruins\" (20%)",
+            "\"pack_advanced_archipelago\" (20% of 1/3)",
+            "\"pack_enclave_explorers\" (20% of 1/4)",
+            "\"pack_island_insights\" (20% of 1/4)"
+        ],
+        "uses": [
+            "\"blunderbuss\"",
+            "\"bone_staff\"",
+            "\"cathedral\"",
+            "\"coin\"",
+            "\"forest_amulet\"",
+            "\"golden_chestplate\"",
+            "\"jester's_hat\"",
+            "\"mountain_amulet\"",
+            "\"resource_magnet\"",
+            "\"sacred_key\""
+        ]
     },{
         "card-id": "gold_deposit",
         "flavour-text": "It contains Gold Ore",
+        "extra-text": [
+            "Time to extract: 10s"
+        ],
         "drops": [
             "3x:\n\"gold_ore\" (71%)\n\"coin\" (14%)\n\"stone\" (14%)"
+        ],
+        "sources": [
+            "\"pack_advanced_archipelago\" (25% of 1/3)",
+            "\"pack_enclave_explorers\" (25% of 1/4)"
         ]
     },{
         "card-id": "gold_mine",
         "flavour-text": "An unlimited resource for Gold Ore",
+        "extra-text": [
+            "Time to extract: 45s"
+        ],
         "drops": [
             "\"gold_ore\" (33%)\n\"stone\" (33%)\n\"coin\" (33%)"
+        ],
+        "recipe": [
+            "\"idea_gold_mine\" 45s"
         ]
     },{
         "card-id": "gold_ore",
-        "flavour-text": "Can be turned into Gold Bars"
+        "flavour-text": "Can be turned into Gold Bars",
+        "sources": [
+            "\"gold_deposit\" (71%)",
+            "\"gold_mine\" (33%)",
+            "\"pack_courtyard_contraptions\" (8% of 2/4)",
+            "\"pack_royal_luxuries\" (8% of 2/3)"
+        ],
+        "uses": [
+            "\"gold_bar\"",
+            "\"gold_mine\""
+        ]
     },{
         "card-id": "golden_chestplate",
         "flavour-text": "Slightly overdressed for the event",
-        "equip-text": "8|STG10|DF3"
+        "equip-text": "8|STG10|DF3",
+        "recipe": [
+            "\"idea_golden_chestplate\" 15s"
+        ],
+        "sources": [
+            "\"merman\" (Equipped)"
+        ]
     },{
         "card-id": "golden_goblet",
-        "flavour-text": "A mysterious object"
+        "flavour-text": "A mysterious object",
+        "sources": [
+            "\"catacombs\"",
+            "\"travelling_cart\" (8%)"
+        ],
+        "uses": [
+            "\"demon\""
+        ]
     },{
         "card-id": "goop",
-        "flavour-text": "Smush, sludge, gunk: it's spoilt food"
+        "flavour-text": "Smush, sludge, gunk: it's spoilt food",
+        "sources": [
+            "When Food spoils on \"board_island\"",
+            "\"frog_man\" (33%)",
+            "\"ghoul\" (50%)",
+            "\"giant_snail\" (50%)"
+        ],
+        "uses": [
+            "\"dustbin\""
+        ]
     },{
         "card-id": "grain",
-        "flavour-text": "Basic ingredient for Food"
+        "flavour-text": "Basic ingredient for Food",
+        "sources": [
+            "\"farmland\"",
+            "\"hydroponic_farm\"",
+            "\"trash\" (11%)",
+            "\"pack_major_metals\" (18% of 2/4)",
+            "\"pack_modern_solutions\" (18% of 2/4)",
+            "\"pack_precious_resources\" (18% of 2/4)"
+        ],
+        "uses": [
+            "\"bread_2000\"",
+            "\"food_warehouse\"",
+            "\"muesli\"",
+            "\"ready_meal\"",
+            "\"zoo\""
+        ]
     },{
         "card-id": "grape",
-        "flavour-text": "It's just a fancy berry"
+        "flavour-text": "It's just a fancy berry",
+        "sources": [
+            "\"grape_vine\" (99%)",
+            "\"pack_courtyard_contraptions\" (7% of 2/4)",
+            "\"pack_pure_greed\" (7% of 2/3)",
+            "\"pack_royal_inventor\" (7% of 2/3)",
+            "\"pack_royal_luxuries\" (7% of 2/3)"
+        ],
+        "uses": [
+            "\"fruit_salad\"",
+            "\"grape_pulp\"",
+            "\"purple_socks\""
+        ]
     },{
         "card-id": "grape_pulp",
-        "flavour-text": "A slurry of Grapes"
+        "flavour-text": "A slurry of Grapes",
+        "recipe": [
+            "\"idea_grape_pulp\" 10s"
+        ],
+        "uses": [
+            "\"wine\""
+        ]
     },{
         "card-id": "grape_vine",
         "flavour-text": "Stringy berry bush",
+        "extra-text": [
+            "Time to harvest: 10s"
+        ],
         "drops": [
             "3x:\n\"grape\" (99%)\n\"rabbit\" (1%)"
+        ],
+        "recipe": [
+            "1x \"grape\" in:\n\"poop\"/\"soil\" for 120s\n\"garden\" for 90s\n\"farm\"/\"greenhouse\" for 60s"
+        ],
+        "sources": [
+            "\"pack_daily_life\" (13% of 3/3)",
+            "\"pack_deep_thoughts\" (14% of 1/3)",
+            "\"pack_greedy_intro\"",
+            "\"pack_life_is_short\"",
+            "\"pack_noble_creatures\" (14% of 2/3)",
+            "\"pack_pure_greed\" (29% of 2/3)",
+            "\"pack_wisdom_of_life\" (14% of 1/3)"
         ]
     },{
         "card-id": "gravel",
-        "flavour-text": "Coarse sand"
+        "flavour-text": "Coarse sand",
+        "sources": [
+            "\"gravel_deposit\"",
+            "\"gravel_pit\"",
+            "\"pack_major_metals\" (21% of 2/4)",
+            "\"pack_modern_solutions\" (21-26% of 4/4)",
+            "\"pack_precious_resources\" (21% of 2/4)"
+        ],
+        "uses": [
+            "\"cement\"",
+            "\"factory_parts\"",
+            "\"farmland\"",
+            "\"filter_junction\"",
+            "\"junction\"",
+            "\"landfill\""
+        ]
     },{
         "card-id": "gravel_deposit",
         "flavour-text": "A deposit of Gravel",
+        "extra-text": [
+            "Time to extract: 10s"
+        ],
         "drops": [
             "3x \"gravel\""
+        ],
+        "sources": [
+            "\"pack_department_of_defense\"",
+            "\"pack_industrial_revolution\"",
+            "\"pack_precious_resources\" (25% of 2/4)"
+        ],
+        "uses": [
+            "\"gravel_pit\""
         ]
     },{
         "card-id": "gravel_pit",
         "flavour-text": "An infinite source of Gravel",
+        "extra-text": [
+            "Requires:\n1x \"worker\"",
+            "Can have:\n1x Output Road",
+            "Time to extract: 60s"
+        ],
         "drops": [
             "\"gravel\""
+        ],
+        "recipe": [
+            "\"rumor_extraction\"",
+            "1x \"gravel_deposit\"\n1x \"factory_parts\"\n1x \"worker\"\n10s"
         ]
     },{
         "card-id": "graveyard",
         "flavour-text": "Very different from a normal yard",
+        "extra-text": [
+            "Time to explore: 60s"
+        ],
         "drops": [
             "\"soil\" (25%)",
             "\"treasure_chest\" (25%)",
@@ -2179,31 +2414,99 @@
             "\"skeleton\" (13%)",
             "\"corpse\" (13%)",
             "\"catacombs\" (13%)"
+        ],
+        "recipe": [
+            "2x \"corpse\"\n15s"
         ]
     },{
         "card-id": "greenhouse",
-        "flavour-text": "A high-tech building for growing Food. Automatically replants crops."
+        "flavour-text": "A high-tech building for growing Food. Automatically replants crops.",
+        "recipe": [
+            "\"idea_greenhouse\" 30s"
+        ],
+        "uses": [
+            "\"apple_tree\"",
+            "\"berry_bush\"",
+            "\"banana_tree\"",
+            "\"carrot\"",
+            "\"chili_pepper\"",
+            "\"cotton_plant\"",
+            "\"lime\"",
+            "\"mushroom\"",
+            "\"onion\"",
+            "\"potato\"",
+            "\"sugar_cane\"",
+            "\"seaweed\""
+        ]
     },{
         "card-id": "grilled_fish",
-        "flavour-text": "I can taste the grilll marks"
+        "flavour-text": "I can taste the grilll marks",
+        "recipe": [
+            "1x \"raw_fish\"\n1x \"campfire\"\n60s",
+            "1x \"raw_fish\"\n1x \"stove\"\n18s"
+        ]
     },{
         "card-id": "guard's_tunic",
         "flavour-text": "Looking fancy on the battlefield",
-        "equip-text": "12|FRF10|MH5,DA1,DF3"
+        "equip-text": "12|FRF10|MH5,DA1,DF3",
+        "sources": [
+            "\"royal_archer\" (Equipped)",
+            "\"royal_guard\" (Equipped)",
+            "\"royal_mage\" (Equipped)"
+        ]
     },{
         "card-id": "hammer",
         "flavour-text": "Slow and blunt but packs a punch",
-        "equip-text": "5|STG10|ATME,HC1,DA2"
+        "equip-text": "5|STG10|ATME,HC1,DA2",
+        "recipe": [
+            "\"idea_hammer\" 15s"
+        ],
+        "sources": [
+            "\"elf\" (Equipped)",
+            "\"frog_man\" (22%)",
+            "\"ogre\" (Equipped)"
+        ],
+        "uses": [
+            "\"builder\""
+        ]
     },{
         "card-id": "hamster_wheel",
-        "flavour-text": "Generates energy using labor"
+        "flavour-text": "Generates energy using labor",
+        "extra-text": [
+            "Requires:\n1x \"worker\""
+        ],
+        "recipe": [
+            "\"idea_hamster_wheel\" #s"
+        ],
+        "uses": [
+            "Maintains 1 Low Voltage"
+        ]
     },{
         "card-id": "happiness",
-        "flavour-text": "A single unit of Happiness. It keeps Villagers happy"
+        "flavour-text": "A single unit of Happiness. It keeps Villagers happy",
+        "recipe": [
+            "\"idea_happiness\" 60s",
+            "1x \"book\"\n1x \"villager\"\n30s",
+            "1x \"coin\"\n1x \"charity\"\n70s",
+            "1x Food\n1x \"tavern\"\n30s"
+        ],
+        "sources": [
+            "\"petting_zoo\"",
+            "\"pack_happy_start\""
+        ],
+        "uses": [
+            "\"euphoria\""
+        ]
     },{
         "card-id": "helmet",
         "flavour-text": "It goes on top of your head. Great for cycling",
-        "equip-text": "4|DF2"
+        "equip-text": "4|DF2",
+        "sources": [
+            "\"dark_elf\" (Equipped)",
+            "\"elf_archer\" (Equipped)",
+            "\"royal_guard\" (Equipped)",
+            "\"skeleton\" (Equipped)"
+        ]
     },{
         "card-id": "herbal_tea",
         "flavour-text": "Makes you feel better"
@@ -2873,6 +3176,9 @@
     },{
         "card-id": "iron_mine",
         "flavour-text": "An unlimited resource for Iron Ore",
+        "extra-text": [
+            "Time to extract: 45s"
+        ],
         "drops": [
             "\"iron_ore\" (67%)",
             "\"stone\" (17%)",
@@ -3793,7 +4099,21 @@
         "flavour-text": "Leaves a nasty smell"
     },{
         "card-id": "poop",
-        "flavour-text": "It looks stinky"
+        "flavour-text": "It looks stinky",
+        "uses": [
+            "\"apple_tree\"",
+            "\"berry_bush\"",
+            "\"banana_tree\"",
+            "\"carrot\"",
+            "\"chili_pepper\"",
+            "\"cotton_plant\"",
+            "\"lime\"",
+            "\"mushroom\"",
+            "\"onion\"",
+            "\"potato\"",
+            "\"sugar_cane\"",
+            "\"seaweed\""
+        ]
     },{
         "card-id": "poop_slime",
         "flavour-text": "Slime made of Poop",
@@ -4199,7 +4519,21 @@
         "combat-text": "15|ATFT,AS3,HC4,DA3,DF2"
     },{
         "card-id": "soil",
-        "flavour-text": "A simple and slow way of growing Food"
+        "flavour-text": "A simple and slow way of growing Food",
+        "uses": [
+            "\"apple_tree\"",
+            "\"berry_bush\"",
+            "\"banana_tree\"",
+            "\"carrot\"",
+            "\"chili_pepper\"",
+            "\"cotton_plant\"",
+            "\"lime\"",
+            "\"mushroom\"",
+            "\"onion\"",
+            "\"potato\"",
+            "\"sugar_cane\"",
+            "\"seaweed\""
+        ]
     },{
         "card-id": "solar_panel",
         "flavour-text": "Unlimited free energy from the sun"
