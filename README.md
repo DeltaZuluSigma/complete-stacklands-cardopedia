@@ -5,7 +5,7 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 ### Current Bookmark
 * Add all cards images & data (& tags)
    * Details still needed (decompile?)
-   * Wiki Bookmark: herbal_tea
+   * Wiki Bookmark: laboratory
 
 ### Pending
 * Disclaimer cards
@@ -13,7 +13,9 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
    * Villager type adoption
    * Idea discovery
    * Pack logic (undiscovered card rates)
+* Card audit
    * Food spoil time?
+   * Pack-to-idea relationship
 * Refactoring
    * Fix 'Sidebar' CSS
    * Replace & animate plus/minus
@@ -21,7 +23,6 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
    * Make collapsible full container size
    * Apply binary search to 'FetchHelper' functions
       * Separate search file?
-   * Audit times for EVERYTHING
 
 ### Future Implementation ... Maybe
 * Mobile styles
