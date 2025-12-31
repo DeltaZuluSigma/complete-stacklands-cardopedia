@@ -1960,7 +1960,7 @@
     "equipment":[
         {
             "name": "Axe",
-            "update": "cursed_worlds",
+            "update": "dark_forest",
             "tag": ["melee"]
         },{
             "name": "Bear Claw",
@@ -1968,7 +1968,7 @@
             "tag": ["melee"]
         },{
             "name": "Blowpipe",
-            "update": "cursed_worlds",
+            "update": "dark_forest",
             "tag": ["ranged"]
         },{
             "name": "Blunderbuss",
@@ -1980,7 +1980,7 @@
             "tag": ["melee"]
         },{
             "name": "Bone Staff",
-            "update": "cursed_worlds",
+            "update": "dark_forest",
             "tag": ["magic"]
         },{
             "name": "Boomerang",
@@ -1996,7 +1996,7 @@
             "tag": ["melee"]
         },{
             "name": "Chainmail Armor",
-            "update": "cursed_worlds",
+            "update": "dark_forest",
             "tag": ["chest"]
         },{
             "name": "Club",
@@ -2016,7 +2016,7 @@
             "tag": ["magic"]
         },{
             "name": "Dark Amulet",
-            "update": "cursed_worlds",
+            "update": "dark_forest",
             "tag": ["head"]
         },{
             "name": "Demon Sword",

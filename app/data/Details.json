@@ -1641,17 +1641,22 @@
         ],
         "uses": [
             "\"apple_tree\"",
-            "\"berry_bush\"",
             "\"banana_tree\"",
+            "\"berry_bush\"",
             "\"carrot\"",
             "\"chili_pepper\"",
             "\"cotton_plant\"",
+            "\"grape_vine\"",
+            "\"herbs\"",
             "\"lime\"",
             "\"mushroom\"",
+            "\"olive_tree\"",
             "\"onion\"",
             "\"potato\"",
+            "\"seaweed\"",
             "\"sugar_cane\"",
-            "\"seaweed\""
+            "\"tomato\"",
+            "\"wheat\""
         ]
     },{
         "card-id": "farmland",
@@ -2047,17 +2052,22 @@
         ],
         "uses": [
             "\"apple_tree\"",
-            "\"berry_bush\"",
             "\"banana_tree\"",
+            "\"berry_bush\"",
             "\"carrot\"",
             "\"chili_pepper\"",
             "\"cotton_plant\"",
+            "\"grape_vine\"",
+            "\"herbs\"",
             "\"lime\"",
             "\"mushroom\"",
+            "\"olive_tree\"",
             "\"onion\"",
             "\"potato\"",
+            "\"seaweed\"",
             "\"sugar_cane\"",
-            "\"seaweed\""
+            "\"tomato\"",
+            "\"wheat\""
         ]
     },{
         "card-id": "genius",
@@ -2448,17 +2458,22 @@
         ],
         "uses": [
             "\"apple_tree\"",
-            "\"berry_bush\"",
             "\"banana_tree\"",
+            "\"berry_bush\"",
             "\"carrot\"",
             "\"chili_pepper\"",
             "\"cotton_plant\"",
+            "\"grape_vine\"",
+            "\"herbs\"",
             "\"lime\"",
             "\"mushroom\"",
+            "\"olive_tree\"",
             "\"onion\"",
             "\"potato\"",
+            "\"seaweed\"",
             "\"sugar_cane\"",
-            "\"seaweed\""
+            "\"tomato\"",
+            "\"wheat\""
         ]
     },{
         "card-id": "grilled_fish",
@@ -4172,29 +4187,63 @@
         "combat-text": "21|ATME,AS2,HC3,DA2,DF2",
         "drops": [
             "1x:\n\"bone\" (50%)\n\"club\" (50%)",
-            "Can be equipped with:\n\"boomerang\"\n\"morning_star\"\n\"leather_tunic\"\n\"hammer\"\n\"throwing_stars\"\n\"axe\""
+            "Can be equipped with:\n\"axe\"\n\"boomerang\"\n\"hammer\"\n\"leather_tunic\"\n\"morning_star\"\n\"throwing_stars\""
+        ],
+        "sources": [
+            "From the Dark Forest, wave 4 onwards"
         ]
     },{
         "card-id": "oil",
-        "flavour-text": "Nasty dinosaur goop"
+        "flavour-text": "Nasty dinosaur goop",
+        "sources": [
+            "\"goblin_warplane\" (20%)",
+            "\"oil_rig\"",
+            "\"pack_black_gold\" (16% of 2/4)"
+        ]
     },{
         "card-id": "oil_power_plant",
-        "flavour-text": "Generates energy from Oil"
+        "flavour-text": "Generates energy from Oil",
+        "extra-text": [
+            "Can have:\n1x Input Road"
+        ],
+        "recipe": [
+            "\"idea_oil_power_plant\" 30s"
+        ],
+        "uses": [
+            "Every 30s:\nConsumes 1x \"oil\",\nMaintains 3x High Voltage,\nProduces 3x \"pollution\""
+        ]
     },{
         "card-id": "oil_rig",
         "flavour-text": "Uses energy to drill for Oil",
+        "extra-text": [
+            "Requires:\n2x \"worker\"\n1x Low Voltage",
+            "Can have:\n1x Output Road",
+            "Time to extract: 60s"
+        ],
         "drops": [
             "\"oil\""
+        ],
+        "recipe": [
+            "\"idea_oil_rig\" 30s"
         ]
     },{
         "card-id": "old_tome",
         "flavour-text": "A book with some Idea in it",
         "drops": [
-            "1x \"map\""
+            "1x random undiscovered non-DLC Idea otherwise 1x \"map\""
+        ],
+        "sources": [
+            "\"jungle\" (5%)",
+            "\"old_village\" (4%)",
+            "\"travelling_cart\" (8%)",
+            "\"treasure_chest\""
         ]
     },{
         "card-id": "old_village",
         "flavour-text": "A person is rumored to still live here..",
+        "extra-text": [
+            "Time to explore: 60s"
+        ],
         "drops": [
             "\"coin\" (17%)",
             "\"wood\" (17%)",
@@ -4209,40 +4258,116 @@
             "\"goblin\" (1%)",
             "\"goblin_archer\" (1%)",
             "\"rat\" (1%)"
+        ],
+        "sources": [
+            "\"pack_enclave_explorers\" (25% of 1/4)",
+            "\"pack_explorers\" (25% of 1/3)"
         ]
     },{
         "card-id": "old_cat",
         "flavour-text": "Grumpy sometimes",
-        "combat-text": "9|ATME,AS3,HC3,DA2,DF1"
+        "combat-text": "9|ATME,AS3,HC3,DA2,DF1",
+        "extra-text": [
+            "Overall, works 150% slower than \"villager\"",
+            "Dies at the end of their ninth Moon"
+        ],
+        "sources": [
+            "While \"curse_of_death\" is active, \"cat\" ages up to Old Cat at the end of their seventh Moon"
+        ]
     },{
         "card-id": "old_dog",
         "flavour-text": "Still adorable",
-        "combat-text": "9|ATME,AS3,HC3,DA2,DF1"
+        "combat-text": "9|ATME,AS3,HC3,DA2,DF1",
+        "extra-text": [
+            "Overall, works 150% slower than \"villager\"",
+            "Dies at the end of their ninth Moon"
+        ],
+        "sources": [
+            "While \"curse_of_death\" is active, \"dog\" ages up to Old Dog at the end of their seventh Moon"
+        ]
     },{
         "card-id": "old_villager",
         "flavour-text": "Life's flashing before their eyes",
-        "combat-text": "8|ATME,AS1,HC2,DA2,DF1"
+        "combat-text": "8|ATME,AS1,HC2,DA2,DF1",
+        "extra-text": [
+            "Overall, works 25% slower than \"villager\"",
+            "Dies at the end of their ninth Moon"
+        ],
+        "sources": [
+            "While \"curse_of_death\" is active, \"villager\" ages up to Old Villager at the end of their seventh Moon"
+        ]
     },{
         "card-id": "olive",
-        "flavour-text": "Mediterranean classic"
+        "flavour-text": "Mediterranean classic",
+        "sources": [
+            "\"olive_tree\""
+        ],
+        "uses": [
+            "\"olive_pulp\"",
+            "\"olive_tree\""
+        ]
     },{
         "card-id": "olive_oil",
-        "flavour-text": "Tasty olive juice"
+        "flavour-text": "Tasty olive juice",
+        "recipe": [
+            "\"idea_olive_oil\" 60s"
+        ],
+        "uses": [
+            "\"french_fries\"",
+            "\"fried_fish\"",
+            "\"fried_meat\""
+        ]
     },{
         "card-id": "olive_pulp",
-        "flavour-text": "A slurry of olives"
+        "flavour-text": "A slurry of olives",
+        "recipe": [
+            "\"idea_olive_pulp\" 10s"
+        ],
+        "uses": [
+            "\"olive_oil\""
+        ]
     },{
         "card-id": "olive_tree",
         "flavour-text": "Can grow as old as 3,500 years",
+        "extra-text": [
+            "Time to harvest: 10s"
+        ],
         "drops": [
             "3x \"olive\""
+        ],
+        "recipe": [
+            "1x \"olive\" in:\n\"poop\"/\"soil\" for 120s\n\"garden\" for 90s\n\"farm\"/\"greenhouse\" for 60s"
+        ],
+        "sources": [
+            "\"pack_noble_creatures\" (14% of 2/3)",
+            "\"pack_royal_inventor\" (67% of 1/3)"
         ]
     },{
         "card-id": "omelette",
-        "flavour-text": "Pépin would be proud"
+        "flavour-text": "Pépin would be proud",
+        "recipe": [
+            "\"idea_omelette\" 90s",
+            "2x \"egg\"\n1x \"stove\"\n27s"
+        ],
+        "sources": [
+            "\"treasure_chest\""
+        ],
+        "uses": [
+            "\"tamago_sushi\""
+        ]
     },{
         "card-id": "onion",
-        "flavour-text": "Can be eaten raw or can be cooked, whichever you prefer"
+        "flavour-text": "Can be eaten raw or can be cooked, whichever you prefer",
+        "sources": [
+            "\"plains\" (14%)",
+            "\"treasure_chest\"",
+            "\"pack_curious_cuisine\" (20% of 1/3)",
+            "\"pack_happy_ever_after\" (20% of 1/4)",
+            "\"pack_soul_food\" (20% of 1/4)"
+        ],
+        "uses": [
+            "\"stew\""
+        ]
     },{
         "card-id": "orc_wizard",
         "flavour-text": "Mean and green",
@@ -4250,13 +4375,30 @@
         "drops": [
             "1x:\n\"bone\" (50%)\n\"magic_dust\" (50%)",
             "Can be equipped with:\n\"staff_of_fear\"\n\"wizard_robe\""
+        ],
+        "sources": [
+            "\"pack_advanced_archipelago\" (20% of 1/3)",
+            "From the Dark Forest, wave 4 onwards"
         ]
     },{
         "card-id": "outhouse",
-        "flavour-text": "Use it to get rid of Poop"
+        "flavour-text": "Use it to get rid of Poop",
+        "recipe": [
+            "\"idea_outhouse\" 30s"
+        ],
+        "uses": [
+            "Removes \"poop\" and \"villager_poop\" after 30s"
+        ]
     },{
         "card-id": "oven",
-        "flavour-text": "Used to bake all sorts of things"
+        "flavour-text": "Used to bake all sorts of things",
+        "recipe": [
+            "\"idea_oven\" 30s"
+        ],
+        "uses": [
+            "\"bread\"",
+            "\"pizza\""
+        ]
     },{
         "card-id": "pack_a_new_world",
         "extra-text": [
@@ -4272,7 +4414,7 @@
     },{
         "card-id": "pack_advanced_archipelago",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 12 \"board_island\" Quests, and costs 12 Shells"
         ],
         "drops": [
             "1x:\n\"frog_man\" (20%)\n\"merman\" (20%)\n\"orc_wizard\" (20%)\n\"pirate\" (20%)\n\"skeleton\" (20%)",
@@ -4282,16 +4424,17 @@
     },{
         "card-id": "pack_advanced_automation",
         "extra-text": [
-            "180 money"
+            "Unlocks after completing 36 Cities Quests, and costs 180 Dollars"
         ],
         "drops": [
+            "Until discovered:\n\"idea_nuclear_power_plant\"\n\"idea_recycling_center\"\n\"landmark_particle_collider\"\n\"landmark_unknown_machine\"\n\"rumor_quantum_matter\"",
             "1x:\n\"copper_bar\" (High Chance)\n\"iron_bar\" (High Chance)\n\"plastic\" (Low Chance)\n\"science\" (Low Chance)",
             "3x:\n\"plastic\" (38%)\n\"uranium_deposit\" (38%)\n\"electricity_pylon\" (8%)\n\"energy_combiner\" (8%)\n\"energy_splitter\" (8%)"
         ]
     },{
         "card-id": "pack_animal_lives",
         "extra-text": [
-            "10 coins"
+            "Unlocks after completing 6 \"board_death\" Quests, and costs 10 Coins"
         ],
         "drops": [
             "1x:\n\"chicken\" (25%)\n\"cow\" (25%)\n\"horse\" (25%)\n\"sheep\" (25%)",
@@ -4301,16 +4444,17 @@
     },{
         "card-id": "pack_black_gold",
         "extra-text": [
-            "100 money"
+            "Unlocks after completing 26 Cities Quests, and costs 100 Dollars"
         ],
         "drops": [
+            "Until discovered:\n\"idea_electricity_pylon\"\n\"idea_electric_motor\"\n\"idea_export_center\"\n\"idea_hydroponic_farm\"\n\"idea_oil_power_plant\"\n\"idea_oil_rig\"\n\"idea_plastic\"\n\"idea_ready_meal\"\n\"idea_water_treatment_plant\"\n\"landmark_academy\"\n\"landmark_theme_park\"",
             "2x:\n\"iron_bar\" (High Chance)\n\"metal_scraps\" (High Chance)\n\"factory_parts\" (Low Chance)",
             "2x:\n\"copper_bar\" (33%)\n\"iron_bar\" (33%)\n\"oil\" (16%)\n\"electric_motor\" (5%)\n\"wind_turbine\" (5%)\n\"fossil\" (Low Chance)\n\"trash\" (Low Chance)"
         ]
     },{
         "card-id": "pack_courtyard_contraptions",
         "extra-text": [
-            "10 coins"
+            "Unlocks after completing 10 \"board_greed\" Quests, and costs 10 Coins"
         ],
         "drops": [
             "2x:\n\"stone\" (29%)\n\"wood\" (29%)\n\"rock\" (14%)\n\"tree\" (14%)\n\"grape\" (7%)\n\"wheat\" (7%)",
@@ -4319,9 +4463,10 @@
     },{
         "card-id": "pack_curious_cuisine",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 22 \"board_mainland\" Quests, and costs 10 Coins"
         ],
         "drops": [
+            "Until discovered:\n\"idea_cooked_meat\"\n\"idea_frittata\"\n\"idea_fruit_salad\"\n\"idea_milkshake\"\n\"idea_omelette\"\n\"idea_stew\"\n\"idea_stove\"",
             "1x:\n\"egg\" (20%)\n\"milk\" (20%)\n\"mushroom\" (20%)\n\"onion\" (20%)\n\"potato\" (20%)",
             "1x:\n\"berry_bush\" (33%)\n\"rock\" (33%)\n\"tree\" (33%)",
             "1x:\n\"apple\" (25%)\n\"berry\" (25%)\n\"carrot\" (25%)\n\"raw_meat\" (25%)"
@@ -4329,7 +4474,7 @@
     },{
         "card-id": "pack_daily_life",
         "extra-text": [
-            "3 coins"
+            "Immediately available, and costs 3 Coins"
         ],
         "drops": [
             "3x:\n\"rock\" (19%)\n\"stone\" (19%)\n\"tree\" (19%)\n\"wood\" (19%)\n\"cow\" (13%)\n\"grape_vine\" (13%)"
@@ -4337,7 +4482,7 @@
         },{
         "card-id": "pack_deep_thoughts",
         "extra-text": [
-            "10 coins"
+            "Unlocks after completing 10 \"board_death\" Quests, and costs 10 Coins"
         ],
         "drops": [
             "1x:\n\"berry_bush\" (25%)\n\"rock\" (25%)\n\"spring\" (25%)\n\"tree\" (25%)",
@@ -4347,9 +4492,10 @@
     },{
         "card-id": "pack_department_of_defense",
         "extra-text": [
-            "80 money"
+            "Unlocks after completing 20 Cities Quests, and costs 80 Dollars"
         ],
         "drops": [
+            "Until discovered:\n\"idea_attack_helicopter\"\n\"idea_fighter_jet\"\n\"idea_radar_station\"\n\"idea_robot_soldier\"\n\"idea_robot_station\"\n\"idea_robot_worker\"\n\"idea_sniper\"\n\"idea_tank\"\n\"idea_war_ship\"\n\"landmark_stadium\"",
             "1x:\n\"copper_deposit\" (50%)\n\"iron_deposit\" (50%)",
             "\"gravel_deposit\"",
             "\"lumber_deposit\"",
@@ -4358,7 +4504,7 @@
     },{
         "card-id": "pack_enclave_explorers",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 15 \"board_island\" Quests, and costs 15 Shells"
         ],
         "drops": [
             "1x:\n\"gold_deposit\" (25%)\n\"iron_deposit\" (25%)\n\"spring\" (25%)\n\"sugar_cane\" (25%)",
@@ -4369,7 +4515,7 @@
     },{
         "card-id": "pack_explorers",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 30 \"board_mainland\" Quests, and costs 20 Coins"
         ],
         "drops": [
             "1x:\n\"berry_bush\" (33%)\n\"rock\" (33%)\n\"tree\" (33%)",
@@ -4405,9 +4551,10 @@
     },{
         "card-id": "pack_grilling_and_brewing",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 7 \"board_island\" Quests, and costs 6 Shells"
         ],
         "drops": [
+            "Until discovered:\n\"idea_broken_bottle\"\n\"idea_ceviche\"\n\"idea_seafood_stew\"\n\"idea_sushi\"\n\"idea_tamago_sushi\"",
             "1x:\n\"chili_pepper\" (33%)\n\"lime\" (33%)\n\"raw_crab_meat\" (33%)",
             "1x:\n\"crab\" (33%)\n\"monkey\" (33%)\n\"parrot\" (33%)",
             "1x:\n\"banana_tree\" (25%)\n\"cotton_plant\" (25%)\n\"driftwood\" (25%)\n\"fishing_spot\" (25%)",
@@ -4416,7 +4563,7 @@
     },{
         "card-id": "pack_happy_animals",
         "extra-text": [
-            "10 coins"
+            "Unlocks after completing 9 \"board_sadness\" Quests, and costs 10 Coins"
         ],
         "drops": [
             "1x:\"brick\" (33%)\n\"iron_ore\" (33%)\n\"plank\" (33%)",
@@ -4426,7 +4573,7 @@
     },{
         "card-id": "pack_happy_ever_after",
         "extra-text": [
-            "12 coins"
+            "Unlocks after completing 10 \"board_sadness\" Quests, and costs 12 Coins"
         ],
         "drops": [
             "3x:\n\"wheat\" (33%)\n\"cotton_plant\" (17%)\n\"rock\" (17%)\n\"spring\" (17%)\n\"tree\" (17%)",
@@ -4449,7 +4596,7 @@
     },{
         "card-id": "pack_happy_thoughts",
         "extra-text": [
-            "4 coins"
+            "Unlocks after completing 5 \"board_sadness\" Quests, and costs 4 Coins"
         ],
         "drops": [
             "3x:\n\"wheat\" (33%)\n\"cotton_plant\" (17%)\n\"rock\" (17%)\n\"spring\" (17%)\n\"tree\" (17%)",
@@ -4458,20 +4605,20 @@
     },{
         "card-id": "pack_humble_beginnings",
         "extra-text": [
-            "Unlocks after completing 3 Mainland Quests, and costs 3 Coins",
-            "\"disclaimer_packs\"",
+            "Unlocks after completing 3 \"board_mainland\" Quests, and costs 3 Coins",
             "The \"soil\" (13%) will only be a part of the pack if there is no \"soil\" on the board."
         ],
         "drops": [
-            "\"idea_growth\", \"idea_house\", \"idea_offspring\", and \"idea_stick\" will be a part of the undiscovered card pool until discovered",
+            "Until discovered:\n\"idea_growth\"\n\"idea_house\"\n\"idea_offspring\"\n\"idea_stick\"",
             "3x:\n\"stone\" (22%)\n\"wood\" (22%)\n\"berry_bush\" (14%)\n\"rock\" (14%)\n\"tree\" (14%)\n\"soil\" (See above)\n\"key\" (4%)\n\"rabbit\" (4%)\n\"rat\" (4%)"
         ]
     },{
         "card-id": "pack_impressive_industry",
         "extra-text": [
-            "140 money"
+            "Unlocks after completing 32 Cities Quests, and costs 140 Dollars"
         ],
         "drops": [
+            "Until discovered:\n\"idea_credit_card\"\n\"idea_laboratory\"\n\"idea_solar_panel\"\n\"idea_toy\"\n\"landmark_airport\"\n\"landmark_hospital\"\n\"landmark_toy_shop\"\n\"landmark_zoo\"",
             "2x:\n\"copper_ore\" (High Chance)\n\"iron_ore\" (High Chance)\n\"metal_scraps\" (Moderate Chance)\n\"trash\" (Low Chance)",
             "2x:\n\"cement\" (33%)\n\"copper_bar\" (33%)\n\"electric_motor\" (17%)\n\"storage_container\" (7%)\n\"cat_2000\" (3%)\n\"dog_2000\" (3%)\n\"spy\" (3%)"
         ]
@@ -4491,9 +4638,10 @@
     },{
         "card-id": "pack_island_insights",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 9 \"board_island\" Quests, and costs 10 Shells"
         ],
         "drops": [
+            "Until discovered:\n\"idea_aquarium\"\n\"idea_bottle_of_rum\"\n\"idea_coin\"\n\"idea_composter\"\n\"idea_distillery\"\n\"idea_empty_bottle\"\n\"idea_frigate\"\n\"idea_glass\"\n\"idea_gold_bar\"\n\"idea_gold_mine\"\n\"idea_greenhouse\"\n\"idea_sacred_key\"\n\"idea_sand_quarry\"\n\"idea_smelter\"\n\"rumor_eel_bait\"\n\"rumor_shark_bait\"\n\"rumor_tuna_bait\"",
             "2x:\n\"banana_tree\" (25%)\n\"cotton_plant\" (25%)\n\"driftwood\" (25%)\n\"fishing_spot\" (25%)",
             "1x:\n\"cane_sugar\" (20%)\n\"glass\" (20%)\n\"gold_bar\" (20%)\n\"iron_bar\" (20%)\n\"sandstone\" (20%)",
             "1x:\n\"chili_pepper\" (33%)\n\"lime\" (33%)\n\"raw_crab_meat\" (33%)"
@@ -4501,9 +4649,10 @@
     },{
         "card-id": "pack_island_of_ideas",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 4 \"board_island\" Quests, and costs 4 Shells"
         ],
         "drops": [
+            "Until discovered:\n\"idea_charcoal\"\n\"idea_fabric\"\n\"idea_fish_trap\"\n\"idea_fishing_rod\"\n\"idea_lumber_camp\"\n\"idea_quarry\"\n\"idea_rope\"\n\"idea_sail\"\n\"idea_sandstone\"\n\"idea_shell_chest\"\n\"idea_sloop\"",
             "3x:\n\"banana_tree\" (25%)\n\"cotton_plant\" (25%)\n\"driftwood\" (25%)\n\"fishing_spot\" (25%)",
             "1x:\n\"driftwood\" (25%)\n\"flint\" (25%)\n\"sand\" (25%)\n\"seaweed\" (25%)"
         ]
@@ -4524,18 +4673,20 @@
     },{
         "card-id": "pack_logic_and_reason",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 24 \"board_mainland\" Quests, and costs 15 Coins"
         ],
         "drops": [
+            "Until discovered:\n\"idea_animal_pen\"\n\"idea_brickyard\"\n\"idea_chicken\"\n\"idea_coin_chest\"\n\"idea_farm\"\n\"idea_garden\"\n\"idea_iron_bar\"\n\"idea_iron_mine\"\n\"idea_lumber_camp\"\n\"idea_market\"\n\"idea_mess_hall\"\n\"idea_quarry\"\n\"idea_sawmill\"\n\"idea_shed\"\n\"idea_smelter\"\n\"idea_smithy\"\n\"idea_sword\"\n\"idea_temple\"\n\"idea_university\"\n\"idea_warehouse\"",
             "3x:\n\"berry_bush\" (33%)\n\"rock\" (33%)\n\"tree\" (33%)",
             "1x:\n\"brick\" (33%)\n\"iron_ore\" (33%)\n\"plank\" (33%)"
         ]
     },{
         "card-id": "pack_major_metals",
         "extra-text": [
-            "80 money"
+            "Unlocks after completing 18 Cities Quests, and costs 80 Dollars"
         ],
         "drops": [
+            "Until discovered:\n\"idea_bread_2000\"\n\"idea_burner_generator\"\n\"idea_energy_combiner\"\n\"idea_filter_junction\"\n\"idea_industrial_smelter\"\n\"idea_junction\"\n\"idea_landfill\"\n\"idea_luxury_apartment\"\n\"idea_metal_scraps\"\n\"landmark_cinema\"\n\"landmark_villager_statue\"",
             "2x:\n\"gravel\" (21%)\n\"lumber\" (21%)\n\"grain\" (18%)\n\"metal_scraps\" (16%)\n\"water\" (16%)\n\"trash\" (5%)\n\"worker\" (3%)",
             "1x:\n\"metal_scraps\" (44%)\n\"copper_ore\" (22%)\n\"iron_ore\" (22%)\n\"trash\" (11%)",
             "1x:\n\"copper_deposit\" (50%)\n\"iron_deposit\" (50%)"
@@ -4543,17 +4694,18 @@
     },{
         "card-id": "pack_modern_solutions",
         "extra-text": [
-            "50 money",
+            "Unlocks after completing 9 Cities Quests, and costs 50 Dollars",
             "The \"credit_card\" (90%) will only be a part of the pack if there is no \"credit_card\" on the board."
         ],
         "drops": [
+            "Until discovered:\n\"idea_apartment\"\n\"idea_barracks\"\n\"idea_city_hall\"\n\"idea_factory\"\n\"idea_food_warehouse\"\n\"idea_iron_bar\"\n\"idea_muesli\"\n\"idea_septic_tank\"\n\"idea_storage_container\"\n\"idea_water_wheel\"\n\"idea_wind_turbine\"\n\"landmark_art_gallery\"",
             "2x:\n\"gravel\" (21%)\n\"lumber\" (21%)\n\"grain\" (18%)\n\"metal_scraps\" (16%)\n\"water\" (16%)\n\"trash\" (5%)\n\"worker\" (3%)",
             "2x:\n\"credit_card\" (See Above)\n\"gravel\" (26%)\n\"lumber\" (26%)\n\"metal_scraps\" (26%)\n\"cement\" (9%)\n\"trash\" (9%)\n\"hamster_wheel\" (2%)\n\"storage_container\" (2%)"
         ]
     },{
         "card-id": "pack_new_weaponry",
         "extra-text": [
-            "Spawns once per save after opening at least your 6th pack."
+            "Spawns once per save after opening your 6th, or later, pack."
         ],
         "drops": [
             "2x Equipment Ideas",
@@ -4562,7 +4714,7 @@
     },{
         "card-id": "pack_noble_creatures",
         "extra-text": [
-            "6 coins"
+            "Unlocks after completing 7 \"board_greed\" Quests, and costs 6 Coins"
         ],
         "drops": [
             "2x:\n\"wheat\" (43%)\n\"grape_vine\" (14%)\n\"olive_tree\" (14%)\n\"soil\" (14%)\n\"spring\" (14%)",
@@ -4571,7 +4723,7 @@
     },{
         "card-id": "pack_on_the_shore",
         "extra-text": [
-            "hmm"
+            "Immediately available, and costs 3 Shells"
         ],
         "drops": [
             "3x:\n\"driftwood\" (16%)\n\"fishing_spot\" (16%)\n\"sand\" (16%)\n\"cotton_plant\" (12%)\n\"flint\" (12%)\n\"banana\" (8%)\n\"banana_tree\" (8%)\n\"monkey\" (4%)\n\"seagull\" (4%)\n\"seaweed\" (4%)"
@@ -4579,9 +4731,10 @@
     },{
         "card-id": "pack_order_and_structure",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 34 \"board_mainland\" Quests, and costs 25 Coins"
         ],
         "drops": [
+            "Until discovered:\n\"idea_animal_pen\"\n\"idea_brickyard\"\n\"idea_farm\"\n\"idea_iron_bar\"\n\"idea_iron_mine\"\n\"idea_market\"\n\"idea_mess_hall\"\n\"idea_sawmill\"\n\"idea_smelter\"\n\"idea_smithy\"\n\"idea_sword\"\n\"idea_temple\"\n\"idea_warehouse\"",
             "\"iron_deposit\"",
             "2x:\n\"berry_bush\" (33%)\n\"rock\" (33%)\n\"tree\" (33%)",
             "1x:\n\"brick\" (33%)\n\"iron_ore\" (33%)\n\"plank\" (33%)"
@@ -4589,16 +4742,17 @@
     },{
         "card-id": "pack_precious_resources",
         "extra-text": [
-            "40 money"
+            "Unlocks after completing 3 Cities Quests, and costs 40 Dollars"
         ],
         "drops": [
+            "Until discovered:\n\"idea_cement\"\n\"idea_factory_parts\"\n\"idea_farmland\"\n\"idea_hamster_wheel\"\n\"idea_recruiting\"\n\"idea_shack\"\n\"landmark_city_park\"\n\"rumor_extraction\"",
             "2x:\n\"gravel\" (21%)\n\"lumber\" (21%)\n\"grain\" (18%)\n\"metal_scraps\" (16%)\n\"water\" (16%)\n\"trash\" (5%)\n\"worker\" (3%)",
             "2x:\n\"gravel_deposit\" (25%)\n\"lumber_deposit\" (25%)\n\"trash\" (25%)\n\"water_deposit\" (25%)"
         ]
     },{
         "card-id": "pack_pure_greed",
         "extra-text": [
-            "3 coins",
+            "Immediately available, and costs 3 Coins",
             "The \"soil\" (14%) will only be a part of the pack if there is no \"soil\" on the board."
         ],
         "drops": [
@@ -4608,9 +4762,10 @@
     },{
         "card-id": "pack_reap_n_sow",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 16 \"board_mainland\" Quests, and costs 10 Coins"
         ],
         "drops": [
+            "Until discovered:\n\"idea_chicken\"\n\"idea_coin_chest\"\n\"idea_garden\"\n\"idea_lumber_camp\"\n\"idea_quarry\"\n\"idea_shed\"",
             "1x:\n\"apple\" (25%)\n\"berry\" (25%)\n\"carrot\" (25%)\n\"raw_meat\" (25%)",
             "1x:\n\"chicken\" (25%)\n\"cow\" (25%)\n\"rabbit\" (25%)\n\"soil\" (25%)",
             "2x:\n\"berry_bush\" (33%)\n\"rock\" (33%)\n\"tree\" (33%)"
@@ -4618,7 +4773,7 @@
     },{
         "card-id": "pack_royal_inventor",
         "extra-text": [
-            "4 coins"
+            "Unlocks after completing 4 \"board_greed\" Quests, and costs 4 Coins"
         ],
         "drops": [
             "2x:\n\"stone\" (29%)\n\"wood\" (29%)\n\"rock\" (14%)\n\"tree\" (14%)\n\"grape\" (7%)\n\"wheat\" (7%)",
@@ -4627,7 +4782,7 @@
     },{
         "card-id": "pack_royal_luxuries",
         "extra-text": [
-            "15 coins"
+            "Unlocks after completing 12 \"board_greed\" Quests, and costs 15 Coins"
         ],
         "drops": [
             "1x:\n\"stone\" (29%)\n\"wood\" (29%)\n\"rock\" (14%)\n\"tree\" (14%)\n\"grape\" (7%)\n\"wheat\" (7%)",
@@ -4636,16 +4791,17 @@
     },{
         "card-id": "pack_seeking_wisdom",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 10 \"board_mainland\" Quests, and costs 4 Coins"
         ],
         "drops": [
+            "Until discovered:\n\"idea_brick\"\n\"idea_campfire\"\n\"idea_chicken\"\n\"idea_coin_chest\"\n\"idea_garden\"\n\"idea_growth\"\n\"idea_house\"\n\"idea_lumber_camp\"\n\"idea_offspring\"\n\"idea_plank\"\n\"idea_quarry\"\n\"idea_shed\"\n\"idea_spear\"\n\"idea_stick\"",
             "3x:\n\"berry_bush\" (33%)\n\"rock\" (33%)\n\"tree\" (33%)",
             "1x:\n\"stone\" (27%)\n\"wood\" (27%)\n\"flint\" (13%)\n\"poop\" (13%)\n\"stick\" (13%)\n\"coin\" (7%)"
         ]
     },{
         "card-id": "pack_simple_life",
         "extra-text": [
-            "3 coins",
+            "Immediately available, and costs 3 Coins",
             "The \"soil\" (12%) will only be a part of the pack if there is no \"soil\" on the board."
         ],
         "drops": [
@@ -4655,7 +4811,7 @@
     },{
         "card-id": "pack_soul_food",
         "extra-text": [
-            "7 coins"
+            "Unlocks after completing 7 \"board_sadness\" Quests, and costs 7 Coins"
         ],
         "drops": [
             "2x:\n\"wheat\" (33%)\n\"cotton_plant\" (17%)\n\"rock\" (17%)\n\"spring\" (17%)\n\"tree\" (17%)",
@@ -4665,9 +4821,10 @@
     },{
         "card-id": "pack_the_armory",
         "extra-text": [
-            "hmm"
+            "Unlocks after completing 26 \"board_mainland\" Quests, and costs 15 Coins"
         ],
         "drops": [
+            "Until discovered:\nAll base game Equipment Ideas\n\"rumor_dark_forest\"",
             "1x:\n\"berry_bush\" (33%)\n\"rock\" (33%)\n\"tree\" (33%)",
             "1x:\n\"bear\" (13%)\n\"frog_man\" (13%)\n\"giant_rat\" (13%)\n\"goblin_shaman\" (13%)\n\"mimic\" (13%)\n\"skeleton\" (13%)\n\"slime\" (13%)\n\"wolf\" (13%)",
             "1x:\n\"brick\" (33%)\n\"iron_ore\" (33%)\n\"plank\" (33%)"
@@ -4675,7 +4832,7 @@
     },{
         "card-id": "pack_the_end",
         "extra-text": [
-            "15 coins"
+            "Unlocks after completing 12 \"board_death\" Quests, and costs 15 Coins"
         ],
         "drops": [
             "1x:\n\"forest\" (33%)\n\"mountain\" (33%)\n\"ruins\" (33%)",
@@ -4704,7 +4861,7 @@
     },{
         "card-id": "pack_wisdom_of_life",
         "extra-text": [
-            "4 coins"
+            "Unlocks after completing 4 \"board_death\" Quests, and costs 4 Coins"
         ],
         "drops": [
             "1x:\n\"berry_bush\" (25%)\n\"rock\" (25%)\n\"spring\" (25%)\n\"tree\" (25%)",
@@ -4802,17 +4959,22 @@
         "flavour-text": "It looks stinky",
         "uses": [
             "\"apple_tree\"",
-            "\"berry_bush\"",
             "\"banana_tree\"",
+            "\"berry_bush\"",
             "\"carrot\"",
             "\"chili_pepper\"",
             "\"cotton_plant\"",
+            "\"grape_vine\"",
+            "\"herbs\"",
             "\"lime\"",
             "\"mushroom\"",
+            "\"olive_tree\"",
             "\"onion\"",
             "\"potato\"",
+            "\"seaweed\"",
             "\"sugar_cane\"",
-            "\"seaweed\""
+            "\"tomato\"",
+            "\"wheat\""
         ]
     },{
         "card-id": "poop_slime",
@@ -5222,17 +5384,22 @@
         "flavour-text": "A simple and slow way of growing Food",
         "uses": [
             "\"apple_tree\"",
-            "\"berry_bush\"",
             "\"banana_tree\"",
+            "\"berry_bush\"",
             "\"carrot\"",
             "\"chili_pepper\"",
             "\"cotton_plant\"",
+            "\"grape_vine\"",
+            "\"herbs\"",
             "\"lime\"",
             "\"mushroom\"",
+            "\"olive_tree\"",
             "\"onion\"",
             "\"potato\"",
+            "\"seaweed\"",
             "\"sugar_cane\"",
-            "\"seaweed\""
+            "\"tomato\"",
+            "\"wheat\""
         ]
     },{
         "card-id": "solar_panel",

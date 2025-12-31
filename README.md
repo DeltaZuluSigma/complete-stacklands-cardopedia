@@ -5,7 +5,7 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 ### Current Bookmark
 * Add all cards images & data (& tags)
    * Details still needed (decompile?)
-   * Wiki Bookmark: ogre
+   * Wiki Bookmark: pack_happy_animals
 
 ### Pending
 * Disclaimer cards
@@ -17,7 +17,6 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
    * Food spoil time?
    * Pack-to-idea relationship
    * Road builder nodes per card?
-   * Alphabetical > Chance except packs?
 * Refactoring
    * Fix 'Sidebar' CSS
    * Replace & animate plus/minus
