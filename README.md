@@ -5,7 +5,7 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 ### Current Bookmark
 * Add all cards images & data (& tags)
    * Details still needed (decompile?)
-   * Wiki Bookmark: pack_happy_animals
+   * Wiki Bookmark: rabbit
 
 ### Pending
 * Disclaimer cards
