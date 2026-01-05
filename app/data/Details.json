@@ -310,7 +310,7 @@
             "\"pack_curious_cuisine\" (33% of 1/3)",
             "\"pack_deep_thoughts\" (25% of 1/3)",
             "\"pack_explorers\" (33% of 1/3)",
-            "\"pack_logic_and_reason\" (33% of 1/4)",
+            "\"pack_logic_and_reason\" (33% of 3/4)",
             "\"pack_order_and_structure\" (33% of 2/4)",
             "\"pack_reap_n_sow\" (33% of 2/4)",
             "\"pack_seeking_wisdom\" (33% of 3/4)",
@@ -2009,6 +2009,7 @@
         "card-id": "frigate",
         "flavour-text": "Can carry 25 Cards. Needs a Villager to start sailing. Can't carry Buildings",
         "extra-text": [
+            "Transport between \"board_mainland\" and \"board_island\"",
             "Cannot carry resource nodes either"
         ],
         "recipe": [
@@ -5635,48 +5636,118 @@
         "drops": [
             "1x:\n\"rabbit_hat\" (33%)\n\"bone\" (17%)\n\"carrot\" (17%)\n\"poop\" (17%)\n\"raw_meat\" (17%)"
         ],
+        "sources": [
+            "\"berry_bush\" (1%)",
+            "\"forest\" (11%)",
+            "\"grape_vine\" (1%)",
+            "\"pack_reap_n_sow\" (25% of 1/4)"
+        ],
         "uses": [
             "Makes 1 \"poop\" every 90s"
         ]
     },{
         "card-id": "rabbit_hat",
         "flavour-text": "It's adorable!",
-        "equip-text": "1|MH-5,AS1,DF1"
+        "equip-text": "1|MH-5,AS1,DF1",
+        "sources": [
+            "\"rabbit\" (33%)"
+        ]
     },{
         "card-id": "radar_station",
-        "flavour-text": "Detects attacks 3 moons before they happen"
+        "flavour-text": "Detects attacks 3 moons before they happen",
+        "recipe": [
+            "\"idea_radar_station\" 20s"
+        ]
     },{
         "card-id": "rag",
         "flavour-text": "Ill-fitted piece of cotton",
-        "equip-text": "1|MH2,AS1,DF-1"
+        "equip-text": "1|MH2,AS1,DF-1",
+        "sources": [
+            "\"fiend\" (Equipped)",
+            "\"ghoul\" (Equipped)",
+            "\"imp\" (Equipped)"
+        ]
     },{
         "card-id": "rain",
         "flavour-text": "Can be havested for Water",
+        "extra-text": [
+            "Time to extract: 10s"
+        ],
+        "sources": [
+            "\"pack_wild_weather\" (?% of 1/3)"
+        ],
         "drops": [
             "3x \"water\""
         ]
     },{
         "card-id": "rare_portal",
-        "flavour-text": "It looks threatening. I wonder if we can enter it?"
+        "flavour-text": "It looks threatening. I wonder if we can enter it?",
+        "extra-text": [
+            "Difficulty/strength increases with each portal till Moon 46",
+            "Each mob has 50% chance of having Equipment, forcing a mob that can have Equipment to spawn"
+        ],
+        "sources": [
+            "Replaces every 4th \"strange_portal\""
+        ],
+        "drops": [
+            "\"bear\"",
+            "\"enchanted_shroom\"",
+            "\"elf\"",
+            "\"elf_archer\"",
+            "\"feral_cat\"",
+            "\"frog_man\"",
+            "\"ghost\"",
+            "\"giant_rat\"",
+            "\"giant_snail\"",
+            "\"goblin\"",
+            "\"goblin_archer\"",
+            "\"goblin_shaman\"",
+            "\"merman\"",
+            "\"mimic\"",
+            "\"mosquito\"",
+            "\"rat\"",
+            "\"skeleton\"",
+            "\"slime\"",
+            "\"wolf\""
+        ],
+        "uses": [
+            "Summons random Hostile Mobs (See Drops) after 30s",
+            "Can be entered with up to 7 \"villager\" to go to the Dark Forest"
+        ]
     },{
         "card-id": "rat",
         "flavour-text": "Small version of a Giant Rat",
         "combat-text": "7|ATME,AS3,HC2,DA2,DF1",
         "drops": [
             "1x:\n\"coin\" (50%)\n\"raw_meat\" (50%)"
+        ],
+        "sources": [
+            "\"forest\" (4%)",
+            "\"mountain\" (7%)",
+            "\"old_village\" (1%)",
+            "\"plains\" (14%)",
+            "\"strange_portal\" and \"rare_portal\" starting Moon 12"
         ]
     },{
         "card-id": "rat_crown",
         "flavour-text": "Turn into the King of the Rats",
-        "equip-text": "5|MH5,HC2,DF1"
+        "equip-text": "5|MH5,HC2,DF1",
+        "sources": [
+            "\"giant_rat\" (33%)"
+        ]
     },{
         "card-id": "raw_crab_meat",
-        "flavour-text": "Should be cooked before consumption"
+        "flavour-text": "Should be cooked before consumption",
+        "sources": [
+            "\"crab\"",
+            "\"pack_grilling_and_brewing\" (33% of 1/4)",
+            "\"pack_island_insights\" (33% of 1/4)"
+        ]
     },{
         "card-id": "raw_fish",
         "flavour-text": "It's slippery",
         "recipe": [
-            "1x Fish (except \"shark\")\n1x \"butchery\"\n60s"
+            "1x Passive Fish\n1x \"butchery\"\n60s"
         ],
         "sources": [
             "\"cod\"",
@@ -5734,47 +5805,167 @@
         ]
     },{
         "card-id": "ready_meal",
-        "flavour-text": "Microplastic flavored"
+        "flavour-text": "Microplastic flavored",
+        "recipe": [
+            "\"idea_ready_meal\" #s"
+        ]
     },{
         "card-id": "recycling_center",
-        "flavour-text": "Removes pollution over time"
+        "flavour-text": "Removes pollution over time",
+        "extra-text": [
+            "Requires:\n1x Sewer",
+            "Can have:\n1x Output Road",
+            "Attracts \"pollution\""
+        ],
+        "recipe": [
+            "\"idea_recycling_center\" 10s"
+        ],
+        "uses": [
+            "Removes 10 \"pollution\", and produces 1x \"metal_scraps\" every 30s"
+        ]
     },{
         "card-id": "resource_chest",
-        "flavour-text": "A Chest for storing Resources"
+        "flavour-text": "A Chest for storing Resources",
+        "extra-text": [
+            "Can store up to 100 Cards of a single Resource",
+            "Cards still count to Card Capacity"
+        ],
+        "recipe": [
+            "\"idea_resource_chest\" 10s"
+        ]
     },{
         "card-id": "resource_magnet",
-        "flavour-text": "This card magically pulls cards of the same kind towards it"
+        "flavour-text": "This card magically pulls cards of the same kind towards it",
+        "extra-text": [
+            "Requires a Resource Card stacked on top of it to work",
+            "Resource Cards will magnetize to the nearest Resource Magnet"
+        ],
+        "recipe": [
+            "\"idea_resource_magnet\" 30s"
+        ]
     },{
         "card-id": "road_builder",
-        "flavour-text": "A guild for road builders, allows you to build roads between cards"
+        "flavour-text": "A guild for road builders, allows you to build roads between cards",
+        "extra-text": [
+            "Enables the Transportation View on the base game board it is built",
+            "The view allows roads to be dragged and attached between certain cards"
+        ],
+        "recipe": [
+            "\"idea_road_builder\" #s"
+        ],
+        "uses": [
+            "Required for: \"crossroads\" and \"filter_crossroads\""
+        ]
     },{
         "card-id": "robot_genius",
-        "flavour-text": "Artificial intelligence"
+        "flavour-text": "Artificial intelligence",
+        "extra-text": [
+            "Wellbeing Conditions:\nDoesn't have housing: -1",
+            "Requires 50 Wellbeing to craft",
+            "Can substitute for an \"educated_worker\""
+        ],
+        "recipe": [
+            "1x \"robot_worker\"\n1x \"academy\"\n#s"
+        ]
     },{
         "card-id": "robot_soldier",
         "flavour-text": "Roger roger",
-        "combat-text": "16|ATFT,AS3,HC3,DA2,DF3"
+        "combat-text": "16|ATFT,AS3,HC3,DA2,DF3",
+        "extra-text": [
+            "Wellbeing Conditions:\nDoesn't have housing: -1"
+        ],
+        "recipe": [
+            "\"idea_robot_soldier\" 20s"
+        ]
     },{
         "card-id": "robot_station",
-        "flavour-text": "Houses Robot Workers"
+        "flavour-text": "Houses Robot Workers",
+        "extra-text": [
+            "Requires:\n1x High Voltage",
+            "Can house up to 10 \"robot_worker\""
+        ],
+        "recipe": [
+            "\"idea_robot_station\" 20s"
+        ]
     },{
         "card-id": "robot_worker",
-        "flavour-text": "A Worker made of metal - doesn't need Food!"
+        "flavour-text": "A Worker made of metal - doesn't need Food!",
+        "extra-text": [
+            "Wellbeing Conditions:\nDoesn't have housing: -1",
+            "Can substitute for an \"educated_worker\""
+        ],
+        "recipe": [
+            "\"idea_robot_worker\" 20s"
+        ]
     },{
         "card-id": "rock",
         "flavour-text": "It looks sturdy, yet punchable",
+        "extra-text": [
+            "Time to extract: 10s"
+        ],
         "drops": [
             "2x:\n\"stone\" (70%)\n\"flint\" (20%)\n\"coin\" (10%)"
+        ],
+        "sources": [
+            "\"mountain\" (21%)",
+            "\"pack_a_new_world\"",
+            "\"pack_courtyard_contraptions\" (14% of 2/4)",
+            "\"pack_curious_cuisine\" (33% of 1/3)",
+            "\"pack_daily_life\" (13% of 3/3)",
+            "\"pack_deep_thoughts\" (25% of 1/3)",
+            "\"pack_explorers\" (33% of 1/3)",
+            "\"pack_greedy_intro\"",
+            "\"pack_happy_ever_after\" (17% of 3/4)",
+            "\"pack_happy_thoughts\" (17% of 3/4)",
+            "\"pack_logic_and_reason\" (33% of 3/4)",
+            "\"pack_order_and_structure\" (33% of 2/4)",
+            "\"pack_pure_greed\" (21% of 2/3)",
+            "\"pack_reap_n_sow\" (33% of 2/4)",
+            "\"pack_royal_inventor\" (14% of 2/3)",
+            "\"pack_royal_luxuries\" (14% of 1/3)",
+            "\"pack_seeking_wisdom\" (33% of 3/4)",
+            "\"pack_simple_life\" (18% of 2/3)",
+            "\"pack_soul_food\" (17% of 2/4)",
+            "\"pack_the_armory\" (33% of 1/3)",
+            "\"pack_wisdom_of_life\" (25% of 1/3)"
         ]
     },{
         "card-id": "rope",
-        "flavour-text": "Long and fibrous"
+        "flavour-text": "Long and fibrous",
+        "recipe": [
+            "\"idea_rope\" 10s",
+            "\"cw_idea_rope\" 10s"
+        ],
+        "uses": [
+            "\"bow\"",
+            "\"crossbow\"",
+            "\"fancy_dress\"",
+            "\"fish_trap\"",
+            "\"fishing_rod\"",
+            "\"flour_mill\"",
+            "\"sail\"",
+            "\"winter_coat\"",
+            "\"wizard_robe\""
+        ]
     },{
         "card-id": "rowboat",
-        "flavour-text": "Can carry 1 Card. Needs a Villager to start sailing. Can't carry Buildings"
+        "flavour-text": "Can carry 1 Card. Needs a Villager to start sailing. Can't carry Buildings",
+        "extra-text": [
+            "Transport between \"board_mainland\" and \"board_island\"",
+            "Cannot carry resource nodes either"
+        ],
+        "recipe": [
+            "\"idea_rowboat\" 30s"
+        ]
     },{
         "card-id": "royal",
-        "flavour-text": "A spoiled brat"
+        "flavour-text": "A spoiled brat",
+        "drops": [
+            "\"angry_royal\""
+        ],
+        "sources": [
+            "\"pack_greedy_intro\""
+        ]
     },{
         "card-id": "royal_archer",
         "flavour-text": "Trained on the castle grounds",
@@ -5782,14 +5973,26 @@
         "drops": [
             "\"coin\"",
             "Can be equipped with:\n\"bow\"\n\"crossbow\"\n\"guard's_tunic\""
+        ],
+        "sources": [
+            "Randomly, on failing a request from the \"royal\""
         ]
     },{
         "card-id": "royal_banquet",
-        "flavour-text": "Some very tasty foods combined"
+        "flavour-text": "Some very tasty foods combined",
+        "extra-text": [
+            "Gives the \"villager\" who consumes it the Well Fed status effect increasing work speed by 100% for a Moon"
+        ],
+        "recipe": [
+            "\"idea_royal_banquet\" 10s"
+        ]
     },{
         "card-id": "royal_crown",
         "flavour-text": "Gives you strength and makes you greedy",
-        "equip-text": "124|MH100,AS5,HC5,DA5,DF5"
+        "equip-text": "124|MH100,AS5,HC5,DA5,DF5",
+        "sources": [
+            "\"angry_royal\""
+        ]
     },{
         "card-id": "royal_guard",
         "flavour-text": "Will give their life for the Royal",
@@ -5797,6 +6000,9 @@
         "drops": [
             "\"coin\"",
             "Can be equipped with:\n\"guard's_tunic\"\n\"helmet\"\n\"sword\""
+        ],
+        "sources": [
+            "Randomly, on failing a request from the \"royal\""
         ]
     },{
         "card-id": "royal_mage",
@@ -5805,12 +6011,18 @@
         "drops": [
             "\"coin\"",
             "Can be equipped with:\n\"guard's_tunic\"\n\"magic_staff\""
+        ],
+        "sources": [
+            "Randomly, on failing a request from the \"royal\""
         ]
     },{
         "card-id": "ruins",
         "flavour-text": "An ancient place. Requires 5 Villagers to explore.",
         "drops": [
             "5x:\n\"brick\" (20%)\n\"feral cat\" (20%)\n\"gold_bar\" (20%)\n\"iron_bar\" (20%)\n\"magic_dust\" (20%)"
+        ],
+        "sources": [
+            "\"pack_the_end\" (33% of 1/3)"
         ]
     },{
         "card-id": "rumor_combat",
@@ -5835,7 +6047,10 @@
         ]
     },{
         "card-id": "rumor_eureka!",
-        "flavour-text": "Educating an Educated Worker while having a city wellbeing of 50 will create a Genius"
+        "flavour-text": "Educating an Educated Worker while having a city wellbeing of 50 will create a Genius",
+        "sources": [
+            "Reach 40 Wellbeing"
+        ]
     },{
         "card-id": "rumor_extraction",
         "flavour-text": "Combine a Deposit, Factory Parts and a Worker.\nFor example, doing this with a Lumber Deposit will make a Tree Plantation",
@@ -5988,7 +6203,14 @@
         "equip-text": "8|DGR25|ATRG,AS1,HC1,DA1"
     },{
         "card-id": "sloop",
-        "flavour-text": "Can carry 10 Cards. Needs a Villager to start sailing. Can't carry Buildings"
+        "flavour-text": "Can carry 10 Cards. Needs a Villager to start sailing. Can't carry Buildings",
+        "extra-text": [
+            "Transport between \"board_mainland\" and \"board_island\"",
+            "Cannot carry resource nodes either"
+        ],
+        "recipe": [
+            "\"idea_sloop\" 30s"
+        ]
     },{
         "card-id": "slums",
         "flavour-text": "Too many Shacks in one spot"
@@ -6102,7 +6324,24 @@
         "flavour-text": "Cooks faster than a Campfire"
     },{
         "card-id": "strange_portal",
-        "flavour-text": "It looks threatening. I wonder if we can enter it?"
+        "flavour-text": "It looks threatening. I wonder if we can enter it?",
+        "extra-text": [
+            "Difficulty/strength increases with each portal till Moon 46",
+            "Each mob has 50% chance of having Equipment, forcing a mob that can have Equipment to spawn"
+        ],
+        "sources": [
+            "Starts spawning on Moon 12, and every 4th Moon"
+        ],
+        "drops": [
+            "Initial Mob pool:\n\"goblin\"\n\"goblin_archer\"\n\"rat\"\n\"slime\"",
+            "Added Mobs Moon 16 onwards:\n\"bear\"\n\"frog_man\"\n\"giant_rat\"\n\"goblin_shaman\"\n\"mimic\"\n\"skeleton\"\n\"wolf\"",
+            "Added Mobs Moon 24 onwards:\n\"elf\"\n\"elf_archer\"\n\"enchanted_shroom\"\n\"feral_cat\"\n\"ghost\"\n\"giant_snail\"\n\"merman\"\n\"mosquito\""
+        ],
+        "uses": [
+            "Summons random Hostile Mobs (See Drops) after 30s",
+            "Can be entered with up to 7 \"villager\" to go to the Dark Forest",
+            "Every 4th portal is replaced by a \"rare_portal\""
+        ]
     },{
         "card-id": "sugar_cane",
         "flavour-text": "It's candy flavored grass",
