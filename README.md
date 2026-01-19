@@ -3,11 +3,12 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 
 ## To-Dos
 ### Current Bookmark
-* Add all cards images & data (& tags)
-   * Details still needed (decompile?)
-   * Wiki Bookmark: tiger
+* Refactoring
+   * Fix 'Sidebar' CSS
+   * Replace & animate plus/minus
+   * Make collapsible full container size
 
-### Pending
+### Future Implementation ... Maybe
 * Disclaimer cards
    * Equipment dropping
    * Villager type adoption
@@ -18,18 +19,12 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
    * Pack-to-idea relationship
    * Equipment-to-villager-type
 * Refactoring
-   * Fix 'Sidebar' CSS
-   * Replace & animate plus/minus
    * Remove packs from card count
-   * Make collapsible full container size
    * Apply binary search to 'FetchHelper' functions
       * Separate search file?
-
-### Future Implementation ... Maybe
 * Mobile styles
 * SearchParam injection catching
 * Recipe/peeking tooltip
-* Adjust 'DisplayCard' for displaying packs larger
 
 ## Card Fields
 * **Visible:** flavour-text; combat-text; equip-text; text-ref; extra-text
@@ -52,6 +47,3 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
    * "This card is used in that card's recipe" > Plain link
    * "This card has an interaction with that card [not described in the card]" > Explanation
    * Otherwise, full explanation
-
-## Extractable Components
-* hmm
