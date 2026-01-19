@@ -5,7 +5,7 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 ### Current Bookmark
 * Add all cards images & data (& tags)
    * Details still needed (decompile?)
-   * Wiki Bookmark: sacred_chest
+   * Wiki Bookmark: tiger
 
 ### Pending
 * Disclaimer cards
@@ -16,7 +16,7 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 * Card audit
    * Food spoil time?
    * Pack-to-idea relationship
-   * Road builder nodes per card?
+   * Equipment-to-villager-type
 * Refactoring
    * Fix 'Sidebar' CSS
    * Replace & animate plus/minus
