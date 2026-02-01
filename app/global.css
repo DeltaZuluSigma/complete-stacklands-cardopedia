@@ -14,7 +14,8 @@ html {
     background-repeat: repeat;
 }
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
 }
 
 /**** ALL ELEMENTS ****/
@@ -73,8 +74,6 @@ a:hover {
 /**** LEFT SIDEBAR ****/
 .sidebar {
     position: relative;
-    flex-grow: 1;
-    /*width: 20%;*/
     height: 88.5vh;
     margin: 5px;
     padding: 1em;
@@ -159,8 +158,6 @@ a:hover {
 
 /**** DISPLAY AREA ****/
 .display-area {
-    flex-grow: 11;
-    /* width: 60%; */
     height: 88vh;
     /* border: 1px solid black; */
     margin: 5px;
@@ -182,13 +179,11 @@ a:hover {
     }
 }
 .larger {
-    flex-grow: 12;
+    width: 12fr !important;
 }
 
 /**** RIGHT SIDEBAR ****/
 .card-detail {
-    flex-grow: 1;
-    /* width: 20%; */
     height: 88.5vh;
     margin: 5px;
     padding: 1em;

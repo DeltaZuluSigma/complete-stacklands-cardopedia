@@ -4,7 +4,8 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 ## To-Dos
 ### Current Bookmark
 * Refactoring
-   * Fix 'Sidebar' CSS
+   * Add/move disclaimers to 'title' attributes for 'tags' popup
+* Card Audit: Second Pass
 
 ### Future Implementation ... Maybe
 * Disclaimer cards
@@ -17,7 +18,6 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
    * Pack-to-idea relationship
    * Equipment-to-villager-type
 * Refactoring
-   * Remove packs from card count
    * Apply binary search to 'FetchHelper' functions
       * Separate search file?
 * Mobile styles

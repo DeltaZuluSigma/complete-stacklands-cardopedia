@@ -29,6 +29,7 @@ export function ContextCount( update:string, category:string = "", conText:strin
     // Update context
     if (category.length == 0) {
         const categories = Object.keys(cards);
+        categories.pop();
         let count = 0;
 
         categories.forEach(c => {
