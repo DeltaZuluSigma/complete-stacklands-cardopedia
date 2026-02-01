@@ -957,7 +957,7 @@
             "update": "cities"
         },{
             "name": "Idea: Euphoria",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: Export Center",
             "update": "cities"
@@ -967,7 +967,7 @@
         },{
             "name": "Idea: Fabric",
             "image-id": "cw_idea_fabric",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: Factory",
             "update": "cities"
@@ -976,7 +976,7 @@
             "update": "cities"
         },{
             "name": "Idea: Fancy Dress",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: Farm",
             "update": "original"
@@ -994,7 +994,7 @@
             "update": "cities"
         },{
             "name": "Idea: Fish and Chips",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: Fish Trap",
             "update": "island"
@@ -1003,10 +1003,10 @@
             "update": "island"
         },{
             "name": "Idea: Flour",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: Flour Mill",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: Food Warehouse",
             "update": "cities"
@@ -1015,16 +1015,16 @@
             "update": "dark_forest"
         },{
             "name": "Idea: Fountain of Youth",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: French Fries",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: Fried Fish",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: Fried Meat",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: Frigate",
             "update": "island"
@@ -1037,7 +1037,7 @@
         },{
             "name": "Idea: Fruit Salad",
             "image-id": "cw_idea_fruit_salad",
-            "update": "cursed_world"
+            "update": "cursed_worlds"
         },{
             "name": "Idea: Garden",
             "update": "original"

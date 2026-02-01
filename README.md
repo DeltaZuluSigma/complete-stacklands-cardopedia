@@ -5,8 +5,6 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 ### Current Bookmark
 * Refactoring
    * Fix 'Sidebar' CSS
-   * Replace & animate plus/minus
-   * Make collapsible full container size
 
 ### Future Implementation ... Maybe
 * Disclaimer cards
@@ -23,7 +21,6 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
    * Apply binary search to 'FetchHelper' functions
       * Separate search file?
 * Mobile styles
-* SearchParam injection catching
 * Recipe/peeking tooltip
 
 ## Card Fields
