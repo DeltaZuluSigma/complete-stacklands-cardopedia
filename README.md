@@ -3,8 +3,6 @@ Attempting to completely emulate Stackland's Cardopedia with some more added det
 
 ## To-Dos
 ### Current Bookmark
-* Refactoring
-   * Add/move disclaimers to 'title' attributes for 'tags' popup
 * Card Audit: Second Pass
 
 ### Future Implementation ... Maybe

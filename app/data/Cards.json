@@ -2269,6 +2269,12 @@
         },{
             "name": "Wind",
             "update": "cities"
+        }
+    ],
+    "disasters":[
+        {
+            "name": "Drought",
+            "update": "cities"
         },{
             "name": "Earthquake",
             "update": "cities"
@@ -2286,11 +2292,8 @@
             "update": "cities"
         }
     ],
-    "disasters":[
+    "events":[
         {
-            "name": "Drought",
-            "update": "cities"
-        },{
             "name": "Crashed UFO",
             "update": "cities"
         },{
